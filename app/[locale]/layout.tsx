@@ -1,15 +1,22 @@
 import { locales } from "@/i18n/config";
+import "../globals.css";
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
-  return <>{children}</>;
+  const { locale } = await params;
+
+  return (
+    <html lang={locale}>
+      <body>{children}</body>
+    </html>
+  );
 }
