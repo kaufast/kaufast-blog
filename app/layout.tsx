@@ -4,8 +4,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://kaufast.com"),
   title: {
-    default: "Insights — AI, Automation & Web Development Blog | KAUFAST",
-    template: "%s — KAUFAST Insights",
+    default: "Insights — AI, Automation & Web Dev Blog | KAUFAST",
+    template: "%s",
   },
   description:
     "Ideas, guides, and case studies on AI agents, automation, and web development.",
