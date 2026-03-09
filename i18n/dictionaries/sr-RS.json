@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "insightsTitle": "Insights — Блог о ИА, аутоматизацији и веб-развоју | KAUFAST",
+    "insightsDescription": "Ideas, guides, and case studies on AI agents, automation, and web development."
+  },
+  "blog": {
+    "featured": "Featured",
+    "latest": "Latest Articles",
+    "readMore": "Read more",
+    "minRead": "min read",
+    "backToInsights": "Back to Insights",
+    "prev": "Previous",
+    "next": "Next",
+    "by": "By",
+    "updated": "Updated",
+    "ctaTitle": "Want to discuss this for your business?",
+    "ctaText": "Tell us what you need. We'll tell you what's possible.",
+    "ctaButton": "Start a project",
+    "tableOfContents": "In this article"
+  }
+}

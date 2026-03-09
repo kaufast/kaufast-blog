@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "insightsTitle": "Insights — Blog de IA, Automatización y Desarrollo Web | KAUFAST",
+    "insightsDescription": "Ideas, guías y casos de éxito sobre agentes de IA, automatización y desarrollo web."
+  },
+  "blog": {
+    "featured": "Destacados",
+    "latest": "Últimos artículos",
+    "readMore": "Leer más",
+    "minRead": "min de lectura",
+    "backToInsights": "Volver a Insights",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "by": "Por",
+    "updated": "Actualizado",
+    "ctaTitle": "¿Quieres hablarlo para tu negocio?",
+    "ctaText": "Cuéntanos qué necesitas. Te diremos qué es posible.",
+    "ctaButton": "Iniciar un proyecto",
+    "tableOfContents": "En este artículo"
+  }
+}
