@@ -48,7 +48,7 @@ export async function generateMetadata({
   const alternates = getArticleAlternates(locale, slugsByLocale);
 
   return {
-    title: `${frontmatter.title} — KAUFAST`,
+    title: frontmatter.title,
     description: frontmatter.headline,
     alternates,
     openGraph: {
