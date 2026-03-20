@@ -5,6 +5,7 @@ const locales = [
   "es-ES",
   "en-US",
   "es-MX",
+  "ca-ES",
   "sr-RS",
   "de-AT",
   "de-DE",

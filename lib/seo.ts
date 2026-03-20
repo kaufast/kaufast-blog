@@ -30,3 +30,27 @@ export function getAlternatesForLocale(
     languages,
   };
 }
+
+/**
+ * Article-aware alternates: uses correct slug per locale.
+ */
+export function getArticleAlternates(
+  locale: Locale | string,
+  slugsByLocale: Record<string, string>
+) {
+  const languages: Record<string, string> = {};
+  for (const loc of locales) {
+    const slug = slugsByLocale[loc] || slugsByLocale["en-GB"];
+    if (slug) {
+      languages[loc] = getLocalizedUrl(loc, `/insights/${slug}`);
+    }
+  }
+  const defaultSlug = slugsByLocale["en-GB"];
+  languages["x-default"] = getLocalizedUrl("en-GB", `/insights/${defaultSlug}`);
+
+  const currentSlug = slugsByLocale[locale] || defaultSlug;
+  return {
+    canonical: getLocalizedUrl(locale, `/insights/${currentSlug}`),
+    languages,
+  };
+}

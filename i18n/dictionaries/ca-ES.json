@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "insightsTitle": "Insights — Blog d'IA, Automatització i Desenvolupament Web | KAUFAST",
+    "insightsDescription": "Idees, guies i casos d'èxit sobre agents d'IA, automatització i desenvolupament web."
+  },
+  "blog": {
+    "featured": "Destacats",
+    "latest": "Últims articles",
+    "readMore": "Llegir més",
+    "minRead": "min de lectura",
+    "backToInsights": "Tornar a Insights",
+    "prev": "Anterior",
+    "next": "Següent",
+    "by": "Per",
+    "updated": "Actualitzat",
+    "ctaTitle": "Vols parlar-ne pel teu negoci?",
+    "ctaText": "Explica'ns què necessites. Et direm què és possible.",
+    "ctaButton": "Iniciar un projecte",
+    "tableOfContents": "En aquest article"
+  }
+}

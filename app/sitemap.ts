@@ -1,7 +1,10 @@
 import type { MetadataRoute } from "next";
-import { getAllPosts, getAllSlugs } from "@/lib/blog";
+import { getAllPosts, getSlugAlternates } from "@/lib/blog";
 import { locales, defaultLocale } from "@/i18n/config";
-import { SITE_URL, getLocalizedUrl } from "@/lib/seo";
+import { getLocalizedUrl } from "@/lib/seo";
+
+/** Locales that have their own blog content directories. */
+const contentLocales = ["en-GB", "es-ES"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
@@ -23,26 +26,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // Blog posts — all slugs × all locales
-  const slugs = getAllSlugs();
-  const posts = getAllPosts(defaultLocale);
+  // Blog posts — one entry per content locale with correct cross-locale hreflang
+  for (const contentLocale of contentLocales) {
+    const posts = getAllPosts(contentLocale);
 
-  for (const slug of slugs) {
-    const post = posts.find((p) => p.slug === slug);
-    const lastmod = post?.frontmatter.lastmod || post?.frontmatter.date;
+    for (const post of posts) {
+      const slugsByLocale = getSlugAlternates(contentLocale, post.slug);
+      const lastmod = post.frontmatter.lastmod || post.frontmatter.date;
 
-    for (const locale of locales) {
+      // Build hreflang with correct per-locale slugs
       const languages: Record<string, string> = {};
       for (const loc of locales) {
-        languages[loc] = getLocalizedUrl(loc, `/insights/${slug}`);
+        const locSlug = slugsByLocale[loc];
+        languages[loc] = getLocalizedUrl(loc, `/insights/${locSlug}`);
       }
       languages["x-default"] = getLocalizedUrl(
         defaultLocale,
-        `/insights/${slug}`
+        `/insights/${slugsByLocale["en-GB"]}`
       );
 
       entries.push({
-        url: getLocalizedUrl(locale, `/insights/${slug}`),
+        url: getLocalizedUrl(contentLocale, `/insights/${post.slug}`),
         lastModified: lastmod ? new Date(lastmod) : new Date(),
         changeFrequency: "monthly",
         priority: 0.7,

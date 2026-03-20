@@ -1,9 +1,47 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { defaultLocale } from "@/i18n/config";
+import { defaultLocale, locales } from "@/i18n/config";
+import slugMapData from "@/content/blog/slug-map.json";
 
 const contentDir = path.join(process.cwd(), "content", "blog");
+
+// Build reverse lookup: given any locale+slug, find the article's slugs in all locales
+const slugMap = slugMapData as Record<string, Record<string, string>>;
+
+// Reverse index: locale/slug → translation key (en-GB slug)
+const reverseSlugMap: Record<string, string> = {};
+for (const [key, translations] of Object.entries(slugMap)) {
+  for (const [locale, slug] of Object.entries(translations)) {
+    reverseSlugMap[`${locale}/${slug}`] = key;
+  }
+}
+
+/**
+ * Given a locale and slug, returns the correct slug for each locale.
+ * For locales without blog content, falls back to the en-GB slug.
+ */
+export function getSlugAlternates(
+  locale: string,
+  slug: string
+): Record<string, string> {
+  const key = reverseSlugMap[`${locale}/${slug}`] || slug;
+  const translations = slugMap[key];
+  if (!translations) {
+    // No mapping found — use same slug for all locales
+    const result: Record<string, string> = {};
+    for (const loc of locales) {
+      result[loc] = slug;
+    }
+    return result;
+  }
+  const result: Record<string, string> = {};
+  for (const loc of locales) {
+    // Use locale-specific slug if available, otherwise fall back to en-GB slug
+    result[loc] = translations[loc] || translations["en-GB"] || slug;
+  }
+  return result;
+}
 
 export interface PostFrontmatter {
   title: string;
@@ -76,13 +114,17 @@ export function getPostBySlug(locale: string, slug: string): Post | null {
 }
 
 export function getAllSlugs(): string[] {
-  const dir = path.join(contentDir, defaultLocale);
-  if (!fs.existsSync(dir)) return [];
+  const allSlugs = new Set<string>();
 
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".mdx"))
-    .map((f) => f.replace(/\.mdx$/, ""));
+  for (const locale of locales) {
+    const dir = path.join(contentDir, locale);
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".mdx"))) {
+      allSlugs.add(f.replace(/\.mdx$/, ""));
+    }
+  }
+
+  return Array.from(allSlugs);
 }
 
 export function getAdjacentPosts(

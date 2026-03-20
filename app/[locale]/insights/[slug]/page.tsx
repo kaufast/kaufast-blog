@@ -8,8 +8,9 @@ import {
   getAllSlugs,
   getAdjacentPosts,
   estimateReadingTime,
+  getSlugAlternates,
 } from "@/lib/blog";
-import { getAlternatesForLocale, SITE_URL } from "@/lib/seo";
+import { getArticleAlternates, SITE_URL } from "@/lib/seo";
 import {
   generateArticleSchema,
   generateBreadcrumbSchema,
@@ -43,10 +44,8 @@ export async function generateMetadata({
   if (!post) return {};
 
   const { frontmatter } = post;
-  const alternates = getAlternatesForLocale(
-    locale,
-    `/insights/${slug}`
-  );
+  const slugsByLocale = getSlugAlternates(locale, slug);
+  const alternates = getArticleAlternates(locale, slugsByLocale);
 
   return {
     title: `${frontmatter.title} — KAUFAST`,
@@ -171,7 +170,7 @@ export default async function BlogDetailPage({
         <h2 className={styles.ctaTitle}>{dict.blog.ctaTitle}</h2>
         <p className={styles.ctaText}>{dict.blog.ctaText}</p>
         <a
-          href="https://kaufast.com/en-GB/start"
+          href={`https://kaufast.com/${locale}/contact`}
           className={styles.ctaButton}
         >
           {dict.blog.ctaButton}
