@@ -5,12 +5,12 @@ import Link from "next/link";
 
 import {
   getPostBySlug,
-  getAllSlugs,
+  getAllPosts,
   getAdjacentPosts,
   estimateReadingTime,
   getSlugAlternates,
 } from "@/lib/blog";
-import { getArticleAlternates, SITE_URL } from "@/lib/seo";
+import { getArticleAlternates, SITE_URL, blogImageUrl } from "@/lib/seo";
 import {
   generateArticleSchema,
   generateBreadcrumbSchema,
@@ -22,12 +22,12 @@ import styles from "./blog-detail.module.css";
 type Params = { locale: string; slug: string };
 
 export async function generateStaticParams() {
-  const slugs = getAllSlugs();
   const params: Params[] = [];
 
   for (const locale of locales) {
-    for (const slug of slugs) {
-      params.push({ locale, slug });
+    const posts = getAllPosts(locale);
+    for (const post of posts) {
+      params.push({ locale, slug: post.slug });
     }
   }
 
@@ -59,7 +59,7 @@ export async function generateMetadata({
       publishedTime: frontmatter.date,
       modifiedTime: frontmatter.lastmod,
       images: frontmatter.image
-        ? [`${SITE_URL}${frontmatter.image}`]
+        ? [blogImageUrl(frontmatter.image)]
         : undefined,
     },
   };
@@ -143,7 +143,7 @@ export default async function BlogDetailPage({
       {frontmatter.image && (
         <img
           className={styles.heroImage}
-          src={frontmatter.image}
+          src={blogImageUrl(frontmatter.image)}
           alt={frontmatter.title}
           loading="eager"
         />
@@ -151,7 +151,19 @@ export default async function BlogDetailPage({
 
       {/* Content */}
       <div className={styles.prose}>
-        <MDXRemote source={content} />
+        <MDXRemote
+          source={content}
+          components={{
+            img: (props) => (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                {...props}
+                src={blogImageUrl(props.src ?? "")}
+                alt={props.alt ?? ""}
+              />
+            ),
+          }}
+        />
       </div>
 
       {/* Tags */}

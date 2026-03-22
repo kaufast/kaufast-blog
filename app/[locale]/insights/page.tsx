@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { getAllPosts, estimateReadingTime, getPostBySlug } from "@/lib/blog";
-import { getAlternatesForLocale } from "@/lib/seo";
+import { getAlternatesForLocale, blogImageUrl } from "@/lib/seo";
 import { generateBreadcrumbSchema } from "@/lib/structured-data";
 import { locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/config";
@@ -135,7 +135,7 @@ function PostCard({
       {post.frontmatter.image && (
         <img
           className={styles.cardImage}
-          src={post.frontmatter.image}
+          src={blogImageUrl(post.frontmatter.image)}
           alt={post.frontmatter.title}
           loading="lazy"
         />

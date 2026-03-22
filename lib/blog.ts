@@ -11,9 +11,14 @@ const slugMap = slugMapData as Record<string, Record<string, string>>;
 
 // Reverse index: locale/slug → translation key (en-GB slug)
 const reverseSlugMap: Record<string, string> = {};
+// Any slug (regardless of locale) → en-GB slug for fallback resolution
+const slugToDefaultSlug: Record<string, string> = {};
 for (const [key, translations] of Object.entries(slugMap)) {
   for (const [locale, slug] of Object.entries(translations)) {
     reverseSlugMap[`${locale}/${slug}`] = key;
+    if (!slugToDefaultSlug[slug]) {
+      slugToDefaultSlug[slug] = translations["en-GB"] || key;
+    }
   }
 }
 
@@ -99,18 +104,32 @@ export function getPostBySlug(locale: string, slug: string): Post | null {
   const dir = getLocaleDir(locale);
   const filePath = path.join(dir, `${slug}.mdx`);
 
-  if (!fs.existsSync(filePath)) {
-    // Try fallback locale
-    const fallbackPath = path.join(contentDir, defaultLocale, `${slug}.mdx`);
-    if (!fs.existsSync(fallbackPath)) return null;
+  if (fs.existsSync(filePath)) {
+    const raw = fs.readFileSync(filePath, "utf-8");
+    const { data, content } = matter(raw);
+    return { slug, frontmatter: data as PostFrontmatter, content };
+  }
+
+  // Try fallback locale with same slug
+  const fallbackPath = path.join(contentDir, defaultLocale, `${slug}.mdx`);
+  if (fs.existsSync(fallbackPath)) {
     const raw = fs.readFileSync(fallbackPath, "utf-8");
     const { data, content } = matter(raw);
     return { slug, frontmatter: data as PostFrontmatter, content };
   }
 
-  const raw = fs.readFileSync(filePath, "utf-8");
-  const { data, content } = matter(raw);
-  return { slug, frontmatter: data as PostFrontmatter, content };
+  // Resolve via slug map (e.g. es-ES slug → en-GB equivalent)
+  const defaultSlug = slugToDefaultSlug[slug];
+  if (defaultSlug && defaultSlug !== slug) {
+    const resolvedPath = path.join(contentDir, defaultLocale, `${defaultSlug}.mdx`);
+    if (fs.existsSync(resolvedPath)) {
+      const raw = fs.readFileSync(resolvedPath, "utf-8");
+      const { data, content } = matter(raw);
+      return { slug, frontmatter: data as PostFrontmatter, content };
+    }
+  }
+
+  return null;
 }
 
 export function getAllSlugs(): string[] {

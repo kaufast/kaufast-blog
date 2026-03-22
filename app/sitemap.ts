@@ -45,9 +45,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         `/insights/${slugsByLocale["en-GB"]}`
       );
 
+      const parsedDate = lastmod ? new Date(lastmod) : null;
+      const lastModified =
+        parsedDate && !isNaN(parsedDate.getTime()) ? parsedDate : new Date();
+
       entries.push({
         url: getLocalizedUrl(contentLocale, `/insights/${post.slug}`),
-        lastModified: lastmod ? new Date(lastmod) : new Date(),
+        lastModified,
         changeFrequency: "monthly",
         priority: 0.7,
         alternates: { languages },
