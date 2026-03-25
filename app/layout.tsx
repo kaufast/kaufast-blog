@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://kaufast.com"),
   title: {
     default: "Insights — AI, Automation & Web Dev Blog | KAUFAST",
-    template: "%s",
+    template: "%s — KAUFAST",
   },
   description:
     "Ideas, guides, and case studies on AI agents, automation, and web development.",
