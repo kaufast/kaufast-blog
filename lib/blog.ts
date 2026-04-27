@@ -58,6 +58,7 @@ export interface PostFrontmatter {
   tags: string[];
   image: string;
   featured: boolean;
+  audra?: boolean;
 }
 
 export interface Post {
@@ -69,6 +70,7 @@ export interface Post {
 export interface PostSummary {
   slug: string;
   frontmatter: PostFrontmatter;
+  readingTime: number;
 }
 
 function getLocaleDir(locale: string): string {
@@ -86,10 +88,11 @@ export function getAllPosts(locale: string): PostSummary[] {
   const posts = files.map((filename) => {
     const filePath = path.join(dir, filename);
     const raw = fs.readFileSync(filePath, "utf-8");
-    const { data } = matter(raw);
+    const { data, content } = matter(raw);
     return {
       slug: filename.replace(/\.mdx$/, ""),
       frontmatter: data as PostFrontmatter,
+      readingTime: estimateReadingTime(content),
     };
   });
 

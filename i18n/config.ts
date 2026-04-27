@@ -41,6 +41,7 @@ export type Dictionary = {
     ctaText: string;
     ctaButton: string;
     tableOfContents: string;
+    filterAll: string;
   };
 };
 

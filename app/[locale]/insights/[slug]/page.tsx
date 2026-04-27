@@ -179,14 +179,33 @@ export default async function BlogDetailPage({
 
       {/* CTA */}
       <div className={styles.cta}>
-        <h2 className={styles.ctaTitle}>{dict.blog.ctaTitle}</h2>
-        <p className={styles.ctaText}>{dict.blog.ctaText}</p>
-        <a
-          href={`https://kaufast.com/${locale}/contact`}
-          className={styles.ctaButton}
-        >
-          {dict.blog.ctaButton}
-        </a>
+        {frontmatter.audra ? (
+          <>
+            <h2 className={styles.ctaTitle}>Audra</h2>
+            <p className={styles.ctaText}>
+              Global safety for women. Privacy-first. Available on iOS &amp; Android.
+            </p>
+            <a
+              href="https://audra.uk"
+              className={styles.ctaButton}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download Audra
+            </a>
+          </>
+        ) : (
+          <>
+            <h2 className={styles.ctaTitle}>{dict.blog.ctaTitle}</h2>
+            <p className={styles.ctaText}>{dict.blog.ctaText}</p>
+            <a
+              href={`https://kaufast.com/${locale}/contact`}
+              className={styles.ctaButton}
+            >
+              {dict.blog.ctaButton}
+            </a>
+          </>
+        )}
       </div>
 
       {/* Adjacent Posts */}
