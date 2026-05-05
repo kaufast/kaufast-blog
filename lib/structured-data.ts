@@ -15,7 +15,8 @@ export function generateArticleSchema(
     author: {
       "@type": "Person",
       name: post.author,
-      url: SITE_URL,
+      url: `${SITE_URL}/en-GB/kenneth-melchor`,
+      sameAs: `${SITE_URL}/en-GB/kenneth-melchor`,
     },
     publisher: {
       "@type": "Organization",
