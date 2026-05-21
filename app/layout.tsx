@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { generateOrganizationSchema } from "@/lib/structured-data";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -40,5 +41,17 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  const organizationSchema = generateOrganizationSchema();
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationSchema),
+        }}
+      />
+      {children}
+    </>
+  );
 }

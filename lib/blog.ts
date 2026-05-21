@@ -60,6 +60,9 @@ export interface PostFrontmatter {
   featured: boolean;
   audra?: boolean;
   h1?: string;
+  schemaType?: string;
+  about?: string[];
+  dependencies?: string;
   faq?: { question: string; answer: string }[];
 }
 

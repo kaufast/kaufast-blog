@@ -42,6 +42,9 @@ export type Dictionary = {
     ctaButton: string;
     tableOfContents: string;
     filterAll: string;
+    faqTitle: string;
+    authorRole: string;
+    authorBio: string;
   };
 };
 

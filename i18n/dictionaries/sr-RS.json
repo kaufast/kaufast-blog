@@ -16,7 +16,10 @@
     "ctaTitle": "Want to discuss this for your business?",
     "ctaText": "Tell us what you need. We'll tell you what's possible.",
     "ctaButton": "Start a project",
-    "tableOfContents": "In this article",
-    "filterAll": "Sve"
+    "tableOfContents": "У овом чланку",
+    "filterAll": "Све",
+    "faqTitle": "Често постављана питања",
+    "authorRole": "Оснивач KAUFAST-а",
+    "authorBio": "Кенет Мелчор је оснивач KAUFAST-а, софтверског студија у Барселони специјализованог за веб апликације са вештачком интелигенцијом, аутоматизацију и growth engineering за компаније широм Европе."
   }
 }
