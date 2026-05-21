@@ -14,6 +14,7 @@ import { getArticleAlternates, SITE_URL, blogImageUrl } from "@/lib/seo";
 import {
   generateArticleSchema,
   generateBreadcrumbSchema,
+  generateFAQSchema,
 } from "@/lib/structured-data";
 import { locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/config";
@@ -88,6 +89,10 @@ export default async function BlogDetailPage({
     { name: "Insights", url: `/${locale}/insights` },
     { name: frontmatter.title },
   ]);
+  const faqSchema =
+    frontmatter.faq && frontmatter.faq.length > 0
+      ? generateFAQSchema(frontmatter.faq)
+      : null;
 
   return (
     <article className={styles.article}>
@@ -103,6 +108,14 @@ export default async function BlogDetailPage({
           __html: JSON.stringify(breadcrumbSchema),
         }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqSchema),
+          }}
+        />
+      )}
 
       {/* Breadcrumb */}
       <nav className={styles.breadcrumb} aria-label="Breadcrumb">
@@ -116,7 +129,7 @@ export default async function BlogDetailPage({
       {/* Header */}
       <header className={styles.header}>
         <span className={styles.category}>{frontmatter.category}</span>
-        <h1 className={styles.title}>{frontmatter.title}</h1>
+        <h1 className={styles.title}>{frontmatter.h1 || frontmatter.title}</h1>
         <p className={styles.headline}>{frontmatter.headline}</p>
         <div className={styles.meta}>
           <span>
@@ -165,6 +178,30 @@ export default async function BlogDetailPage({
           }}
         />
       </div>
+
+      {/* FAQ Section */}
+      {frontmatter.faq && frontmatter.faq.length > 0 && (
+        <section className={styles.faqSection}>
+          <h2 className={styles.faqTitle}>{dict.blog.faqTitle}</h2>
+          <dl className={styles.faqList}>
+            {frontmatter.faq.map((item, i) => (
+              <div key={i} className={styles.faqItem}>
+                <dt className={styles.faqQuestion}>{item.question}</dt>
+                <dd className={styles.faqAnswer}>{item.answer}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )}
+
+      {/* Author Bio */}
+      <aside className={styles.authorBio}>
+        <div className={styles.authorInfo}>
+          <span className={styles.authorName}>{frontmatter.author}</span>
+          <span className={styles.authorRole}>{dict.blog.authorRole}</span>
+        </div>
+        <p className={styles.authorDescription}>{dict.blog.authorBio}</p>
+      </aside>
 
       {/* Tags */}
       {frontmatter.tags && frontmatter.tags.length > 0 && (

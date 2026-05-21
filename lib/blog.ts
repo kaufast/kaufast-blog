@@ -59,6 +59,8 @@ export interface PostFrontmatter {
   image: string;
   featured: boolean;
   audra?: boolean;
+  h1?: string;
+  faq?: { question: string; answer: string }[];
 }
 
 export interface Post {
