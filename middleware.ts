@@ -39,6 +39,15 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
+  // Draft gate — block access to unpublished articles without ?code=echo2026
+  const DRAFT_SLUGS = ["echoflicks-ai-writes-about-us-7-days"];
+  const isDraft = DRAFT_SLUGS.some((slug) => pathname.includes(`/insights/${slug}`));
+  if (isDraft && request.nextUrl.searchParams.get("code") !== "echo2026") {
+    const url = request.nextUrl.clone();
+    url.pathname = `/${defaultLocale}`;
+    return NextResponse.redirect(url, 302);
+  }
+
   const locale = getLocaleFromPath(pathname);
 
   // If no locale in path, redirect to default
