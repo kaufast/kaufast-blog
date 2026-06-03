@@ -132,12 +132,12 @@
 
 .prose a {
   color: var(--color-accent);
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration: none;
+  transition: color 0.2s;
 }
 
 .prose a:hover {
-  text-decoration: none;
+  color: var(--color-text);
 }
 
 .prose ul,

@@ -20,6 +20,17 @@
     "filterAll": "Све",
     "faqTitle": "Често постављана питања",
     "authorRole": "Оснивач KAUFAST-а",
-    "authorBio": "Кенет Мелчор је оснивач KAUFAST-а, софтверског студија у Барселони специјализованог за веб апликације са вештачком интелигенцијом, аутоматизацију и growth engineering за компаније широм Европе."
+    "authorBio": "Кенет Мелчор је оснивач KAUFAST-а, софтверског студија у Барселони специјализованог за веб апликације са вештачком интелигенцијом, аутоматизацију и growth engineering за компаније широм Европе.",
+    "tabLatest": "Najnovije",
+    "tabNewest": "Novo",
+    "tabPopular": "Najpopularnije",
+    "searchPlaceholder": "Pretraži članke...",
+    "searchNoResults": "Nisu pronađeni članci",
+    "commentsTitle": "Komentari",
+    "commentsPlaceholder": "Podelite svoje mišljenje...",
+    "commentsSubmit": "Objavi komentar",
+    "commentsEmpty": "Još nema komentara. Budite prvi koji će podeliti svoje mišljenje.",
+    "commentsName": "Vaše ime",
+    "commentsPosted": "Objavljeno"
   }
 }

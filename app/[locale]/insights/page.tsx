@@ -76,9 +76,22 @@ export default async function InsightsPage({
       <InsightsClient
         posts={posts}
         locale={locale}
-        labelAll={dict.blog.filterAll}
-        labelReadMore={dict.blog.readMore}
-        labelMinRead={dict.blog.minRead}
+        labels={{
+          all: dict.blog.filterAll,
+          readMore: dict.blog.readMore,
+          minRead: dict.blog.minRead,
+          tabLatest: dict.blog.tabLatest,
+          tabNewest: dict.blog.tabNewest,
+          tabPopular: dict.blog.tabPopular,
+          searchPlaceholder: dict.blog.searchPlaceholder,
+          searchNoResults: dict.blog.searchNoResults,
+          commentsTitle: dict.blog.commentsTitle,
+          commentsPlaceholder: dict.blog.commentsPlaceholder,
+          commentsSubmit: dict.blog.commentsSubmit,
+          commentsEmpty: dict.blog.commentsEmpty,
+          commentsName: dict.blog.commentsName,
+          commentsPosted: dict.blog.commentsPosted,
+        }}
       />
     </main>
   );

@@ -45,6 +45,17 @@ export type Dictionary = {
     faqTitle: string;
     authorRole: string;
     authorBio: string;
+    tabLatest: string;
+    tabNewest: string;
+    tabPopular: string;
+    searchPlaceholder: string;
+    searchNoResults: string;
+    commentsTitle: string;
+    commentsPlaceholder: string;
+    commentsSubmit: string;
+    commentsEmpty: string;
+    commentsName: string;
+    commentsPosted: string;
   };
 };
 

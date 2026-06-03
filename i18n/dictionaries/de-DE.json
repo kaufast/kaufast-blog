@@ -20,6 +20,17 @@
     "filterAll": "Alle",
     "faqTitle": "Häufig gestellte Fragen",
     "authorRole": "Gründer von KAUFAST",
-    "authorBio": "Kenneth Melchor ist der Gründer von KAUFAST, einem Software-Studio in Barcelona, das sich auf KI-gestützte Webanwendungen, Automatisierung und Growth Engineering für Unternehmen in ganz Europa spezialisiert hat."
+    "authorBio": "Kenneth Melchor ist der Gründer von KAUFAST, einem Software-Studio in Barcelona, das sich auf KI-gestützte Webanwendungen, Automatisierung und Growth Engineering für Unternehmen in ganz Europa spezialisiert hat.",
+    "tabLatest": "Neueste",
+    "tabNewest": "Aktuellste",
+    "tabPopular": "Beliebteste",
+    "searchPlaceholder": "Artikel suchen...",
+    "searchNoResults": "Keine Artikel gefunden",
+    "commentsTitle": "Kommentare",
+    "commentsPlaceholder": "Teilen Sie Ihre Gedanken...",
+    "commentsSubmit": "Kommentar posten",
+    "commentsEmpty": "Noch keine Kommentare. Seien Sie der Erste.",
+    "commentsName": "Ihr Name",
+    "commentsPosted": "Veröffentlicht"
   }
 }

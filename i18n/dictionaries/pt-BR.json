@@ -20,6 +20,17 @@
     "filterAll": "Todos",
     "faqTitle": "Perguntas frequentes",
     "authorRole": "Fundador da KAUFAST",
-    "authorBio": "Kenneth Melchor é o fundador da KAUFAST, um estúdio de software sediado em Barcelona especializado em aplicações web com IA, automação e growth engineering para empresas em toda a Europa."
+    "authorBio": "Kenneth Melchor é o fundador da KAUFAST, um estúdio de software sediado em Barcelona especializado em aplicações web com IA, automação e growth engineering para empresas em toda a Europa.",
+    "tabLatest": "Recentes",
+    "tabNewest": "Novos",
+    "tabPopular": "Mais Populares",
+    "searchPlaceholder": "Pesquisar artigos...",
+    "searchNoResults": "Nenhum artigo encontrado",
+    "commentsTitle": "Comentários",
+    "commentsPlaceholder": "Partilhe os seus pensamentos...",
+    "commentsSubmit": "Publicar comentário",
+    "commentsEmpty": "Ainda sem comentários. Seja o primeiro a partilhar os seus pensamentos.",
+    "commentsName": "O seu nome",
+    "commentsPosted": "Publicado"
   }
 }
