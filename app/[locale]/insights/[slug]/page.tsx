@@ -20,6 +20,12 @@ import { locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/config";
 import styles from "./blog-detail.module.css";
 
+function toISODate(date: string | undefined): string | undefined {
+  if (!date) return undefined;
+  const parsed = new Date(date);
+  return isNaN(parsed.getTime()) ? date : parsed.toISOString().split("T")[0];
+}
+
 type Params = { locale: string; slug: string };
 
 export async function generateStaticParams() {
@@ -57,8 +63,8 @@ export async function generateMetadata({
       description: frontmatter.headline,
       url: alternates.canonical,
       type: "article",
-      publishedTime: frontmatter.date,
-      modifiedTime: frontmatter.lastmod,
+      publishedTime: toISODate(frontmatter.date),
+      modifiedTime: toISODate(frontmatter.lastmod),
       images: frontmatter.image
         ? [blogImageUrl(frontmatter.image)]
         : undefined,
@@ -229,6 +235,21 @@ export default async function BlogDetailPage({
               rel="noopener noreferrer"
             >
               Download Audra
+            </a>
+          </>
+        ) : frontmatter.echoflicks ? (
+          <>
+            <h2 className={styles.ctaTitle}>Echoflicks</h2>
+            <p className={styles.ctaText}>
+              Turn your photos into cinematic movies. Send them to Felix on WhatsApp.
+            </p>
+            <a
+              href="https://echoflicks.com"
+              className={styles.ctaButton}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Try Echoflicks
             </a>
           </>
         ) : (

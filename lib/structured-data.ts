@@ -1,5 +1,12 @@
-import { SITE_URL, COMPANY, getLocalizedUrl } from "./seo";
+import { SITE_URL, BLOG_ORIGIN, COMPANY, getLocalizedUrl } from "./seo";
 import type { PostFrontmatter } from "./blog";
+
+/** Convert human-readable dates ("2 June 2026") to ISO 8601 ("2026-06-02"). */
+function toISO(date: string | undefined): string | undefined {
+  if (!date) return undefined;
+  const parsed = new Date(date);
+  return isNaN(parsed.getTime()) ? date : parsed.toISOString().split("T")[0];
+}
 
 export function generateOrganizationSchema() {
   return {
@@ -26,18 +33,20 @@ export function generateArticleSchema(
 ) {
   const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
-    "@type": post.schemaType || "Article",
+    "@type": post.schemaType || "BlogPosting",
     headline: post.title,
     description: post.headline,
-    datePublished: post.date,
-    dateModified: post.lastmod || post.date,
+    datePublished: toISO(post.date),
+    dateModified: toISO(post.lastmod || post.date),
     author: {
       "@type": "Person",
+      "@id": `${SITE_URL}/#kenneth-melchor`,
       name: post.author,
       url: `${SITE_URL}/en-GB/kenneth-melchor`,
-      jobTitle: "Founder",
+      jobTitle: "Founder & Technology Director",
       worksFor: {
         "@type": "Organization",
+        "@id": `${SITE_URL}/#organization`,
         name: COMPANY.name,
         url: COMPANY.url,
       },
@@ -47,10 +56,12 @@ export function generateArticleSchema(
     },
     publisher: {
       "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
       name: COMPANY.name,
       url: COMPANY.url,
     },
-    image: post.image ? `${SITE_URL}${post.image}` : undefined,
+    image: post.image ? `${BLOG_ORIGIN}${post.image}` : undefined,
+    isPartOf: { "@id": `${SITE_URL}/#website` },
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": getLocalizedUrl(locale, `/insights/${post.slug}`),
