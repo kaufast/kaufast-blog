@@ -1,11 +1,11 @@
 import { SITE_URL, BLOG_ORIGIN, COMPANY, getLocalizedUrl } from "./seo";
 import type { PostFrontmatter } from "./blog";
 
-/** Convert human-readable dates ("2 June 2026") to ISO 8601 ("2026-06-02"). */
+/** Convert human-readable dates ("2 June 2026") to ISO 8601 with timezone ("2026-06-02T00:00:00Z"). */
 function toISO(date: string | undefined): string | undefined {
   if (!date) return undefined;
   const parsed = new Date(date);
-  return isNaN(parsed.getTime()) ? date : parsed.toISOString().split("T")[0];
+  return isNaN(parsed.getTime()) ? date : parsed.toISOString();
 }
 
 export function generateOrganizationSchema() {

@@ -23,7 +23,7 @@ import styles from "./blog-detail.module.css";
 function toISODate(date: string | undefined): string | undefined {
   if (!date) return undefined;
   const parsed = new Date(date);
-  return isNaN(parsed.getTime()) ? date : parsed.toISOString().split("T")[0];
+  return isNaN(parsed.getTime()) ? date : parsed.toISOString();
 }
 
 type Params = { locale: string; slug: string };
