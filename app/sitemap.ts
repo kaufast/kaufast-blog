@@ -1,10 +1,10 @@
 import type { MetadataRoute } from "next";
-import { getAllPosts, getSlugAlternates } from "@/lib/blog";
+import { getAllPosts, getSlugAlternates, getAvailableLocalesForArticle } from "@/lib/blog";
 import { locales, defaultLocale } from "@/i18n/config";
 import { getLocalizedUrl } from "@/lib/seo";
 
 /** Locales that have their own blog content directories. */
-const contentLocales = ["en-GB", "es-ES"] as const;
+const contentLocales = ["en-GB", "en-US", "es-ES", "es-MX", "de-DE", "de-AT", "sr-RS"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
@@ -32,11 +32,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     for (const post of posts) {
       const slugsByLocale = getSlugAlternates(contentLocale, post.slug);
+      const availableLocales = getAvailableLocalesForArticle(contentLocale, post.slug);
       const lastmod = post.frontmatter.lastmod || post.frontmatter.date;
 
-      // Build hreflang with correct per-locale slugs
+      // Build hreflang only for locales with actual content
       const languages: Record<string, string> = {};
-      for (const loc of locales) {
+      for (const loc of availableLocales) {
         const locSlug = slugsByLocale[loc];
         languages[loc] = getLocalizedUrl(loc, `/insights/${locSlug}`);
       }

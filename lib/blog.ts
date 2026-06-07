@@ -59,6 +59,7 @@ export interface PostFrontmatter {
   image: string;
   featured: boolean;
   audra?: boolean;
+  echoflicks?: boolean;
   h1?: string;
   schemaType?: string;
   about?: string[];
@@ -172,4 +173,45 @@ export function getAdjacentPosts(
 export function estimateReadingTime(content: string): number {
   const words = content.split(/\s+/).length;
   return Math.max(1, Math.ceil(words / 230));
+}
+
+/**
+ * Returns the locales that have actual content for a given article.
+ * A locale "has content" if it appears in the slug map for this article
+ * OR has a native .mdx file in its content directory.
+ */
+export function getAvailableLocalesForArticle(
+  locale: string,
+  slug: string
+): string[] {
+  // Find the article key via reverse slug map
+  const key = reverseSlugMap[`${locale}/${slug}`] || slug;
+  const translations = slugMap[key];
+
+  const available = new Set<string>();
+
+  if (translations) {
+    // All locales in the slug map have real content (or translations)
+    for (const loc of Object.keys(translations)) {
+      available.add(loc);
+    }
+  }
+
+  // Also check if the file exists directly in any content dir
+  for (const loc of locales) {
+    const filePath = path.join(contentDir, loc, `${slug}.mdx`);
+    if (fs.existsSync(filePath)) {
+      available.add(loc);
+    }
+  }
+
+  // Ensure at least en-GB is included
+  if (available.size === 0) {
+    const enPath = path.join(contentDir, defaultLocale, `${slug}.mdx`);
+    if (fs.existsSync(enPath)) {
+      available.add(defaultLocale);
+    }
+  }
+
+  return Array.from(available);
 }

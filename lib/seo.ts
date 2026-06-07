@@ -40,13 +40,18 @@ export function getAlternatesForLocale(
 
 /**
  * Article-aware alternates: uses correct slug per locale.
+ * When availableLocales is provided, only those locales appear in hreflang.
+ * If the current locale is NOT in availableLocales, canonical points to en-GB.
  */
 export function getArticleAlternates(
   locale: Locale | string,
-  slugsByLocale: Record<string, string>
+  slugsByLocale: Record<string, string>,
+  availableLocales?: string[]
 ) {
   const languages: Record<string, string> = {};
-  for (const loc of locales) {
+  const targetLocales = availableLocales || locales;
+
+  for (const loc of targetLocales) {
     const slug = slugsByLocale[loc] || slugsByLocale["en-GB"];
     if (slug) {
       languages[loc] = getLocalizedUrl(loc, `/insights/${slug}`);
@@ -55,9 +60,14 @@ export function getArticleAlternates(
   const defaultSlug = slugsByLocale["en-GB"];
   languages["x-default"] = getLocalizedUrl("en-GB", `/insights/${defaultSlug}`);
 
-  const currentSlug = slugsByLocale[locale] || defaultSlug;
+  const isNative = !availableLocales || availableLocales.includes(locale as string);
+  const canonicalLocale = isNative ? locale : "en-GB";
+  const canonicalSlug = isNative
+    ? (slugsByLocale[locale] || defaultSlug)
+    : defaultSlug;
+
   return {
-    canonical: getLocalizedUrl(locale, `/insights/${currentSlug}`),
+    canonical: getLocalizedUrl(canonicalLocale, `/insights/${canonicalSlug}`),
     languages,
   };
 }

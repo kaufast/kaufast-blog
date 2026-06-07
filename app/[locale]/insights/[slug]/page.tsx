@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { redirect } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -9,14 +9,14 @@ import {
   getAdjacentPosts,
   estimateReadingTime,
   getSlugAlternates,
+  getAvailableLocalesForArticle,
 } from "@/lib/blog";
-import { getArticleAlternates, SITE_URL, blogImageUrl } from "@/lib/seo";
+import { getArticleAlternates, blogImageUrl } from "@/lib/seo";
 import {
   generateArticleSchema,
   generateBreadcrumbSchema,
   generateFAQSchema,
 } from "@/lib/structured-data";
-import { locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/config";
 import styles from "./blog-detail.module.css";
 
@@ -28,10 +28,15 @@ function toISODate(date: string | undefined): string | undefined {
 
 type Params = { locale: string; slug: string };
 
+/** Locales with their own blog content directories. */
+const contentLocales = ["en-GB", "en-US", "es-ES", "es-MX", "de-DE", "de-AT", "sr-RS"] as const;
+
 export async function generateStaticParams() {
   const params: Params[] = [];
 
-  for (const locale of locales) {
+  // Only pre-build for locales that have native content.
+  // Other locales are rendered dynamically with canonical → en-GB.
+  for (const locale of contentLocales) {
     const posts = getAllPosts(locale);
     for (const post of posts) {
       params.push({ locale, slug: post.slug });
@@ -52,7 +57,8 @@ export async function generateMetadata({
 
   const { frontmatter } = post;
   const slugsByLocale = getSlugAlternates(locale, slug);
-  const alternates = getArticleAlternates(locale, slugsByLocale);
+  const availableLocales = getAvailableLocalesForArticle(locale, slug);
+  const alternates = getArticleAlternates(locale, slugsByLocale, availableLocales);
 
   return {
     title: frontmatter.title,
@@ -79,7 +85,7 @@ export default async function BlogDetailPage({
 }) {
   const { locale, slug } = await params;
   const post = getPostBySlug(locale, slug);
-  if (!post) notFound();
+  if (!post) redirect(`/${locale}/insights`);
 
   const dict = await getDictionary(locale);
   const { frontmatter, content } = post;
