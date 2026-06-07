@@ -31,6 +31,9 @@ type Params = { locale: string; slug: string };
 /** Locales with their own blog content directories. */
 const contentLocales = ["en-GB", "en-US", "es-ES", "es-MX", "de-DE", "de-AT", "sr-RS"] as const;
 
+/** Revalidate dynamic pages daily so canonical/hreflang changes propagate. */
+export const revalidate = 86400;
+
 export async function generateStaticParams() {
   const params: Params[] = [];
 

@@ -6,6 +6,8 @@ import { getLocalizedUrl } from "@/lib/seo";
 /** Locales that have their own blog content directories. */
 const contentLocales = ["en-GB", "en-US", "es-ES", "es-MX", "de-DE", "de-AT", "sr-RS"] as const;
 
+export const revalidate = 86400;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
