@@ -211,11 +211,23 @@ export default async function BlogDetailPage({
 
       {/* Author Bio */}
       <aside className={styles.authorBio}>
-        <div className={styles.authorInfo}>
-          <span className={styles.authorName}>{frontmatter.author}</span>
-          <span className={styles.authorRole}>{dict.blog.authorRole}</span>
+        <div className={styles.authorBioInner}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="https://cdn.kaufast.com/team/kenneth-melchor.webp"
+            alt={frontmatter.author}
+            width={48}
+            height={48}
+            className={styles.authorAvatar}
+          />
+          <div className={styles.authorContent}>
+            <div className={styles.authorInfo}>
+              <span className={styles.authorName}>{frontmatter.author}</span>
+              <span className={styles.authorRole}>{dict.blog.authorRole}</span>
+            </div>
+            <p className={styles.authorDescription}>{dict.blog.authorBio}</p>
+          </div>
         </div>
-        <p className={styles.authorDescription}>{dict.blog.authorBio}</p>
       </aside>
 
       {/* Tags */}

@@ -43,6 +43,12 @@ export function generateArticleSchema(
       "@id": `${SITE_URL}/#kenneth-melchor`,
       name: post.author,
       url: `${SITE_URL}/en-GB/kenneth-melchor`,
+      image: {
+        "@type": "ImageObject",
+        url: "https://cdn.kaufast.com/team/kenneth-melchor.webp",
+        width: 400,
+        height: 400,
+      },
       jobTitle: "Founder & Technology Director",
       worksFor: {
         "@type": "Organization",
