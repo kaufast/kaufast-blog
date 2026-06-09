@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts, getSlugAlternates, getAvailableLocalesForArticle } from "@/lib/blog";
-import { locales, defaultLocale } from "@/i18n/config";
+import { defaultLocale } from "@/i18n/config";
 import { getLocalizedUrl } from "@/lib/seo";
 
 /** Locales that have their own blog content directories. */
@@ -11,10 +11,10 @@ export const revalidate = 86400;
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
-  // Listing pages — one per locale
-  for (const locale of locales) {
+  // Listing pages — only for locales that have actual content directories
+  for (const locale of contentLocales) {
     const languages: Record<string, string> = {};
-    for (const loc of locales) {
+    for (const loc of contentLocales) {
       languages[loc] = getLocalizedUrl(loc, "/insights");
     }
     languages["x-default"] = getLocalizedUrl(defaultLocale, "/insights");
@@ -37,16 +37,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const availableLocales = getAvailableLocalesForArticle(contentLocale, post.slug);
       const lastmod = post.frontmatter.lastmod || post.frontmatter.date;
 
-      // Build hreflang for ALL locales — non-content locales fall back to en-GB
+      // Build hreflang only for locales where a translation actually exists
       const enGbSlug = slugsByLocale["en-GB"];
       const enGbUrl = getLocalizedUrl("en-GB", `/insights/${enGbSlug}`);
       const languages: Record<string, string> = {};
-      for (const loc of locales) {
-        if (availableLocales.includes(loc)) {
-          languages[loc] = getLocalizedUrl(loc, `/insights/${slugsByLocale[loc]}`);
-        } else {
-          // No translation exists — point to en-GB canonical
-          languages[loc] = enGbUrl;
+      for (const loc of availableLocales) {
+        const locSlug = slugsByLocale[loc] || enGbSlug;
+        if (locSlug) {
+          languages[loc] = getLocalizedUrl(loc, `/insights/${locSlug}`);
         }
       }
       languages["x-default"] = enGbUrl;
