@@ -37,16 +37,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const availableLocales = getAvailableLocalesForArticle(contentLocale, post.slug);
       const lastmod = post.frontmatter.lastmod || post.frontmatter.date;
 
-      // Build hreflang only for locales with actual content
+      // Build hreflang for ALL locales — non-content locales fall back to en-GB
+      const enGbSlug = slugsByLocale["en-GB"];
+      const enGbUrl = getLocalizedUrl("en-GB", `/insights/${enGbSlug}`);
       const languages: Record<string, string> = {};
-      for (const loc of availableLocales) {
-        const locSlug = slugsByLocale[loc];
-        languages[loc] = getLocalizedUrl(loc, `/insights/${locSlug}`);
+      for (const loc of locales) {
+        if (availableLocales.includes(loc)) {
+          languages[loc] = getLocalizedUrl(loc, `/insights/${slugsByLocale[loc]}`);
+        } else {
+          // No translation exists — point to en-GB canonical
+          languages[loc] = enGbUrl;
+        }
       }
-      languages["x-default"] = getLocalizedUrl(
-        defaultLocale,
-        `/insights/${slugsByLocale["en-GB"]}`
-      );
+      languages["x-default"] = enGbUrl;
 
       const parsedDate = lastmod ? new Date(lastmod) : null;
       const lastModified =
