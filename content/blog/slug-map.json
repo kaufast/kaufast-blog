@@ -119,5 +119,23 @@
     "de-DE": "sicherheit-frauen-deutschland-audra",
     "de-AT": "sicherheit-frauen-oesterreich-audra",
     "sr-RS": "bezbednost-zena-srbija-audra"
+  },
+  "ai-agents-for-business-complete-guide": {
+    "en-GB": "ai-agents-for-business-complete-guide",
+    "en-US": "ai-agents-for-business-complete-guide",
+    "es-ES": "agentes-ia-para-empresas-guia-completa",
+    "es-MX": "agentes-ia-para-empresas-guia-completa",
+    "de-DE": "ki-agenten-fuer-unternehmen-kompletter-leitfaden",
+    "de-AT": "ki-agenten-fuer-unternehmen-kompletter-leitfaden",
+    "sr-RS": "ai-agenti-za-poslovanje-kompletan-vodic"
+  },
+  "business-automation-complete-guide": {
+    "en-GB": "business-automation-complete-guide",
+    "en-US": "business-automation-complete-guide",
+    "es-ES": "automatizacion-empresarial-guia-completa",
+    "es-MX": "automatizacion-empresarial-guia-completa",
+    "de-DE": "unternehmensautomatisierung-kompletter-leitfaden",
+    "de-AT": "unternehmensautomatisierung-kompletter-leitfaden",
+    "sr-RS": "automatizacija-poslovanja-kompletan-vodic"
   }
 }
