@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllPosts, getSlugAlternates, getAvailableLocalesForArticle } from "@/lib/blog";
+import { getAllPosts, getSlugAlternates, getAvailableLocalesForArticle, SECTIONS } from "@/lib/blog";
 import { defaultLocale } from "@/i18n/config";
 import { getLocalizedUrl } from "@/lib/seo";
 
@@ -26,6 +26,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: { languages },
     });
+  }
+
+  // Section pages
+  for (const section of SECTIONS) {
+    const languages: Record<string, string> = {};
+    for (const loc of contentLocales) {
+      languages[loc] = getLocalizedUrl(loc, `/insights/${section.slug}`);
+    }
+    languages["x-default"] = getLocalizedUrl(defaultLocale, `/insights/${section.slug}`);
+
+    for (const locale of contentLocales) {
+      entries.push({
+        url: getLocalizedUrl(locale, `/insights/${section.slug}`),
+        lastModified: new Date(),
+        changeFrequency: "weekly",
+        priority: 0.75,
+        alternates: { languages },
+      });
+    }
   }
 
   // Blog posts — one entry per content locale with correct cross-locale hreflang

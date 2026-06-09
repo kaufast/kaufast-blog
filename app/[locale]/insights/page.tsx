@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
-import { getAllPosts } from "@/lib/blog";
+import { getAllPosts, SECTIONS, getPostsBySection } from "@/lib/blog";
 import { getAlternatesForLocale } from "@/lib/seo";
 import { generateBreadcrumbSchema } from "@/lib/structured-data";
 import { locales } from "@/i18n/config";
@@ -72,6 +73,27 @@ export default async function InsightsPage({
           {dict.meta.insightsDescription}
         </p>
       </header>
+
+      {/* Section hub */}
+      <nav className={styles.sectionHub} aria-label="Explore by topic">
+        <p className={styles.sectionHubLabel}>Explore by topic</p>
+        <div className={styles.sectionCards}>
+          {SECTIONS.map((section) => {
+            const count = getPostsBySection(locale, section.slug).length;
+            return (
+              <Link
+                key={section.slug}
+                href={`/${locale}/insights/${section.slug}`}
+                className={styles.sectionCard}
+              >
+                <span className={styles.sectionCardTitle}>{section.title}</span>
+                <span className={styles.sectionCardDesc}>{section.description}</span>
+                <span className={styles.sectionCardCount}>{count} articles →</span>
+              </Link>
+            );
+          })}
+        </div>
+      </nav>
 
       <InsightsClient
         posts={posts}

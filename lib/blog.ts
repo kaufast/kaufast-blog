@@ -175,6 +175,62 @@ export function estimateReadingTime(content: string): number {
   return Math.max(1, Math.ceil(words / 230));
 }
 
+// ─── Section config ────────────────────────────────────────────────────────
+
+export type SectionSlug = "seo" | "performance" | "data-privacy";
+
+export interface SectionInfo {
+  slug: SectionSlug;
+  title: string;
+  description: string;
+  /** If set, only include posts whose category is in this list. */
+  categories?: string[];
+  /** If set (and no `categories`), exclude posts in these categories. */
+  excludeCategories?: string[];
+}
+
+export const SECTIONS: SectionInfo[] = [
+  {
+    slug: "seo",
+    title: "SEO & Digital Growth",
+    description:
+      "AI visibility, search strategy, and tactics to grow organic traffic and convert more visitors.",
+    excludeCategories: ["Performance", "Data Privacy & Compliance"],
+  },
+  {
+    slug: "performance",
+    title: "Web Performance",
+    description:
+      "Site speed, Core Web Vitals, and performance optimisations that boost rankings and revenue.",
+    categories: ["Performance"],
+  },
+  {
+    slug: "data-privacy",
+    title: "Data Privacy",
+    description:
+      "GDPR compliance, data protection obligations, and privacy best practices for businesses.",
+    categories: ["Data Privacy & Compliance"],
+  },
+];
+
+export function getPostsBySection(
+  locale: string,
+  section: SectionSlug
+): PostSummary[] {
+  const config = SECTIONS.find((s) => s.slug === section);
+  if (!config) return [];
+  const all = getAllPosts(locale);
+  if (config.categories) {
+    return all.filter((p) => config.categories!.includes(p.frontmatter.category));
+  }
+  if (config.excludeCategories) {
+    return all.filter(
+      (p) => !config.excludeCategories!.includes(p.frontmatter.category)
+    );
+  }
+  return all;
+}
+
 /**
  * Returns the locales that have actual content for a given article.
  * A locale "has content" if it appears in the slug map for this article
