@@ -63,6 +63,8 @@ export async function generateMetadata({
   const availableLocales = getAvailableLocalesForArticle(locale, slug);
   const alternates = getArticleAlternates(locale, slugsByLocale, availableLocales);
 
+  const ogImage = frontmatter.image ? [blogImageUrl(frontmatter.image)] : undefined;
+
   return {
     title: frontmatter.title,
     description: frontmatter.headline,
@@ -74,9 +76,13 @@ export async function generateMetadata({
       type: "article",
       publishedTime: toISODate(frontmatter.date),
       modifiedTime: toISODate(frontmatter.lastmod),
-      images: frontmatter.image
-        ? [blogImageUrl(frontmatter.image)]
-        : undefined,
+      images: ogImage,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: frontmatter.title,
+      description: frontmatter.headline,
+      images: ogImage,
     },
   };
 }

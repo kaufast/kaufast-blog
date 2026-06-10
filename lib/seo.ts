@@ -1,7 +1,7 @@
 import { locales, type Locale } from "@/i18n/config";
 
 export const SITE_URL = "https://kaufast.com";
-export const BLOG_ORIGIN = "https://kaufast-blog.vercel.app";
+export const BLOG_ORIGIN = "https://kaufast.com";
 
 /** Prefix relative image paths with the blog origin so they resolve when proxied. */
 export function blogImageUrl(src: string): string {
