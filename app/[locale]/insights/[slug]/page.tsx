@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation";
+import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -94,7 +94,7 @@ export default async function BlogDetailPage({
 }) {
   const { locale, slug } = await params;
   const post = getPostBySlug(locale, slug);
-  if (!post) redirect(`/${locale}/insights`);
+  if (!post) notFound();
 
   const dict = await getDictionary(locale);
   const { frontmatter, content } = post;
