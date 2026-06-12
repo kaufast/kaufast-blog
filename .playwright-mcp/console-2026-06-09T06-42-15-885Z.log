@@ -1,0 +1,49 @@
+[      30ms] [LOG] %c
+▲
+
+    ________   _ __ _          ____           __
+   /  _/ __/  (_) /( )_____   / __/___ ______/ /_
+   / // /_   / / __/// ___/  / /_/ __ `/ ___/ __/
+ _/ // __/  / / /_  (__  )  / __/ /_/ (__  ) /_
+/___/_/    /_/\__/ /____/  /_/  \__,_/____/\__/
+    _ __ _                         _    __                    __
+   (_) /( )_____   ____  ____     | |  / /__  _____________  / /
+  / / __/// ___/  / __ \/ __ \    | | / / _ \/ ___/ ___/ _ \/ /
+ / / /_  (__  )  / /_/ / / / /    | |/ /  __/ /  / /__/  __/ /
+/_/\__/ /____/   \____/_/ /_/     |___/\___/_/   \___/\___/_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/10bipm_r0kfgr.js:78
+[     963ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/chat/4ZYUvYZv6lEOJumi/stream:0
+[     964ms] [WARNING] [omniagent] chat stream failed Error: {"error":{"code":"not_found","message":"The requested API endpoint was not found."}}
+    at oS.reconnectToStream (https://vercel.com/_next/static/immutable/chunks/2deoqshqycxk0.js:38:48063)
+    at async ae.makeRequest (https://vercel.com/_next/static/immutable/chunks/2deoqshqycxk0.js:23:47520)
+    at async ae.resumeStream (https://vercel.com/_next/static/immutable/chunks/2deoqshqycxk0.js:23:44598) @ https://vercel.com/_next/static/immutable/chunks/2eetp7vuq3fj-.js:1
+[    1126ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/3-tnb_jpr7237.js:18
+[    1216ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o205439.ingest.sentry.io/api/1323670/envelope/?sentry_key=d00780d432ac4ccf882f60dd02062e14&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.111.0:0
+[   10972ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3wlp7de5275zh.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   10972ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3d792zqltro0t.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   10972ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/0-shbsz3-8ybx.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   10973ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3z36ncuffz89v.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   10973ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/00rj9e71aqnzg.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   16505ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3wlp7de5275zh.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   16505ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3d792zqltro0t.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   16506ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/0-shbsz3-8ybx.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   16506ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3z36ncuffz89v.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   16506ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/00rj9e71aqnzg.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   28667ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3wlp7de5275zh.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   28667ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3d792zqltro0t.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   28668ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/0-shbsz3-8ybx.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   28668ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3z36ncuffz89v.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[   28668ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/00rj9e71aqnzg.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[  603965ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3wlp7de5275zh.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[  603965ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3d792zqltro0t.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[  603965ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/0-shbsz3-8ybx.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[  603965ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3z36ncuffz89v.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0
+[  603965ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/00rj9e71aqnzg.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/account/settings/authentication:0

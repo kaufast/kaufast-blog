@@ -1,0 +1,83 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button "Go back" [ref=e159] [cursor=pointer]:
+            - img [ref=e160]
+          - heading "Rich Results Test" [level=1] [ref=e144]
+        - button [ref=e12] [cursor=pointer]:
+          - generic [ref=e15]: 
+        - generic [ref=e17]:
+          - button "Google apps" [ref=e145] [cursor=pointer]:
+            - img [ref=e22]
+          - 'button "Google Account: Kenneth Melchor (kennethmelchor@gmail.com)" [ref=e146] [cursor=pointer]':
+            - img [ref=e29]
+    - generic [ref=e340]:
+      - generic [ref=e344]:
+        - generic [ref=e345]: 
+        - textbox "Enter a URL to test" [ref=e349]: https://kaufast.com/en-GB/insights/echoflicks-ai-writes-about-us-7-days
+        - button "Retest this URL" [ref=e350] [cursor=pointer]:
+          - generic [ref=e353]: 
+        - button "User agent options" [ref=e355] [cursor=pointer]:
+          - generic [ref=e358]: 
+      - generic [ref=e363]:
+        - generic [ref=e364]:
+          - navigation "Breadcrumbs" [ref=e366]:
+            - link "Test results" [ref=e368] [cursor=pointer]:
+              - /url: ./test/rich-results/result?id=AQQR8qM-0KLdO8XCUAXq2g
+            - generic [ref=e369]: 
+            - heading "Articles" [level=1] [ref=e372]
+          - button "Share" [ref=e376] [cursor=pointer]:
+            - generic [ref=e380]:
+              - generic [ref=e381]: 
+              - generic [ref=e382]: Share
+        - generic [ref=e391]:
+          - generic [ref=e393]:
+            - generic [ref=e395]:
+              - generic [ref=e396]:
+                - generic [ref=e397]: check_circle
+                - generic [ref=e398]:
+                  - generic [ref=e399]: 1 valid item detected
+                  - generic [ref=e400]:
+                    - text: Valid items are eligible for Google Search's rich results.
+                    - link "Learn more" [ref=e402] [cursor=pointer]:
+                      - /url: https://support.google.com/webmasters/answer/9012289#enhancements
+              - generic [ref=e404]:
+                - button "View tested page" [ref=e408] [cursor=pointer]:
+                  - generic [ref=e413]: View tested page
+                - button "See preview of your URL on Google Search" [ref=e417] [cursor=pointer]:
+                  - generic [ref=e422]: Preview results
+            - generic [ref=e423]: Details
+            - generic [ref=e425]:
+              - generic [ref=e426]:
+                - generic [ref=e427]: Crawl
+                - button "Crawled successfully on 7 Jun 2026, 16:06:08" [ref=e431] [cursor=pointer]:
+                  - generic [ref=e432]:
+                    - generic [ref=e433]:
+                      - generic [ref=e434]: check_circle
+                      - generic [ref=e435]: Crawled successfully on 7 Jun 2026, 16:06:08
+                    - generic [ref=e438]: 
+              - generic [ref=e439]:
+                - generic [ref=e440]: Detected items
+                - 'button "Echoflicks: AI Cites Us 7 Days After Launch 4 non-critical issues null" [active] [ref=e445] [cursor=pointer]':
+                  - generic [ref=e446]:
+                    - generic [ref=e447]:
+                      - generic [ref=e448]: check_circle
+                      - generic [ref=e449]:
+                        - generic [ref=e450]: "Echoflicks: AI Cites Us 7 Days After Launch"
+                        - generic [ref=e451]:
+                          - generic [ref=e454]: 4 non-critical issues
+                          - button "null" [ref=e457]:
+                            - generic [ref=e458]: 
+                    - generic [ref=e461]: 
+          - generic [ref=e464]:
+            - link "Privacy" [ref=e465] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=en-GB
+            - link "Terms" [ref=e466] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=en-GB
+  - iframe [ref=e114]:
+    - generic [ref=f1e6]:
+      - text: protected by
+      - strong [ref=f1e7]: reCAPTCHA
+  - generic [ref=e158]: Rich Results Test – Google Search Console

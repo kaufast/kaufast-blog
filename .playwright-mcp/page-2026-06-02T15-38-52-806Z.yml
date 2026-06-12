@@ -1,0 +1,218 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button [ref=e1975] [cursor=pointer]:
+            - img [ref=e8]
+          - link [ref=e1976] [cursor=pointer]:
+            - /url: ./search-console?resource_id=sc-domain%3Akaufast.com
+            - img [ref=e13]
+        - generic [ref=e14]:
+          - search [ref=e16]:
+            - generic [ref=e22]:
+              - textbox [disabled] [ref=e23]: Inspect any URL in 'kaufast.com'
+              - combobox [ref=e1977]
+            - button [ref=e1978] [cursor=pointer]:
+              - img [ref=e26]
+          - generic [ref=e29]:
+            - generic [ref=e31]:
+              - button [ref=e1979] [cursor=pointer]:
+                - generic [ref=e36]: 
+              - button [ref=e1980] [cursor=pointer]:
+                - img [ref=e41]
+            - button [ref=e1981] [cursor=pointer]:
+              - generic [ref=e47]:
+                - generic [ref=e48]: 
+                - generic [ref=e1964]: "35"
+        - generic [ref=e50]:
+          - button [ref=e1982] [cursor=pointer]:
+            - img [ref=e55]
+          - button [ref=e1983] [cursor=pointer]:
+            - img [ref=e62]
+    - dialog [ref=e1984]:
+      - navigation [ref=e1985]:
+        - button [ref=e1986] [cursor=pointer]:
+          - img [ref=e1987]
+          - combobox [ref=e1988]: kaufast.com
+          - generic [ref=e83]: 
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - link [ref=e1989] [cursor=pointer]:
+                - /url: ./search-console?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e90]: home
+                - generic [ref=e92]: Overview
+              - link [ref=e1990] [cursor=pointer]:
+                - /url: ./search-console/performance/insights?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e97]: lightbulb_2
+                - generic [ref=e99]: Insights
+              - link [ref=e1991] [cursor=pointer]:
+                - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e104]: trending_up
+                - generic [ref=e106]: Performance
+              - button [ref=e1992] [cursor=pointer]:
+                - generic [ref=e111]: search
+                - generic [ref=e113]: URL inspection
+            - generic [ref=e117]:
+              - button [expanded] [ref=e1993] [cursor=pointer]:
+                - generic [ref=e119]:
+                  - generic [ref=e122]: Indexing
+                  - img [ref=e126]
+              - generic [ref=e131]:
+                - link [ref=e1994] [cursor=pointer]:
+                  - /url: ./search-console/index?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e135]: file_copy
+                  - generic [ref=e137]: Pages
+                - link [ref=e1995] [cursor=pointer]:
+                  - /url: ./search-console/video-index?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e142]: video_library
+                  - generic [ref=e144]: Videos
+                - link [ref=e1996] [cursor=pointer]:
+                  - /url: ./search-console/sitemaps?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e149]: account_tree
+                  - generic [ref=e151]: Sitemaps
+                - link [ref=e1997] [cursor=pointer]:
+                  - /url: ./search-console/removals?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e156]: visibility_off
+                  - generic [ref=e158]: Removals
+            - generic [ref=e162]:
+              - button [expanded] [ref=e1998] [cursor=pointer]:
+                - generic [ref=e164]:
+                  - generic [ref=e167]: Experience
+                  - img [ref=e171]
+              - generic [ref=e176]:
+                - link [ref=e1999] [cursor=pointer]:
+                  - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e180]: speed
+                  - generic [ref=e182]: Core web vitals
+                - link [ref=e2000] [cursor=pointer]:
+                  - /url: ./search-console/https?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e187]: lock
+                  - generic [ref=e189]: HTTPS
+            - generic [ref=e193]:
+              - button [expanded] [ref=e2001] [cursor=pointer]:
+                - generic [ref=e195]:
+                  - generic [ref=e198]: Enhancements
+                  - img [ref=e202]
+              - generic [ref=e207]:
+                - link [ref=e2002] [cursor=pointer]:
+                  - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e211]: layers
+                  - generic [ref=e213]: Breadcrumbs
+                - link [ref=e2003] [cursor=pointer]:
+                  - /url: ./search-console/r/faq?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e218]: layers
+                  - generic [ref=e220]: FAQ
+                - link [ref=e2004] [cursor=pointer]:
+                  - /url: ./search-console/r/review-snippet?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e225]: layers
+                  - generic [ref=e227]: Review snippets
+                - link [ref=e2005] [cursor=pointer]:
+                  - /url: ./search-console/r/videos?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e232]: layers
+                  - generic [ref=e234]: Videos
+            - button [ref=e2006] [cursor=pointer]:
+              - generic [ref=e240]:
+                - generic [ref=e243]: Security & Manual Actions
+                - img [ref=e247]
+            - generic [ref=e249]:
+              - link [ref=e2007] [cursor=pointer]:
+                - /url: ./search-console/links?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e253]: link_2
+                - generic [ref=e255]: Links
+              - link [ref=e2008] [cursor=pointer]:
+                - /url: ./search-console/achievements?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e260]: trophy
+                - generic [ref=e262]: Achievements
+              - link [ref=e2009] [cursor=pointer]:
+                - /url: ./search-console/settings?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e267]: settings
+                - generic [ref=e269]: Settings
+          - generic [ref=e271]:
+            - generic [ref=e273]:
+              - button [ref=e2010] [cursor=pointer]:
+                - generic [ref=e277]: feedback
+                - generic [ref=e279]: Submit feedback
+              - button [ref=e2011] [cursor=pointer]:
+                - generic [ref=e284]: info
+                - generic [ref=e286]: About Search Console
+            - generic [ref=e290]:
+              - link [ref=e2012] [cursor=pointer]:
+                - /url: https://myaccount.google.com/privacypolicy?hl=en-GB
+                - text: Privacy
+              - link [ref=e2013] [cursor=pointer]:
+                - /url: https://myaccount.google.com/termsofservice?hl=en-GB
+                - text: Terms
+    - generic [ref=e1840]:
+      - generic [ref=e1848]: https://kaufast.com/es-ES/insights/linkedin-seo-como-el-contenido-social-impulsa-el-crecimiento
+      - generic [ref=e1854]:
+        - generic [ref=e1856]:
+          - navigation [ref=e2014]:
+            - heading [level=1] [ref=e2015]: URL Inspection
+          - button [ref=e2016] [cursor=pointer]:
+            - generic [ref=e1869]: Test live URL
+        - main [ref=e1871]:
+          - generic [ref=e1872]:
+            - generic [ref=e1874]:
+              - generic [ref=e1875]:
+                - generic [ref=e1876]: check_circle
+                - generic [ref=e1877]:
+                  - generic [ref=e1878]: URL is on Google
+                  - generic [ref=e1879]:
+                    - text: It can appear in Google Search results (if not subject to a manual action or removal request) with all relevant enhancements.
+                    - link [ref=e2017] [cursor=pointer]:
+                      - /url: https://support.google.com/webmasters/answer/9012289#url_on_google
+                      - text: Learn more
+              - generic [ref=e1883]:
+                - button [ref=e2018] [cursor=pointer]:
+                  - generic [ref=e1892]: View crawled page
+                - generic [ref=e1893]:
+                  - generic [ref=e1894]: Page changed?
+                  - button [ref=e2019] [cursor=pointer]:
+                    - generic [ref=e1903]: Request indexing
+            - button [ref=e2020] [cursor=pointer]:
+              - generic [ref=e1910]:
+                - generic [ref=e1912]:
+                  - generic [ref=e1914]: check_circle
+                  - generic [ref=e1915]:
+                    - generic [ref=e1916]: Page indexing
+                    - generic [ref=e1917]: Page is indexed
+                - generic [ref=e1920]: 
+            - generic [ref=e1921]: Enhancements and experience
+            - generic [ref=e1923]:
+              - link [ref=e2021] [cursor=pointer]:
+                - /url: ./search-console/inspect/https?resource_id=sc-domain%3Akaufast.com&id=kuLhAxZj0xVAUeJTChPFRw
+                - generic [ref=e1929]:
+                  - generic [ref=e1931]: check_circle
+                  - generic [ref=e1932]:
+                    - generic [ref=e1933]: HTTPS
+                    - generic [ref=e1934]: Page is served over HTTPS
+                  - generic [ref=e1936]: 
+              - link [ref=e2022] [cursor=pointer]:
+                - /url: ./search-console/inspect/r/breadcrumbs?resource_id=sc-domain%3Akaufast.com&id=kuLhAxZj0xVAUeJTChPFRw
+                - generic [ref=e1942]:
+                  - generic [ref=e1944]: check_circle
+                  - generic [ref=e1945]:
+                    - generic [ref=e1946]: Breadcrumbs
+                    - generic [ref=e1947]: 1 valid item detected
+                  - generic [ref=e1949]: 
+              - link [ref=e2023] [cursor=pointer]:
+                - /url: ./search-console/inspect/r/faq?resource_id=sc-domain%3Akaufast.com&id=kuLhAxZj0xVAUeJTChPFRw
+                - generic [ref=e1955]:
+                  - generic [ref=e1957]: check_circle
+                  - generic [ref=e1958]:
+                    - generic [ref=e1959]: FAQ
+                    - generic [ref=e1960]: 1 valid item detected
+                  - generic [ref=e1962]: 
+    - dialog "Testing if live URL can be indexed" [ref=e2025]:
+      - generic [ref=e2027]:
+        - generic [ref=e2028]: Testing if live URL can be indexed
+        - progressbar "Testing if live URL can be indexed" [ref=e2030]
+        - generic [ref=e2036]: This might take a minute or two
+        - button "Cancel" [active] [ref=e2038] [cursor=pointer]:
+          - generic [ref=e2040]: Cancel
+  - iframe [ref=e944]:
+    - generic [ref=f35e6]:
+      - text: protected by
+      - strong [ref=f35e7]: reCAPTCHA

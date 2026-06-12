@@ -1,0 +1,238 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button [ref=e3175] [cursor=pointer]:
+            - img [ref=e8]
+          - link [ref=e3176] [cursor=pointer]:
+            - /url: ./search-console?resource_id=sc-domain%3Akaufast.com
+            - img [ref=e13]
+        - generic [ref=e14]:
+          - search [ref=e16]:
+            - generic [ref=e22]:
+              - textbox [disabled] [ref=e23]: Inspect any URL in 'kaufast.com'
+              - combobox [ref=e3177]
+            - button [ref=e3178] [cursor=pointer]:
+              - img [ref=e26]
+          - generic [ref=e29]:
+            - generic [ref=e31]:
+              - button [ref=e3179] [cursor=pointer]:
+                - generic [ref=e36]: 
+              - button [ref=e3180] [cursor=pointer]:
+                - img [ref=e41]
+            - button [ref=e3181] [cursor=pointer]:
+              - generic [ref=e47]:
+                - generic [ref=e48]: 
+                - generic [ref=e3165]: "35"
+        - generic [ref=e52]:
+          - button [ref=e3182] [cursor=pointer]:
+            - img [ref=e57]
+          - button [ref=e3183] [cursor=pointer]:
+            - img [ref=e64]
+    - dialog [ref=e3184]:
+      - navigation [ref=e3185]:
+        - button [ref=e3186] [cursor=pointer]:
+          - img [ref=e3187]
+          - combobox [ref=e3188]: kaufast.com
+          - generic [ref=e85]: 
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - link [ref=e3189] [cursor=pointer]:
+                - /url: ./search-console?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e92]: home
+                - generic [ref=e94]: Overview
+              - link [ref=e3190] [cursor=pointer]:
+                - /url: ./search-console/performance/insights?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e99]: lightbulb_2
+                - generic [ref=e101]: Insights
+              - link [ref=e3191] [cursor=pointer]:
+                - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e106]: trending_up
+                - generic [ref=e108]: Performance
+              - button [ref=e3192] [cursor=pointer]:
+                - generic [ref=e113]: search
+                - generic [ref=e115]: URL inspection
+            - generic [ref=e119]:
+              - button [expanded] [ref=e3193] [cursor=pointer]:
+                - generic [ref=e121]:
+                  - generic [ref=e124]: Indexing
+                  - img [ref=e128]
+              - generic [ref=e133]:
+                - link [ref=e3194] [cursor=pointer]:
+                  - /url: ./search-console/index?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e137]: file_copy
+                  - generic [ref=e139]: Pages
+                - link [ref=e3195] [cursor=pointer]:
+                  - /url: ./search-console/video-index?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e144]: video_library
+                  - generic [ref=e146]: Videos
+                - link [ref=e3196] [cursor=pointer]:
+                  - /url: ./search-console/sitemaps?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e151]: account_tree
+                  - generic [ref=e153]: Sitemaps
+                - link [ref=e3197] [cursor=pointer]:
+                  - /url: ./search-console/removals?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e158]: visibility_off
+                  - generic [ref=e160]: Removals
+            - generic [ref=e164]:
+              - button [expanded] [ref=e3198] [cursor=pointer]:
+                - generic [ref=e166]:
+                  - generic [ref=e169]: Experience
+                  - img [ref=e173]
+              - generic [ref=e178]:
+                - link [ref=e3199] [cursor=pointer]:
+                  - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e182]: speed
+                  - generic [ref=e184]: Core web vitals
+                - link [ref=e3200] [cursor=pointer]:
+                  - /url: ./search-console/https?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e189]: lock
+                  - generic [ref=e191]: HTTPS
+            - generic [ref=e195]:
+              - button [expanded] [ref=e3201] [cursor=pointer]:
+                - generic [ref=e197]:
+                  - generic [ref=e200]: Enhancements
+                  - img [ref=e204]
+              - generic [ref=e209]:
+                - link [ref=e3202] [cursor=pointer]:
+                  - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e213]: layers
+                  - generic [ref=e215]: Breadcrumbs
+                - link [ref=e3203] [cursor=pointer]:
+                  - /url: ./search-console/r/faq?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e220]: layers
+                  - generic [ref=e222]: FAQ
+                - link [ref=e3204] [cursor=pointer]:
+                  - /url: ./search-console/r/review-snippet?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e227]: layers
+                  - generic [ref=e229]: Review snippets
+                - link [ref=e3205] [cursor=pointer]:
+                  - /url: ./search-console/r/videos?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e234]: layers
+                  - generic [ref=e236]: Videos
+            - button [ref=e3206] [cursor=pointer]:
+              - generic [ref=e242]:
+                - generic [ref=e245]: Security & Manual Actions
+                - img [ref=e249]
+            - generic [ref=e251]:
+              - link [ref=e3207] [cursor=pointer]:
+                - /url: ./search-console/links?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e255]: link_2
+                - generic [ref=e257]: Links
+              - link [ref=e3208] [cursor=pointer]:
+                - /url: ./search-console/achievements?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e262]: trophy
+                - generic [ref=e264]: Achievements
+              - link [ref=e3209] [cursor=pointer]:
+                - /url: ./search-console/settings?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e269]: settings
+                - generic [ref=e271]: Settings
+          - generic [ref=e273]:
+            - generic [ref=e275]:
+              - button [ref=e3210] [cursor=pointer]:
+                - generic [ref=e279]: feedback
+                - generic [ref=e281]: Submit feedback
+              - button [ref=e3211] [cursor=pointer]:
+                - generic [ref=e286]: info
+                - generic [ref=e288]: About Search Console
+            - generic [ref=e292]:
+              - link [ref=e3212] [cursor=pointer]:
+                - /url: https://myaccount.google.com/privacypolicy?hl=en-GB
+                - text: Privacy
+              - link [ref=e3213] [cursor=pointer]:
+                - /url: https://myaccount.google.com/termsofservice?hl=en-GB
+                - text: Terms
+    - generic [ref=e3017]:
+      - generic [ref=e3025]: https://kaufast.com/es-ES/insights/la-primera-fase-del-marketing-es-aprender
+      - generic [ref=e3026]:
+        - generic [ref=e3028]:
+          - navigation [ref=e3214]:
+            - heading [level=1] [ref=e3215]: URL Inspection
+          - button [ref=e3216] [cursor=pointer]:
+            - generic [ref=e3041]: Test live URL
+        - main [ref=e3043]:
+          - generic [ref=e3044]:
+            - generic [ref=e3046]:
+              - generic [ref=e3047]:
+                - generic [ref=e3048]: info
+                - generic [ref=e3049]:
+                  - generic [ref=e3050]: URL is not on Google
+                  - generic [ref=e3051]:
+                    - text: This page is not indexed. Pages that aren't indexed can't be served on Google. See the details below to learn why it wasn't indexed.
+                    - link [ref=e3217] [cursor=pointer]:
+                      - /url: https://support.google.com/webmasters/answer/9012289#url_not_on_google
+                      - text: Learn more
+              - generic [ref=e3055]:
+                - button [disabled] [ref=e3218]:
+                  - generic [ref=e3064]: View crawled page
+                - generic [ref=e3065]:
+                  - generic [ref=e3066]: Page changed?
+                  - button [ref=e3219] [cursor=pointer]:
+                    - generic [ref=e3075]: Request indexing
+            - generic [ref=e3080]:
+              - button [expanded] [ref=e3220] [cursor=pointer]:
+                - generic [ref=e3082]:
+                  - generic [ref=e3084]:
+                    - generic [ref=e3086]: info
+                    - generic [ref=e3087]:
+                      - generic [ref=e3088]: Page indexing
+                      - generic [ref=e3089]: "Page is not indexed: URL is unknown to Google"
+                  - generic [ref=e3092]: 
+              - generic [ref=e3096]:
+                - generic [ref=e3097]:
+                  - generic [ref=e3098]:
+                    - generic [ref=e3099]: Discovery
+                    - generic [ref=e3100]:
+                      - generic [ref=e3101]: Sitemaps
+                      - generic [ref=e3103]: No referring sitemaps detected
+                    - generic [ref=e3104]:
+                      - generic [ref=e3105]: Referring page
+                      - generic [ref=e3107]: None detected
+                    - generic [ref=e3109]: URL might be known from other sources that are currently not reported
+                  - generic [ref=e3110]:
+                    - generic [ref=e3111]: Crawl
+                    - generic [ref=e3112]:
+                      - generic [ref=e3113]: Last crawl
+                      - generic [ref=e3115]: N/A
+                    - generic [ref=e3116]:
+                      - generic [ref=e3117]: Crawled as
+                      - generic [ref=e3119]: N/A
+                    - generic [ref=e3120]:
+                      - generic [ref=e3121]: Crawl allowed?
+                      - generic [ref=e3123]: N/A
+                    - generic [ref=e3124]:
+                      - generic [ref=e3125]: Page fetch
+                      - generic [ref=e3127]: N/A
+                    - generic [ref=e3128]:
+                      - generic [ref=e3129]: Indexing allowed?
+                      - generic [ref=e3131]: info
+                      - generic [ref=e3133]: N/A
+                  - generic [ref=e3134]:
+                    - generic [ref=e3135]: Indexing
+                    - generic [ref=e3136]:
+                      - generic [ref=e3137]: User-declared canonical
+                      - generic [ref=e3139]: N/A
+                    - generic [ref=e3140]:
+                      - generic [ref=e3142]:
+                        - generic [ref=e3143]: Google-selected canonical
+                        - button [ref=e3221] [cursor=pointer]:
+                          - generic [ref=e3147]: 
+                      - generic [ref=e3149]: N/A
+                - link [ref=e3222] [cursor=pointer]:
+                  - /url: https://support.google.com/webmasters/answer/9012289#url_unknown
+                  - generic [ref=e3158]: Learn More
+            - generic [ref=e3159]: Enhancements and experience
+            - generic [ref=e3163]: Only indexed URLs can have enhancements
+    - dialog "Testing if live URL can be indexed" [ref=e3224]:
+      - generic [ref=e3226]:
+        - generic [ref=e3227]: Testing if live URL can be indexed
+        - progressbar "Testing if live URL can be indexed" [ref=e3229]
+        - generic [ref=e3235]: This might take a minute or two
+        - button "Cancel" [active] [ref=e3237] [cursor=pointer]:
+          - generic [ref=e3239]: Cancel
+  - iframe [ref=e1640]:
+    - generic [ref=f13e6]:
+      - text: protected by
+      - strong [ref=f13e7]: reCAPTCHA

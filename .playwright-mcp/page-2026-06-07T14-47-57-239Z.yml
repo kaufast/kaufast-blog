@@ -1,0 +1,111 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button "Go back" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+          - heading "Rich Results Test" [level=1] [ref=e8]
+        - button [ref=e12] [cursor=pointer]:
+          - generic [ref=e15]: 
+        - generic [ref=e17]:
+          - button "Google apps" [ref=e21] [cursor=pointer]:
+            - img [ref=e22]
+          - 'button "Google Account: Kenneth Melchor (kennethmelchor@gmail.com)" [ref=e27] [cursor=pointer]':
+            - img [ref=e29]
+    - generic [ref=e122]:
+      - generic [ref=e126]:
+        - generic [ref=e127]: 
+        - textbox [ref=e131]: https://kaufast.com/en-GB/insights/echoflicks-ai-writes-about-us-7-days
+        - button [ref=e132] [cursor=pointer]:
+          - generic [ref=e135]: 
+        - button [ref=e137] [cursor=pointer]:
+          - generic [ref=e140]: 
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - navigation [ref=e148]:
+            - heading [level=1] [ref=e151]: Test results
+          - button [ref=e155] [cursor=pointer]:
+            - generic [ref=e159]:
+              - generic [ref=e160]: 
+              - generic [ref=e161]: Share
+        - generic [ref=e170]:
+          - generic [ref=e172]:
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - generic [ref=e176]: check_circle
+                - generic [ref=e177]:
+                  - generic [ref=e178]: 4 valid items detected
+                  - generic [ref=e179]:
+                    - text: Valid items are eligible for Google Search's rich results.
+                    - link [ref=e181] [cursor=pointer]:
+                      - /url: https://support.google.com/webmasters/answer/9012289#enhancements
+                      - text: Learn more
+              - generic [ref=e183]:
+                - button [ref=e187] [cursor=pointer]:
+                  - generic [ref=e192]: View tested page
+                - button [ref=e196] [cursor=pointer]:
+                  - generic [ref=e201]: Preview results
+            - generic [ref=e202]: Details
+            - generic [ref=e205]:
+              - generic [ref=e206]: Crawl
+              - button [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]:
+                  - generic [ref=e212]:
+                    - generic [ref=e213]: check_circle
+                    - generic [ref=e214]: Crawled successfully on 7 Jun 2026, 16:47:48
+                  - generic [ref=e217]: 
+            - generic [ref=e218]: Detected structured data
+            - generic [ref=e220]:
+              - link [ref=e222] [cursor=pointer]:
+                - /url: ./test/rich-results/result/r%2Farticles?id=c_chh52ElNbE6LQxZIJUJQ
+                - generic [ref=e226]:
+                  - generic [ref=e228]: check_circle
+                  - generic [ref=e229]:
+                    - generic [ref=e230]: Articles
+                    - generic [ref=e231]: 1 valid item detected
+                  - generic [ref=e233]: 
+              - link [ref=e235] [cursor=pointer]:
+                - /url: ./test/rich-results/result/r%2Fbreadcrumbs?id=c_chh52ElNbE6LQxZIJUJQ
+                - generic [ref=e239]:
+                  - generic [ref=e241]: check_circle
+                  - generic [ref=e242]:
+                    - generic [ref=e243]: Breadcrumbs
+                    - generic [ref=e244]: 1 valid item detected
+                  - generic [ref=e246]: 
+              - link [ref=e248] [cursor=pointer]:
+                - /url: ./test/rich-results/result/r%2Ffaq?id=c_chh52ElNbE6LQxZIJUJQ
+                - generic [ref=e252]:
+                  - generic [ref=e254]: check_circle
+                  - generic [ref=e255]:
+                    - generic [ref=e256]: FAQ
+                    - generic [ref=e257]: 1 valid item detected
+                  - generic [ref=e259]: 
+              - link [ref=e261] [cursor=pointer]:
+                - /url: ./test/rich-results/result/r%2Forganization-info?id=c_chh52ElNbE6LQxZIJUJQ
+                - generic [ref=e265]:
+                  - generic [ref=e267]: check_circle
+                  - generic [ref=e268]:
+                    - generic [ref=e269]: Organisation
+                    - generic [ref=e270]: 1 valid item detected
+                  - generic [ref=e272]: 
+            - generic [ref=e273]: Additional resources
+            - link [ref=e277] [cursor=pointer]:
+              - /url: ./search-console/welcome
+              - generic [ref=e281]:
+                - generic [ref=e283]: 
+                - generic [ref=e285]:
+                  - text: Monitor rich results for your entire site
+                  - generic [ref=e286]: Go to Search Console
+          - generic [ref=e289]:
+            - link [ref=e290] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=en-GB
+              - text: Privacy
+            - link [ref=e291] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=en-GB
+              - text: Terms
+  - iframe [ref=e114]:
+    - generic [ref=f7e6]:
+      - text: protected by
+      - strong [ref=f7e7]: reCAPTCHA
+  - generic [ref=e292]: Loading...

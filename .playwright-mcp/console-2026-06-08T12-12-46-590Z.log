@@ -1,0 +1,385 @@
+[      77ms] [LOG] [FoxTradingApp] Initializing FoxTrading App... @ https://ftsgp.com/assets/js/modules/app.js:878
+[      83ms] [LOG] [FoxTradingApp] Language detection result: {detected: true, language: en-SG, source: storage, priority: 8, confidence: 0.95} @ https://ftsgp.com/assets/js/modules/app.js:878
+[      83ms] [LOG] 🔍 FULL URL ANALYSIS: {pathname: /, search: , hash: , href: https://ftsgp.com/} @ https://ftsgp.com/assets/js/modules/app.js:57
+[      83ms] [LOG] 🌐 LOADING TRANSLATIONS: /locales/en-SG.json @ https://ftsgp.com/assets/js/modules/i18n.js:88
+[     120ms] [LOG] 🌐 FETCH RESPONSE: {url: /locales/en-SG.json, status: 200, statusText: , ok: true} @ https://ftsgp.com/assets/js/modules/i18n.js:92
+[     120ms] [LOG] 🌐 LOADED TRANSLATIONS FOR en-SG: {nav: Object, hero: Object, about: Object, services: Object, projects: Object} @ https://ftsgp.com/assets/js/modules/i18n.js:104
+[     120ms] [LOG] 🔄 UPDATING DOM: Found 162 elements with data-i18n @ https://ftsgp.com/assets/js/modules/i18n.js:222
+[     120ms] [LOG] 🔄 Element 1: footer.contactInfo -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 2: footer.email -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 3: footer.phone -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 4: footer.location -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 5: footer.address1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 6: footer.address2 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 7: nav.about -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 8: nav.services -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 9: nav.project -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 10: nav.faq -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 11: founder.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 12: founder.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 13: nav.bookCall -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 14: nav.about -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 15: nav.services -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 16: nav.project -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 17: nav.faq -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 18: founder.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 19: founder.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 20: nav.bookCall -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 21: nav.home -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 22: nav.about -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 23: nav.services -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 24: nav.project -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 25: nav.faq -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 26: founder.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 27: founder.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 28: nav.bookCall -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 29: hero.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 30: hero.subtitle -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 31: about.label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 32: about.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 33: about.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 34: about.established -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 35: about.years -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 36: about.workAcross -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 37: about.countries -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 38: about.over -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 39: about.projects -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 40: services.nutsSeeds.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 41: services.nutsSeeds.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 42: services.nutsSeeds.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 43: services.nutsSeeds.stat2 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 44: services.nutsSeeds.stat2Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 45: services.citrusFruits.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 46: services.citrusFruits.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     121ms] [LOG] 🔄 Element 47: services.citrusFruits.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 48: services.berriesVegetables.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 49: services.berriesVegetables.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 50: services.berriesVegetables.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 51: services.avocadoSpecialty.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 52: services.avocadoSpecialty.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 53: services.avocadoSpecialty.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 54: services.nutsSeeds.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 55: services.nutsSeeds.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 56: services.citrusFruits.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 57: services.citrusFruits.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 58: services.berriesVegetables.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 59: services.berriesVegetables.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 60: services.avocadoSpecialty.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 61: services.avocadoSpecialty.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 62: services.nutsSeeds.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 63: services.nutsSeeds.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 64: services.nutsSeeds.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 65: services.nutsSeeds.stat2 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 66: services.nutsSeeds.stat2Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 67: services.nutsSeeds.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 68: services.nutsSeeds.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 69: services.citrusFruits.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 70: services.citrusFruits.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 71: services.citrusFruits.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 72: services.citrusFruits.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 73: services.citrusFruits.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 74: services.berriesVegetables.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 75: services.berriesVegetables.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 76: services.berriesVegetables.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 77: services.berriesVegetables.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 78: services.berriesVegetables.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 79: services.avocadoSpecialty.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 80: services.avocadoSpecialty.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 81: services.avocadoSpecialty.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 82: services.avocadoSpecialty.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 83: services.avocadoSpecialty.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 84: projects.label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 85: projects.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 86: projects.project1.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 87: projects.project1.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 88: projects.avocado -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 89: projects.pecan -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 90: projects.mango -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 91: projects.berries -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 92: projects.project1.totalArea -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 93: projects.project1.area -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 94: projects.project1.totalRoom -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 95: projects.project1.rooms -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 96: projects.project1.dateOfBuild -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 97: projects.project1.date -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 98: projects.project2.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 99: projects.project2.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 100: projects.project2.totalArea -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 101: projects.project2.area -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 102: projects.project2.totalRoom -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     122ms] [LOG] 🔄 Element 103: projects.project2.rooms -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 104: projects.project2.dateOfBuild -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 105: projects.project2.date -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 106: projects.project3.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 107: projects.project3.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 108: projects.project3.totalArea -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 109: projects.project3.area -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 110: projects.project3.totalRoom -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 111: projects.project3.rooms -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 112: projects.project3.dateOfBuild -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 113: projects.project3.date -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 114: projects.project4.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 115: projects.project4.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 116: projects.project4.totalArea -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 117: projects.project4.area -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 118: projects.project4.totalRoom -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 119: projects.project4.rooms -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 120: projects.project4.dateOfBuild -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 121: projects.project4.date -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 122: projects.project5.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 123: projects.project5.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 124: projects.project5.totalArea -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 125: projects.project5.area -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 126: projects.project5.totalRoom -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 127: projects.project5.rooms -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 128: projects.project5.dateOfBuild -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 129: projects.project5.date -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 130: team.label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 131: team.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 132: team.member1.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 133: team.member1.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 134: team.member1.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 135: team.member2.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 136: team.member2.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 137: team.member2.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 138: team.member3.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 139: team.member3.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 140: team.member3.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 141: team.member4.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 142: team.member4.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 143: team.member4.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 144: faq.label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 145: faq.q1.question -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 146: faq.q1.answer -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 147: faq.q2.question -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 148: faq.q2.answer -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 149: faq.q3.question -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 150: faq.q3.answer -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 151: faq.q4.question -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 152: faq.q4.answer -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [LOG] 🔄 Element 153: footer.about -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [WARNING] Missing translation for key: footer.about in language: en-SG @ https://ftsgp.com/assets/js/modules/i18n.js:133
+[     123ms] [LOG] 🔄 Element 154: footer.services -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [WARNING] Missing translation for key: footer.services in language: en-SG @ https://ftsgp.com/assets/js/modules/i18n.js:133
+[     123ms] [LOG] 🔄 Element 155: footer.faq -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     123ms] [WARNING] Missing translation for key: footer.faq in language: en-SG @ https://ftsgp.com/assets/js/modules/i18n.js:133
+[     123ms] [LOG] 🔄 Element 156: footer.contact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     124ms] [LOG] 🔄 Element 157: footer.email -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     124ms] [LOG] 🔄 Element 158: footer.phone -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     124ms] [LOG] 🔄 Element 159: footer.location -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     124ms] [LOG] 🔄 Element 160: footer.address1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     124ms] [LOG] 🔄 Element 161: footer.address2 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     124ms] [LOG] 🔄 Element 162: footer.rights -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[     124ms] [LOG] ✅ DOM UPDATE COMPLETE for language: en-SG @ https://ftsgp.com/assets/js/modules/i18n.js:233
+[     124ms] [LOG] [FoxTradingApp] i18n ready: {language: en-SG} @ https://ftsgp.com/assets/js/modules/app.js:878
+[     124ms] [LOG] [FoxTradingApp] Adding translation attributes to HTML elements... @ https://ftsgp.com/assets/js/modules/app.js:878
+[     124ms] [LOG] [FoxTradingApp] Translation attributes added successfully to ALL sections @ https://ftsgp.com/assets/js/modules/app.js:878
+[     124ms] [LOG] [FoxTradingApp] Language selector creation initiated @ https://ftsgp.com/assets/js/modules/app.js:878
+[     124ms] [LOG] [FoxTradingApp] Initializing lazy loading system... @ https://ftsgp.com/assets/js/modules/app.js:878
+[     124ms] [LOG] [LazyLoader] Initializing lazy loading system... @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     124ms] [LOG] [LazyLoader] Performance: lazyloader_init at 0.00ms @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     125ms] [LOG] [LazyLoader] Found 6 sections and 29 images to lazy load @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     125ms] [LOG] [LazyLoader] Lazy loading initialized successfully @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     125ms] [LOG] [FoxTradingApp] Lazy loading initialized successfully @ https://ftsgp.com/assets/js/modules/app.js:878
+[     125ms] [LOG] [FoxTradingApp] Preloading languages: [es-MX] @ https://ftsgp.com/assets/js/modules/app.js:878
+[     125ms] [LOG] 🌐 LOADING TRANSLATIONS: /locales/es-MX.json @ https://ftsgp.com/assets/js/modules/i18n.js:88
+[     125ms] [LOG] [FoxTradingApp] FoxTrading App initialized successfully @ https://ftsgp.com/assets/js/modules/app.js:878
+[     125ms] [LOG] [FoxTradingApp] Language usage: {language: en-SG, method: undefined, confidence: 0.95, timestamp: 2026-06-08T12:12:46.714Z, userAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ap…KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36} @ https://ftsgp.com/assets/js/modules/app.js:878
+[     129ms] [LOG] [LazyLoader] Performance: hero_visible at 4.80ms @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     129ms] [LOG] [LazyLoader] Hero section is visible, starting lazy loading... @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     129ms] [LOG] [LazyLoader] Loading section: about-section (critical) @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     129ms] [LOG] [LazyLoader] Performance: section_loaded_about-section at 5.10ms @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     129ms] [LOG] [LazyLoader] Loading section: service-section (critical) @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     129ms] [LOG] [LazyLoader] Loading image: https://ftsgp.com/assets/images/food/Spirits.webp @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     129ms] [LOG] [LazyLoader] Loading image: https://ftsgp.com/assets/images/food/vegetables.webp @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     130ms] [LOG] [LazyLoader] Loading image: https://ftsgp.com/assets/images/food/Frozen-Foods.webp @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     130ms] [LOG] [LazyLoader] Loading image: https://ftsgp.com/assets/images/food/Livestock.webp @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     130ms] [LOG] [LazyLoader] Loading image: https://ftsgp.com/assets/images/food/Spirits.webp @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     130ms] [LOG] [LazyLoader] Loading image: https://ftsgp.com/assets/images/food/vegetables.webp @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     130ms] [LOG] [LazyLoader] Loading image: https://ftsgp.com/assets/images/food/Frozen-Foods.webp @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     130ms] [LOG] [LazyLoader] Loading image: https://ftsgp.com/assets/images/food/Livestock.webp @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     130ms] [LOG] [LazyLoader] Performance: section_loaded_service-section at 5.50ms @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     145ms] [LOG] [LazyLoader] Loading image: https://ftsgp.com/assets/images/foxtradingsingapore-black.webp @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     145ms] [LOG] [LazyLoader] Loading image: https://ftsgp.com/assets/images/icons/agent.svg @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     157ms] [LOG] 🌐 FETCH RESPONSE: {url: /locales/es-MX.json, status: 200, statusText: , ok: true} @ https://ftsgp.com/assets/js/modules/i18n.js:92
+[     157ms] [LOG] 🌐 LOADED TRANSLATIONS FOR es-MX: {nav: Object, hero: Object, about: Object, services: Object, projects: Object} @ https://ftsgp.com/assets/js/modules/i18n.js:104
+[     157ms] [LOG] [FoxTradingApp] Languages preloaded successfully @ https://ftsgp.com/assets/js/modules/app.js:878
+[     173ms] [LOG] [LazyLoader] Performance: window_load at 48.60ms @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[     173ms] [LOG] lazyloader_init: 0.00ms @ https://ftsgp.com/assets/js/modules/lazy-loader.js:376
+[     173ms] [LOG] hero_visible: 4.80ms @ https://ftsgp.com/assets/js/modules/lazy-loader.js:376
+[     173ms] [LOG] section_loaded_about-section: 5.10ms @ https://ftsgp.com/assets/js/modules/lazy-loader.js:376
+[     173ms] [LOG] section_loaded_service-section: 5.50ms @ https://ftsgp.com/assets/js/modules/lazy-loader.js:376
+[     173ms] [LOG] window_load: 48.60ms @ https://ftsgp.com/assets/js/modules/lazy-loader.js:376
+[     225ms] [LOG] [FoxTradingApp] Created desktop language selector with options: [en-SG, es-MX] @ https://ftsgp.com/assets/js/modules/app.js:878
+[     225ms] [LOG] 🎯 Language selector element: JSHandle@node @ https://ftsgp.com/assets/js/modules/app.js:239
+[     225ms] [LOG] [FoxTradingApp] Desktop language selector created @ https://ftsgp.com/assets/js/modules/app.js:878
+[    1125ms] [LOG] [FoxTradingApp] Debug: Forcing initial translation update @ https://ftsgp.com/assets/js/modules/app.js:878
+[    1125ms] [LOG] 🔄 FORCING PAGE UPDATE... @ https://ftsgp.com/assets/js/modules/i18n.js:240
+[    1125ms] [LOG] 🔄 UPDATING DOM: Found 164 elements with data-i18n @ https://ftsgp.com/assets/js/modules/i18n.js:222
+[    1125ms] [LOG] 🔄 Element 1: footer.contactInfo -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 2: footer.email -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 3: footer.phone -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 4: footer.location -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 5: footer.address1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 6: footer.address2 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 7: nav.about -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 8: nav.services -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 9: nav.project -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 10: nav.faq -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 11: founder.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 12: founder.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 13: nav.bookCall -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 14: nav.about -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 15: nav.services -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 16: nav.project -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 17: nav.faq -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 18: founder.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 19: founder.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 20: nav.bookCall -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 21: nav.home -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 22: nav.about -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 23: nav.services -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 24: nav.project -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 25: nav.faq -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 26: founder.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 27: founder.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1125ms] [LOG] 🔄 Element 28: nav.bookCall -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 29: hero.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 30: hero.subtitle -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 31: about.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 32: about.label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 33: about.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 34: about.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 35: about.established -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 36: about.years -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 37: about.workAcross -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 38: about.countries -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 39: about.over -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 40: about.projects -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 41: services.nutsSeeds.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 42: services.nutsSeeds.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 43: services.nutsSeeds.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 44: services.nutsSeeds.stat2 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 45: services.nutsSeeds.stat2Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 46: services.citrusFruits.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 47: services.citrusFruits.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 48: services.citrusFruits.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 49: services.berriesVegetables.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 50: services.berriesVegetables.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 51: services.berriesVegetables.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 52: services.avocadoSpecialty.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 53: services.avocadoSpecialty.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 54: services.avocadoSpecialty.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 55: services.nutsSeeds.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 56: services.nutsSeeds.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 57: services.citrusFruits.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 58: services.citrusFruits.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 59: services.berriesVegetables.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 60: services.berriesVegetables.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 61: services.avocadoSpecialty.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 62: services.avocadoSpecialty.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 63: services.nutsSeeds.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 64: services.nutsSeeds.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 65: services.nutsSeeds.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 66: services.nutsSeeds.stat2 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 67: services.nutsSeeds.stat2Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 68: services.nutsSeeds.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 69: services.nutsSeeds.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 70: services.citrusFruits.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 71: services.citrusFruits.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 72: services.citrusFruits.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 73: services.citrusFruits.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 74: services.citrusFruits.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 75: services.berriesVegetables.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 76: services.berriesVegetables.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 77: services.berriesVegetables.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 78: services.berriesVegetables.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 79: services.berriesVegetables.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1126ms] [LOG] 🔄 Element 80: services.avocadoSpecialty.fact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 81: services.avocadoSpecialty.stat1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 82: services.avocadoSpecialty.stat1Label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 83: services.avocadoSpecialty.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 84: services.avocadoSpecialty.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 85: projects.label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 86: projects.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 87: projects.project1.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 88: projects.project1.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 89: projects.avocado -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 90: projects.pecan -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 91: projects.mango -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 92: projects.berries -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 93: projects.project1.totalArea -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 94: projects.project1.area -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 95: projects.project1.totalRoom -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 96: projects.project1.rooms -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 97: projects.project1.dateOfBuild -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 98: projects.project1.date -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 99: projects.project2.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 100: projects.project2.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 101: projects.project2.totalArea -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 102: projects.project2.area -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 103: projects.project2.totalRoom -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 104: projects.project2.rooms -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 105: projects.project2.dateOfBuild -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 106: projects.project2.date -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 107: projects.project3.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 108: projects.project3.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 109: projects.project3.totalArea -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 110: projects.project3.area -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 111: projects.project3.totalRoom -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 112: projects.project3.rooms -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 113: projects.project3.dateOfBuild -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 114: projects.project3.date -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 115: projects.project4.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 116: projects.project4.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 117: projects.project4.totalArea -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 118: projects.project4.area -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 119: projects.project4.totalRoom -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 120: projects.project4.rooms -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 121: projects.project4.dateOfBuild -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 122: projects.project4.date -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 123: projects.project5.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 124: projects.project5.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 125: projects.project5.totalArea -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 126: projects.project5.area -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 127: projects.project5.totalRoom -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 128: projects.project5.rooms -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 129: projects.project5.dateOfBuild -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 130: projects.project5.date -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 131: team.label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 132: team.title -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 133: team.member1.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 134: team.member1.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 135: team.member1.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 136: team.member2.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1127ms] [LOG] 🔄 Element 137: team.member2.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 138: team.member2.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 139: team.member3.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 140: team.member3.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 141: team.member3.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 142: team.member4.name -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 143: team.member4.position -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 144: team.member4.description -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 145: faq.label -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 146: faq.q1.question -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 147: faq.q1.answer -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 148: faq.q2.question -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 149: faq.q2.answer -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 150: faq.q3.question -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 151: faq.q3.answer -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 152: faq.q4.question -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 153: faq.q4.answer -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 154: footer.changelog -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 155: footer.styleGuide -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 156: footer.licence -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 157: footer.rights -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 158: footer.contact -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 159: footer.email -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 160: footer.phone -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 161: footer.location -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 162: footer.address1 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 163: footer.address2 -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] 🔄 Element 164: footer.rights -> JSHandle@node @ https://ftsgp.com/assets/js/modules/i18n.js:226
+[    1128ms] [LOG] ✅ DOM UPDATE COMPLETE for language: en-SG @ https://ftsgp.com/assets/js/modules/i18n.js:233
+[  219237ms] [LOG] [LazyLoader] Performance: lcp at 219328.00ms @ https://ftsgp.com/assets/js/modules/lazy-loader.js:400
+[66478752ms] [LOG] [FoxTradingApp] Session end: {language: en-SG, duration: NaN, timestamp: 2026-06-09T06:40:45.341Z} @ https://ftsgp.com/assets/js/modules/app.js:878

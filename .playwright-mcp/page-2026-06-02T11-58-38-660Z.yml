@@ -1,0 +1,287 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button "Main menu" [ref=e2932] [cursor=pointer]:
+            - img [ref=e8]
+          - link "Google Search Console" [ref=e2933] [cursor=pointer]:
+            - /url: ./search-console?resource_id=sc-domain%3Akaufast.com
+            - img [ref=e13]
+        - generic [ref=e14]:
+          - search [ref=e16]:
+            - generic [ref=e22]:
+              - textbox [disabled] [ref=e23]: Inspect any URL in 'kaufast.com'
+              - combobox "Inspect any URL in kaufast.com" [ref=e2934]
+            - button "Search" [ref=e2935] [cursor=pointer]:
+              - img [ref=e26]
+          - generic [ref=e29]:
+            - generic [ref=e31]:
+              - button "Help" [ref=e2936] [cursor=pointer]:
+                - generic [ref=e36]: 
+              - button "User settings" [ref=e2937] [cursor=pointer]:
+                - img [ref=e41]
+            - 'button "Unread messages: 35" [ref=e2938] [cursor=pointer]':
+              - generic [ref=e47]:
+                - generic [ref=e48]: 
+                - generic [ref=e2703]: "35"
+        - generic [ref=e52]:
+          - button "Google apps" [ref=e2939] [cursor=pointer]:
+            - img [ref=e57]
+          - 'button "Google Account: Kenneth Melchor (kennethmelchor@gmail.com)" [ref=e2940] [cursor=pointer]':
+            - img [ref=e64]
+    - dialog "navigational drawer" [ref=e2941]:
+      - navigation "Primary" [ref=e2942]:
+        - button "Search property" [ref=e2943] [cursor=pointer]:
+          - img "favicon" [ref=e2944]
+          - combobox "kaufast.com" [ref=e2945]
+          - generic [ref=e85]: 
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic:
+                - link "Overview":
+                  - /url: ./search-console?resource_id=sc-domain%3Akaufast.com
+                  - generic:
+                    - generic: home
+                  - generic:
+                    - generic: Overview
+              - generic:
+                - link "Insights":
+                  - /url: ./search-console/performance/insights?resource_id=sc-domain%3Akaufast.com
+                  - generic:
+                    - generic: lightbulb_2
+                  - generic:
+                    - generic: Insights
+              - generic:
+                - link "Performance":
+                  - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Akaufast.com
+                  - generic:
+                    - generic: trending_up
+                  - generic:
+                    - generic: Performance
+              - generic:
+                - button "URL inspection":
+                  - generic:
+                    - generic: search
+                  - generic:
+                    - generic: URL inspection
+            - generic [ref=e119]:
+              - button "Indexing report section" [expanded] [ref=e2950] [cursor=pointer]:
+                - generic [ref=e121]:
+                  - generic [ref=e124]: Indexing
+                  - img [ref=e128]
+              - generic [ref=e133]:
+                - generic:
+                  - link "Pages":
+                    - /url: ./search-console/index?resource_id=sc-domain%3Akaufast.com
+                    - generic:
+                      - generic: file_copy
+                    - generic:
+                      - generic: Pages
+                - generic:
+                  - link "Videos":
+                    - /url: ./search-console/video-index?resource_id=sc-domain%3Akaufast.com
+                    - generic:
+                      - generic: video_library
+                    - generic:
+                      - generic: Videos
+                - generic:
+                  - link "Sitemaps":
+                    - /url: ./search-console/sitemaps?resource_id=sc-domain%3Akaufast.com
+                    - generic:
+                      - generic: account_tree
+                    - generic:
+                      - generic: Sitemaps
+                - generic:
+                  - link "Removals":
+                    - /url: ./search-console/removals?resource_id=sc-domain%3Akaufast.com
+                    - generic:
+                      - generic: visibility_off
+                    - generic:
+                      - generic: Removals
+            - generic [ref=e164]:
+              - button "Experience report section" [expanded] [ref=e2955] [cursor=pointer]:
+                - generic [ref=e166]:
+                  - generic [ref=e169]: Experience
+                  - img [ref=e173]
+              - generic [ref=e178]:
+                - generic:
+                  - link "Core web vitals":
+                    - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Akaufast.com
+                    - generic:
+                      - generic: speed
+                    - generic:
+                      - generic: Core web vitals
+                - generic:
+                  - link "HTTPS":
+                    - /url: ./search-console/https?resource_id=sc-domain%3Akaufast.com
+                    - generic:
+                      - generic: lock
+                    - generic:
+                      - generic: HTTPS
+            - generic [ref=e195]:
+              - button "Enhancements report section" [expanded] [ref=e2958] [cursor=pointer]:
+                - generic [ref=e197]:
+                  - generic [ref=e200]: Enhancements
+                  - img [ref=e204]
+              - generic [ref=e209]:
+                - generic:
+                  - link "Breadcrumbs":
+                    - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Akaufast.com
+                    - generic:
+                      - generic: layers
+                    - generic:
+                      - generic: Breadcrumbs
+                - generic:
+                  - link "FAQ":
+                    - /url: ./search-console/r/faq?resource_id=sc-domain%3Akaufast.com
+                    - generic:
+                      - generic: layers
+                    - generic:
+                      - generic: FAQ
+                - generic:
+                  - link "Review snippets":
+                    - /url: ./search-console/r/review-snippet?resource_id=sc-domain%3Akaufast.com
+                    - generic:
+                      - generic: layers
+                    - generic:
+                      - generic: Review snippets
+                - generic:
+                  - link "Videos":
+                    - /url: ./search-console/r/videos?resource_id=sc-domain%3Akaufast.com
+                    - generic:
+                      - generic: layers
+                    - generic:
+                      - generic: Videos
+            - button "Security & Manual Actions report section" [ref=e2963] [cursor=pointer]:
+              - generic [ref=e242]:
+                - generic [ref=e245]: Security & Manual Actions
+                - img [ref=e249]
+            - generic [ref=e251]:
+              - generic:
+                - link "Links report":
+                  - /url: ./search-console/links?resource_id=sc-domain%3Akaufast.com
+                  - generic:
+                    - generic: link_2
+                  - generic:
+                    - generic: Links
+              - generic:
+                - link "Achievements":
+                  - /url: ./search-console/achievements?resource_id=sc-domain%3Akaufast.com
+                  - generic:
+                    - generic: trophy
+                  - generic:
+                    - generic: Achievements
+              - generic:
+                - link "Settings":
+                  - /url: ./search-console/settings?resource_id=sc-domain%3Akaufast.com
+                  - generic:
+                    - generic: settings
+                  - generic:
+                    - generic: Settings
+          - generic [ref=e273]:
+            - generic [ref=e275]:
+              - generic:
+                - button "Submit feedback":
+                  - generic:
+                    - generic: feedback
+                  - generic:
+                    - generic: Submit feedback
+              - generic:
+                - button "About Search Console":
+                  - generic:
+                    - generic: info
+                  - generic:
+                    - generic: About Search Console
+            - generic [ref=e292]:
+              - link "Privacy" [ref=e2969] [cursor=pointer]:
+                - /url: https://myaccount.google.com/privacypolicy?hl=en-GB
+              - link "Terms" [ref=e2970] [cursor=pointer]:
+                - /url: https://myaccount.google.com/termsofservice?hl=en-GB
+    - generic [ref=e3017]:
+      - generic [ref=e3025]: https://kaufast.com/es-ES/insights/la-primera-fase-del-marketing-es-aprender
+      - generic [ref=e3026]:
+        - generic [ref=e3028]:
+          - navigation [ref=e3030]:
+            - heading [level=1] [ref=e3033]: URL Inspection
+          - button [ref=e3038] [cursor=pointer]:
+            - generic [ref=e3041]: Test live URL
+        - main [ref=e3043]:
+          - generic [ref=e3044]:
+            - generic [ref=e3046]:
+              - generic [ref=e3047]:
+                - generic [ref=e3048]: info
+                - generic [ref=e3049]:
+                  - generic [ref=e3050]: URL is not on Google
+                  - generic [ref=e3051]:
+                    - text: This page is not indexed. Pages that aren't indexed can't be served on Google. See the details below to learn why it wasn't indexed.
+                    - link [ref=e3053] [cursor=pointer]:
+                      - /url: https://support.google.com/webmasters/answer/9012289#url_not_on_google
+                      - text: Learn more
+              - generic [ref=e3055]:
+                - button [disabled] [ref=e3059]:
+                  - generic [ref=e3064]: View crawled page
+                - generic [ref=e3065]:
+                  - generic [ref=e3066]: Page changed?
+                  - button [ref=e3069] [cursor=pointer]:
+                    - generic [ref=e3075]: Request indexing
+            - generic [ref=e3080]:
+              - button [expanded] [ref=e3081] [cursor=pointer]:
+                - generic [ref=e3082]:
+                  - generic [ref=e3084]:
+                    - generic [ref=e3086]: info
+                    - generic [ref=e3087]:
+                      - generic [ref=e3088]: Page indexing
+                      - generic [ref=e3089]: "Page is not indexed: URL is unknown to Google"
+                  - generic [ref=e3092]: 
+              - generic [ref=e3096]:
+                - generic [ref=e3097]:
+                  - generic [ref=e3098]:
+                    - generic [ref=e3099]: Discovery
+                    - generic [ref=e3100]:
+                      - generic [ref=e3101]: Sitemaps
+                      - generic [ref=e3103]: No referring sitemaps detected
+                    - generic [ref=e3104]:
+                      - generic [ref=e3105]: Referring page
+                      - generic [ref=e3107]: None detected
+                    - generic [ref=e3109]: URL might be known from other sources that are currently not reported
+                  - generic [ref=e3110]:
+                    - generic [ref=e3111]: Crawl
+                    - generic [ref=e3112]:
+                      - generic [ref=e3113]: Last crawl
+                      - generic [ref=e3115]: N/A
+                    - generic [ref=e3116]:
+                      - generic [ref=e3117]: Crawled as
+                      - generic [ref=e3119]: N/A
+                    - generic [ref=e3120]:
+                      - generic [ref=e3121]: Crawl allowed?
+                      - generic [ref=e3123]: N/A
+                    - generic [ref=e3124]:
+                      - generic [ref=e3125]: Page fetch
+                      - generic [ref=e3127]: N/A
+                    - generic [ref=e3128]:
+                      - generic [ref=e3129]: Indexing allowed?
+                      - generic [ref=e3131]: info
+                      - generic [ref=e3133]: N/A
+                  - generic [ref=e3134]:
+                    - generic [ref=e3135]: Indexing
+                    - generic [ref=e3136]:
+                      - generic [ref=e3137]: User-declared canonical
+                      - generic [ref=e3139]: N/A
+                    - generic [ref=e3140]:
+                      - generic [ref=e3142]:
+                        - generic [ref=e3143]: Google-selected canonical
+                        - button [ref=e3146] [cursor=pointer]:
+                          - generic [ref=e3147]: 
+                      - generic [ref=e3149]: N/A
+                - link [ref=e3153] [cursor=pointer]:
+                  - /url: https://support.google.com/webmasters/answer/9012289#url_unknown
+                  - generic [ref=e3158]: Learn More
+            - generic [ref=e3159]: Enhancements and experience
+            - generic [ref=e3163]: Only indexed URLs can have enhancements
+  - generic [ref=e801]: Loading...
+  - iframe [ref=e1640]:
+    - generic [ref=f13e6]:
+      - text: protected by
+      - strong [ref=f13e7]: reCAPTCHA

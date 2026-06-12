@@ -1,0 +1,187 @@
+- generic [active] [ref=e1]:
+  - article [ref=e2]:
+    - navigation "Breadcrumb" [ref=e3]:
+      - link "Home" [ref=e4] [cursor=pointer]:
+        - /url: /en-GB
+      - generic [ref=e5]: /
+      - link "Insights" [ref=e6] [cursor=pointer]:
+        - /url: /en-GB/insights
+      - generic [ref=e7]: /
+      - generic [ref=e8]: We Launched EchoFlicks 7 Days Ago. AI Already Writes About Us.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Case Study
+      - heading "We Launched EchoFlicks 7 Days Ago. AI Already Writes About Us." [level=1] [ref=e11]
+      - paragraph [ref=e12]: How EchoFlicks got cited by ChatGPT, Google AI Overview, and traditional search within one week of launch — with no ads, no PR, and no backlinks.
+      - generic [ref=e13]:
+        - generic [ref=e14]: By Kenneth Melchor
+        - generic [ref=e16]: 2 June 2026
+        - generic [ref=e18]: 8 min read
+    - img "We Launched EchoFlicks 7 Days Ago. AI Already Writes About Us." [ref=e19]
+    - generic [ref=e20]:
+      - paragraph [ref=e21]: We launched EchoFlicks a week ago. No press. No ads. No Product Hunt launch. A landing page and a WhatsApp bot in Barcelona.
+      - paragraph [ref=e22]: Then someone asked ChatGPT about us.
+      - paragraph [ref=e23]: It didn't just mention us. It wrote five paragraphs. It described our product, our process, our positioning, even our keyword strategy. It told people what makes us different — that we're not selling AI video creation, we're selling the emotional outcome of turning memories into movies. It listed our competitors. It offered to analyse our revenue model.
+      - paragraph [ref=e24]: We didn't brief it. We didn't submit anything. We didn't pay for AI SEO tools. One week in, and the machine already knows who we are, what we do, and why it matters.
+      - paragraph [ref=e25]: Google's AI Overview does the same thing. So does regular search. Seven days from zero to cited.
+      - paragraph [ref=e26]: This is the story of how that happened — and what we think it means for anyone launching something new.
+      - paragraph [ref=e27]:
+        - img "Google Search results for EchoFlicks showing first position ranking with knowledge panel" [ref=e28]
+        - emphasis [ref=e29]: Google Search results for "echoflicks" — June 2, 2026. First position with knowledge panel, Instagram, Facebook, and LinkedIn all indexed.
+      - paragraph [ref=e30]:
+        - img "Google AI Overview generating a full product description of EchoFlicks" [ref=e31]
+        - emphasis [ref=e32]: Google AI Overview — June 2, 2026. Full product description generated from our website content, citing 4 sources.
+      - heading "How Sitting Between Categories Gets You Cited by AI" [level=2] [ref=e33]
+      - paragraph [ref=e34]: Most startups launch into an existing category and fight for position. AI video editor. Photo slideshow maker. Those searches have thousands of results, millions of ad dollars behind them, and a decade of SEO moats built by incumbents.
+      - paragraph [ref=e35]: We didn't enter any of those categories. Instead, we built a product that sits at the exact intersection of existing semantic clusters.
+      - paragraph [ref=e36]: There is no other product where you message an AI filmmaker on WhatsApp, send him your holiday photos, and get a cinematic movie back in twenty minutes. Nobody else does that. Not Canva. Not CapCut. Not Luma. Not Runway.
+      - paragraph [ref=e37]: "When ChatGPT categorised us, it didn't invent a new industry — it mapped us across five existing nodes: AI video generation, consumer photo products, memory preservation, family storytelling, and personalised gifts. We became the missing link between them."
+      - paragraph [ref=e38]: That matters because of how large language models retrieve information. When someone asks "can I turn my photos into a movie on WhatsApp," the model searches its training data and any retrieved sources for the most relevant answer. If there are ten thousand competing pages, you're fighting for a mention. If there's one page that exactly matches the intersection of those concepts — you're the answer.
+      - paragraph [ref=e39]:
+        - text: We didn't optimise for general AI search. We built something specific enough that when someone describes the use-case, they are exclusively describing us.
+        - strong [ref=e40]: The niche is the strategy.
+      - heading "What ChatGPT Actually Said About Us" [level=2] [ref=e41]
+      - paragraph [ref=e42]: "This is what ChatGPT returns when someone asks about EchoFlicks — one week after launch, no prompting, no paid placement:"
+      - blockquote [ref=e43]:
+        - paragraph [ref=e44]: "\"EchoFlicks is a Barcelona-based AI storytelling platform that turns your personal photos and videos into short cinematic movies called 'Echoes.' Instead of using a video editor, you send 15–25 photos to an AI filmmaker named Felix through WhatsApp, answer a few questions, and receive a professionally produced mini-movie back in around 20 minutes.\""
+      - paragraph [ref=e45]:
+        - text: "It goes further. It describes the technical specs — script, voiceover, soundtrack, colour grading, titles. It explains the positioning:"
+        - emphasis [ref=e46]: "\"Most AI video tools start with text prompts. EchoFlicks starts with real memories.\""
+        - text: It even suggests keywords we should target and offers to analyse our strengths and weaknesses.
+      - paragraph [ref=e47]: Read that again. An AI — without being asked by us, without being fed a press release, without any backlink strategy — wrote a competitive analysis of our business. In week one.
+      - paragraph [ref=e48]: How?
+      - heading "How Plain Language Improves AI Search Visibility" [level=2] [ref=e49]
+      - paragraph [ref=e50]:
+        - text: "Our website says what we do in one sentence:"
+        - strong [ref=e51]: "\"Send 20 photos to Felix in WhatsApp. Get a cinematic movie back in minutes.\""
+      - paragraph [ref=e52]: That's not a tagline we workshopped for six weeks. It's a literal description of the product. And it turns out that's exactly what AI retrieval systems — whether they use RAG pipelines, Google's Search Generative Experience, or direct model knowledge — need to cite you.
+      - paragraph [ref=e53]: "AI doesn't reward clever copy. It rewards clarity. When a model is generating a response and looking for a source to reference, it needs content it can extract and paraphrase accurately. Compare these two approaches:"
+      - paragraph [ref=e54]:
+        - strong [ref=e55]: "Don't:"
+        - emphasis [ref=e56]: "\"Unlock the power of your visual memories with our AI-driven content transformation platform.\""
+      - paragraph [ref=e57]:
+        - strong [ref=e58]: "Do:"
+        - emphasis [ref=e59]: "\"Send your photos to Felix on WhatsApp. He writes a script, scores original music, colour grades your shots, and sends back a 60-second cinematic movie.\""
+      - paragraph [ref=e60]: The first one is marketing. The second one is information. AI models cite information.
+      - paragraph [ref=e61]: Every section of our site follows this principle. The "How It Works" section is three steps. The FAQ has eight questions with one-sentence answers. We wrote our website like a Wikipedia article that happens to have good design. Declarative. Specific. Quotable.
+      - heading "Why FAQ Sections Are the Best Strategy for AI Search Visibility" [level=2] [ref=e62]
+      - paragraph [ref=e63]:
+        - text: "If you take one thing from this article, let it be this:"
+        - strong [ref=e64]: your FAQ section is the most important content on your site for generative engine optimisation.
+      - paragraph [ref=e65]: Large language models are trained on — and actively retrieve — question-answer pairs. That's a format they handle exceptionally well. When someone asks an AI a question, it looks for content that's already structured as a question with a clear answer. Your FAQ doesn't just feed information to the model — it gives the model a pattern it can synthesise from, weigh heavily, and paraphrase with confidence.
+      - paragraph [ref=e66]: "Our eight FAQs cover:"
+      - list [ref=e67]:
+        - listitem [ref=e68]:
+          - strong [ref=e69]: Do I need an app?
+          - text: No, it's WhatsApp
+        - listitem [ref=e70]:
+          - strong [ref=e71]: How long?
+          - text: 20 minutes
+        - listitem [ref=e72]:
+          - strong [ref=e73]: How much?
+          - text: Free, then €9/month
+        - listitem [ref=e74]:
+          - strong [ref=e75]: What kind of films?
+          - text: 60-second cinematic movies with narration and original music
+        - listitem [ref=e76]:
+          - strong [ref=e77]: What about privacy?
+          - text: EU servers, never used for training
+        - listitem [ref=e78]:
+          - strong [ref=e79]: Can I use it as a gift?
+          - text: "Yes"
+        - listitem [ref=e80]:
+          - strong [ref=e81]: What photos work?
+          - text: Anything from your camera roll, 15–25
+        - listitem [ref=e82]:
+          - strong [ref=e83]: Does it generate fake images?
+          - text: No, only your real photos
+      - paragraph [ref=e84]: Every single one of those showed up — paraphrased, synthesised, or directly referenced — in ChatGPT's description of us. The Q&A structure gave the model high-confidence source material to work with.
+      - paragraph [ref=e85]: "One thing we didn't do: we didn't add FAQPage schema markup. Our answers were written in plain HTML. The plain text was powerful enough on its own. That said, if you have the developer resources, wrapping your FAQ in JSON-LD schema is the logical next step to mathematically guarantee ingestion."
+      - heading "How Technical SEO Fundamentals Drive AI Indexing Speed" [level=2] [ref=e86]
+      - paragraph [ref=e87]: This happened in seven days. Traditional SEO wisdom would tell you to wait three to six months for a new domain to build authority. We didn't wait. We didn't need to.
+      - paragraph [ref=e88]:
+        - text: We were rigorous about
+        - strong [ref=e89]: technical SEO fundamentals
+        - text: — the infrastructure that makes content discoverable by any machine, whether it's a traditional crawler or an LLM retrieval system.
+      - paragraph [ref=e90]:
+        - strong [ref=e91]: Server-side rendering.
+        - text: When Google's crawler hit our site, it got a complete HTML document on the first request. Not a blank
+        - code [ref=e92]: <div id="root">
+        - text: that waits for JavaScript to hydrate. The crawler reads it, indexes it, and moves on. This matters equally for RAG systems that pull from web indexes — if your content isn't in the HTML, it doesn't exist.
+      - paragraph [ref=e93]:
+        - strong [ref=e94]: Two real URLs per language.
+        - text: We support English and Spanish. Each language is a real, server-rendered page with its own URL. Google sees two pages, each with its own proper hreflang links pointing to the other. No ambiguity.
+      - paragraph [ref=e95]:
+        - strong [ref=e96]: Semantic HTML.
+        - text: Proper heading hierarchy. Alt text on every image. The markup reads like a document because it is one. This gives both crawlers and LLMs a clean content tree to parse.
+      - paragraph [ref=e97]:
+        - strong [ref=e98]: Fast.
+        - text: Under one second on mobile. 95+ Lighthouse Performance, 100 Accessibility, 100 Best Practices, 100 SEO. Google allocates crawl budget based on speed. Fast sites get indexed and the crawler moves on.
+      - heading "The Emotional Outcome Is the Keyword" [level=2] [ref=e99]
+      - paragraph [ref=e100]: "ChatGPT's analysis of our positioning included something we didn't expect:"
+      - blockquote [ref=e101]:
+        - paragraph [ref=e102]: "\"The strongest differentiator is that they are not selling 'AI video creation'; they are selling the emotional outcome: turning memories into movies.\""
+      - paragraph [ref=e103]: This is the shift that matters. We didn't ignore keyword research; we completely redefined it. We traded high-volume functional keywords ("AI video editor") for high-intent outcome phrasing ("turn photos into cinematic movie").
+      - paragraph [ref=e104]: We don't describe a tool. We describe what happens to you. Your photos become a movie. Your memories come alive. You press play and you feel something.
+      - paragraph [ref=e105]:
+        - text: That emotional framing doesn't just work for humans — it works for AI too. When ChatGPT describes us, it doesn't say "EchoFlicks is an AI video editor." It says EchoFlicks
+        - emphasis [ref=e106]: turns personal photos into cinematic movies
+        - text: . It understood the emotional pitch because the emotional pitch was the only pitch on the page.
+      - paragraph [ref=e107]: If your website describes features, AI will list you alongside every other feature-based competitor. If your website describes outcomes, AI will explain why you're different.
+      - heading "What This Means for Anyone Launching" [level=2] [ref=e108]
+      - paragraph [ref=e109]: You don't need a domain authority of 80. You don't need backlinks from TechCrunch. You don't need three months of content marketing before AI notices you.
+      - paragraph [ref=e110]: "You need three things:"
+      - paragraph [ref=e111]:
+        - strong [ref=e112]: 1. Be specific.
+        - text: Do one thing that nobody else does in exactly the way you do it. AI can't cite you if you sound like everyone else.
+      - paragraph [ref=e113]:
+        - strong [ref=e114]: 2. Say it plainly.
+        - text: Write your site like you're explaining your product to a smart friend. No jargon. No abstractions. Declarative sentences that a retrieval system can extract and an LLM can paraphrase with confidence.
+      - paragraph [ref=e115]:
+        - strong [ref=e116]: 3. Structure it for questions.
+        - text: Add an FAQ. Make the answers direct. One question, one answer, no hedging. This is the single highest-ROI thing you can do for generative engine visibility today.
+      - paragraph [ref=e117]: We launched a landing page in Barcelona seven days ago. We have no PR team, no backlinks, no ad spend. And when you ask the world's most-used AI what EchoFlicks is, it writes a better description of our product than we could.
+      - paragraph [ref=e118]:
+        - strong [ref=e119]: The machines are listening. Just say something worth repeating.
+    - generic [ref=e120]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e121]
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - term [ref=e124]: What is Generative Engine Optimisation (GEO)?
+          - definition [ref=e125]: GEO is the practice of optimising website content so it gets cited by AI models like ChatGPT, Google AI Overview, and Perplexity. It focuses on plain language, FAQ structures, semantic clarity, and technical infrastructure — making content easy for LLMs to extract, paraphrase, and cite.
+        - generic [ref=e126]:
+          - term [ref=e127]: How did EchoFlicks get cited by ChatGPT in 7 days?
+          - definition [ref=e128]: EchoFlicks built a fast, server-rendered website with declarative plain-language descriptions, eight structured FAQ pairs, semantic HTML, and proper hreflang tags. The product occupied a unique niche — AI filmmaker via WhatsApp — meaning there was no competing content for models to choose from.
+        - generic [ref=e129]:
+          - term [ref=e130]: Do you need backlinks to appear in AI search results?
+          - definition [ref=e131]: No. EchoFlicks had zero backlinks when ChatGPT and Google AI Overview began citing it. AI models prioritise content clarity, structural formatting (especially Q&A pairs), and topical uniqueness over traditional authority signals like backlinks.
+        - generic [ref=e132]:
+          - term [ref=e133]: What is the most important content for AI search visibility?
+          - definition [ref=e134]: FAQ sections structured as direct question-and-answer pairs. LLMs are trained on and actively retrieve Q&A formatted content. Each answer should be specific, declarative, and contain exact numbers or details that models can quote with confidence.
+        - generic [ref=e135]:
+          - term [ref=e136]: How fast does Google index a new website in 2026?
+          - definition [ref=e137]: With proper technical SEO — server-side rendering, submitted sitemap, fast load times, and semantic HTML — Google can index a new site within days. EchoFlicks was indexed in Google Search and Google AI Overview within 7 days of launch.
+    - complementary [ref=e138]:
+      - generic [ref=e139]:
+        - generic [ref=e140]: Kenneth Melchor
+        - generic [ref=e141]: Founder at KAUFAST
+      - paragraph [ref=e142]: Kenneth Melchor is the founder of KAUFAST, a software studio based in Barcelona specialising in AI-powered web applications, automation, and growth engineering for businesses across Europe.
+    - generic [ref=e143]:
+      - generic [ref=e144]: GEO
+      - generic [ref=e145]: AI Visibility
+      - generic [ref=e146]: Case Study
+      - generic [ref=e147]: EchoFlicks
+      - generic [ref=e148]: SEO
+      - generic [ref=e149]: Generative Engine Optimisation
+      - generic [ref=e150]: ChatGPT
+      - generic [ref=e151]: Google AI Overview
+    - generic [ref=e152]:
+      - heading "Want to discuss this for your business?" [level=2] [ref=e153]
+      - paragraph [ref=e154]: Tell us what you need. We'll tell you what's possible.
+      - link "Start a project" [ref=e155] [cursor=pointer]:
+        - /url: https://kaufast.com/en-GB/contact
+    - navigation [ref=e156]:
+      - link "Previous Why Marketing Starts with Data, Not Sales" [ref=e157] [cursor=pointer]:
+        - /url: /en-GB/insights/first-phase-of-marketing-is-learning
+        - generic [ref=e158]: Previous
+        - generic [ref=e159]: Why Marketing Starts with Data, Not Sales
+  - alert [ref=e161]

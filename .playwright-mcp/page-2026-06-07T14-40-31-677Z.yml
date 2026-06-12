@@ -1,0 +1,283 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button "Go back" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+          - heading "Rich Results Test" [level=1] [ref=e8]
+        - button [ref=e12] [cursor=pointer]:
+          - generic [ref=e15]: 
+        - generic [ref=e17]:
+          - button "Google apps" [ref=e21] [cursor=pointer]:
+            - img [ref=e22]
+          - 'button "Google Account: Kenneth Melchor (kennethmelchor@gmail.com)" [ref=e27] [cursor=pointer]':
+            - img [ref=e29]
+    - generic [ref=e317]:
+      - generic [ref=e321]:
+        - generic [ref=e322]: 
+        - textbox "Enter a URL to test" [ref=e326]: https://kaufast.com/en-GB/insights/echoflicks-ai-writes-about-us-7-days
+        - button "Retest this URL" [ref=e327] [cursor=pointer]:
+          - generic [ref=e330]: 
+        - button "User agent options" [ref=e332] [cursor=pointer]:
+          - generic [ref=e335]: 
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - navigation "Breadcrumbs" [ref=e343]:
+            - link "Test results" [ref=e345] [cursor=pointer]:
+              - /url: ./test/rich-results/result?id=2TiSd0_MsxXzdk-voz8R2A
+            - generic [ref=e346]: 
+            - heading "Articles" [level=1] [ref=e349]
+          - button "Share" [ref=e353] [cursor=pointer]:
+            - generic [ref=e357]:
+              - generic [ref=e358]: 
+              - generic [ref=e359]: Share
+        - generic [ref=e368]:
+          - generic [ref=e370]:
+            - generic [ref=e372]:
+              - generic [ref=e373]:
+                - generic [ref=e374]: check_circle
+                - generic [ref=e375]:
+                  - generic [ref=e376]: 1 valid item detected
+                  - generic [ref=e377]:
+                    - text: Valid items are eligible for Google Search's rich results.
+                    - link "Learn more" [ref=e379] [cursor=pointer]:
+                      - /url: https://support.google.com/webmasters/answer/9012289#enhancements
+              - generic [ref=e381]:
+                - button "View tested page" [ref=e385] [cursor=pointer]:
+                  - generic [ref=e390]: View tested page
+                - button "See preview of your URL on Google Search" [ref=e394] [cursor=pointer]:
+                  - generic [ref=e399]: Preview results
+            - generic [ref=e400]: Details
+            - generic [ref=e402]:
+              - generic [ref=e403]:
+                - generic [ref=e404]: Crawl
+                - button "Crawled successfully on 7 Jun 2026, 16:40:02" [ref=e408] [cursor=pointer]:
+                  - generic [ref=e409]:
+                    - generic [ref=e410]:
+                      - generic [ref=e411]: check_circle
+                      - generic [ref=e412]: Crawled successfully on 7 Jun 2026, 16:40:02
+                    - generic [ref=e415]: 
+              - generic [ref=e416]:
+                - generic [ref=e417]: Detected items
+                - generic [ref=e421]:
+                  - 'button "Echoflicks: AI Cites Us 7 Days After Launch 4 non-critical issues null" [expanded] [active] [ref=e422] [cursor=pointer]':
+                    - generic [ref=e423]:
+                      - generic [ref=e424]:
+                        - generic [ref=e425]: check_circle
+                        - generic [ref=e426]:
+                          - generic [ref=e427]: "Echoflicks: AI Cites Us 7 Days After Launch"
+                          - generic [ref=e428]:
+                            - generic [ref=e431]: 4 non-critical issues
+                            - button "null" [ref=e434]:
+                              - generic [ref=e435]: 
+                      - generic [ref=e445]: 
+                  - generic [ref=e449]:
+                    - button "type BlogPosting" [ref=e451] [cursor=pointer]:
+                      - generic [ref=e456]:
+                        - generic [ref=e458]: type
+                        - generic [ref=e460]: BlogPosting
+                    - 'button "headline Echoflicks: AI Cites Us 7 Days After Launch" [ref=e462] [cursor=pointer]':
+                      - generic [ref=e467]:
+                        - generic [ref=e469]: headline
+                        - generic [ref=e471]: "Echoflicks: AI Cites Us 7 Days After Launch"
+                    - button "description How Echoflicks got cited by ChatGPT, Google AI Overview, and traditional search within one week of launch — with no ads, no PR, and no backlinks." [ref=e473] [cursor=pointer]:
+                      - generic [ref=e478]:
+                        - generic [ref=e480]: description
+                        - generic [ref=e482]: How Echoflicks got cited by ChatGPT, Google AI Overview, and traditional search within one week of launch — with no ads, no PR, and no backlinks.
+                    - button "datePublished 2026-06-02" [ref=e484] [cursor=pointer]:
+                      - generic [ref=e489]:
+                        - generic [ref=e491]: datePublished
+                        - generic [ref=e493]: 2026-06-02
+                    - button "Invalid datetime value for 'datePublished' (optional) Go to issue documentation" [ref=e495] [cursor=pointer]:
+                      - generic [ref=e500]:
+                        - generic [ref=e501]: Invalid datetime value for 'datePublished' (optional)
+                        - generic "Go to issue documentation" [ref=e502]:
+                          - link "Go to issue documentation" [ref=e503]:
+                            - /url: https://developers.google.com/search/docs/data-types/article
+                            - generic [ref=e506]: 
+                    - button "Datetime property 'datePublished' is missing a time zone (optional) Go to issue documentation" [ref=e508] [cursor=pointer]:
+                      - generic [ref=e513]:
+                        - generic [ref=e514]: Datetime property 'datePublished' is missing a time zone (optional)
+                        - generic "Go to issue documentation" [ref=e515]:
+                          - link "Go to issue documentation" [ref=e516]:
+                            - /url: https://developers.google.com/search/docs/data-types/article
+                            - generic [ref=e519]: 
+                    - button "dateModified 2026-06-03" [ref=e521] [cursor=pointer]:
+                      - generic [ref=e526]:
+                        - generic [ref=e528]: dateModified
+                        - generic [ref=e530]: 2026-06-03
+                    - button "Invalid datetime value for 'dateModified' (optional) Go to issue documentation" [ref=e532] [cursor=pointer]:
+                      - generic [ref=e537]:
+                        - generic [ref=e538]: Invalid datetime value for 'dateModified' (optional)
+                        - generic "Go to issue documentation" [ref=e539]:
+                          - link "Go to issue documentation" [ref=e540]:
+                            - /url: https://developers.google.com/search/docs/data-types/article
+                            - generic [ref=e543]: 
+                    - button "Datetime property 'dateModified' is missing a time zone (optional) Go to issue documentation" [ref=e545] [cursor=pointer]:
+                      - generic [ref=e550]:
+                        - generic [ref=e551]: Datetime property 'dateModified' is missing a time zone (optional)
+                        - generic "Go to issue documentation" [ref=e552]:
+                          - link "Go to issue documentation" [ref=e553]:
+                            - /url: https://developers.google.com/search/docs/data-types/article
+                            - generic [ref=e556]: 
+                    - button "author" [ref=e558] [cursor=pointer]:
+                      - generic [ref=e565]: author
+                    - button "type Person" [ref=e567] [cursor=pointer]:
+                      - generic [ref=e572]:
+                        - generic [ref=e574]: type
+                        - generic [ref=e576]: Person
+                    - button "id https://kaufast.com/#kenneth-melchor" [ref=e578] [cursor=pointer]:
+                      - generic [ref=e583]:
+                        - generic [ref=e585]: id
+                        - generic [ref=e587]: https://kaufast.com/#kenneth-melchor
+                    - button "name Kenneth Melchor" [ref=e589] [cursor=pointer]:
+                      - generic [ref=e594]:
+                        - generic [ref=e596]: name
+                        - generic [ref=e598]: Kenneth Melchor
+                    - button "url https://kaufast.com/en-GB/kenneth-melchor" [ref=e600] [cursor=pointer]:
+                      - generic [ref=e605]:
+                        - generic [ref=e607]: url
+                        - generic [ref=e609]: https://kaufast.com/en-GB/kenneth-melchor
+                    - button "jobTitle Founder & Technology Director" [ref=e611] [cursor=pointer]:
+                      - generic [ref=e616]:
+                        - generic [ref=e618]: jobTitle
+                        - generic [ref=e620]: Founder & Technology Director
+                    - button "worksFor" [ref=e622] [cursor=pointer]:
+                      - generic [ref=e629]: worksFor
+                    - button "type Organization" [ref=e631] [cursor=pointer]:
+                      - generic [ref=e636]:
+                        - generic [ref=e638]: type
+                        - generic [ref=e640]: Organization
+                    - button "id https://kaufast.com/#organization" [ref=e642] [cursor=pointer]:
+                      - generic [ref=e647]:
+                        - generic [ref=e649]: id
+                        - generic [ref=e651]: https://kaufast.com/#organization
+                    - button "name KAUFAST" [ref=e653] [cursor=pointer]:
+                      - generic [ref=e658]:
+                        - generic [ref=e660]: name
+                        - generic [ref=e662]: KAUFAST
+                    - button "url https://kaufast.com/" [ref=e664] [cursor=pointer]:
+                      - generic [ref=e669]:
+                        - generic [ref=e671]: url
+                        - generic [ref=e673]: https://kaufast.com/
+                    - button "sameAs https://kaufast.com/en-GB/kenneth-melchor" [ref=e675] [cursor=pointer]:
+                      - generic [ref=e680]:
+                        - generic [ref=e682]: sameAs
+                        - generic [ref=e684]: https://kaufast.com/en-GB/kenneth-melchor
+                    - button "publisher" [ref=e686] [cursor=pointer]:
+                      - generic [ref=e693]: publisher
+                    - button "type Organization" [ref=e695] [cursor=pointer]:
+                      - generic [ref=e700]:
+                        - generic [ref=e702]: type
+                        - generic [ref=e704]: Organization
+                    - button "id https://kaufast.com/#organization" [ref=e706] [cursor=pointer]:
+                      - generic [ref=e711]:
+                        - generic [ref=e713]: id
+                        - generic [ref=e715]: https://kaufast.com/#organization
+                    - button "name KAUFAST" [ref=e717] [cursor=pointer]:
+                      - generic [ref=e722]:
+                        - generic [ref=e724]: name
+                        - generic [ref=e726]: KAUFAST
+                    - button "url https://kaufast.com/" [ref=e728] [cursor=pointer]:
+                      - generic [ref=e733]:
+                        - generic [ref=e735]: url
+                        - generic [ref=e737]: https://kaufast.com/
+                    - button "image https://kaufast-blog.vercel.app/images/blog/hero-ai-writes-about-us.webp" [ref=e739] [cursor=pointer]:
+                      - generic [ref=e744]:
+                        - generic [ref=e746]: image
+                        - generic [ref=e748]: https://kaufast-blog.vercel.app/images/blog/hero-ai-writes-about-us.webp
+                    - button "isPartOf https://kaufast.com/#website" [ref=e750] [cursor=pointer]:
+                      - generic [ref=e755]:
+                        - generic [ref=e757]: isPartOf
+                        - generic [ref=e759]: https://kaufast.com/#website
+                    - button "mainEntityOfPage" [ref=e761] [cursor=pointer]:
+                      - generic [ref=e768]: mainEntityOfPage
+                    - button "type WebPage" [ref=e770] [cursor=pointer]:
+                      - generic [ref=e775]:
+                        - generic [ref=e777]: type
+                        - generic [ref=e779]: WebPage
+                    - button "id https://kaufast.com/en-GB/insights/echoflicks-ai-writes-about-us-7-days" [ref=e781] [cursor=pointer]:
+                      - generic [ref=e786]:
+                        - generic [ref=e788]: id
+                        - generic [ref=e790]: https://kaufast.com/en-GB/insights/echoflicks-ai-writes-about-us-7-days
+                    - button "about" [ref=e792] [cursor=pointer]:
+                      - generic [ref=e799]: about
+                    - button "type Thing" [ref=e801] [cursor=pointer]:
+                      - generic [ref=e806]:
+                        - generic [ref=e808]: type
+                        - generic [ref=e810]: Thing
+                    - button "name Generative Engine Optimisation" [ref=e812] [cursor=pointer]:
+                      - generic [ref=e817]:
+                        - generic [ref=e819]: name
+                        - generic [ref=e821]: Generative Engine Optimisation
+                    - button "about" [ref=e823] [cursor=pointer]:
+                      - generic [ref=e830]: about
+                    - button "type Thing" [ref=e832] [cursor=pointer]:
+                      - generic [ref=e837]:
+                        - generic [ref=e839]: type
+                        - generic [ref=e841]: Thing
+                    - button "name Search Engine Optimisation" [ref=e843] [cursor=pointer]:
+                      - generic [ref=e848]:
+                        - generic [ref=e850]: name
+                        - generic [ref=e852]: Search Engine Optimisation
+                    - button "about" [ref=e854] [cursor=pointer]:
+                      - generic [ref=e861]: about
+                    - button "type Thing" [ref=e863] [cursor=pointer]:
+                      - generic [ref=e868]:
+                        - generic [ref=e870]: type
+                        - generic [ref=e872]: Thing
+                    - button "name AI Search" [ref=e874] [cursor=pointer]:
+                      - generic [ref=e879]:
+                        - generic [ref=e881]: name
+                        - generic [ref=e883]: AI Search
+                    - button "about" [ref=e885] [cursor=pointer]:
+                      - generic [ref=e892]: about
+                    - button "type Thing" [ref=e894] [cursor=pointer]:
+                      - generic [ref=e899]:
+                        - generic [ref=e901]: type
+                        - generic [ref=e903]: Thing
+                    - button "name Google AI Overview" [ref=e905] [cursor=pointer]:
+                      - generic [ref=e910]:
+                        - generic [ref=e912]: name
+                        - generic [ref=e914]: Google AI Overview
+                    - button "about" [ref=e916] [cursor=pointer]:
+                      - generic [ref=e923]: about
+                    - button "type Thing" [ref=e925] [cursor=pointer]:
+                      - generic [ref=e930]:
+                        - generic [ref=e932]: type
+                        - generic [ref=e934]: Thing
+                    - button "name ChatGPT" [ref=e936] [cursor=pointer]:
+                      - generic [ref=e941]:
+                        - generic [ref=e943]: name
+                        - generic [ref=e945]: ChatGPT
+                    - button "about" [ref=e947] [cursor=pointer]:
+                      - generic [ref=e954]: about
+                    - button "type Thing" [ref=e956] [cursor=pointer]:
+                      - generic [ref=e961]:
+                        - generic [ref=e963]: type
+                        - generic [ref=e965]: Thing
+                    - button "name Schema Markup" [ref=e967] [cursor=pointer]:
+                      - generic [ref=e972]:
+                        - generic [ref=e974]: name
+                        - generic [ref=e976]: Schema Markup
+                    - button "about" [ref=e978] [cursor=pointer]:
+                      - generic [ref=e985]: about
+                    - button "type Thing" [ref=e987] [cursor=pointer]:
+                      - generic [ref=e992]:
+                        - generic [ref=e994]: type
+                        - generic [ref=e996]: Thing
+                    - button "name Technical SEO" [ref=e998] [cursor=pointer]:
+                      - generic [ref=e1003]:
+                        - generic [ref=e1005]: name
+                        - generic [ref=e1007]: Technical SEO
+          - generic [ref=e441]:
+            - link "Privacy" [ref=e442] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=en-GB
+            - link "Terms" [ref=e443] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=en-GB
+  - iframe [ref=e114]:
+    - generic [ref=f1e6]:
+      - text: protected by
+      - strong [ref=f1e7]: reCAPTCHA
+  - generic [ref=e296]: Rich Results Test – Google Search Console

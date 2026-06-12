@@ -1,0 +1,30 @@
+[     215ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, http://adserver.webads.co.il/servlet/view/banner/javascript/zone?zid=16&pid=18&random=99117884&millis=1781010026332, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://israelmatzav.blogspot.com/:171
+[     215ms] [ERROR] Mixed Content: The page at 'https://israelmatzav.blogspot.com/' was loaded over HTTPS, but requested an insecure script 'http://adserver.webads.co.il/servlet/view/banner/javascript/zone?zid=16&pid=18&random=99117884&millis=1781010026332'. This request has been blocked; the content must be served over HTTPS. @ https://israelmatzav.blogspot.com/:171
+[     215ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, http://adserver.webads.co.il/servlet/view/banner/javascript/zone?zid=16&pid=18&random=99117884&millis=1781010026332, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://israelmatzav.blogspot.com/:171
+[     215ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, http://widgets.outbrain.com/OutbrainRater.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://israelmatzav.blogspot.com/:244
+[     215ms] [ERROR] Mixed Content: The page at 'https://israelmatzav.blogspot.com/' was loaded over HTTPS, but requested an insecure script 'http://widgets.outbrain.com/OutbrainRater.js'. This request has been blocked; the content must be served over HTTPS. @ https://israelmatzav.blogspot.com/:244
+[     215ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, http://widgets.outbrain.com/OutbrainRater.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://israelmatzav.blogspot.com/:244
+[     232ms] ReferenceError: OutbrainStart is not defined
+    at https://israelmatzav.blogspot.com/:328:3
+[     232ms] ReferenceError: OutbrainStart is not defined
+    at https://israelmatzav.blogspot.com/:404:3
+[     232ms] ReferenceError: OutbrainStart is not defined
+    at https://israelmatzav.blogspot.com/:479:3
+[     232ms] ReferenceError: OutbrainStart is not defined
+    at https://israelmatzav.blogspot.com/:536:3
+[     232ms] ReferenceError: OutbrainStart is not defined
+    at https://israelmatzav.blogspot.com/:624:3
+[     232ms] ReferenceError: vit is not defined
+    at https://israelmatzav.blogspot.com/:697:32
+[     309ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://widgets.twimg.com/j/2/widget.js:0
+[     309ms] ReferenceError: TWTR is not defined
+    at https://israelmatzav.blogspot.com/:817:1
+[     309ms] [WARNING] Mixed Content: The page at 'https://israelmatzav.blogspot.com/' was loaded over a secure connection, but contains a form that targets an insecure endpoint 'http://www.feedblitz.com/f/f.fbz?AddNewUserDirect'. This endpoint should be made available over a secure connection. @ https://israelmatzav.blogspot.com/:867
+[     309ms] [WARNING] Mixed Content: The page at 'https://israelmatzav.blogspot.com/' was loaded over a secure connection, but contains a form that targets an insecure endpoint 'http://members.notifylist.com/edit/joinlist'. This endpoint should be made available over a secure connection. @ https://israelmatzav.blogspot.com/:878
+[     314ms] [WARNING] Mixed Content: The page at 'https://israelmatzav.blogspot.com/' was loaded over HTTPS, but requested an insecure element 'http://images.notifylist.com/usersnippets/blackmiddle.gif'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html @ https://israelmatzav.blogspot.com/:0
+[     317ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sm4.sitemeter.com/js/counter.js?site=sm4Matzav:0
+[     491ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://images.notifylist.com/usersnippets/blackmiddle.gif:0
+[     536ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://embed.technorati.com/embed/c5dduprwh.js:0
+[     573ms] [ERROR] Mixed Content: The page at 'https://israelmatzav.blogspot.com/' was loaded over HTTPS, but requested an insecure frame 'http://www.jpost.com/JPTools/NewsTicker.aspx'. This request has been blocked; the content must be served over HTTPS. @ https://israelmatzav.blogspot.com/:1305
+[     945ms] [WARNING] Mixed Content: The page at 'https://israelmatzav.blogspot.com/' was loaded over a secure connection, but contains a form that targets an insecure endpoint 'http://www.google.co.il/custom'. This endpoint should be made available over a secure connection. @ https://israelmatzav.blogspot.com/:1340
+[    1811ms] [ERROR] Mixed Content: The page at 'https://israelmatzav.blogspot.com/' was loaded over HTTPS, but requested an insecure script 'http://twittercounter.com/remote/?v=2&twitter_id=18585712&width=180&nr_show=6&hr_color=709cb2&a_color=709cb2&bg_color=ffffff'. This request has been blocked; the content must be served over HTTPS. @ https://israelmatzav.blogspot.com/:1287

@@ -1,0 +1,335 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "Main menu" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - link "Google Search Console" [ref=e12] [cursor=pointer]:
+          - /url: ./search-console?resource_id=sc-domain%3Akaufast.com
+          - img [ref=e13]
+      - generic [ref=e14]:
+        - search [ref=e16]:
+          - generic [ref=e22]:
+            - textbox [disabled] [ref=e23]: Inspect any URL in 'kaufast.com'
+            - combobox "Inspect any URL in kaufast.com" [ref=e24]
+          - button "Search" [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+        - generic [ref=e29]:
+          - generic [ref=e31]:
+            - button "Help" [ref=e33] [cursor=pointer]:
+              - generic [ref=e36]: 
+            - button "User settings" [ref=e38] [cursor=pointer]:
+              - img [ref=e41]
+          - button "Messages" [ref=e45] [cursor=pointer]:
+            - generic [ref=e48]: 
+      - generic [ref=e50]:
+        - button "Google apps" [ref=e54] [cursor=pointer]:
+          - img [ref=e55]
+        - 'button "Google Account: Kenneth Melchor (kennethmelchor@gmail.com)" [ref=e60] [cursor=pointer]':
+          - img [ref=e62]
+  - dialog "navigational drawer" [ref=e66]:
+    - navigation "Primary" [ref=e69]:
+      - button "Search property" [ref=e73] [cursor=pointer]:
+        - img "favicon" [ref=e75]
+        - combobox "kaufast.com" [ref=e82]
+        - generic [ref=e83]: 
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - link "Overview" [ref=e88] [cursor=pointer]:
+              - /url: ./search-console?resource_id=sc-domain%3Akaufast.com
+              - generic [ref=e90]: home
+              - generic [ref=e92]: Overview
+            - link "Insights" [ref=e95] [cursor=pointer]:
+              - /url: ./search-console/performance/insights?resource_id=sc-domain%3Akaufast.com
+              - generic [ref=e97]: lightbulb_2
+              - generic [ref=e99]: Insights
+            - link "Performance" [ref=e102] [cursor=pointer]:
+              - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Akaufast.com
+              - generic [ref=e104]: trending_up
+              - generic [ref=e106]: Performance
+            - button "URL inspection" [ref=e109] [cursor=pointer]:
+              - generic [ref=e111]: search
+              - generic [ref=e113]: URL inspection
+          - generic [ref=e117]:
+            - button "Indexing report section" [expanded] [ref=e118] [cursor=pointer]:
+              - generic [ref=e119]:
+                - generic [ref=e122]: Indexing
+                - img [ref=e126]
+            - generic [ref=e131]:
+              - link "Pages" [ref=e133] [cursor=pointer]:
+                - /url: ./search-console/index?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e135]: file_copy
+                - generic [ref=e137]: Pages
+              - link "Videos" [ref=e140] [cursor=pointer]:
+                - /url: ./search-console/video-index?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e142]: video_library
+                - generic [ref=e144]: Videos
+              - link "Sitemaps" [ref=e147] [cursor=pointer]:
+                - /url: ./search-console/sitemaps?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e149]: account_tree
+                - generic [ref=e151]: Sitemaps
+              - link "Removals" [ref=e154] [cursor=pointer]:
+                - /url: ./search-console/removals?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e156]: visibility_off
+                - generic [ref=e158]: Removals
+          - generic [ref=e162]:
+            - button "Experience report section" [expanded] [ref=e163] [cursor=pointer]:
+              - generic [ref=e164]:
+                - generic [ref=e167]: Experience
+                - img [ref=e171]
+            - generic [ref=e176]:
+              - link "Core web vitals" [ref=e178] [cursor=pointer]:
+                - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e180]: speed
+                - generic [ref=e182]: Core web vitals
+              - link "HTTPS" [ref=e185] [cursor=pointer]:
+                - /url: ./search-console/https?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e187]: lock
+                - generic [ref=e189]: HTTPS
+          - generic [ref=e193]:
+            - button "Enhancements report section" [expanded] [ref=e194] [cursor=pointer]:
+              - generic [ref=e195]:
+                - generic [ref=e198]: Enhancements
+                - img [ref=e202]
+            - generic [ref=e207]:
+              - link "Breadcrumbs" [ref=e209] [cursor=pointer]:
+                - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e211]: layers
+                - generic [ref=e213]: Breadcrumbs
+              - link "FAQ" [ref=e216] [cursor=pointer]:
+                - /url: ./search-console/r/faq?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e218]: layers
+                - generic [ref=e220]: FAQ
+              - link "Review snippets" [ref=e223] [cursor=pointer]:
+                - /url: ./search-console/r/review-snippet?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e225]: layers
+                - generic [ref=e227]: Review snippets
+              - link "Videos" [ref=e230] [cursor=pointer]:
+                - /url: ./search-console/r/videos?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e232]: layers
+                - generic [ref=e234]: Videos
+          - button "Security & Manual Actions report section" [ref=e239] [cursor=pointer]:
+            - generic [ref=e240]:
+              - generic [ref=e243]: Security & Manual Actions
+              - img [ref=e247]
+          - generic [ref=e249]:
+            - link "Links report" [ref=e251] [cursor=pointer]:
+              - /url: ./search-console/links?resource_id=sc-domain%3Akaufast.com
+              - generic [ref=e253]: link_2
+              - generic [ref=e255]: Links
+            - link "Achievements" [ref=e258] [cursor=pointer]:
+              - /url: ./search-console/achievements?resource_id=sc-domain%3Akaufast.com
+              - generic [ref=e260]: trophy
+              - generic [ref=e262]: Achievements
+            - link "Settings" [ref=e265] [cursor=pointer]:
+              - /url: ./search-console/settings?resource_id=sc-domain%3Akaufast.com
+              - generic [ref=e267]: settings
+              - generic [ref=e269]: Settings
+        - generic [ref=e271]:
+          - generic [ref=e273]:
+            - button "Submit feedback" [ref=e275] [cursor=pointer]:
+              - generic [ref=e277]: feedback
+              - generic [ref=e279]: Submit feedback
+            - button "About Search Console" [ref=e282] [cursor=pointer]:
+              - generic [ref=e284]: info
+              - generic [ref=e286]: About Search Console
+          - generic [ref=e290]:
+            - link "Privacy" [ref=e291] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=en-GB
+            - link "Terms" [ref=e292] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=en-GB
+  - generic [ref=e294]:
+    - navigation "Breadcrumbs" [ref=e299]:
+      - heading "Overview" [level=1] [ref=e302]
+    - main [ref=e306]:
+      - generic [ref=e307]:
+        - generic [ref=e312]:
+          - generic [ref=e313]:
+            - generic [ref=e314]: lightbulb_outline
+            - generic [ref=e315]: Get insights into your site's Search performance
+          - generic [ref=e318]:
+            - generic [ref=e320]: chevron_right
+            - generic [ref=e321]: Explore your insights
+            - link "Explore your insights" [ref=e322] [cursor=pointer]:
+              - /url: ./search-console/performance/insights?resource_id=sc-domain%3Akaufast.com
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - generic [ref=e326]: Performance
+            - generic [ref=e329]:
+              - generic [ref=e331]: chevron_right
+              - generic [ref=e332]: Full report
+              - link "Full report" [ref=e333] [cursor=pointer]:
+                - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Akaufast.com
+          - generic [ref=e336]:
+            - generic [ref=e341]: 15 total web search clicks
+            - img [ref=e345]:
+              - generic [ref=e346]:
+                - generic [ref=e347]:
+                  - generic [ref=e349]: 01/03/2026
+                  - generic [ref=e351]: 14/03/2026
+                  - generic [ref=e353]: 27/03/2026
+                  - generic [ref=e355]: 09/04/2026
+                  - generic [ref=e357]: 22/04/2026
+                  - generic [ref=e359]: 05/05/2026
+                  - generic [ref=e361]: 18/05/2026
+                  - generic [ref=e363]: 31/05/2026
+                - generic [ref=e364]:
+                  - generic [ref=e366]: "3"
+                  - generic [ref=e368]: "2"
+                  - generic [ref=e370]: "1"
+                  - generic [ref=e372]: "0"
+        - generic [ref=e381]:
+          - generic [ref=e383]: Indexing
+          - generic [ref=e384]:
+            - generic [ref=e385]:
+              - img [ref=e387]
+              - text: Pages
+              - generic [ref=e398]:
+                - generic [ref=e400]: chevron_right
+                - generic [ref=e401]: Full report
+                - link "Full report" [ref=e402] [cursor=pointer]:
+                  - /url: ./search-console/index?resource_id=sc-domain%3Akaufast.com
+            - generic [ref=e404]:
+              - generic [ref=e406]:
+                - generic [ref=e409]: 1,293 not indexed pages
+                - generic [ref=e412]: 153 indexed pages
+              - img [ref=e416]:
+                - generic [ref=e417]:
+                  - generic [ref=e418]:
+                    - generic [ref=e420]: 04/03/2026
+                    - generic [ref=e422]: 17/03/2026
+                    - generic [ref=e424]: 30/03/2026
+                    - generic [ref=e426]: 12/04/2026
+                    - generic [ref=e428]: 25/04/2026
+                    - generic [ref=e430]: 08/05/2026
+                    - generic [ref=e432]: 21/05/2026
+                  - generic [ref=e433]:
+                    - generic [ref=e435]: 1.5k
+                    - generic [ref=e437]: 1k
+                    - generic [ref=e439]: "500"
+                    - generic [ref=e441]: "0"
+            - link "Open video indexing report." [ref=e465] [cursor=pointer]:
+              - /url: ./search-console/video-index?resource_id=sc-domain%3Akaufast.com
+              - generic [ref=e467]:
+                - img [ref=e470]
+                - generic [ref=e473]: Videos
+                - generic [ref=e474]:
+                  - generic [ref=e475]: 1 no videos indexed
+                  - generic [ref=e476]: 0 videos indexed
+                  - img [ref=e478]
+                  - img [ref=e480]
+        - generic [ref=e483]:
+          - generic [ref=e485]: Experience
+          - table [ref=e489]:
+            - rowgroup [ref=e490]:
+              - row "Type Good Needs improvement Poor Trend" [ref=e491]:
+                - columnheader "Type" [ref=e492]
+                - columnheader [ref=e493]
+                - columnheader "Good" [ref=e494]
+                - columnheader "Needs improvement" [ref=e495]
+                - columnheader "Poor" [ref=e496]
+                - columnheader "Trend" [ref=e497]
+                - columnheader [ref=e498]
+            - rowgroup [ref=e499]:
+              - row "Core web vitals Mobile Desktop No data No data No data No data No data No data" [ref=e500]:
+                - cell "Core web vitals" [ref=e501]:
+                  - generic [ref=e503]: Core web vitals
+                - cell "Mobile Desktop" [ref=e504]:
+                  - generic [ref=e506]:
+                    - generic [ref=e507]: Mobile
+                    - generic [ref=e508]: Desktop
+                - cell "No data No data" [ref=e509]:
+                  - generic [ref=e510]:
+                    - generic [ref=e511]: No data
+                    - generic [ref=e512]: No data
+                - cell "No data No data" [ref=e513]:
+                  - generic [ref=e514]:
+                    - generic [ref=e515]: No data
+                    - generic [ref=e516]: No data
+                - cell "No data No data" [ref=e517]:
+                  - generic [ref=e518]:
+                    - generic [ref=e519]: No data
+                    - generic [ref=e520]: No data
+                - cell [ref=e521]
+              - row "HTTPS Non-HTTPS" [ref=e522]:
+                - columnheader [ref=e523]
+                - columnheader [ref=e524]
+                - columnheader "HTTPS" [ref=e525]
+                - columnheader [ref=e526]
+                - columnheader "Non-HTTPS" [ref=e527]
+                - columnheader [ref=e528]
+                - columnheader [ref=e529]
+              - row "HTTPS 7 0 Open report" [ref=e530]:
+                - cell "HTTPS" [ref=e531]:
+                  - generic [ref=e533]: HTTPS
+                - cell [ref=e534]
+                - cell "7" [ref=e535]:
+                  - generic [ref=e537]: "7"
+                - cell [ref=e538]
+                - cell "0" [ref=e539]:
+                  - generic [ref=e541]: "0"
+                - cell [ref=e542]:
+                  - img [ref=e545]
+                - cell "Open report" [ref=e547]:
+                  - button "Open report" [ref=e550] [cursor=pointer]:
+                    - generic [ref=e551]: chevron_right
+        - generic [ref=e553]:
+          - generic [ref=e555]: Enhancements
+          - table [ref=e559]:
+            - rowgroup [ref=e560]:
+              - row "Type Valid Invalid Trend" [ref=e561]:
+                - columnheader "Type" [ref=e562]
+                - columnheader "Valid" [ref=e563]
+                - columnheader "Invalid" [ref=e564]
+                - columnheader "Trend" [ref=e565]
+                - columnheader [ref=e566]
+            - rowgroup [ref=e567]:
+              - row "Breadcrumbs 5 0 Open report" [ref=e568]:
+                - cell "Breadcrumbs" [ref=e569]:
+                  - generic [ref=e571]: Breadcrumbs
+                - cell "5" [ref=e572]:
+                  - generic [ref=e574]: "5"
+                - cell "0" [ref=e575]:
+                  - generic [ref=e577]: "0"
+                - cell [ref=e578]:
+                  - img [ref=e581]
+                - cell "Open report" [ref=e583]:
+                  - button "Open report" [ref=e586] [cursor=pointer]:
+                    - generic [ref=e587]: chevron_right
+              - row "FAQ 2 0 Open report" [ref=e588]:
+                - cell "FAQ" [ref=e589]:
+                  - generic [ref=e591]: FAQ
+                - cell "2" [ref=e592]:
+                  - generic [ref=e594]: "2"
+                - cell "0" [ref=e595]:
+                  - generic [ref=e597]: "0"
+                - cell [ref=e598]:
+                  - img [ref=e601]
+                - cell "Open report" [ref=e603]:
+                  - button "Open report" [ref=e606] [cursor=pointer]:
+                    - generic [ref=e607]: chevron_right
+              - row "Review snippets 0 0 Open report" [ref=e608]:
+                - cell "Review snippets" [ref=e609]:
+                  - generic [ref=e611]: Review snippets
+                - cell "0" [ref=e612]:
+                  - generic [ref=e614]: "0"
+                - cell "0" [ref=e615]:
+                  - generic [ref=e617]: "0"
+                - cell [ref=e618]:
+                  - img [ref=e621]
+                - cell "Open report" [ref=e623]:
+                  - button "Open report" [ref=e626] [cursor=pointer]:
+                    - generic [ref=e627]: chevron_right
+              - row "Videos 0 0 Open report" [ref=e628]:
+                - cell "Videos" [ref=e629]:
+                  - generic [ref=e631]: Videos
+                - cell "0" [ref=e632]:
+                  - generic [ref=e634]: "0"
+                - cell "0" [ref=e635]:
+                  - generic [ref=e637]: "0"
+                - cell [ref=e638]:
+                  - img [ref=e641]
+                - cell "Open report" [ref=e643]:
+                  - button "Open report" [ref=e646] [cursor=pointer]:
+                    - generic [ref=e647]: chevron_right

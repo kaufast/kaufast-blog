@@ -1,0 +1,430 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button "Main menu" [ref=e7] [cursor=pointer]:
+            - img [ref=e8]
+          - link "Google Search Console" [ref=e12] [cursor=pointer]:
+            - /url: ./search-console?resource_id=sc-domain%3Asamotracia.com.mx
+            - img [ref=e13]
+        - generic [ref=e14]:
+          - search [ref=e16]:
+            - generic [ref=e22]:
+              - textbox [disabled] [ref=e23]: Inspect any URL in 'samotracia.com.mx'
+              - combobox "Inspect any URL in samotracia.com.mx" [ref=e24]
+            - button "Search" [ref=e25] [cursor=pointer]:
+              - img [ref=e26]
+          - generic [ref=e29]:
+            - generic [ref=e31]:
+              - button "Help" [ref=e33] [cursor=pointer]:
+                - generic [ref=e36]: 
+              - button "User settings" [ref=e38] [cursor=pointer]:
+                - img [ref=e41]
+            - 'button "Unread messages: 35" [ref=e867] [cursor=pointer]':
+              - generic [ref=e47]:
+                - generic [ref=e48]: 
+                - generic [ref=e869]: "35"
+        - generic [ref=e52]:
+          - button "Google apps" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+          - 'button "Google Account: Kenneth Melchor (kennethmelchor@gmail.com)" [ref=e62] [cursor=pointer]':
+            - img [ref=e64]
+    - dialog "navigational drawer" [ref=e68]:
+      - navigation "Primary" [ref=e71]:
+        - button "Search property" [ref=e75] [cursor=pointer]:
+          - img "favicon" [ref=e77]
+          - combobox "samotracia.com.mx" [ref=e84]: kaufast.com
+          - generic [ref=e85]: 
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic:
+                - link "Overview":
+                  - /url: ./search-console?resource_id=sc-domain%3Asamotracia.com.mx
+                  - generic:
+                    - generic: home
+                  - generic:
+                    - generic: Overview
+              - generic:
+                - link "Insights":
+                  - /url: ./search-console/performance/insights?resource_id=sc-domain%3Asamotracia.com.mx
+                  - generic:
+                    - generic: lightbulb_2
+                  - generic:
+                    - generic: Insights
+              - generic:
+                - link "Performance":
+                  - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Asamotracia.com.mx
+                  - generic:
+                    - generic: trending_up
+                  - generic:
+                    - generic: Performance
+              - generic:
+                - button "URL inspection":
+                  - generic:
+                    - generic: search
+                  - generic:
+                    - generic: URL inspection
+            - generic [ref=e119]:
+              - button "Indexing report section" [expanded] [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]:
+                  - generic [ref=e124]: Indexing
+                  - img [ref=e128]
+              - generic [ref=e133]:
+                - generic:
+                  - link "Pages":
+                    - /url: ./search-console/index?resource_id=sc-domain%3Asamotracia.com.mx
+                    - generic:
+                      - generic: file_copy
+                    - generic:
+                      - generic: Pages
+                - generic:
+                  - link "Videos":
+                    - /url: ./search-console/video-index?resource_id=sc-domain%3Asamotracia.com.mx
+                    - generic:
+                      - generic: video_library
+                    - generic:
+                      - generic: Videos
+                - generic:
+                  - link "Sitemaps":
+                    - /url: ./search-console/sitemaps?resource_id=sc-domain%3Asamotracia.com.mx
+                    - generic:
+                      - generic: account_tree
+                    - generic:
+                      - generic: Sitemaps
+                - generic:
+                  - link "Removals":
+                    - /url: ./search-console/removals?resource_id=sc-domain%3Asamotracia.com.mx
+                    - generic:
+                      - generic: visibility_off
+                    - generic:
+                      - generic: Removals
+            - generic [ref=e164]:
+              - button "Experience report section" [expanded] [ref=e165] [cursor=pointer]:
+                - generic [ref=e166]:
+                  - generic [ref=e169]: Experience
+                  - img [ref=e173]
+              - generic [ref=e178]:
+                - generic:
+                  - link "Core web vitals":
+                    - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Asamotracia.com.mx
+                    - generic:
+                      - generic: speed
+                    - generic:
+                      - generic: Core web vitals
+                - generic:
+                  - link "HTTPS":
+                    - /url: ./search-console/https?resource_id=sc-domain%3Asamotracia.com.mx
+                    - generic:
+                      - generic: lock
+                    - generic:
+                      - generic: HTTPS
+            - generic [ref=e195]:
+              - button "Shopping report section" [expanded] [ref=e196] [cursor=pointer]:
+                - generic [ref=e197]:
+                  - generic [ref=e200]: Shopping
+                  - img [ref=e204]
+              - generic [ref=e209]:
+                - generic:
+                  - link "Product snippets":
+                    - /url: ./search-console/r/product?resource_id=sc-domain%3Asamotracia.com.mx
+                    - generic:
+                      - generic: layers
+                    - generic:
+                      - generic: Product snippets
+            - generic [ref=e219]:
+              - button "Enhancements report section" [expanded] [ref=e220] [cursor=pointer]:
+                - generic [ref=e221]:
+                  - generic [ref=e224]: Enhancements
+                  - img [ref=e228]
+              - generic [ref=e233]:
+                - generic:
+                  - link "Breadcrumbs":
+                    - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Asamotracia.com.mx
+                    - generic:
+                      - generic: layers
+                    - generic:
+                      - generic: Breadcrumbs
+                - generic:
+                  - link "FAQ":
+                    - /url: ./search-console/r/faq?resource_id=sc-domain%3Asamotracia.com.mx
+                    - generic:
+                      - generic: layers
+                    - generic:
+                      - generic: FAQ
+                - generic:
+                  - link "Review snippets":
+                    - /url: ./search-console/r/review-snippet?resource_id=sc-domain%3Asamotracia.com.mx
+                    - generic:
+                      - generic: layers
+                    - generic:
+                      - generic: Review snippets
+                - generic:
+                  - link "Videos":
+                    - /url: ./search-console/r/videos?resource_id=sc-domain%3Asamotracia.com.mx
+                    - generic:
+                      - generic: layers
+                    - generic:
+                      - generic: Videos
+            - button "Security & Manual Actions report section" [ref=e265] [cursor=pointer]:
+              - generic [ref=e266]:
+                - generic [ref=e269]: Security & Manual Actions
+                - img [ref=e273]
+            - generic [ref=e275]:
+              - generic:
+                - link "Links report":
+                  - /url: ./search-console/links?resource_id=sc-domain%3Asamotracia.com.mx
+                  - generic:
+                    - generic: link_2
+                  - generic:
+                    - generic: Links
+              - generic:
+                - link "Achievements":
+                  - /url: ./search-console/achievements?resource_id=sc-domain%3Asamotracia.com.mx
+                  - generic:
+                    - generic: trophy
+                  - generic:
+                    - generic: Achievements
+              - generic:
+                - link "Settings":
+                  - /url: ./search-console/settings?resource_id=sc-domain%3Asamotracia.com.mx
+                  - generic:
+                    - generic: settings
+                  - generic:
+                    - generic: Settings
+          - generic [ref=e297]:
+            - generic [ref=e299]:
+              - generic:
+                - button "Submit feedback":
+                  - generic:
+                    - generic: feedback
+                  - generic:
+                    - generic: Submit feedback
+              - generic:
+                - button "About Search Console":
+                  - generic:
+                    - generic: info
+                  - generic:
+                    - generic: About Search Console
+            - generic [ref=e316]:
+              - link "Privacy" [ref=e317] [cursor=pointer]:
+                - /url: https://myaccount.google.com/privacypolicy?hl=en-GB
+              - link "Terms" [ref=e318] [cursor=pointer]:
+                - /url: https://myaccount.google.com/termsofservice?hl=en-GB
+    - generic [ref=e320]:
+      - navigation [ref=e870]:
+        - heading [level=1] [ref=e871]: Overview
+      - main [ref=e332]:
+        - generic [ref=e333]:
+          - generic [ref=e338]:
+            - generic [ref=e339]:
+              - generic [ref=e340]: lightbulb_outline
+              - generic [ref=e341]: Get insights into your site's Search performance
+            - generic [ref=e344]:
+              - generic [ref=e346]: chevron_right
+              - generic [ref=e347]: Explore your insights
+              - link [ref=e872] [cursor=pointer]:
+                - /url: ./search-console/performance/insights?resource_id=sc-domain%3Asamotracia.com.mx
+          - generic [ref=e350]:
+            - generic [ref=e351]:
+              - generic [ref=e352]: Performance
+              - generic [ref=e355]:
+                - generic [ref=e357]: chevron_right
+                - generic [ref=e358]: Full report
+                - link [ref=e873] [cursor=pointer]:
+                  - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Asamotracia.com.mx
+            - generic [ref=e362]:
+              - generic [ref=e367]: 6 total web search clicks
+              - img [ref=e371]:
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - generic [ref=e375]: 14/05/2026
+                    - generic [ref=e377]: 17/05/2026
+                    - generic [ref=e379]: 20/05/2026
+                    - generic [ref=e381]: 23/05/2026
+                    - generic [ref=e383]: 26/05/2026
+                    - generic [ref=e385]: 29/05/2026
+                  - generic [ref=e386]:
+                    - generic [ref=e388]: "3"
+                    - generic [ref=e390]: "2"
+                    - generic [ref=e392]: "1"
+                    - generic [ref=e394]: "0"
+          - generic [ref=e403]:
+            - generic [ref=e405]: Indexing
+            - generic [ref=e406]:
+              - generic [ref=e407]:
+                - img [ref=e409]
+                - text: Pages
+                - generic [ref=e420]:
+                  - generic [ref=e422]: chevron_right
+                  - generic [ref=e423]: Full report
+                  - link [ref=e874] [cursor=pointer]:
+                    - /url: ./search-console/index?resource_id=sc-domain%3Asamotracia.com.mx
+              - generic [ref=e426]:
+                - generic [ref=e428]:
+                  - generic [ref=e431]: 5 not indexed pages
+                  - generic [ref=e434]: 3 indexed pages
+                - img [ref=e438]:
+                  - generic [ref=e439]:
+                    - generic [ref=e440]:
+                      - generic [ref=e442]: 04/03/2026
+                      - generic [ref=e444]: 17/03/2026
+                      - generic [ref=e446]: 30/03/2026
+                      - generic [ref=e448]: 12/04/2026
+                      - generic [ref=e450]: 25/04/2026
+                      - generic [ref=e452]: 08/05/2026
+                      - generic [ref=e454]: 21/05/2026
+                    - generic [ref=e455]:
+                      - generic [ref=e457]: "6"
+                      - generic [ref=e459]: "4"
+                      - generic [ref=e461]: "2"
+                      - generic [ref=e463]: "0"
+              - link [ref=e875] [cursor=pointer]:
+                - /url: ./search-console/video-index?resource_id=sc-domain%3Asamotracia.com.mx
+                - generic [ref=e489]:
+                  - img [ref=e492]
+                  - generic [ref=e495]: Videos
+                  - generic [ref=e496]:
+                    - generic [ref=e497]: 2 no videos indexed
+                    - generic [ref=e498]: 0 videos indexed
+                    - img [ref=e500]
+                    - img [ref=e502]
+          - generic [ref=e505]:
+            - generic [ref=e507]: Experience
+            - table [ref=e511]:
+              - rowgroup [ref=e512]:
+                - row [ref=e876]:
+                  - columnheader [ref=e877]: Type
+                  - columnheader [ref=e515]
+                  - columnheader [ref=e878]: Good
+                  - columnheader [ref=e879]: Needs improvement
+                  - columnheader [ref=e880]: Poor
+                  - columnheader [ref=e881]: Trend
+                  - columnheader [ref=e520]
+              - rowgroup [ref=e521]:
+                - row [ref=e882]:
+                  - cell [ref=e883]:
+                    - generic [ref=e525]: Core web vitals
+                  - cell [ref=e884]:
+                    - generic [ref=e528]:
+                      - generic [ref=e529]: Mobile
+                      - generic [ref=e530]: Desktop
+                  - cell [ref=e885]:
+                    - generic [ref=e532]:
+                      - generic [ref=e533]: No data
+                      - generic [ref=e534]: No data
+                  - cell [ref=e886]:
+                    - generic [ref=e536]:
+                      - generic [ref=e537]: No data
+                      - generic [ref=e538]: No data
+                  - cell [ref=e887]:
+                    - generic [ref=e540]:
+                      - generic [ref=e541]: No data
+                      - generic [ref=e542]: No data
+                  - cell [ref=e543]
+                - row [ref=e888]:
+                  - columnheader [ref=e545]
+                  - columnheader [ref=e546]
+                  - columnheader [ref=e889]: HTTPS
+                  - columnheader [ref=e548]
+                  - columnheader [ref=e890]: Non-HTTPS
+                  - columnheader [ref=e550]
+                  - columnheader [ref=e551]
+                - row [ref=e891]:
+                  - cell [ref=e892]:
+                    - generic [ref=e555]: HTTPS
+                  - cell [ref=e556]
+                  - cell [ref=e893]:
+                    - generic [ref=e559]: "1"
+                  - cell [ref=e560]
+                  - cell [ref=e894]:
+                    - generic [ref=e563]: "0"
+                  - cell [ref=e564]:
+                    - img [ref=e567]
+                  - cell [ref=e895]:
+                    - button [ref=e896] [cursor=pointer]:
+                      - generic [ref=e573]: chevron_right
+          - generic [ref=e575]:
+            - generic [ref=e577]: Shopping
+            - table [ref=e581]:
+              - rowgroup [ref=e582]:
+                - row [ref=e897]:
+                  - columnheader [ref=e898]: Type
+                  - columnheader [ref=e899]: Valid
+                  - columnheader [ref=e900]: Invalid
+                  - columnheader [ref=e901]: Trend
+                  - columnheader [ref=e588]
+              - rowgroup [ref=e589]:
+                - row [ref=e902]:
+                  - cell [ref=e903]:
+                    - generic [ref=e593]: Product snippets
+                  - cell [ref=e904]:
+                    - generic [ref=e596]: "0"
+                  - cell [ref=e905]:
+                    - generic [ref=e599]: "0"
+                  - cell [ref=e600]:
+                    - img [ref=e603]
+                  - cell [ref=e906]:
+                    - button [ref=e907] [cursor=pointer]:
+                      - generic [ref=e609]: chevron_right
+          - generic [ref=e611]:
+            - generic [ref=e613]: Enhancements
+            - table [ref=e617]:
+              - rowgroup [ref=e618]:
+                - row [ref=e908]:
+                  - columnheader [ref=e909]: Type
+                  - columnheader [ref=e910]: Valid
+                  - columnheader [ref=e911]: Invalid
+                  - columnheader [ref=e912]: Trend
+                  - columnheader [ref=e624]
+              - rowgroup [ref=e625]:
+                - row [ref=e913]:
+                  - cell [ref=e914]:
+                    - generic [ref=e629]: Breadcrumbs
+                  - cell [ref=e915]:
+                    - generic [ref=e632]: "0"
+                  - cell [ref=e916]:
+                    - generic [ref=e635]: "0"
+                  - cell [ref=e636]:
+                    - img [ref=e639]
+                  - cell [ref=e917]:
+                    - button [ref=e918] [cursor=pointer]:
+                      - generic [ref=e645]: chevron_right
+                - row [ref=e919]:
+                  - cell [ref=e920]:
+                    - generic [ref=e649]: FAQ
+                  - cell [ref=e921]:
+                    - generic [ref=e652]: "1"
+                  - cell [ref=e922]:
+                    - generic [ref=e655]: "0"
+                  - cell [ref=e656]:
+                    - img [ref=e659]
+                  - cell [ref=e923]:
+                    - button [ref=e924] [cursor=pointer]:
+                      - generic [ref=e665]: chevron_right
+                - row [ref=e925]:
+                  - cell [ref=e926]:
+                    - generic [ref=e669]: Review snippets
+                  - cell [ref=e927]:
+                    - generic [ref=e672]: "0"
+                  - cell [ref=e928]:
+                    - generic [ref=e675]: "0"
+                  - cell [ref=e676]:
+                    - img [ref=e679]
+                  - cell [ref=e929]:
+                    - button [ref=e930] [cursor=pointer]:
+                      - generic [ref=e685]: chevron_right
+                - row [ref=e931]:
+                  - cell [ref=e932]:
+                    - generic [ref=e689]: Videos
+                  - cell [ref=e933]:
+                    - generic [ref=e692]: "1"
+                  - cell [ref=e934]:
+                    - generic [ref=e695]: "0"
+                  - cell [ref=e696]:
+                    - img [ref=e699]
+                  - cell [ref=e935]:
+                    - button [ref=e936] [cursor=pointer]:
+                      - generic [ref=e705]: chevron_right
+  - generic [ref=e939]: Loading...

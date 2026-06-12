@@ -1,0 +1,66 @@
+[     152ms] [WARNING] i18n: Translate for key audit.new.account_limit not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.menu.overview not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.menu.pages not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.menu.links not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.menu.resources not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.menu.report not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.menu.compare_crawls not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.upgrade_subscription not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.upgrade_text not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.upgrade_btn not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key common.cancel not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.notification_new_version_exists.heading not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.notification_new_version_exists.action not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.restart_audit_url_popup.title not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.restart_audit_url_popup.description not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.restart_audit_popup_url.cancel not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.restart_audit_popup_url.restart_action not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     152ms] [WARNING] i18n: Translate for key audit.new.account_limit_hint not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     156ms] [WARNING] i18n: Translate for key common.black_friday.badge.title not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     156ms] [WARNING] i18n: Translate for key common.black_friday.badge.text not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.account_limit not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.menu.overview not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.menu.pages not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.menu.links not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.menu.resources not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.menu.report not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.menu.compare_crawls not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.upgrade_subscription not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.upgrade_text not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.upgrade_btn not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key common.cancel not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.notification_new_version_exists.heading not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.notification_new_version_exists.action not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.restart_audit_url_popup.title not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.restart_audit_url_popup.description not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.restart_audit_popup_url.cancel not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.restart_audit_popup_url.restart_action not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     238ms] [WARNING] i18n: Translate for key audit.new.account_limit_hint not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     239ms] [WARNING] i18n: Translate for key common.black_friday.badge.title not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     239ms] [WARNING] i18n: Translate for key common.black_friday.badge.text not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[     562ms] [ERROR] Userflow.js resetting due to: [company_closed] This Userflow account has been closed. You can re-activate it at https://userflow.com/app. @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[    1237ms] [WARNING] i18n: Translation key undefined supposed to be string @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[    1406ms] [WARNING] i18n: Translation key undefined supposed to be string @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[ 1109716ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ https://online.seranking.com/.well-known/mercure?topic=http%3A%2F%2Fonline.seranking.com%2Facc%2F5048639&topic=http%3A%2F%2Fonline.seranking.com%2Fglobal&topic=http%3A%2F%2Fonline.seranking.com%2Ftoken%2F13352774:0
+[ 3672221ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://online.seranking.com/.well-known/mercure?topic=http%3A%2F%2Fonline.seranking.com%2Facc%2F5048639&topic=http%3A%2F%2Fonline.seranking.com%2Fglobal&topic=http%3A%2F%2Fonline.seranking.com%2Ftoken%2F13352774:0
+[10445080ms] [WARNING] i18n: Translate for key common.preset_already_exist not found! @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[10445198ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://online.seranking.com/api.audit.html?do=issues&compare=&id=333382&site_id=12280616:0
+[10445200ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://online.seranking.com/api.account.event.html:0
+[10445207ms] B
+[10445204ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://online.seranking.com/api.projects.site.filters.html?type=audit_pages&site_id=12280616:0
+[10445204ms] [WARNING] Request failed with status code 403 @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[10445207ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://online.seranking.com/api.audit.html:0
+[10445207ms] [WARNING] B @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[10445207ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://online.seranking.com/api.audit.pages.html?do=list&id=333382&sort=&limit=25&sort_order=desc&offset=0&filter%5B0%5D%5Bparam%5D=robots_follow&filter%5B0%5D%5Bvalue%5D=noindex_follow&filter%5B0%5D%5Btype%5D=and&filter%5B1%5D%5Bparam%5D=statuses&filter%5B1%5D%5Bvalue%5D%5Bfrom%5D=1&filter%5B1%5D%5Btype%5D=and&compare=&site_id=12280616:0
+[10449555ms] [WARNING] i18n: Translation key undefined supposed to be string @ https://online.seranking.com/frontend-dist/Audit/js/index.C_nrGH0L.mpxm1787.js:15
+[10449625ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://online.seranking.com/api.account.event.html:0
+[10449627ms] B
+[10580426ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://kaufast.com&size=16:0
+[10593986ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://online.seranking.com/login.html#/:0
+[10605908ms] [WARNING] i18n: Translate for key common.black_friday.badge.title not found! @ https://online.seranking.com/frontend-dist/ProjectDashboard/js/index.CjfY5B4Q.mq6gkflh.js:15
+[10605908ms] [WARNING] i18n: Translate for key common.black_friday.badge.text not found! @ https://online.seranking.com/frontend-dist/ProjectDashboard/js/index.CjfY5B4Q.mq6gkflh.js:15
+[10606061ms] [WARNING] i18n: Translate for key common.black_friday.badge.title not found! @ https://online.seranking.com/frontend-dist/ProjectDashboard/js/index.CjfY5B4Q.mq6gkflh.js:15
+[10606062ms] [WARNING] i18n: Translate for key common.black_friday.badge.text not found! @ https://online.seranking.com/frontend-dist/ProjectDashboard/js/index.CjfY5B4Q.mq6gkflh.js:15
+[10606422ms] [ERROR] Userflow.js resetting due to: [company_closed] This Userflow account has been closed. You can re-activate it at https://userflow.com/app. @ https://online.seranking.com/frontend-dist/ProjectDashboard/js/index.CjfY5B4Q.mq6gkflh.js:15
+[10606515ms] [ERROR] Refused to display 'https://seranking.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'. @ chrome-error://chromewebdata/:0
+[14217874ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://online.seranking.com/.well-known/mercure?topic=http%3A%2F%2Fonline.seranking.com%2Facc%2F5048639&topic=http%3A%2F%2Fonline.seranking.com%2Fglobal&topic=http%3A%2F%2Fonline.seranking.com%2Ftoken%2F13352774:0

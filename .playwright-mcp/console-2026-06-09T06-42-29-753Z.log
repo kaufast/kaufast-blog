@@ -1,0 +1,24 @@
+[   10719ms] [LOG] %c
+▲
+
+    ________   _ __ _          ____           __
+   /  _/ __/  (_) /( )_____   / __/___ ______/ /_
+   / // /_   / / __/// ___/  / /_/ __ `/ ___/ __/
+ _/ // __/  / / /_  (__  )  / __/ /_/ (__  ) /_
+/___/_/    /_/\__/ /____/  /_/  \__,_/____/\__/
+    _ __ _                         _    __                    __
+   (_) /( )_____   ____  ____     | |  / /__  _____________  / /
+  / / __/// ___/  / __ \/ __ \    | | / / _ \/ ___/ ___/ _ \/ /
+ / / /_  (__  )  / /_/ / / / /    | |/ /  __/ /  / /__/  __/ /
+/_/\__/ /____/   \____/_/ /_/     |___/\___/_/   \___/\___/_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/2asv2qtfb0u2l.js:78
+[   10791ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/1ub0qp20ve_ca.js:18
+[   10816ms] [WARNING] iso_swr[warn] useIsomorphicSWRInfinite used without Provider. Fallbacking back to client-side render @ https://vercel.com/_next/static/immutable/chunks/1ub0qp20ve_ca.js:16

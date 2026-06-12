@@ -1,0 +1,74 @@
+[   10272ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   10943ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   11559ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   11962ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   14248ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   14348ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   14562ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   16024ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   16604ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   16993ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   17831ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   18823ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   18849ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   19162ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   19186ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   28577ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[   28577ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[   32511ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,idvpreregisteredphonechallengeconsent/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[   32511ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,idvpreregisteredphonechallengeconsent/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[   42642ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[   42642ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[   45323ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   48706ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   58999ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[   59477ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1547583ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://github.com/signup_check_new/username?value=rmelchor:0
+[ 1565370ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1599133ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1770317ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1788042ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1795522ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1805880ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1819189ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1936846ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[ 1936846ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[ 1941943ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,idvpreregisteredphonechallengeconsent/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[ 1941943ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,idvpreregisteredphonechallengeconsent/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[ 1960505ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[ 1960505ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[ 1961917ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1962298ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1976523ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1980925ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 1989642ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2012162ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2013476ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2013729ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2019976ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2021901ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2023827ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/github-copilot/chat/entitlement:0
+[ 2024069ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/github-copilot/chat/repositories_search?limit=10:0
+[ 2024306ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2024338ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2024439ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2024446ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/github-copilot/chat/entitlement:0
+[ 2024974ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2025129ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2025295ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2029417ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 2044745ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 4207389ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 4208307ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/github-copilot/chat/entitlement:0
+[ 4208489ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/github-copilot/chat/repositories_search?limit=10:0
+[ 4208543ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 4208896ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/github-copilot/chat/entitlement:0
+[ 4212141ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 4213058ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0
+[ 4217365ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://collector.github.com/github/collect:0

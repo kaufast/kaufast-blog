@@ -1,0 +1,97 @@
+[     195ms] [ERROR] Access to script at 'https://clarity.microsoft.com/js/1da90410-aa58-4569-8c60-60d628ba628f' from origin 'https://www.bing.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.bing.com/toolbox/WebmasterNew?error=oauth_failure:0
+[     195ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://clarity.microsoft.com/js/1da90410-aa58-4569-8c60-60d628ba628f:0
+[     231ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/webmaster/script/resources&wlang=en-GB&wmkt=es-ES:0
+[     578ms] [LOG] JQMIGRATE: Migrate is installed, version 1.4.1 @ https://www.bing.com/webmaster/scripts/vsplatform/jquery-migrate.min.js:1
+[     588ms] [LOG] Error initializing WcpConsent: Error: Invalid placeholder ID or element @ https://www.bing.com/toolbox/WebmasterNew?error=oauth_failure:475
+[     810ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/Dashboard.svg:0
+[    1089ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/ReportingTools.svg:0
+[    1119ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/Support.svg:0
+[    1120ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/MobileFriendly.svg:0
+[    1121ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/Notifications.svg:0
+[    1121ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/DiagnosticTools.svg:0
+[    1128ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/Blog.svg:0
+[    1136ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/BwtApi.svg:0
+[    1138ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/Guidelines.svg:0
+[    1203ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/VerifySite.svg:0
+[    1227ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/HelpCenter.svg:0
+[    1552ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://dc.services.visualstudio.com/v2/track:0
+[    3228ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://dc.services.visualstudio.com/v2/track:0
+[   16492ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://login.live.com/favicon.ico:0
+[   17530ms] [LOG] JQMIGRATE: Migrate is installed, version 1.4.1 @ https://www.bing.com/webmaster/scripts/vsplatform/jquery-migrate.min.js:1
+[   17580ms] [ERROR] Access to script at 'https://clarity.microsoft.com/js/1da90410-aa58-4569-8c60-60d628ba628f' from origin 'https://www.bing.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.bing.com/toolbox/WebmasterNew?error=oauth_failure&wlexpsignin=1:0
+[   17580ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://clarity.microsoft.com/js/1da90410-aa58-4569-8c60-60d628ba628f:0
+[   17800ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/webmaster/script/resources&wlang=en-GB&wmkt=es-ES:0
+[   17806ms] [LOG] Error initializing WcpConsent: Error: Invalid placeholder ID or element @ https://www.bing.com/toolbox/WebmasterNew?error=oauth_failure&wlexpsignin=1:475
+[   17977ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/Support.svg:0
+[   17978ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/Notifications.svg:0
+[   17980ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/Dashboard.svg:0
+[   17980ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/BwtApi.svg:0
+[   17985ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/Blog.svg:0
+[   17987ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/VerifySite.svg:0
+[   18006ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/DiagnosticTools.svg:0
+[   18302ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/Guidelines.svg:0
+[   18315ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/ReportingTools.svg:0
+[   18373ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/HelpCenter.svg:0
+[   18447ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/Content/images/svg/MobileFriendly.svg:0
+[   18581ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://dc.services.visualstudio.com/v2/track:0
+[   20584ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://dc.services.visualstudio.com/v2/track:0
+[   22850ms] [WARNING] jQuery Flot not loaded properly @ https://www.bing.com/webmasters/about:97
+[   22931ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://www.bing.com/webmasters/about:0
+[   24785ms] [WARNING] Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+GlobalNavButton, ChevronDown, ChevronUp, Edit, Add, Cancel, More, Settings, Mail, Filter (+ 1791 more) @ https://www.bing.com/webmasters/dist/bundle.min.js?v=KRrs9frvLfCr0T_IUfdukw8QdVRAoFQ7qnb-uVrmN_w:1
+[   31309ms] [INFO] BSSO Telemetry: {"result":"Error","error":"NoExtension","type":"ChromeSsoTelemetry","data":{},"traces":["BrowserSSO Initialized","Creating ChromeBrowserCore provider","Sending message for method CreateProviderAsync","Received message for method CreateProviderAsync","Error: ChromeBrowserCore error NoExtension: Extension is not installed."]} @ https://aadcdn.msauth.net/shared/1.0/content/js/BssoInterrupt_Core_9GPLBwek-swGv_tRKLyCgw2.js:17
+[   32113ms] [LOG] true @ https://login.live.com/Me.htm?v=3:0
+[   39107ms] [WARNING] jQuery Flot not loaded properly @ https://www.bing.com/webmasters?tid=5812436e-9483-4d8c-9ef1-168566210196:95
+[   39108ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://www.bing.com/webmasters?tid=5812436e-9483-4d8c-9ef1-168566210196:0
+[   39366ms] [ERROR] A bad HTTP response code (404) was received when fetching the script. @ :0
+[   40002ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40002ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40002ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40003ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40036ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40037ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40148ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40216ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/webmasters/api/reports/seo/topInsights?siteUrl=http%3A%2F%2Frigomelchor.com%2F:0
+[   40240ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40290ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40322ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40369ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40399ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40426ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40570ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   40979ms] [WARNING] Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+GlobalNavButton, ChevronDown, ChevronUp, Edit, Add, Cancel, More, Settings, Mail, Filter (+ 3602 more) @ https://www.bing.com/webmasters/dist/bundle.min.js?v=KRrs9frvLfCr0T_IUfdukw8QdVRAoFQ7qnb-uVrmN_w:1
+[   45333ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   46649ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   46755ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   46756ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   46790ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   46940ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   48180ms] [WARNING] Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+Copilot, Copilot, Copilot, Copilot, Copilot, Copilot, Copilot, Copilot @ https://www.bing.com/webmasters/dist/bundle.min.js?v=KRrs9frvLfCr0T_IUfdukw8QdVRAoFQ7qnb-uVrmN_w:1
+[   52150ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   66015ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   66154ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   66613ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[   67545ms] [WARNING] Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+Copilot @ https://www.bing.com/webmasters/dist/bundle.min.js?v=KRrs9frvLfCr0T_IUfdukw8QdVRAoFQ7qnb-uVrmN_w:1
+[   70626ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[  184305ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[  184307ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[  185460ms] [WARNING] Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+Copilot, Copilot, Copilot @ https://www.bing.com/webmasters/dist/bundle.min.js?v=KRrs9frvLfCr0T_IUfdukw8QdVRAoFQ7qnb-uVrmN_w:1
+[  195193ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[  196312ms] [WARNING] Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+Copilot, Copilot, Copilot @ https://www.bing.com/webmasters/dist/bundle.min.js?v=KRrs9frvLfCr0T_IUfdukw8QdVRAoFQ7qnb-uVrmN_w:1
+[  199933ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[  204821ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[  206244ms] [WARNING] Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+Copilot, Copilot, Copilot @ https://www.bing.com/webmasters/dist/bundle.min.js?v=KRrs9frvLfCr0T_IUfdukw8QdVRAoFQ7qnb-uVrmN_w:1
+[  210361ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[  221121ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[  221207ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[  222393ms] [WARNING] Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+Copilot @ https://www.bing.com/webmasters/dist/bundle.min.js?v=KRrs9frvLfCr0T_IUfdukw8QdVRAoFQ7qnb-uVrmN_w:1
+[  224497ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[  224665ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0
+[  239082ms] [ERROR] Failed to load resource: the server responded with a status of 439 () @ https://westus2-1.in.applicationinsights.azure.com//v2/track:0

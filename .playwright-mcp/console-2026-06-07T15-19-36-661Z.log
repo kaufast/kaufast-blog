@@ -1,0 +1,29 @@
+[   21163ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[   21164ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en.dSMiQ19WqaA.es5.O/am=Ed8AAABgFP8IGQD8__03AAABBNEB37MATYCQAQAAAAAAAAAACwAA0Ag/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEUgpg13d_E1pD_2N7hZ23w_kUkaQ/dti=1/m=_b,_tp:546
+[   25642ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://accounts.google.com/v3/signin/identifier?app_domain=https%3A%2F%2Fgithub.com&client_id=1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com&code_challenge=ztjxutCBLp_dDvc7EMlnmvvMV-sSH-_2wWvHwJKA4w4&code_challenge_method=S256&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPOXJYRHn_OpKxXig6d_4zZVuDqsH8fX6DIRE3PiF9EW8sbeeErg9qqosaJr3SChQ7HO1wOyiszpfz3yeCfdy_7uPox_CfcCDXlFFhISYnHrrX8r48_5wqSo_Wfhin_XM17UhI8ZzEhQWL0ErspP3jkh3HpC6wKEOiTmFGDEVhfmo8ee6oR1CBUOlHhXWin0KhLjiDBr0CIAoNtKH_O43PF9Vc0Z39V3AlvXUbw3uE3cqmiYCLg06Hsf5hLePDXOssK81eYMEpAX2M0Zh6aJPVWnT-AqC2tRvezJFn-u140f2U1Iijx3rLYT5kMVuzsuVsJsZVNfiiYqIM3giZQef8cRkUwu73Oah6K11yxknYKe_3uPudrhmPDwwEOhBw9euAqSeF7X3uTem3TpsXob061r2IaWdMMgaDHnrpzu3aR4FpTFYPav2dInQ1JC6T8SE9LBnZwW21Wypc0dt8rL1KknT_jxQ%26flowName%3DGeneralOAuthFlow%26as%3DS2132646823%253A1780845597449448%26client_id%3D1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&dsh=S2132646823%3A1780845597449448&flowName=GeneralOAuthFlow&nonce=9735d6db854203dd15584d4c842c9a7a&o2v=2&opparams=%253F&prompt=select_account&redirect_uri=https%3A%2F%2Fgithub.com%2Fsessions%2Fsocial%2Fgoogle%2Fcallback&response_type=code&scope=openid%20email%20profile&service=lso&state=0af55ce283193b997ea47fc3e7161e94:0
+[   42496ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://accounts.google.com/v3/signin/challenge/pwd?TL=ADCchmaFHHy7ZINhqpsUScKauX_UGqFYsL6kqdfOsYiJVOntBrwh3uGosZEKLxpa&app_domain=https%3A%2F%2Fgithub.com&checkConnection=youtube%3A62&checkedDomains=youtube&cid=2&client_id=1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com&code_challenge=ztjxutCBLp_dDvc7EMlnmvvMV-sSH-_2wWvHwJKA4w4&code_challenge_method=S256&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPOXJYRHn_OpKxXig6d_4zZVuDqsH8fX6DIRE3PiF9EW8sbeeErg9qqosaJr3SChQ7HO1wOyiszpfz3yeCfdy_7uPox_CfcCDXlFFhISYnHrrX8r48_5wqSo_Wfhin_XM17UhI8ZzEhQWL0ErspP3jkh3HpC6wKEOiTmFGDEVhfmo8ee6oR1CBUOlHhXWin0KhLjiDBr0CIAoNtKH_O43PF9Vc0Z39V3AlvXUbw3uE3cqmiYCLg06Hsf5hLePDXOssK81eYMEpAX2M0Zh6aJPVWnT-AqC2tRvezJFn-u140f2U1Iijx3rLYT5kMVuzsuVsJsZVNfiiYqIM3giZQef8cRkUwu73Oah6K11yxknYKe_3uPudrhmPDwwEOhBw9euAqSeF7X3uTem3TpsXob061r2IaWdMMgaDHnrpzu3aR4FpTFYPav2dInQ1JC6T8SE9LBnZwW21Wypc0dt8rL1KknT_jxQ%26flowName%3DGeneralOAuthFlow%26as%3DS2132646823%253A1780845597449448%26client_id%3D1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&dsh=S2132646823%3A1780845597449448&flowName=GeneralOAuthFlow&nonce=9735d6db854203dd15584d4c842c9a7a&o2v=2&opparams=%253F&prompt=select_account&pstMsg=1&redirect_uri=https%3A%2F%2Fgithub.com%2Fsessions%2Fsocial%2Fgoogle%2Fcallback&response_type=code&scope=openid%20email%20profile&service=lso&state=0af55ce283193b997ea47fc3e7161e94:0
+[   69063ms] [LOG] %c
+▲
+
+    ________   _ __ _          ____           __
+   /  _/ __/  (_) /( )_____   / __/___ ______/ /_
+   / // /_   / / __/// ___/  / /_/ __ `/ ___/ __/
+ _/ // __/  / / /_  (__  )  / __/ /_/ (__  ) /_
+/___/_/    /_/\__/ /____/  /_/  \__,_/____/\__/
+    _ __ _                         _    __                    __
+   (_) /( )_____   ____  ____     | |  / /__  _____________  / /
+  / / __/// ___/  / __ \/ __ \    | | / / _ \/ ___/ ___/ _ \/ /
+ / / /_  (__  )  / /_/ / / / /    | |/ /  __/ /  / /__/  __/ /
+/_/\__/ /____/   \____/_/ /_/     |___/\___/_/   \___/\___/_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/1kr7c1uafpgbu.js:78
+[   69187ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/198esuow737c_.js:18
+[   69269ms] [WARNING] iso_swr[warn] useIsomorphicSWRInfinite used without Provider. Fallbacking back to client-side render @ https://vercel.com/_next/static/immutable/chunks/198esuow737c_.js:16

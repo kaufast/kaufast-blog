@@ -1,0 +1,63 @@
+[   14787ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://seranking.com/es/sign-up.html:0
+[   21336ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://online.seranking.com/login.html:0
+[   21422ms] [LOG] showCookieBanner function called @ :0
+[   21425ms] [LOG] showCookieBanner function called @ :0
+[   21426ms] [LOG] showCookieBanner function called @ :0
+[   21428ms] [LOG] showCookieBanner function called @ :0
+[   21429ms] [LOG] showCookieBanner function called @ :0
+[   21430ms] [LOG] showCookieBanner function called @ :0
+[   21431ms] [LOG] showCookieBanner function called @ :0
+[   21437ms] [LOG] showCookieBanner function called @ :0
+[   21441ms] [LOG] showCookieBanner function called @ :0
+[   21448ms] [LOG] showCookieBanner function called @ :0
+[   21453ms] [LOG] showCookieBanner function called @ :0
+[   21458ms] [LOG] showCookieBanner function called @ :0
+[   21462ms] [LOG] showCookieBanner function called @ :0
+[   21467ms] [LOG] showCookieBanner function called @ :0
+[   21471ms] [LOG] showCookieBanner function called @ :0
+[   21476ms] [LOG] showCookieBanner function called @ :0
+[   21481ms] [LOG] showCookieBanner function called @ :0
+[   21486ms] [LOG] showCookieBanner function called @ :0
+[   21490ms] [LOG] showCookieBanner function called @ :0
+[   21495ms] [LOG] showCookieBanner function called @ :0
+[   21499ms] [LOG] showCookieBanner function called @ :0
+[   21503ms] [LOG] showCookieBanner function called @ :0
+[   21508ms] [LOG] showCookieBanner function called @ :0
+[   21512ms] [LOG] showCookieBanner function called @ :0
+[   35973ms] [LOG] showCookieBanner function called @ :0
+[   35978ms] [LOG] showCookieBanner function called @ :0
+[   35980ms] [LOG] showCookieBanner function called @ :0
+[   35981ms] [LOG] showCookieBanner function called @ :0
+[   35982ms] [LOG] showCookieBanner function called @ :0
+[   35984ms] [LOG] showCookieBanner function called @ :0
+[   35988ms] [LOG] showCookieBanner function called @ :0
+[   36000ms] [LOG] showCookieBanner function called @ :0
+[   36005ms] [LOG] showCookieBanner function called @ :0
+[   36042ms] [LOG] showCookieBanner function called @ :0
+[   36060ms] [LOG] showCookieBanner function called @ :0
+[   36064ms] [LOG] showCookieBanner function called @ :0
+[   36069ms] [LOG] showCookieBanner function called @ :0
+[   36074ms] [LOG] showCookieBanner function called @ :0
+[   36078ms] [LOG] showCookieBanner function called @ :0
+[   36083ms] [LOG] showCookieBanner function called @ :0
+[   36087ms] [LOG] showCookieBanner function called @ :0
+[   36096ms] [LOG] showCookieBanner function called @ :0
+[   36100ms] [LOG] showCookieBanner function called @ :0
+[   36106ms] [LOG] showCookieBanner function called @ :0
+[   36110ms] [LOG] showCookieBanner function called @ :0
+[   36115ms] [LOG] showCookieBanner function called @ :0
+[   36120ms] [LOG] showCookieBanner function called @ :0
+[   36125ms] [LOG] showCookieBanner function called @ :0
+[   36177ms] [WARNING] i18n: Translate for key common.black_friday.badge.title not found! @ https://online.seranking.com/frontend-dist/Dashboard/js/index.Cx-JJ8oU.mpxm0vro.js:15
+[   36177ms] [WARNING] i18n: Translate for key common.black_friday.badge.text not found! @ https://online.seranking.com/frontend-dist/Dashboard/js/index.Cx-JJ8oU.mpxm0vro.js:15
+[   36286ms] [WARNING] i18n: Translate for key common.black_friday.badge.title not found! @ https://online.seranking.com/frontend-dist/Dashboard/js/index.Cx-JJ8oU.mpxm0vro.js:15
+[   36286ms] [WARNING] i18n: Translate for key common.black_friday.badge.text not found! @ https://online.seranking.com/frontend-dist/Dashboard/js/index.Cx-JJ8oU.mpxm0vro.js:15
+[   36540ms] [ERROR] Userflow.js resetting due to: [company_closed] This Userflow account has been closed. You can re-activate it at https://userflow.com/app. @ https://online.seranking.com/frontend-dist/Dashboard/js/index.Cx-JJ8oU.mpxm0vro.js:15
+[ 1008425ms] [WARNING] i18n: Translate for key common.black_friday.badge.title not found! @ https://online.seranking.com/frontend-dist/Dashboard/js/index.Cx-JJ8oU.mpxm0vro.js:15
+[ 1008425ms] [WARNING] i18n: Translate for key common.black_friday.badge.text not found! @ https://online.seranking.com/frontend-dist/Dashboard/js/index.Cx-JJ8oU.mpxm0vro.js:15
+[ 1008512ms] [WARNING] i18n: Translate for key common.black_friday.badge.title not found! @ https://online.seranking.com/frontend-dist/Dashboard/js/index.Cx-JJ8oU.mpxm0vro.js:15
+[ 1008512ms] [WARNING] i18n: Translate for key common.black_friday.badge.text not found! @ https://online.seranking.com/frontend-dist/Dashboard/js/index.Cx-JJ8oU.mpxm0vro.js:15
+[ 1008835ms] [ERROR] Userflow.js resetting due to: [company_closed] This Userflow account has been closed. You can re-activate it at https://userflow.com/app. @ https://online.seranking.com/frontend-dist/Dashboard/js/index.Cx-JJ8oU.mpxm0vro.js:15
+[ 1009012ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://kaufast.com&size=16:0
+[ 3496433ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ https://online.seranking.com/.well-known/mercure?topic=http%3A%2F%2Fonline.seranking.com%2Facc%2F5048639&topic=http%3A%2F%2Fonline.seranking.com%2Fglobal&topic=http%3A%2F%2Fonline.seranking.com%2Ftoken%2F13352774:0
+[ 6058411ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://online.seranking.com/.well-known/mercure?topic=http%3A%2F%2Fonline.seranking.com%2Facc%2F5048639&topic=http%3A%2F%2Fonline.seranking.com%2Fglobal&topic=http%3A%2F%2Fonline.seranking.com%2Ftoken%2F13352774:0

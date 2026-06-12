@@ -1,0 +1,395 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button "Main menu" [ref=e868] [cursor=pointer]:
+            - img [ref=e8]
+          - link "Google Search Console" [ref=e869] [cursor=pointer]:
+            - /url: ./search-console?resource_id=sc-domain%3Akaufast.com
+            - img [ref=e13]
+        - generic [ref=e14]:
+          - search [ref=e16]:
+            - generic [ref=e21]:
+              - generic [ref=e22]:
+                - textbox [disabled] [ref=e23]: Inspect any URL in 'kaufast.com'
+                - combobox "Inspect any URL in kaufast.com" [expanded] [active] [ref=e870]
+              - listbox [ref=e1641]:
+                - option "https://kaufast.com/en-GB/insights/why-seo-is-never-done" [ref=e1643]:
+                  - generic [ref=e1645]:
+                    - generic [ref=e1646]: 
+                    - generic [ref=e1647]: https://kaufast.com/en-GB/insights/why-seo-is-never-done
+            - button "Search" [ref=e871] [cursor=pointer]:
+              - img [ref=e26]
+          - generic [ref=e29]:
+            - generic [ref=e31]:
+              - button "Help" [ref=e872] [cursor=pointer]:
+                - generic [ref=e36]: 
+              - button "User settings" [ref=e873] [cursor=pointer]:
+                - img [ref=e41]
+            - 'button "Unread messages: 35" [ref=e874] [cursor=pointer]':
+              - generic [ref=e47]:
+                - generic [ref=e48]: 
+                - generic [ref=e876]: "35"
+        - generic [ref=e52]:
+          - button "Google apps" [ref=e877] [cursor=pointer]:
+            - img [ref=e57]
+          - 'button "Google Account: Kenneth Melchor (kennethmelchor@gmail.com)" [ref=e878] [cursor=pointer]':
+            - img [ref=e64]
+    - dialog "navigational drawer" [ref=e879]:
+      - navigation "Primary" [ref=e880]:
+        - button "Search property" [ref=e881] [cursor=pointer]:
+          - img "favicon" [ref=e882]
+          - combobox "kaufast.com" [ref=e883]
+          - generic [ref=e85]: 
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - link "Overview" [ref=e884] [cursor=pointer]:
+                - /url: ./search-console?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e92]: home
+                - generic [ref=e94]: Overview
+              - link "Insights" [ref=e885] [cursor=pointer]:
+                - /url: ./search-console/performance/insights?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e99]: lightbulb_2
+                - generic [ref=e101]: Insights
+              - link "Performance" [ref=e886] [cursor=pointer]:
+                - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e106]: trending_up
+                - generic [ref=e108]: Performance
+              - button "URL inspection" [ref=e887] [cursor=pointer]:
+                - generic [ref=e113]: search
+                - generic [ref=e115]: URL inspection
+            - generic [ref=e119]:
+              - button "Indexing report section" [expanded] [ref=e888] [cursor=pointer]:
+                - generic [ref=e121]:
+                  - generic [ref=e124]: Indexing
+                  - img [ref=e128]
+              - generic [ref=e133]:
+                - link "Pages" [ref=e889] [cursor=pointer]:
+                  - /url: ./search-console/index?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e137]: file_copy
+                  - generic [ref=e139]: Pages
+                - link "Videos" [ref=e890] [cursor=pointer]:
+                  - /url: ./search-console/video-index?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e144]: video_library
+                  - generic [ref=e146]: Videos
+                - link "Sitemaps" [ref=e891] [cursor=pointer]:
+                  - /url: ./search-console/sitemaps?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e151]: account_tree
+                  - generic [ref=e153]: Sitemaps
+                - link "Removals" [ref=e892] [cursor=pointer]:
+                  - /url: ./search-console/removals?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e158]: visibility_off
+                  - generic [ref=e160]: Removals
+            - generic [ref=e164]:
+              - button "Experience report section" [expanded] [ref=e893] [cursor=pointer]:
+                - generic [ref=e166]:
+                  - generic [ref=e169]: Experience
+                  - img [ref=e173]
+              - generic [ref=e178]:
+                - link "Core web vitals" [ref=e894] [cursor=pointer]:
+                  - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e182]: speed
+                  - generic [ref=e184]: Core web vitals
+                - link "HTTPS" [ref=e895] [cursor=pointer]:
+                  - /url: ./search-console/https?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e189]: lock
+                  - generic [ref=e191]: HTTPS
+            - generic [ref=e195]:
+              - button "Enhancements report section" [expanded] [ref=e896] [cursor=pointer]:
+                - generic [ref=e197]:
+                  - generic [ref=e200]: Enhancements
+                  - img [ref=e204]
+              - generic [ref=e209]:
+                - link "Breadcrumbs" [ref=e897] [cursor=pointer]:
+                  - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e213]: layers
+                  - generic [ref=e215]: Breadcrumbs
+                - link "FAQ" [ref=e898] [cursor=pointer]:
+                  - /url: ./search-console/r/faq?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e220]: layers
+                  - generic [ref=e222]: FAQ
+                - link "Review snippets" [ref=e899] [cursor=pointer]:
+                  - /url: ./search-console/r/review-snippet?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e227]: layers
+                  - generic [ref=e229]: Review snippets
+                - link "Videos" [ref=e900] [cursor=pointer]:
+                  - /url: ./search-console/r/videos?resource_id=sc-domain%3Akaufast.com
+                  - generic [ref=e234]: layers
+                  - generic [ref=e236]: Videos
+            - button "Security & Manual Actions report section" [ref=e901] [cursor=pointer]:
+              - generic [ref=e242]:
+                - generic [ref=e245]: Security & Manual Actions
+                - img [ref=e249]
+            - generic [ref=e251]:
+              - link "Links report" [ref=e902] [cursor=pointer]:
+                - /url: ./search-console/links?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e255]: link_2
+                - generic [ref=e257]: Links
+              - link "Achievements" [ref=e903] [cursor=pointer]:
+                - /url: ./search-console/achievements?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e262]: trophy
+                - generic [ref=e264]: Achievements
+              - link "Settings" [ref=e904] [cursor=pointer]:
+                - /url: ./search-console/settings?resource_id=sc-domain%3Akaufast.com
+                - generic [ref=e269]: settings
+                - generic [ref=e271]: Settings
+          - generic [ref=e273]:
+            - generic [ref=e275]:
+              - button "Submit feedback" [ref=e905] [cursor=pointer]:
+                - generic [ref=e279]: feedback
+                - generic [ref=e281]: Submit feedback
+              - button "About Search Console" [ref=e906] [cursor=pointer]:
+                - generic [ref=e286]: info
+                - generic [ref=e288]: About Search Console
+            - generic [ref=e292]:
+              - link "Privacy" [ref=e907] [cursor=pointer]:
+                - /url: https://myaccount.google.com/privacypolicy?hl=en-GB
+              - link "Terms" [ref=e908] [cursor=pointer]:
+                - /url: https://myaccount.google.com/termsofservice?hl=en-GB
+    - generic [ref=e913]:
+      - generic [ref=e916]:
+        - navigation "Breadcrumbs" [ref=e918]:
+          - heading "Page indexing" [level=1] [ref=e921]
+        - button "EXPORT" [ref=e924] [cursor=pointer]:
+          - generic [ref=e927]:
+            - generic [ref=e928]: 
+            - generic [ref=e929]: EXPORT
+      - generic [ref=e930]:
+        - generic [ref=e932]:
+          - listbox [disabled] [ref=e935]:
+            - option "All known pages" [disabled] [selected] [ref=e936]
+          - generic [ref=e939]: "Last update: 29/05/2026"
+        - main [ref=e941]:
+          - generic [ref=e942]:
+            - generic [ref=e944]:
+              - generic [ref=e945]:
+                - generic [ref=e947]:
+                  - generic [ref=e948] [cursor=pointer]:
+                    - button "Not indexed 1.29k 10 reasons" [ref=e949]:
+                      - generic [ref=e953]:
+                        - generic "Not indexed" [ref=e954]:
+                          - generic [ref=e955]: 
+                          - generic [ref=e956]: Not indexed
+                        - generic "1,293" [ref=e957]: 1.29k
+                        - generic [ref=e958]: 10 reasons
+                    - button "null" [ref=e961]:
+                      - generic [ref=e962]: 
+                  - generic [ref=e963] [cursor=pointer]:
+                    - button "Indexed 153" [ref=e964]:
+                      - generic [ref=e968]:
+                        - generic "Indexed" [ref=e969]:
+                          - generic [ref=e970]: 
+                          - generic [ref=e971]: Indexed
+                        - generic "153" [ref=e972]
+                    - button "null" [ref=e975]:
+                      - generic [ref=e976]: 
+                - generic [ref=e977]:
+                  - checkbox "Impressions" [ref=e978] [cursor=pointer]
+                  - generic [ref=e981]: Impressions
+                - generic [ref=e982]:
+                  - generic [ref=e984]: Pages
+                  - img [ref=e987]:
+                    - generic [ref=e988]:
+                      - generic [ref=e989]:
+                        - generic [ref=e991]: 04/03/2026
+                        - generic [ref=e993]: 17/03/2026
+                        - generic [ref=e995]: 30/03/2026
+                        - generic [ref=e997]: 12/04/2026
+                        - generic [ref=e999]: 25/04/2026
+                        - generic [ref=e1001]: 08/05/2026
+                        - generic [ref=e1003]: 21/05/2026
+                      - generic [ref=e1004]:
+                        - generic [ref=e1006]: 1.8k
+                        - generic [ref=e1008]: 1.2k
+                        - generic [ref=e1010]: "600"
+                        - generic [ref=e1012]: "0"
+                      - button [ref=e1357] [cursor=pointer]:
+                        - generic [ref=e1360]: "1"
+              - link "View data about indexed pages" [ref=e1361] [cursor=pointer]:
+                - /url: ./search-console/index/drilldown?resource_id=sc-domain%3Akaufast.com&pages=ALL_URLS
+                - generic [ref=e1364]:
+                  - generic [ref=e1366]: check_circle
+                  - generic [ref=e1367]: View data about indexed pages
+                  - generic [ref=e1369]: 
+            - generic [ref=e1372]:
+              - generic [ref=e1374]:
+                - generic [ref=e1377]:
+                  - generic [ref=e1378]: info_filled
+                  - generic [ref=e1379]:
+                    - generic [ref=e1380]: Why pages aren’t indexed
+                    - generic [ref=e1381]: Pages that aren’t indexed can’t be served on Google
+                - button "Filter table rows" [ref=e1386] [cursor=pointer]:
+                  - generic [ref=e1389]: 
+              - table [ref=e1392]:
+                - rowgroup [ref=e1393]:
+                  - row "Reason Source null Validation Trend Pages" [ref=e1394]:
+                    - columnheader "Reason" [ref=e1395]:
+                      - generic [ref=e1397]: Reason
+                      - img [ref=e1399] [cursor=pointer]
+                    - columnheader "Source null" [ref=e1401]:
+                      - generic [ref=e1403]:
+                        - text: Source
+                        - button "null" [ref=e1406] [cursor=pointer]:
+                          - generic [ref=e1407]: 
+                      - img [ref=e1409] [cursor=pointer]
+                    - columnheader "Validation" [ref=e1411]:
+                      - generic [ref=e1413]: Validation
+                      - img [ref=e1415] [cursor=pointer]
+                    - columnheader "Trend" [ref=e1417]:
+                      - generic [ref=e1419]: Trend
+                    - columnheader "Pages" [ref=e1420]:
+                      - img [ref=e1422] [cursor=pointer]
+                      - generic [ref=e1425]: Pages
+                - rowgroup [ref=e1426]:
+                  - row "Excluded by ‘noindex’ tag Website Not Started 251" [ref=e1427]:
+                    - cell "Excluded by ‘noindex’ tag" [ref=e1428]:
+                      - generic "Excluded by ‘noindex’ tag" [ref=e1430]
+                    - cell "Website" [ref=e1431]:
+                      - generic [ref=e1433]: Website
+                    - cell "Not Started" [ref=e1434]:
+                      - generic [ref=e1437]:
+                        - generic [ref=e1438]: 
+                        - text: Not Started
+                    - cell [ref=e1439]:
+                      - img [ref=e1442]
+                    - cell "251" [ref=e1444]:
+                      - generic [ref=e1446]: "251"
+                  - row "Not found (404) Website Not Started 167" [ref=e1447]:
+                    - cell "Not found (404)" [ref=e1448]:
+                      - generic "Not found (404)" [ref=e1450]
+                    - cell "Website" [ref=e1451]:
+                      - generic [ref=e1453]: Website
+                    - cell "Not Started" [ref=e1454]:
+                      - generic [ref=e1457]:
+                        - generic [ref=e1458]: 
+                        - text: Not Started
+                    - cell [ref=e1459]:
+                      - img [ref=e1462]
+                    - cell "167" [ref=e1464]:
+                      - generic [ref=e1466]: "167"
+                  - row "Page with redirect Website Not Started 152" [ref=e1467]:
+                    - cell "Page with redirect" [ref=e1468]:
+                      - generic "Page with redirect" [ref=e1470]
+                    - cell "Website" [ref=e1471]:
+                      - generic [ref=e1473]: Website
+                    - cell "Not Started" [ref=e1474]:
+                      - generic [ref=e1477]:
+                        - generic [ref=e1478]: 
+                        - text: Not Started
+                    - cell [ref=e1479]:
+                      - img [ref=e1482]
+                    - cell "152" [ref=e1484]:
+                      - generic [ref=e1486]: "152"
+                  - row "Duplicate without user-selected canonical Website Not Started 29" [ref=e1487]:
+                    - cell "Duplicate without user-selected canonical" [ref=e1488]:
+                      - generic "Duplicate without user-selected canonical" [ref=e1490]
+                    - cell "Website" [ref=e1491]:
+                      - generic [ref=e1493]: Website
+                    - cell "Not Started" [ref=e1494]:
+                      - generic [ref=e1497]:
+                        - generic [ref=e1498]: 
+                        - text: Not Started
+                    - cell [ref=e1499]:
+                      - img [ref=e1502]
+                    - cell "29" [ref=e1504]:
+                      - generic [ref=e1506]: "29"
+                  - row "Blocked by robots.txt Website Not Started 5" [ref=e1507]:
+                    - cell "Blocked by robots.txt" [ref=e1508]:
+                      - generic "Blocked by robots.txt" [ref=e1510]
+                    - cell "Website" [ref=e1511]:
+                      - generic [ref=e1513]: Website
+                    - cell "Not Started" [ref=e1514]:
+                      - generic [ref=e1517]:
+                        - generic [ref=e1518]: 
+                        - text: Not Started
+                    - cell [ref=e1519]:
+                      - img [ref=e1522]
+                    - cell "5" [ref=e1523]:
+                      - generic [ref=e1525]: "5"
+                  - row "Redirect error Website Not Started 2" [ref=e1526]:
+                    - cell "Redirect error" [ref=e1527]:
+                      - generic "Redirect error" [ref=e1529]
+                    - cell "Website" [ref=e1530]:
+                      - generic [ref=e1532]: Website
+                    - cell "Not Started" [ref=e1533]:
+                      - generic [ref=e1536]:
+                        - generic [ref=e1537]: 
+                        - text: Not Started
+                    - cell [ref=e1538]:
+                      - img [ref=e1541]
+                    - cell "2" [ref=e1542]:
+                      - generic [ref=e1544]: "2"
+                  - row "Alternative page with proper canonical tag Website Not Started 2" [ref=e1545]:
+                    - cell "Alternative page with proper canonical tag" [ref=e1546]:
+                      - generic "Alternative page with proper canonical tag" [ref=e1548]
+                    - cell "Website" [ref=e1549]:
+                      - generic [ref=e1551]: Website
+                    - cell "Not Started" [ref=e1552]:
+                      - generic [ref=e1555]:
+                        - generic [ref=e1556]: 
+                        - text: Not Started
+                    - cell [ref=e1557]:
+                      - img [ref=e1560]
+                    - cell "2" [ref=e1561]:
+                      - generic [ref=e1563]: "2"
+                  - row "Server error (5xx) Website Not Started 1" [ref=e1564]:
+                    - cell "Server error (5xx)" [ref=e1565]:
+                      - generic "Server error (5xx)" [ref=e1567]
+                    - cell "Website" [ref=e1568]:
+                      - generic [ref=e1570]: Website
+                    - cell "Not Started" [ref=e1571]:
+                      - generic [ref=e1574]:
+                        - generic [ref=e1575]: 
+                        - text: Not Started
+                    - cell [ref=e1576]:
+                      - img [ref=e1579]
+                    - cell "1" [ref=e1580]:
+                      - generic [ref=e1582]: "1"
+                  - row "Crawled - currently not indexed Google systems Not Started 584" [ref=e1583]:
+                    - cell "Crawled - currently not indexed" [ref=e1584]:
+                      - generic "Crawled - currently not indexed" [ref=e1586]
+                    - cell "Google systems" [ref=e1587]:
+                      - generic [ref=e1589]: Google systems
+                    - cell "Not Started" [ref=e1590]:
+                      - generic [ref=e1593]:
+                        - generic [ref=e1594]: 
+                        - text: Not Started
+                    - cell [ref=e1595]:
+                      - img [ref=e1598]
+                    - cell "584" [ref=e1600]:
+                      - generic [ref=e1602]: "584"
+                  - row "Duplicate, Google chose different canonical than user Google systems Not Started 100" [ref=e1603]:
+                    - cell "Duplicate, Google chose different canonical than user" [ref=e1604]:
+                      - generic "Duplicate, Google chose different canonical than user" [ref=e1606]
+                    - cell "Google systems" [ref=e1607]:
+                      - generic [ref=e1609]: Google systems
+                    - cell "Not Started" [ref=e1610]:
+                      - generic [ref=e1613]:
+                        - generic [ref=e1614]: 
+                        - text: Not Started
+                    - cell [ref=e1615]:
+                      - img [ref=e1618]
+                    - cell "100" [ref=e1620]:
+                      - generic [ref=e1622]: "100"
+              - generic [ref=e1625]:
+                - generic [ref=e1627]:
+                  - generic [ref=e1628]: "Rows per page:"
+                  - listbox "Number of rows per page" [ref=e1629] [cursor=pointer]:
+                    - option "5"
+                    - option "10" [selected] [ref=e1630]
+                    - option "25"
+                    - option "50"
+                    - option "100"
+                    - option "250"
+                    - option "500"
+                - generic [ref=e1631]:
+                  - generic [ref=e1632]: 1-10 of 11
+                  - generic [ref=e1633]:
+                    - generic [ref=e1635]: 
+                    - generic [ref=e1637] [cursor=pointer]: 
+  - iframe [ref=e1640]:
+    - generic [ref=f13e6]:
+      - text: protected by
+      - strong [ref=f13e7]: reCAPTCHA

@@ -1,0 +1,234 @@
+- article [ref=e2]:
+  - navigation "Breadcrumb" [ref=e3]:
+    - link "Home" [ref=e4] [cursor=pointer]:
+      - /url: /en-GB
+    - text: /
+    - link "Insights" [ref=e5] [cursor=pointer]:
+      - /url: /en-GB/insights
+    - text: /Why SEO Is Never Done
+  - generic [ref=e6]:
+    - text: SEO & AI Visibility
+    - 'heading "Why SEO Is Never Done: The Ongoing Work Behind Real Rankings" [level=1] [ref=e7]'
+    - paragraph [ref=e8]: SEO isn't a project you complete and forget. It's a continuous system of monitoring, competing, creating, and adapting — transparency about that matters.
+    - generic [ref=e9]:
+      - generic [ref=e10]: By Kenneth Melchor
+      - text: 1 June 2026
+      - generic [ref=e11]: 9 min read
+  - img "Why SEO Is Never Done" [ref=e12]
+  - generic [ref=e13]:
+    - paragraph [ref=e14]:
+      - strong [ref=e15]: 66% of pages on the internet receive zero organic traffic from Google.
+      - text: "Not low traffic. Zero. That figure comes from an Ahrefs study of over a billion pages, and it tells you something critical about how search actually works: showing up is not the default. Disappearing is."
+    - paragraph [ref=e16]: If you've ever treated SEO as a project — something you pay for once, tick off a list, and move on — you've misunderstood what the work actually involves. And that misunderstanding costs businesses months, sometimes years, of wasted potential.
+    - paragraph [ref=e17]: This article is about transparency. Whether you work with us or with another provider, you deserve to know exactly what ongoing SEO looks like, why it never stops, and what you should demand from whoever handles it.
+    - heading "SEO Is a System, Not a Project" [level=2] [ref=e18]
+    - paragraph [ref=e19]: A website launch is a project. It has a start date, a delivery date, and a handover. SEO doesn't work like that.
+    - paragraph [ref=e20]:
+      - text: SEO is closer to maintaining a competitive position in a market that shifts every single day. Google processes over
+      - strong [ref=e21]: 8.5 billion searches per day
+      - text: ", and the results for any given query change constantly. Your competitors publish new pages. Google rolls out algorithm updates —"
+      - strong [ref=e22]: over 4,500 changes to Search in 2023 alone
+      - text: ", according to their own documentation. User behaviour evolves as AI tools like ChatGPT, Perplexity, and Google's AI Overviews reshape how people find information."
+    - paragraph [ref=e23]: The moment you stop working on SEO, you start falling behind. Not because your site gets worse — but because everything around it keeps moving.
+    - heading "What Ongoing SEO Actually Involves" [level=2] [ref=e24]
+    - paragraph [ref=e25]: Here's the honest breakdown of what the work looks like, month after month. No vague promises. No mystery.
+    - heading "Monitoring Search Trends & Ranking Shifts" [level=3] [ref=e26]
+    - paragraph [ref=e27]: "Every week, we track how your pages perform in Google Search Console, Ahrefs, and Semrush. Not just \"are we ranking?\" but the specific questions that matter:"
+    - list [ref=e28]:
+      - listitem [ref=e29]: Which keywords are gaining or losing impressions?
+      - listitem [ref=e30]: Which pages have a high impression count but low click-through rate — meaning the title or description needs work?
+      - listitem [ref=e31]: Are there new search queries appearing that we haven't targeted yet?
+      - listitem [ref=e32]: Has a Google core update shifted your positions?
+    - paragraph [ref=e33]:
+      - strong [ref=e34]: Google released 9 confirmed core updates between March 2024 and March 2025.
+      - text: Each one can reshuffle rankings across entire industries overnight. Without active monitoring, you won't know you've been hit until revenue drops.
+    - heading "Analysing Competitors & Reverse-Engineering What Works" [level=3] [ref=e35]
+    - paragraph [ref=e36]: Your competitors aren't static. The sites that outrank you are publishing content, earning backlinks, and improving their technical foundations constantly.
+    - paragraph [ref=e37]: "We run competitor gap analyses using Ahrefs and Semrush to answer:"
+    - list [ref=e38]:
+      - listitem [ref=e39]: What keywords are they ranking for that you're not?
+      - listitem [ref=e40]: What content formats are working in your niche — long-form guides, comparison pages, tools, data studies?
+      - listitem [ref=e41]: Where are they getting backlinks from, and can you earn similar ones?
+      - listitem [ref=e42]: What's their content velocity — how often do they publish, and what's gaining traction?
+    - paragraph [ref=e43]: This isn't a one-time exercise. Competitor landscapes shift quarterly. A new player enters the market. An existing competitor invests heavily in content. Someone launches a tool that captures featured snippets you used to own. If you're not watching, you're reacting too late.
+    - heading "Identifying New Opportunities" [level=3] [ref=e44]
+    - paragraph [ref=e45]:
+      - text: Search demand isn't fixed. New queries emerge as industries evolve, seasons change, and trends surface.
+      - strong [ref=e46]: Google has said that 15% of all searches every day are queries they've never seen before.
+    - paragraph [ref=e47]: "Ongoing SEO means actively scouting for:"
+    - list [ref=e48]:
+      - listitem [ref=e49]:
+        - strong [ref=e50]: Emerging keywords
+        - text: — terms gaining search volume that you can target before competition intensifies
+      - listitem [ref=e51]:
+        - strong [ref=e52]: Content gaps
+        - text: — topics your audience searches for that nobody in your space covers well
+      - listitem [ref=e53]:
+        - strong [ref=e54]: SERP feature opportunities
+        - text: — featured snippets, People Also Ask boxes, and AI Overviews that you can win with the right content structure
+      - listitem [ref=e55]:
+        - strong [ref=e56]: Cross-platform visibility
+        - text: — opportunities on YouTube, LinkedIn, Reddit, and other platforms that feed back into organic search authority
+    - heading "Creating & Refining Content" [level=3] [ref=e57]
+    - paragraph [ref=e58]: Content isn't a one-and-done deliverable. The best-performing pages on the internet are pages that get updated.
+    - paragraph [ref=e59]:
+      - strong [ref=e60]: HubSpot reported that updating old blog posts with fresh data and improved targeting increased organic traffic by up to 106%.
+      - text: That's not a new page — that's taking something that already exists and making it better.
+    - paragraph [ref=e61]: "Ongoing content work includes:"
+    - list [ref=e62]:
+      - listitem [ref=e63]:
+        - strong [ref=e64]: Publishing new articles
+        - text: targeting identified keyword opportunities and content gaps
+      - listitem [ref=e65]:
+        - strong [ref=e66]: Updating existing content
+        - text: with fresh data, better structure, and improved search intent alignment
+      - listitem [ref=e67]:
+        - strong [ref=e68]: Consolidating thin content
+        - text: — merging underperforming pages into stronger, more comprehensive pieces
+      - listitem [ref=e69]:
+        - strong [ref=e70]: Optimising for AI search
+        - text: — structuring content so that Google AI Overviews, ChatGPT, and Perplexity can cite it accurately
+      - listitem [ref=e71]:
+        - strong [ref=e72]: Improving internal linking
+        - text: — connecting related pages so that search engines understand your site's topical authority
+    - paragraph [ref=e73]: "Every piece of content we publish or update follows a research-backed process: keyword research, competitor content analysis, search intent mapping, writing, technical SEO implementation (schema markup, meta data, heading structure), and post-publication performance tracking."
+    - heading "Building Authority & Earning Backlinks" [level=3] [ref=e74]
+    - paragraph [ref=e75]: Google's ranking system still relies heavily on authority signals. The most important of these is backlinks — other websites linking to your content.
+    - paragraph [ref=e76]:
+      - text: "But here's the reality most agencies won't tell you:"
+      - strong [ref=e77]: backlinks decay.
+      - text: Sites go offline. Pages get removed. Domains expire. A link you earned two years ago might not exist today. Ahrefs estimates that the average page loses
+      - strong [ref=e78]: 5-8% of its referring domains per year
+      - text: simply through natural link rot.
+    - paragraph [ref=e79]: "This means you need a continuous strategy for earning new links:"
+    - list [ref=e80]:
+      - listitem [ref=e81]:
+        - strong [ref=e82]: Creating linkable assets
+        - text: — original research, data studies, tools, and comprehensive guides that other sites want to reference
+      - listitem [ref=e83]:
+        - strong [ref=e84]: Digital PR and outreach
+        - text: — getting mentioned in industry publications, news sites, and authoritative blogs
+      - listitem [ref=e85]:
+        - strong [ref=e86]: Brand mentions
+        - text: — monitoring unlinked brand mentions and converting them into actual links
+      - listitem [ref=e87]:
+        - strong [ref=e88]: Guest contributions
+        - text: — publishing expert content on relevant platforms (including LinkedIn articles) that builds both authority and referral traffic
+    - heading "Adapting to Algorithm Changes & AI Search" [level=3] [ref=e89]
+    - paragraph [ref=e90]: Google's algorithm isn't one thing — it's a collection of systems (RankBrain, BERT, MUM, the Helpful Content System, SpamBrain, and more recently, AI Overviews) that work together. When Google updates any of these systems, rankings shift.
+    - paragraph [ref=e91]: "In the past 18 months alone:"
+    - list [ref=e92]:
+      - listitem [ref=e93]:
+        - strong [ref=e94]: Google AI Overviews
+        - text: rolled out across most English-language markets, pulling answers directly into search results and reducing click-through rates for many informational queries by
+        - strong [ref=e95]: 15-25%
+        - text: according to early studies
+      - listitem [ref=e96]:
+        - text: The
+        - strong [ref=e97]: Helpful Content Update
+        - text: (March 2024) devastated sites with low-quality, AI-generated content — some lost
+        - strong [ref=e98]: 60-80% of their traffic
+        - text: overnight
+      - listitem [ref=e99]:
+        - strong [ref=e100]: Site reputation abuse
+        - text: policies now target parasite SEO, where low-quality content is published on authoritative domains to game rankings
+    - paragraph [ref=e101]: "Adapting to these changes isn't optional. It's survival. Every algorithm update requires analysis: Were you affected? How? What needs to change? And increasingly, the question isn't just \"how do we rank on Google?\" but \"how do we appear in AI-generated answers?\""
+    - paragraph [ref=e102]: We actively optimise for AI search visibility — structuring content with clear claims, sourcing data, using schema markup, and building the kind of topical authority that AI systems prefer to cite.
+    - heading "What Happens When You Stop" [level=2] [ref=e103]
+    - paragraph [ref=e104]: "This isn't theoretical. Here's what ranking decay actually looks like:"
+    - paragraph [ref=e105]:
+      - strong [ref=e106]: "Month 1-3 after stopping:"
+      - text: Minor position drops. You might not notice. Competitors start outranking you for lower-priority keywords.
+    - paragraph [ref=e107]:
+      - strong [ref=e108]: "Month 3-6:"
+      - text: Noticeable traffic decline. Pages that ranked positions 3-7 slip to page 2. Click-through rates drop. Content starts aging — statistics become outdated, links break, and Google notices.
+    - paragraph [ref=e109]:
+      - strong [ref=e110]: "Month 6-12:"
+      - text: Significant loss. Competitors who kept investing now dominate keywords you used to own. Your domain authority stagnates while theirs grows. Recovery will now take as long as — or longer than — the original campaign.
+    - paragraph [ref=e111]:
+      - strong [ref=e112]: "After 12 months:"
+      - text: You're essentially starting over. The technical debt, content decay, and authority gap mean a recovery campaign, not a continuation. And recovery costs more than maintenance ever did.
+    - heading "The Work Most People Don't See" [level=2] [ref=e113]
+    - paragraph [ref=e114]: "Beyond the core SEO activities, there's a layer of strategic work that quietly compounds over time:"
+    - list [ref=e115]:
+      - listitem [ref=e116]:
+        - strong [ref=e117]: LinkedIn articles and thought leadership
+        - text: — publishing expert content that builds personal and brand authority, generates referral traffic, and creates social signals that search engines factor into rankings
+      - listitem [ref=e118]:
+        - strong [ref=e119]: Google Business Profile optimisation
+        - text: — keeping your business listing updated, responding to reviews, posting updates, and ensuring NAP (name, address, phone) consistency across the web
+      - listitem [ref=e120]:
+        - strong [ref=e121]: Brand content expansion
+        - text: — strengthening your online footprint across multiple platforms so that when AI systems or search engines evaluate your brand, they find consistent, authoritative signals everywhere
+      - listitem [ref=e122]:
+        - strong [ref=e123]: Strategic technical adjustments
+        - text: — site speed improvements, Core Web Vitals optimisation, schema markup updates, crawl budget management, and internal linking refinements that individually seem small but collectively move the needle
+      - listitem [ref=e124]:
+        - strong [ref=e125]: Scouting for opportunities
+        - text: — identifying directories, industry listings, podcast appearances, speaking opportunities, and partnerships that could generate authoritative backlinks and brand mentions
+    - paragraph [ref=e126]: This is the work that separates ongoing SEO from a one-time setup. It's not glamorous. Most of it happens in spreadsheets, analytics dashboards, and strategy documents. But it's the difference between a website that grows and one that slowly fades.
+    - heading "How to Choose an SEO Partner You Can Trust" [level=2] [ref=e127]
+    - paragraph [ref=e128]: "Whether you work with us or someone else, demand these things:"
+    - heading "Transparent Deliverables" [level=3] [ref=e129]
+    - paragraph [ref=e130]: You should know exactly what work is being done each month. Not vague reports — actual deliverables. Pages published. Technical fixes implemented. Backlinks earned. Keywords targeted. If your provider can't tell you specifically what they did last month, that's a problem.
+    - heading "Direct Access to Your Data" [level=3] [ref=e131]
+    - paragraph [ref=e132]: You should have access to your own Google Search Console, Google Analytics (GA4), and any SEO tools being used. If an agency controls your accounts and won't share access, walk away. Your data is yours.
+    - heading "Real Metrics, Not Vanity Numbers" [level=3] [ref=e133]
+    - paragraph [ref=e134]: "Good reporting focuses on:"
+    - list [ref=e135]:
+      - listitem [ref=e136]:
+        - strong [ref=e137]: Organic traffic growth
+        - text: (sessions from search, by page and by keyword)
+      - listitem [ref=e138]:
+        - strong [ref=e139]: Keyword rankings for target terms
+        - text: (positions, movement, search volume)
+      - listitem [ref=e140]:
+        - strong [ref=e141]: Conversion metrics
+        - text: (leads, sales, sign-ups that came from organic search)
+      - listitem [ref=e142]:
+        - strong [ref=e143]: Technical health
+        - text: (indexing status, Core Web Vitals, crawl errors)
+    - paragraph [ref=e144]: "Bad reporting hides behind:"
+    - list [ref=e145]:
+      - listitem [ref=e146]: "\"Total keywords tracked\" (meaningless without context)"
+      - listitem [ref=e147]: "\"Domain authority increased by 1 point\" (DA is a third-party metric, not a Google ranking factor)"
+      - listitem [ref=e148]: "\"We published 4 blog posts\" (volume means nothing without quality and strategy)"
+    - heading "Honest Communication" [level=3] [ref=e149]
+    - paragraph [ref=e150]: If something isn't working, you should hear about it. If a strategy needs to change, your provider should explain why. If rankings drop after a Google update, they should tell you what happened and what the recovery plan is — not hide behind jargon or silence.
+    - heading "The Bottom Line" [level=2] [ref=e151]
+    - paragraph [ref=e152]: SEO isn't something you do once. It's something you commit to — like maintaining a physical storefront, managing inventory, or keeping your team trained. The businesses that treat SEO as an ongoing investment consistently outperform those that treat it as a one-time expense.
+    - paragraph [ref=e153]:
+      - strong [ref=e154]: We're transparent about this because it matters.
+      - text: If you're evaluating SEO providers, ask them to explain exactly what they'll do each month. Ask for access to your data. Ask what happens when Google releases an update. Ask how they measure success.
+    - paragraph [ref=e155]: And if their answer is vague — or if they promise you page-one rankings in 30 days — keep looking.
+    - paragraph [ref=e156]: The work is real. The results are real. But they require consistency, expertise, and a partner who tells you the truth about what it takes.
+  - generic [ref=e157]:
+    - heading "Frequently Asked Questions" [level=2] [ref=e158]
+    - generic [ref=e159]:
+      - generic [ref=e160]:
+        - term [ref=e161]: Is SEO a one-time task or an ongoing process?
+        - definition [ref=e162]: SEO is an ongoing process. Search engines update their algorithms hundreds of times per year, competitors publish new content daily, and user search behaviour shifts constantly. A one-time setup without continuous monitoring, content creation, and technical maintenance will lose ground within months.
+      - generic [ref=e163]:
+        - term [ref=e164]: What happens if I stop doing SEO?
+        - definition [ref=e165]: Rankings decay. Ahrefs data shows that 95% of newly published pages don't reach Google's top 10 within a year, and pages that stop receiving updates gradually lose position to fresher, more authoritative competitors. Backlinks decay at roughly 5-10% per year as linking sites change or disappear.
+      - generic [ref=e166]:
+        - term [ref=e167]: How do I know if my SEO provider is actually doing the work?
+        - definition [ref=e168]: Demand transparency. A good provider shares monthly deliverables, gives you direct access to Google Search Console and analytics, explains strategy changes, and reports on real metrics like organic conversions and keyword movement — not vanity numbers like total keywords tracked.
+  - complementary [ref=e169]:
+    - generic [ref=e170]: Kenneth MelchorFounder at KAUFAST
+    - paragraph [ref=e171]: Kenneth Melchor is the founder of KAUFAST, a software studio based in Barcelona specialising in AI-powered web applications, automation, and growth engineering for businesses across Europe.
+  - generic [ref=e172]: SEOSEO StrategyOngoing SEOAI Visibility
+  - generic [ref=e173]:
+    - heading "Want to discuss this for your business?" [level=2] [ref=e174]
+    - paragraph [ref=e175]: Tell us what you need. We'll tell you what's possible.
+    - link "Start a project" [ref=e176] [cursor=pointer]:
+      - /url: https://kaufast.com/en-GB/contact
+  - navigation [ref=e177]:
+    - 'link "Previous The Real Cost of Bad SEO: Indexing & Schema" [ref=e178] [cursor=pointer]':
+      - /url: /en-GB/insights/bad-seo-is-worse-than-no-seo
+      - generic [ref=e179]: Previous
+      - generic [ref=e180]: "The Real Cost of Bad SEO: Indexing & Schema"
+    - 'link "Next LinkedIn & SEO: What Actually Works" [ref=e181] [cursor=pointer]':
+      - /url: /en-GB/insights/linkedin-seo-how-social-content-drives-growth
+      - generic [ref=e182]: Next
+      - generic [ref=e183]: "LinkedIn & SEO: What Actually Works"
