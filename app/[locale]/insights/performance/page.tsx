@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { locales } from "@/i18n/config";
+import { locales, getDictionary } from "@/i18n/config";
 import { getAlternatesForLocale } from "@/lib/seo";
 import InsightsSectionPage from "../InsightsSectionPage";
 
@@ -15,10 +15,10 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const dict = await getDictionary(locale);
   return {
-    title: "Web Performance",
-    description:
-      "Site speed, Core Web Vitals, and performance optimisations that boost rankings and revenue.",
+    title: dict.meta.performanceSectionTitle,
+    description: dict.meta.performanceSectionDescription,
     alternates: getAlternatesForLocale(locale, "/insights/performance"),
   };
 }

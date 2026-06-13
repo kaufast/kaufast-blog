@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { locales } from "@/i18n/config";
+import { locales, getDictionary } from "@/i18n/config";
 import { getAlternatesForLocale } from "@/lib/seo";
 import InsightsSectionPage from "../InsightsSectionPage";
 
@@ -15,10 +15,10 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const dict = await getDictionary(locale);
   return {
-    title: "Data Privacy",
-    description:
-      "GDPR compliance, data protection obligations, and privacy best practices for businesses.",
+    title: dict.meta.dataPrivacySectionTitle,
+    description: dict.meta.dataPrivacySectionDescription,
     alternates: getAlternatesForLocale(locale, "/insights/data-privacy"),
   };
 }

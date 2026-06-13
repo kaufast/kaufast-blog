@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { locales } from "@/i18n/config";
+import { locales, getDictionary } from "@/i18n/config";
 import { getAlternatesForLocale } from "@/lib/seo";
 import InsightsSectionPage from "../InsightsSectionPage";
 
@@ -15,10 +15,10 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const dict = await getDictionary(locale);
   return {
-    title: "SEO & Digital Growth",
-    description:
-      "AI visibility, search strategy, and tactics to grow organic traffic and convert more visitors.",
+    title: dict.meta.seoSectionTitle,
+    description: dict.meta.seoSectionDescription,
     alternates: getAlternatesForLocale(locale, "/insights/seo"),
   };
 }
