@@ -16,7 +16,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return {
-    title: "SEO & Digital Growth — KAUFAST Insights",
+    title: "SEO & Digital Growth",
     description:
       "AI visibility, search strategy, and tactics to grow organic traffic and convert more visitors.",
     alternates: getAlternatesForLocale(locale, "/insights/seo"),

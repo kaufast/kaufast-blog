@@ -16,7 +16,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return {
-    title: "Web Performance — KAUFAST Insights",
+    title: "Web Performance",
     description:
       "Site speed, Core Web Vitals, and performance optimisations that boost rankings and revenue.",
     alternates: getAlternatesForLocale(locale, "/insights/performance"),

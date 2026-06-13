@@ -16,7 +16,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return {
-    title: "Data Privacy — KAUFAST Insights",
+    title: "Data Privacy",
     description:
       "GDPR compliance, data protection obligations, and privacy best practices for businesses.",
     alternates: getAlternatesForLocale(locale, "/insights/data-privacy"),
