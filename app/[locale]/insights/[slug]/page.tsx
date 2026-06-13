@@ -228,7 +228,7 @@ export default async function BlogDetailPage({
           />
           <div className={styles.authorContent}>
             <div className={styles.authorInfo}>
-              <span className={styles.authorName}>{frontmatter.author}</span>
+              <a href={`/${locale}/kenneth-melchor`} className={styles.authorName}>{frontmatter.author}</a>
               <span className={styles.authorRole}>{dict.blog.authorRole}</span>
             </div>
             <p className={styles.authorDescription}>{dict.blog.authorBio}</p>
