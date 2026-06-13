@@ -37,6 +37,9 @@
     "commentsSubmit": "Kommentar posten",
     "commentsEmpty": "Noch keine Kommentare. Seien Sie der Erste.",
     "commentsName": "Ihr Name",
-    "commentsPosted": "Veröffentlicht"
+    "commentsPosted": "Veröffentlicht",
+    "insightsHeading": "Einblicke",
+    "exploreByTopic": "Nach Thema entdecken",
+    "articlesLabel": "Artikel"
   }
 }

@@ -37,6 +37,9 @@
     "commentsSubmit": "Опубликовать комментарий",
     "commentsEmpty": "Пока нет комментариев. Будьте первым.",
     "commentsName": "Ваше имя",
-    "commentsPosted": "Опубликовано"
+    "commentsPosted": "Опубликовано",
+    "insightsHeading": "Статьи",
+    "exploreByTopic": "Просмотр по темам",
+    "articlesLabel": "статей"
   }
 }

@@ -62,6 +62,9 @@ export type Dictionary = {
     commentsEmpty: string;
     commentsName: string;
     commentsPosted: string;
+    insightsHeading: string;
+    exploreByTopic: string;
+    articlesLabel: string;
   };
 };
 

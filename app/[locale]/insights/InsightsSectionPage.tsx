@@ -15,10 +15,18 @@ export default async function InsightsSectionPage({ locale, section }: Props) {
   const dict = await getDictionary(locale);
   const posts = getPostsBySection(locale, section);
 
+  const sectionTitles: Record<string, { title: string; desc: string }> = {
+    seo: { title: dict.meta.seoSectionTitle, desc: dict.meta.seoSectionDescription },
+    performance: { title: dict.meta.performanceSectionTitle, desc: dict.meta.performanceSectionDescription },
+    "data-privacy": { title: dict.meta.dataPrivacySectionTitle, desc: dict.meta.dataPrivacySectionDescription },
+  };
+  const localTitle = sectionTitles[section]?.title ?? config.title;
+  const localDesc = sectionTitles[section]?.desc ?? config.description;
+
   const breadcrumbSchema = generateBreadcrumbSchema(locale, [
     { name: "Home", url: `/${locale}` },
-    { name: "Insights", url: `/${locale}/insights` },
-    { name: config.title },
+    { name: dict.blog.insightsHeading, url: `/${locale}/insights` },
+    { name: localTitle },
   ]);
 
   return (
@@ -29,14 +37,14 @@ export default async function InsightsSectionPage({ locale, section }: Props) {
       />
 
       <nav className={styles.sectionBreadcrumb} aria-label="Breadcrumb">
-        <Link href={`/${locale}/insights`}>Insights</Link>
+        <Link href={`/${locale}/insights`}>{dict.blog.insightsHeading}</Link>
         <span className={styles.sectionBreadcrumbSep}>/</span>
-        <span>{config.title}</span>
+        <span>{localTitle}</span>
       </nav>
 
       <header className={styles.pageHeader}>
-        <h1 className={styles.pageTitle}>{config.title}</h1>
-        <p className={styles.pageDescription}>{config.description}</p>
+        <h1 className={styles.pageTitle}>{localTitle}</h1>
+        <p className={styles.pageDescription}>{localDesc}</p>
       </header>
 
       <InsightsClient

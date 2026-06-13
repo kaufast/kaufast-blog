@@ -37,6 +37,9 @@
     "commentsSubmit": "Publicar comentario",
     "commentsEmpty": "Aún no hay comentarios. Sé el primero en compartir tu opinión.",
     "commentsName": "Tu nombre",
-    "commentsPosted": "Publicado"
+    "commentsPosted": "Publicado",
+    "insightsHeading": "Artículos",
+    "exploreByTopic": "Explorar por tema",
+    "articlesLabel": "artículos"
   }
 }

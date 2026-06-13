@@ -37,6 +37,9 @@
     "commentsSubmit": "Post Comment",
     "commentsEmpty": "No comments yet. Be the first to share your thoughts.",
     "commentsName": "Your name",
-    "commentsPosted": "Posted"
+    "commentsPosted": "Posted",
+    "insightsHeading": "Insights",
+    "exploreByTopic": "Explore by topic",
+    "articlesLabel": "articles"
   }
 }

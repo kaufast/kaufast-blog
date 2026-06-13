@@ -55,9 +55,15 @@ export default async function InsightsPage({
   const dict = await getDictionary(locale);
   const posts = getAllPosts(locale);
 
+  const sectionTitles: Record<string, { title: string; desc: string }> = {
+    seo: { title: dict.meta.seoSectionTitle, desc: dict.meta.seoSectionDescription },
+    performance: { title: dict.meta.performanceSectionTitle, desc: dict.meta.performanceSectionDescription },
+    "data-privacy": { title: dict.meta.dataPrivacySectionTitle, desc: dict.meta.dataPrivacySectionDescription },
+  };
+
   const breadcrumbSchema = generateBreadcrumbSchema(locale, [
     { name: "Home", url: `/${locale}` },
-    { name: "Insights" },
+    { name: dict.blog.insightsHeading },
   ]);
 
   return (
@@ -68,15 +74,15 @@ export default async function InsightsPage({
       />
 
       <header className={styles.pageHeader}>
-        <h1 className={styles.pageTitle}>Insights</h1>
+        <h1 className={styles.pageTitle}>{dict.blog.insightsHeading}</h1>
         <p className={styles.pageDescription}>
           {dict.meta.insightsDescription}
         </p>
       </header>
 
       {/* Section hub */}
-      <nav className={styles.sectionHub} aria-label="Explore by topic">
-        <p className={styles.sectionHubLabel}>Explore by topic</p>
+      <nav className={styles.sectionHub} aria-label={dict.blog.exploreByTopic}>
+        <p className={styles.sectionHubLabel}>{dict.blog.exploreByTopic}</p>
         <div className={styles.sectionCards}>
           {SECTIONS.map((section) => {
             const count = getPostsBySection(locale, section.slug).length;
@@ -86,9 +92,9 @@ export default async function InsightsPage({
                 href={`/${locale}/insights/${section.slug}`}
                 className={styles.sectionCard}
               >
-                <span className={styles.sectionCardTitle}>{section.title}</span>
-                <span className={styles.sectionCardDesc}>{section.description}</span>
-                <span className={styles.sectionCardCount}>{count} articles →</span>
+                <span className={styles.sectionCardTitle}>{sectionTitles[section.slug]?.title ?? section.title}</span>
+                <span className={styles.sectionCardDesc}>{sectionTitles[section.slug]?.desc ?? section.description}</span>
+                <span className={styles.sectionCardCount}>{count} {dict.blog.articlesLabel} →</span>
               </Link>
             );
           })}

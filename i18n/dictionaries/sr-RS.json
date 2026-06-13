@@ -37,6 +37,9 @@
     "commentsSubmit": "Objavi komentar",
     "commentsEmpty": "Još nema komentara. Budite prvi koji će podeliti svoje mišljenje.",
     "commentsName": "Vaše ime",
-    "commentsPosted": "Objavljeno"
+    "commentsPosted": "Objavljeno",
+    "insightsHeading": "Чланци",
+    "exploreByTopic": "Истражите по теми",
+    "articlesLabel": "чланака"
   }
 }

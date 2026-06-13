@@ -37,6 +37,9 @@
     "commentsSubmit": "Publicar comentari",
     "commentsEmpty": "Encara no hi ha comentaris. Sigues el primer a compartir la teva opinió.",
     "commentsName": "El teu nom",
-    "commentsPosted": "Publicat"
+    "commentsPosted": "Publicat",
+    "insightsHeading": "Articles",
+    "exploreByTopic": "Explorar per tema",
+    "articlesLabel": "articles"
   }
 }

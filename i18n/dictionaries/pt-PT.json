@@ -37,6 +37,9 @@
     "commentsSubmit": "Publicar comentário",
     "commentsEmpty": "Ainda sem comentários. Seja o primeiro a partilhar os seus pensamentos.",
     "commentsName": "O seu nome",
-    "commentsPosted": "Publicado"
+    "commentsPosted": "Publicado",
+    "insightsHeading": "Artigos",
+    "exploreByTopic": "Explorar por tema",
+    "articlesLabel": "artigos"
   }
 }
