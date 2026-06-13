@@ -1,7 +1,13 @@
 {
   "meta": {
     "insightsTitle": "Insights — Blog de IA, Automatización y Desarrollo Web",
-    "insightsDescription": "Guías prácticas, casos de éxito y análisis expertos sobre agentes de IA, automatización empresarial, estrategia SEO y desarrollo web moderno del equipo KAUFAST."
+    "insightsDescription": "Guías prácticas, casos de éxito y análisis expertos sobre agentes de IA, automatización empresarial, estrategia SEO y desarrollo web moderno del equipo KAUFAST.",
+    "seoSectionTitle": "SEO y Crecimiento Digital",
+    "seoSectionDescription": "Visibilidad en IA, estrategia de búsqueda y tácticas para aumentar el tráfico orgánico y convertir más visitantes.",
+    "performanceSectionTitle": "Rendimiento Web",
+    "performanceSectionDescription": "Velocidad del sitio, Core Web Vitals y optimizaciones de rendimiento que mejoran el posicionamiento y los ingresos.",
+    "dataPrivacySectionTitle": "Privacidad de Datos",
+    "dataPrivacySectionDescription": "Cumplimiento del RGPD, obligaciones de protección de datos y buenas prácticas de privacidad para empresas."
   },
   "blog": {
     "featured": "Destacados",

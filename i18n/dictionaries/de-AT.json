@@ -1,7 +1,13 @@
 {
   "meta": {
     "insightsTitle": "Insights — Blog zu KI, Automatisierung & Webentwicklung",
-    "insightsDescription": "Leitfäden, Fallstudien und Expertenwissen zu KI-Agenten, Automatisierung, SEO und Webentwicklung vom KAUFAST-Team."
+    "insightsDescription": "Leitfäden, Fallstudien und Expertenwissen zu KI-Agenten, Automatisierung, SEO und Webentwicklung vom KAUFAST-Team.",
+    "seoSectionTitle": "SEO & digitale Sichtbarkeit",
+    "seoSectionDescription": "KI-gestützte Sichtbarkeit, Suchmaschinenoptimierung und bewährte Strategien für mehr organischen Traffic und höhere Conversions.",
+    "performanceSectionTitle": "Website-Performance & Ladezeit",
+    "performanceSectionDescription": "Ladegeschwindigkeit, Core Web Vitals und technische Optimierungen, die Ihre Rankings und Ihren Umsatz verbessern.",
+    "dataPrivacySectionTitle": "Datenschutz & DSGVO",
+    "dataPrivacySectionDescription": "DSGVO-Compliance, Datenschutzverordnungen und bewährte Praktiken zum Schutz personenbezogener Daten für österreichische Unternehmen."
   },
   "blog": {
     "featured": "Featured",

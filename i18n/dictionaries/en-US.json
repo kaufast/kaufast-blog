@@ -1,7 +1,13 @@
 {
   "meta": {
     "insightsTitle": "Insights — AI, Automation & Web Dev Blog",
-    "insightsDescription": "Practical guides, case studies, and expert insights on AI agents, business automation, SEO strategy, and modern web development from the KAUFAST team."
+    "insightsDescription": "Practical guides, case studies, and expert insights on AI agents, business automation, SEO strategy, and modern web development from the KAUFAST team.",
+    "seoSectionTitle": "SEO & Digital Growth Strategy",
+    "seoSectionDescription": "AI visibility, search engine optimization, and proven tactics to grow organic traffic and convert more visitors.",
+    "performanceSectionTitle": "Web Performance Optimization",
+    "performanceSectionDescription": "Site speed, Core Web Vitals, and performance optimizations that boost search rankings and revenue.",
+    "dataPrivacySectionTitle": "Data Privacy & Compliance",
+    "dataPrivacySectionDescription": "GDPR compliance, data protection requirements, and privacy best practices for modern businesses."
   },
   "blog": {
     "featured": "Featured",

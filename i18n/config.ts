@@ -26,6 +26,12 @@ export type Dictionary = {
   meta: {
     insightsTitle: string;
     insightsDescription: string;
+    seoSectionTitle: string;
+    seoSectionDescription: string;
+    performanceSectionTitle: string;
+    performanceSectionDescription: string;
+    dataPrivacySectionTitle: string;
+    dataPrivacySectionDescription: string;
   };
   blog: {
     featured: string;
