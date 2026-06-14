@@ -69,6 +69,26 @@ export default async function InsightsSectionPage({ locale, section }: Props) {
           commentsPosted: dict.blog.commentsPosted,
         }}
       />
+
+      <section className={styles.sectionHub}>
+        <p className={styles.sectionHubLabel}>{dict.blog.moreTopics}</p>
+        <div className={styles.sectionCards}>
+          {SECTIONS.filter((s) => s.slug !== section).map((s) => {
+            const otherTitle = sectionTitles[s.slug]?.title ?? s.title;
+            const otherDesc = sectionTitles[s.slug]?.desc ?? s.description;
+            return (
+              <Link
+                key={s.slug}
+                href={`/${locale}/insights/${s.slug}`}
+                className={styles.sectionCard}
+              >
+                <span className={styles.sectionCardTitle}>{otherTitle}</span>
+                <span className={styles.sectionCardDesc}>{otherDesc}</span>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
     </main>
   );
 }

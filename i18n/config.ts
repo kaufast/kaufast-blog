@@ -70,6 +70,7 @@ export type Dictionary = {
     articlesLabel: string;
     breadcrumbHome: string;
     breadcrumbInsights: string;
+    moreTopics: string;
   };
 };
 
