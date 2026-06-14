@@ -70,6 +70,19 @@ export default async function InsightsSectionPage({ locale, section }: Props) {
         }}
       />
 
+      <nav className={styles.articleIndex} aria-label={dict.blog.allArticles}>
+        <p className={styles.sectionHubLabel}>{dict.blog.allArticles}</p>
+        <ul className={styles.articleIndexList}>
+          {posts.map((post) => (
+            <li key={post.slug}>
+              <Link href={`/${locale}/insights/${post.slug}`}>
+                {post.frontmatter.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
       <section className={styles.sectionHub}>
         <p className={styles.sectionHubLabel}>{dict.blog.moreTopics}</p>
         <div className={styles.sectionCards}>

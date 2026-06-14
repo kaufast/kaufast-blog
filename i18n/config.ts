@@ -71,6 +71,7 @@ export type Dictionary = {
     breadcrumbHome: string;
     breadcrumbInsights: string;
     moreTopics: string;
+    allArticles: string;
   };
 };
 

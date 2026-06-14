@@ -390,6 +390,33 @@
   color: var(--color-text-secondary);
 }
 
+/* ===== Article Index (server-rendered for crawlers) ===== */
+.articleIndex {
+  margin-bottom: var(--spacing-xl);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--spacing-md);
+}
+
+.articleIndexList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.articleIndexList li a {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.articleIndexList li a:hover {
+  color: var(--color-accent);
+}
+
 /* ===== Section Hub (main insights page) ===== */
 .sectionHub {
   margin-bottom: var(--spacing-xl);
