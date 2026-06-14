@@ -4,7 +4,7 @@ import { defaultLocale } from "@/i18n/config";
 import { getLocalizedUrl } from "@/lib/seo";
 
 /** Locales that have their own blog content directories. */
-const contentLocales = ["en-GB", "en-US", "es-ES", "es-MX", "de-DE", "de-AT", "sr-RS"] as const;
+const contentLocales = ["en-GB", "en-US", "es-ES", "es-MX", "ca-ES", "de-DE", "de-AT", "fr-FR", "it-IT", "pt-BR", "pt-PT", "sr-RS", "ru-RU"] as const;
 
 export const revalidate = 86400;
 
