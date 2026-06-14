@@ -13,7 +13,7 @@ type Props = {
 export default async function InsightsSectionPage({ locale, section }: Props) {
   const config = SECTIONS.find((s) => s.slug === section)!;
   const dict = await getDictionary(locale);
-  const posts = getPostsBySection(locale, section);
+  const posts = getPostsBySection(locale, section).filter((p) => p.isNativeContent);
 
   const sectionTitles: Record<string, { title: string; desc: string; intro: string }> = {
     seo: { title: dict.meta.seoSectionTitle, desc: dict.meta.seoSectionDescription, intro: dict.meta.seoSectionIntro },

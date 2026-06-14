@@ -84,6 +84,8 @@ export interface PostSummary {
   slug: string;
   frontmatter: PostFrontmatter;
   readingTime: number;
+  /** True when the MDX file lives in the requested locale's own directory. */
+  isNativeContent: boolean;
 }
 
 function getLocaleDir(locale: string): string {
@@ -96,6 +98,7 @@ export function getAllPosts(locale: string): PostSummary[] {
   const dir = getLocaleDir(locale);
   if (!fs.existsSync(dir)) return [];
 
+  const isNative = dir === path.join(contentDir, locale);
   const files = fs.readdirSync(dir).filter((f) => f.endsWith(".mdx"));
 
   const posts = files.map((filename) => {
@@ -106,6 +109,7 @@ export function getAllPosts(locale: string): PostSummary[] {
       slug: filename.replace(/\.mdx$/, ""),
       frontmatter: data as PostFrontmatter,
       readingTime: estimateReadingTime(content),
+      isNativeContent: isNative,
     };
   });
 
@@ -181,7 +185,7 @@ export function getAdjacentPosts(
   locale: string,
   slug: string
 ): { prev: PostSummary | null; next: PostSummary | null } {
-  const posts = getAllPosts(locale);
+  const posts = getAllPosts(locale).filter((p) => p.isNativeContent);
   const index = posts.findIndex((p) => p.slug === slug);
 
   if (index === -1) return { prev: null, next: null };

@@ -53,7 +53,7 @@ export default async function InsightsPage({
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const posts = getAllPosts(locale);
+  const posts = getAllPosts(locale).filter((p) => p.isNativeContent);
 
   const sectionTitles: Record<string, { title: string; desc: string }> = {
     seo: { title: dict.meta.seoSectionTitle, desc: dict.meta.seoSectionDescription },
@@ -85,7 +85,7 @@ export default async function InsightsPage({
         <p className={styles.sectionHubLabel}>{dict.blog.exploreByTopic}</p>
         <div className={styles.sectionCards}>
           {SECTIONS.map((section) => {
-            const count = getPostsBySection(locale, section.slug).length;
+            const count = getPostsBySection(locale, section.slug).filter((p) => p.isNativeContent).length;
             return (
               <Link
                 key={section.slug}
