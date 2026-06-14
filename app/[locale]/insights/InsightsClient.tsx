@@ -41,6 +41,12 @@ function parseDate(dateStr: string): number {
   return isNaN(d.getTime()) ? 0 : d.getTime();
 }
 
+/** Truncate excerpt text so crawlers never see the full article headline in listing HTML. */
+function truncateExcerpt(text: string, max = 150): string {
+  if (text.length <= max) return text;
+  return text.slice(0, max).replace(/\s+\S*$/, "") + "…";
+}
+
 export default function InsightsClient({ posts, locale, labels }: Props) {
   const categories = Array.from(
     new Set(posts.map((p) => p.frontmatter.category))
@@ -208,7 +214,7 @@ export default function InsightsClient({ posts, locale, labels }: Props) {
                   {post.frontmatter.category}
                 </div>
                 <h2 className={styles.cardTitle}>{post.frontmatter.title}</h2>
-                <p className={styles.cardExcerpt}>{post.frontmatter.headline}</p>
+                <p className={styles.cardExcerpt}>{truncateExcerpt(post.frontmatter.headline)}</p>
                 {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
                   <div className={styles.cardTags}>
                     {post.frontmatter.tags.slice(0, 3).map((tag) => (

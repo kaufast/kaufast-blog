@@ -1,13 +1,16 @@
 {
   "meta": {
-    "insightsTitle": "Insights — Blog d'IA, Automatització i Desenvolupament Web",
-    "insightsDescription": "Guies pràctiques, casos d'èxit i anàlisis experts sobre agents d'IA, automatització empresarial, estratègia SEO i desenvolupament web modern de l'equip KAUFAST.",
+    "insightsTitle": "Blog IA, Automatització & Webs",
+    "insightsDescription": "Guies pràctiques i anàlisis experts sobre agents d'IA, automatització, SEO i desenvolupament web modern de l'equip KAUFAST.",
     "seoSectionTitle": "SEO i Creixement Digital",
     "seoSectionDescription": "Visibilitat en IA, estratègia de cerca i tàctiques per augmentar el trànsit orgànic i convertir més visitants.",
     "performanceSectionTitle": "Rendiment Web",
     "performanceSectionDescription": "Velocitat del lloc, Core Web Vitals i optimitzacions de rendiment que milloren el posicionament i els ingressos.",
     "dataPrivacySectionTitle": "Privacitat de Dades",
-    "dataPrivacySectionDescription": "Compliment del RGPD, obligacions de protecció de dades i bones pràctiques de privacitat per a empreses."
+    "dataPrivacySectionDescription": "Compliment del RGPD, obligacions de protecció de dades i bones pràctiques de privacitat per a empreses.",
+    "seoSectionIntro": "Explora les nostres guies completes sobre optimització per a motors de cerca, des dels fonaments tècnics del SEO fins a estratègies avançades per millorar la teva visibilitat orgànica i convertir més visitants en clients.",
+    "performanceSectionIntro": "Descobreix anàlisis experts sobre optimització del rendiment web, Core Web Vitals i estratègies de velocitat de càrrega que impacten directament en les teves posicions, l'experiència d'usuari i els teus ingressos.",
+    "dataPrivacySectionIntro": "Mantén-te informat sobre les normatives de privacitat de dades, el compliment del RGPD i les millors pràctiques per protegir les dades dels usuaris i mantenir una presència digital transparent i de confiança per a la teva empresa."
   },
   "blog": {
     "featured": "Destacats",

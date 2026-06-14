@@ -15,13 +15,14 @@ export default async function InsightsSectionPage({ locale, section }: Props) {
   const dict = await getDictionary(locale);
   const posts = getPostsBySection(locale, section);
 
-  const sectionTitles: Record<string, { title: string; desc: string }> = {
-    seo: { title: dict.meta.seoSectionTitle, desc: dict.meta.seoSectionDescription },
-    performance: { title: dict.meta.performanceSectionTitle, desc: dict.meta.performanceSectionDescription },
-    "data-privacy": { title: dict.meta.dataPrivacySectionTitle, desc: dict.meta.dataPrivacySectionDescription },
+  const sectionTitles: Record<string, { title: string; desc: string; intro: string }> = {
+    seo: { title: dict.meta.seoSectionTitle, desc: dict.meta.seoSectionDescription, intro: dict.meta.seoSectionIntro },
+    performance: { title: dict.meta.performanceSectionTitle, desc: dict.meta.performanceSectionDescription, intro: dict.meta.performanceSectionIntro },
+    "data-privacy": { title: dict.meta.dataPrivacySectionTitle, desc: dict.meta.dataPrivacySectionDescription, intro: dict.meta.dataPrivacySectionIntro },
   };
   const localTitle = sectionTitles[section]?.title ?? config.title;
   const localDesc = sectionTitles[section]?.desc ?? config.description;
+  const localIntro = sectionTitles[section]?.intro ?? "";
 
   const breadcrumbSchema = generateBreadcrumbSchema(locale, [
     { name: "Home", url: `/${locale}` },
@@ -45,6 +46,7 @@ export default async function InsightsSectionPage({ locale, section }: Props) {
       <header className={styles.pageHeader}>
         <h1 className={styles.pageTitle}>{localTitle}</h1>
         <p className={styles.pageDescription}>{localDesc}</p>
+        {localIntro && <p className={styles.pageIntro}>{localIntro}</p>}
       </header>
 
       <InsightsClient

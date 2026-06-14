@@ -1,13 +1,16 @@
 {
   "meta": {
-    "insightsTitle": "Insights — Blog zu KI, Automatisierung & Webentwicklung",
+    "insightsTitle": "Blog KI, Automatisierung & Webentwicklung",
     "insightsDescription": "Leitfäden, Fallstudien und Expertenwissen zu KI-Agenten, Automatisierung, SEO und Webentwicklung vom KAUFAST-Team.",
     "seoSectionTitle": "SEO & digitale Sichtbarkeit",
     "seoSectionDescription": "KI-gestützte Sichtbarkeit, Suchmaschinenoptimierung und bewährte Strategien für mehr organischen Traffic und höhere Conversions.",
     "performanceSectionTitle": "Website-Performance & Ladezeit",
     "performanceSectionDescription": "Ladegeschwindigkeit, Core Web Vitals und technische Optimierungen, die Ihre Rankings und Ihren Umsatz verbessern.",
     "dataPrivacySectionTitle": "Datenschutz & DSGVO",
-    "dataPrivacySectionDescription": "DSGVO-Compliance, Datenschutzverordnungen und bewährte Praktiken zum Schutz personenbezogener Daten für österreichische Unternehmen."
+    "dataPrivacySectionDescription": "DSGVO-Compliance, Datenschutzverordnungen und bewährte Praktiken zum Schutz personenbezogener Daten für österreichische Unternehmen.",
+    "seoSectionIntro": "Entdecken Sie unsere umfassenden Leitfäden zur Suchmaschinenoptimierung – von technischen SEO-Grundlagen bis hin zu fortgeschrittenen Strategien zur Verbesserung Ihrer organischen Sichtbarkeit und höheren Konversionsraten.",
+    "performanceSectionIntro": "Erhalten Sie Experteneinblicke in die Website-Performance-Optimierung, Core Web Vitals und Ladegeschwindigkeitsstrategien, die sich direkt auf Ihre Rankings, die Nutzererfahrung und Ihren Umsatz auswirken.",
+    "dataPrivacySectionIntro": "Bleiben Sie über Datenschutzvorschriften, DSGVO-Compliance und bewährte Praktiken zum Schutz personenbezogener Daten informiert und wahren Sie eine transparente und vertrauenswürdige digitale Präsenz für Ihr österreichisches Unternehmen."
   },
   "blog": {
     "featured": "Featured",
@@ -27,19 +30,19 @@
     "faqTitle": "Häufig gestellte Fragen",
     "authorRole": "Gründer von KAUFAST",
     "authorBio": "Kenneth Melchor ist der Gründer von KAUFAST, einem Software-Studio in Barcelona, das sich auf KI-gestützte Webanwendungen, Automatisierung und Growth Engineering für Unternehmen in ganz Europa spezialisiert hat.",
-    "tabLatest": "Neueste",
-    "tabNewest": "Aktuellste",
+    "tabLatest": "Aktuell",
+    "tabNewest": "Neueste",
     "tabPopular": "Beliebteste",
-    "searchPlaceholder": "Artikel suchen...",
-    "searchNoResults": "Keine Artikel gefunden",
+    "searchPlaceholder": "Beiträge suchen...",
+    "searchNoResults": "Keine Beiträge gefunden",
     "commentsTitle": "Kommentare",
-    "commentsPlaceholder": "Teilen Sie Ihre Gedanken...",
-    "commentsSubmit": "Kommentar posten",
-    "commentsEmpty": "Noch keine Kommentare. Seien Sie der Erste.",
+    "commentsPlaceholder": "Schreiben Sie Ihre Meinung...",
+    "commentsSubmit": "Kommentar absenden",
+    "commentsEmpty": "Noch keine Einträge. Seien Sie die Erste oder der Erste.",
     "commentsName": "Ihr Name",
     "commentsPosted": "Veröffentlicht",
-    "insightsHeading": "Einblicke",
-    "exploreByTopic": "Nach Thema entdecken",
-    "articlesLabel": "Artikel"
+    "insightsHeading": "Beiträge",
+    "exploreByTopic": "Nach Thema durchstöbern",
+    "articlesLabel": "Beiträge"
   }
 }

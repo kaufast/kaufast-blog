@@ -1,13 +1,16 @@
 {
   "meta": {
-    "insightsTitle": "Insights — Blog de IA, Automatización y Desarrollo Web",
-    "insightsDescription": "Guías prácticas, casos de éxito y análisis expertos sobre agentes de IA, automatización empresarial, estrategia SEO y desarrollo web moderno del equipo KAUFAST.",
+    "insightsTitle": "Blog IA, Automatización & Desarrollo Web",
+    "insightsDescription": "Guías prácticas y análisis expertos sobre agentes de IA, automatización empresarial, SEO y desarrollo web moderno del equipo KAUFAST.",
     "seoSectionTitle": "SEO y Estrategia Digital",
     "seoSectionDescription": "Visibilidad en inteligencia artificial, estrategia de posicionamiento y tácticas para crecer el tráfico orgánico y convertir más visitantes.",
     "performanceSectionTitle": "Optimización de Rendimiento Web",
     "performanceSectionDescription": "Velocidad del sitio, Core Web Vitals y optimizaciones de rendimiento que impulsan el posicionamiento y los ingresos.",
     "dataPrivacySectionTitle": "Protección de Datos Personales",
-    "dataPrivacySectionDescription": "Cumplimiento normativo, protección de datos personales y mejores prácticas de privacidad para empresas."
+    "dataPrivacySectionDescription": "Cumplimiento normativo, protección de datos personales y mejores prácticas de privacidad para empresas.",
+    "seoSectionIntro": "Explora nuestras guías completas sobre posicionamiento en buscadores, desde los fundamentos técnicos del SEO hasta estrategias avanzadas para mejorar tu visibilidad orgánica y convertir más visitantes en clientes.",
+    "performanceSectionIntro": "Descubre análisis expertos sobre optimización del rendimiento web, Core Web Vitals y estrategias de velocidad de carga que impactan directamente en tus posiciones, la experiencia de los usuarios y tus ingresos.",
+    "dataPrivacySectionIntro": "Mantente al día sobre las regulaciones de privacidad de datos, el cumplimiento normativo y las mejores prácticas para proteger los datos personales y mantener una presencia digital transparente y confiable para tu empresa."
   },
   "blog": {
     "featured": "Featured",

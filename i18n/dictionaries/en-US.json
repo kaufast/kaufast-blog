@@ -7,7 +7,10 @@
     "performanceSectionTitle": "Web Performance Optimization",
     "performanceSectionDescription": "Site speed, Core Web Vitals, and performance optimizations that boost search rankings and revenue.",
     "dataPrivacySectionTitle": "Data Privacy & Compliance",
-    "dataPrivacySectionDescription": "GDPR compliance, data protection requirements, and privacy best practices for modern businesses."
+    "dataPrivacySectionDescription": "GDPR compliance, data protection requirements, and privacy best practices for modern businesses.",
+    "seoSectionIntro": "Explore our comprehensive guides on search engine optimization, from technical SEO fundamentals to advanced strategies for improving your organic visibility and converting more visitors into customers.",
+    "performanceSectionIntro": "Discover expert insights on web performance optimization, Core Web Vitals, and site speed strategies that directly impact your search rankings, user experience, and bottom line.",
+    "dataPrivacySectionIntro": "Stay informed about data privacy regulations, GDPR compliance, and best practices for protecting user data while maintaining a transparent and trustworthy digital presence for your business."
   },
   "blog": {
     "featured": "Featured",

@@ -24,6 +24,14 @@
   max-width: 600px;
 }
 
+.pageIntro {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  max-width: 720px;
+}
+
 /* ===== Search ===== */
 .searchWrap {
   position: relative;

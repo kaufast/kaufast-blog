@@ -1,13 +1,16 @@
 {
   "meta": {
-    "insightsTitle": "Insights — Blog de IA, Automação e Desenvolvimento Web",
-    "insightsDescription": "Guias práticos, estudos de caso e análises de especialistas sobre agentes de IA, automação empresarial, estratégia SEO e desenvolvimento web moderno pela equipa KAUFAST.",
+    "insightsTitle": "Blog IA, Automação & Desenvolvimento Web",
+    "insightsDescription": "Guias práticos e análises de especialistas sobre agentes de IA, automação empresarial, estratégia SEO e desenvolvimento web da equipa KAUFAST.",
     "seoSectionTitle": "SEO e Visibilidade Digital",
     "seoSectionDescription": "Visibilidade em IA, estratégia de pesquisa e táticas para aumentar o tráfego orgânico e converter mais visitantes.",
     "performanceSectionTitle": "Desempenho Web",
     "performanceSectionDescription": "Velocidade do site, Core Web Vitals e otimizações de desempenho que melhoram os rankings e a receita.",
     "dataPrivacySectionTitle": "Privacidade e Proteção de Dados",
-    "dataPrivacySectionDescription": "Conformidade com o RGPD, obrigações de proteção de dados e boas práticas de privacidade para empresas."
+    "dataPrivacySectionDescription": "Conformidade com o RGPD, obrigações de proteção de dados e boas práticas de privacidade para empresas.",
+    "seoSectionIntro": "Explore os nossos guias completos sobre otimização para motores de pesquisa, desde os fundamentos técnicos do SEO até às estratégias avançadas para melhorar a sua visibilidade orgânica e converter mais visitantes em clientes.",
+    "performanceSectionIntro": "Descubra análises de especialistas sobre otimização do desempenho web, Core Web Vitals e estratégias de velocidade de carregamento que impactam diretamente o seu posicionamento, experiência do utilizador e receitas.",
+    "dataPrivacySectionIntro": "Mantenha-se informado sobre as regulamentações de privacidade de dados, conformidade com o RGPD e as melhores práticas para proteger os dados dos utilizadores, mantendo uma presença digital transparente e de confiança para a sua empresa."
   },
   "blog": {
     "featured": "Featured",

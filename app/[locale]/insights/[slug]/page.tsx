@@ -31,7 +31,7 @@ function toISODate(date: string | undefined): string | undefined {
 type Params = { locale: string; slug: string };
 
 /** Locales with their own blog content directories. */
-const contentLocales = ["en-GB", "en-US", "es-ES", "es-MX", "de-DE", "de-AT", "sr-RS"] as const;
+const contentLocales = ["en-GB", "en-US", "es-ES", "es-MX", "ca-ES", "de-DE", "de-AT", "fr-FR", "it-IT", "pt-BR", "pt-PT", "sr-RS", "ru-RU"] as const;
 
 /** Revalidate dynamic pages daily so canonical/hreflang changes propagate. */
 export const revalidate = 86400;
@@ -230,7 +230,7 @@ export default async function BlogDetailPage({
       )}
 
       {/* Author Bio */}
-      <aside className={styles.authorBio}>
+      <aside className={styles.authorBio} data-nosnippet>
         <div className={styles.authorBioInner}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -262,7 +262,7 @@ export default async function BlogDetailPage({
       )}
 
       {/* CTA */}
-      <div className={styles.cta}>
+      <div className={styles.cta} data-nosnippet>
         {frontmatter.audra ? (
           <>
             <h2 className={styles.ctaTitle}>Audra</h2>

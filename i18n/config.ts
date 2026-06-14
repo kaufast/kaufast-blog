@@ -32,6 +32,9 @@ export type Dictionary = {
     performanceSectionDescription: string;
     dataPrivacySectionTitle: string;
     dataPrivacySectionDescription: string;
+    seoSectionIntro: string;
+    performanceSectionIntro: string;
+    dataPrivacySectionIntro: string;
   };
   blog: {
     featured: string;

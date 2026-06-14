@@ -1,13 +1,16 @@
 {
   "meta": {
-    "insightsTitle": "Insights — Blog IA, Automatisation & Développement Web",
-    "insightsDescription": "Guides pratiques, études de cas et analyses d'experts sur les agents IA, l'automatisation, la stratégie SEO et le développement web moderne par l'équipe KAUFAST.",
+    "insightsTitle": "Blog IA, Automatisation & Dev Web",
+    "insightsDescription": "Guides pratiques et analyses d'experts sur les agents IA, l'automatisation, la stratégie SEO et le développement web par l'équipe KAUFAST.",
     "seoSectionTitle": "SEO & Croissance Digitale",
     "seoSectionDescription": "Visibilité IA, stratégie de recherche et tactiques pour développer le trafic organique et convertir davantage de visiteurs.",
     "performanceSectionTitle": "Performance Web",
     "performanceSectionDescription": "Vitesse de chargement, Core Web Vitals et optimisations de performance qui améliorent le référencement et le chiffre d'affaires.",
     "dataPrivacySectionTitle": "Protection des Données",
-    "dataPrivacySectionDescription": "Conformité RGPD, obligations de protection des données et bonnes pratiques de confidentialité pour les entreprises."
+    "dataPrivacySectionDescription": "Conformité RGPD, obligations de protection des données et bonnes pratiques de confidentialité pour les entreprises.",
+    "seoSectionIntro": "Explorez nos guides complets sur l'optimisation pour les moteurs de recherche, des fondamentaux techniques du SEO aux stratégies avancées pour améliorer votre visibilité organique et convertir davantage de visiteurs en clients.",
+    "performanceSectionIntro": "Découvrez des analyses expertes sur l'optimisation des performances web, les Core Web Vitals et les stratégies de vitesse de chargement qui impactent directement votre référencement, l'expérience utilisateur et votre chiffre d'affaires.",
+    "dataPrivacySectionIntro": "Restez informé sur les réglementations en matière de protection des données, la conformité au RGPD et les bonnes pratiques pour protéger les données des utilisateurs tout en maintenant une présence digitale transparente et fiable."
   },
   "blog": {
     "featured": "Featured",
