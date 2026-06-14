@@ -62,8 +62,8 @@ export default async function InsightsPage({
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema(locale, [
-    { name: "Home", url: `/${locale}` },
-    { name: dict.blog.insightsHeading },
+    { name: dict.blog.breadcrumbHome, url: `/${locale}` },
+    { name: dict.blog.breadcrumbInsights },
   ]);
 
   return (

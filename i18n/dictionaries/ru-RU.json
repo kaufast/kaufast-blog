@@ -43,6 +43,8 @@
     "commentsPosted": "Опубликовано",
     "insightsHeading": "Статьи",
     "exploreByTopic": "Просмотр по темам",
-    "articlesLabel": "статей"
+    "articlesLabel": "статей",
+    "breadcrumbHome": "Главная",
+    "breadcrumbInsights": "Статьи"
   }
 }

@@ -68,6 +68,8 @@ export type Dictionary = {
     insightsHeading: string;
     exploreByTopic: string;
     articlesLabel: string;
+    breadcrumbHome: string;
+    breadcrumbInsights: string;
   };
 };
 

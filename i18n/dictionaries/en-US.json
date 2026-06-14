@@ -43,6 +43,8 @@
     "commentsPosted": "Posted",
     "insightsHeading": "Insights",
     "exploreByTopic": "Explore by topic",
-    "articlesLabel": "articles"
+    "articlesLabel": "articles",
+    "breadcrumbHome": "Home",
+    "breadcrumbInsights": "Insights"
   }
 }

@@ -25,8 +25,8 @@ export default async function InsightsSectionPage({ locale, section }: Props) {
   const localIntro = sectionTitles[section]?.intro ?? "";
 
   const breadcrumbSchema = generateBreadcrumbSchema(locale, [
-    { name: "Home", url: `/${locale}` },
-    { name: dict.blog.insightsHeading, url: `/${locale}/insights` },
+    { name: dict.blog.breadcrumbHome, url: `/${locale}` },
+    { name: dict.blog.breadcrumbInsights, url: `/${locale}/insights` },
     { name: localTitle },
   ]);
 

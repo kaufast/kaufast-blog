@@ -43,6 +43,8 @@
     "commentsPosted": "Objavljeno",
     "insightsHeading": "Чланци",
     "exploreByTopic": "Истражите по теми",
-    "articlesLabel": "чланака"
+    "articlesLabel": "чланака",
+    "breadcrumbHome": "Почетна",
+    "breadcrumbInsights": "Чланци"
   }
 }

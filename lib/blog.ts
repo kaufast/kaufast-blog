@@ -65,12 +65,19 @@ export interface PostFrontmatter {
   about?: string[];
   dependencies?: string;
   faq?: { question: string; answer: string }[];
+  howto?: {
+    name: string;
+    description?: string;
+    steps: { name: string; text: string }[];
+  };
 }
 
 export interface Post {
   slug: string;
   frontmatter: PostFrontmatter;
   content: string;
+  /** True when the MDX file was found natively in the requested locale's directory. False when content fell back to en-GB. */
+  isNativeContent: boolean;
 }
 
 export interface PostSummary {
@@ -110,31 +117,46 @@ export function getAllPosts(locale: string): PostSummary[] {
 }
 
 export function getPostBySlug(locale: string, slug: string): Post | null {
-  const dir = getLocaleDir(locale);
-  const filePath = path.join(dir, `${slug}.mdx`);
-
-  if (fs.existsSync(filePath)) {
-    const raw = fs.readFileSync(filePath, "utf-8");
+  // Check if the MDX file exists natively in the requested locale's directory
+  const nativePath = path.join(contentDir, locale, `${slug}.mdx`);
+  if (fs.existsSync(nativePath)) {
+    const raw = fs.readFileSync(nativePath, "utf-8");
     const { data, content } = matter(raw);
-    return { slug, frontmatter: data as PostFrontmatter, content };
+    return { slug, frontmatter: data as PostFrontmatter, content, isNativeContent: true };
   }
+
+  // Resolve via slug map (e.g. es-ES slug → en-GB equivalent) — still native if the
+  // resolved slug lives in the same locale's directory.
+  const defaultSlug = slugToDefaultSlug[slug];
+  if (defaultSlug && defaultSlug !== slug) {
+    const resolvedNativePath = path.join(contentDir, locale, `${defaultSlug}.mdx`);
+    if (fs.existsSync(resolvedNativePath)) {
+      const raw = fs.readFileSync(resolvedNativePath, "utf-8");
+      const { data, content } = matter(raw);
+      return { slug, frontmatter: data as PostFrontmatter, content, isNativeContent: true };
+    }
+  }
+
+  // ── Fallback to en-GB ────────────────────────────────────────────────────
+  // Content does not exist for this locale. We still load it so callers can
+  // decide what to do (e.g. return 404 for non-default locales), but we mark
+  // isNativeContent: false so the page component can call notFound().
 
   // Try fallback locale with same slug
   const fallbackPath = path.join(contentDir, defaultLocale, `${slug}.mdx`);
   if (fs.existsSync(fallbackPath)) {
     const raw = fs.readFileSync(fallbackPath, "utf-8");
     const { data, content } = matter(raw);
-    return { slug, frontmatter: data as PostFrontmatter, content };
+    return { slug, frontmatter: data as PostFrontmatter, content, isNativeContent: false };
   }
 
-  // Resolve via slug map (e.g. es-ES slug → en-GB equivalent)
-  const defaultSlug = slugToDefaultSlug[slug];
+  // Try slug map resolution against en-GB
   if (defaultSlug && defaultSlug !== slug) {
     const resolvedPath = path.join(contentDir, defaultLocale, `${defaultSlug}.mdx`);
     if (fs.existsSync(resolvedPath)) {
       const raw = fs.readFileSync(resolvedPath, "utf-8");
       const { data, content } = matter(raw);
-      return { slug, frontmatter: data as PostFrontmatter, content };
+      return { slug, frontmatter: data as PostFrontmatter, content, isNativeContent: false };
     }
   }
 

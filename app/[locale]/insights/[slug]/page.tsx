@@ -39,12 +39,17 @@ export const revalidate = 86400;
 export async function generateStaticParams() {
   const params: Params[] = [];
 
-  // Only pre-build for locales that have native content.
-  // Other locales are rendered dynamically with canonical → en-GB.
+  // Only pre-build locale+slug combos where an MDX file actually exists in
+  // that locale's own content directory. getAllPosts() falls back to en-GB for
+  // locales without their own directory, which would generate duplicate-content
+  // static pages — so we guard with getPostBySlug().isNativeContent instead.
   for (const locale of contentLocales) {
     const posts = getAllPosts(locale);
     for (const post of posts) {
-      params.push({ locale, slug: post.slug });
+      const resolved = getPostBySlug(locale, post.slug);
+      if (resolved?.isNativeContent) {
+        params.push({ locale, slug: post.slug });
+      }
     }
   }
 
@@ -58,7 +63,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale, slug } = await params;
   const post = getPostBySlug(locale, slug);
-  if (!post) return {};
+  // No content at all, or content only exists in en-GB (fallback) — treat as 404.
+  if (!post || !post.isNativeContent) return {};
 
   const { frontmatter } = post;
   const slugsByLocale = getSlugAlternates(locale, slug);
@@ -96,7 +102,9 @@ export default async function BlogDetailPage({
 }) {
   const { locale, slug } = await params;
   const post = getPostBySlug(locale, slug);
-  if (!post) notFound();
+  // No content at all, or content only exists in en-GB (fallback) — 404 so
+  // search engines never see duplicate English content under a non-en-GB URL.
+  if (!post || !post.isNativeContent) notFound();
 
   const dict = await getDictionary(locale);
   const { frontmatter, content } = post;
@@ -108,8 +116,8 @@ export default async function BlogDetailPage({
     slug,
   });
   const breadcrumbSchema = generateBreadcrumbSchema(locale, [
-    { name: "Home", url: `/${locale}` },
-    { name: "Insights", url: `/${locale}/insights` },
+    { name: dict.blog.breadcrumbHome, url: `/${locale}` },
+    { name: dict.blog.breadcrumbInsights, url: `/${locale}/insights` },
     { name: frontmatter.title },
   ]);
   const faqSchema =
@@ -153,9 +161,9 @@ export default async function BlogDetailPage({
 
       {/* Breadcrumb */}
       <nav className={styles.breadcrumb} aria-label="Breadcrumb">
-        <Link href={`/${locale}`}>Home</Link>
+        <Link href={`/${locale}`}>{dict.blog.breadcrumbHome}</Link>
         <span className={styles.breadcrumbSep}>/</span>
-        <Link href={`/${locale}/insights`}>Insights</Link>
+        <Link href={`/${locale}/insights`}>{dict.blog.breadcrumbInsights}</Link>
         <span className={styles.breadcrumbSep}>/</span>
         <span className={styles.breadcrumbCurrent}>{frontmatter.title}</span>
       </nav>

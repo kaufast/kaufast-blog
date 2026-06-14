@@ -43,6 +43,8 @@
     "commentsPosted": "Publié",
     "insightsHeading": "Perspectives",
     "exploreByTopic": "Explorer par thème",
-    "articlesLabel": "articles"
+    "articlesLabel": "articles",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbInsights": "Perspectives"
   }
 }

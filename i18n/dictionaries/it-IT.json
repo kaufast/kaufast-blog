@@ -43,6 +43,8 @@
     "commentsPosted": "Pubblicato",
     "insightsHeading": "Approfondimenti",
     "exploreByTopic": "Esplora per argomento",
-    "articlesLabel": "articoli"
+    "articlesLabel": "articoli",
+    "breadcrumbHome": "Home",
+    "breadcrumbInsights": "Approfondimenti"
   }
 }
