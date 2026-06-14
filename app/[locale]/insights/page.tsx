@@ -74,7 +74,7 @@ export default async function InsightsPage({
       />
 
       <header className={styles.pageHeader}>
-        <h1 className={styles.pageTitle}>{dict.blog.insightsHeading}</h1>
+        <h1 className={styles.pageTitle}>{dict.meta.insightsTitle}</h1>
         <p className={styles.pageDescription}>
           {dict.meta.insightsDescription}
         </p>
