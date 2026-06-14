@@ -36,7 +36,7 @@ En 2006, un estudio interno de Amazon liderado por Greg Linden reveló una métr
 
 Lo vemos en nuestro propio trabajo. A finales de 2025, auditamos un cliente de e-commerce europeo que ejecutaba una SPA en React con un LCP de 6,8 segundos en móvil. Su tasa de abandono de carrito era del 74%. Al migrar a SSR híbrido y comprimir su pipeline de imágenes a entrega automatizada en WebP, redujimos el LCP a 2,1 segundos. Los ingresos por carritos abandonados se recuperaron un **6,4% en 60 días** — sin cambios en precios, textos ni catálogo de productos. La única variable fue la velocidad.
 
-Los datos de seis empresas globales a continuación confirman lo que medimos de primera mano: **el rendimiento no es una preocupación de ingeniería. Es la variable de mayor impacto en tu pipeline de conversión.**
+Los datos de seis empresas globales a continuación confirman lo que medimos de primera mano: el rendimiento no es una preocupación de ingeniería. **Es la variable de mayor impacto en tu pipeline de conversión.**
 
 ## ¿Cuántos Ingresos Genera Mejorar el Largest Contentful Paint (LCP)?
 
@@ -106,7 +106,7 @@ Mover el rendimiento del navegador al edge es cómo las empresas modernas sobrev
 
 **Eficiencia de Servidores de Fossil:** Fossil aprovechó el enrutamiento inteligente de CDN para lograr una **reducción del 50% en costes operativos de servidores** mientras aceleraba simultáneamente los tiempos de carga en sus tiendas multi-regionales.
 
-**Cloudflare Speed Brain — Por Qué la Precarga ML Hace Obsoleto el Caché Clásico:** El caché CDN tradicional es reactivo — almacena lo que ya fue solicitado. Speed Brain invierte esto usando machine learning para **predecir la siguiente página a la que navegará el usuario** y precargarla antes de que haga clic. El modelo ML analiza patrones de tráfico a través de la red de Cloudflare para lograr un **94% de precisión en la precarga,** reduciendo el LCP un **45% en precargas exitosas** — aproximadamente 0,88 a 1,1 segundos ahorrados por navegación. Esto funciona en navegadores basados en Chromium (v121+), que cubren aproximadamente el 70% del tráfico web. La implicación para la planificación de infraestructura en 2026: las redes edge ya no son espejos pasivos de contenido. Son **motores de renderizado predictivo** que comienzan a ensamblar páginas antes de que el usuario las solicite. Las empresas que aún dependen de arquitecturas solo de servidor origen con caché CDN básico compiten contra sitios donde la siguiente página ya está renderizada en el navegador del usuario antes de que su dedo se levante de la pantalla.
+**Cloudflare Speed Brain** — Por Qué la Precarga ML Hace Obsoleto el Caché Clásico: El caché CDN tradicional es reactivo — almacena lo que ya fue solicitado. Speed Brain invierte esto usando machine learning para **predecir la siguiente página a la que navegará el usuario** y precargarla antes de que haga clic. El modelo ML analiza patrones de tráfico a través de la red de Cloudflare para lograr un **94% de precisión en la precarga,** reduciendo el LCP un **45% en precargas exitosas** — aproximadamente 0,88 a 1,1 segundos ahorrados por navegación. Esto funciona en navegadores basados en Chromium (v121+), que cubren aproximadamente el 70% del tráfico web. La implicación para la planificación de infraestructura en 2026: las redes edge ya no son espejos pasivos de contenido. Son **motores de renderizado predictivo** que comienzan a ensamblar páginas antes de que el usuario las solicite. Las empresas que aún dependen de arquitecturas solo de servidor origen con caché CDN básico compiten contra sitios donde la siguiente página ya está renderizada en el navegador del usuario antes de que su dedo se levante de la pantalla.
 
 ## La Tabla Completa de Evidencia: 15+ Empresas, Números Verificados
 
@@ -160,7 +160,7 @@ No adivines tus métricas de rendimiento. Ejecuta un diagnóstico inmediato:
 
 Mira más allá de la puntuación de rendimiento superficial y analiza estos dos pilares operativos:
 
-**Field Data (Métricas de Usuarios Reales):** Estos son datos históricos reales recopilados de usuarios de Chrome que visitaron tu sitio en los últimos 28 días. **Esto es lo que los algoritmos de búsqueda usan para determinar tu salud de posicionamiento.** Los umbrales que importan: LCP por debajo de 2,5 segundos, INP por debajo de 200 milisegundos, CLS por debajo de 0,1.
+**Field Data (Métricas de Usuarios Reales):** Estos son datos históricos reales recopilados de usuarios de Chrome que visitaron tu sitio en los últimos 28 días. Esto es **lo que los algoritmos de búsqueda usan para tu posicionamiento.** Los umbrales que importan: LCP por debajo de 2,5 segundos, INP por debajo de 200 milisegundos, CLS por debajo de 0,1.
 
 **Lab Data (Testing Sintético):** Esta es una simulación en tiempo real ejecutada por los servidores de Google. Úsala exclusivamente para depurar layout shifts e identificar exactamente qué archivos JavaScript están bloqueando tu hilo principal.
 
