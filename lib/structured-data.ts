@@ -4,7 +4,7 @@ import type { PostFrontmatter } from "./blog";
 /** Convert human-readable dates ("2 June 2026") to ISO 8601 with timezone ("2026-06-02T00:00:00Z"). */
 function toISO(date: string | undefined): string | undefined {
   if (!date) return undefined;
-  const parsed = new Date(date);
+  const parsed = new Date(date + " UTC");
   return isNaN(parsed.getTime()) ? date : parsed.toISOString();
 }
 
@@ -100,6 +100,27 @@ export function generateBreadcrumbSchema(
       position: index + 1,
       name: item.name,
       item: item.url ? `${SITE_URL}${item.url}` : undefined,
+    })),
+  };
+}
+
+export function generateHowToSchema(
+  howto: {
+    name: string;
+    description?: string;
+    steps: { name: string; text: string }[];
+  }
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: howto.name,
+    ...(howto.description && { description: howto.description }),
+    step: howto.steps.map((step, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: step.name,
+      text: step.text,
     })),
   };
 }

@@ -16,13 +16,15 @@ import {
   generateArticleSchema,
   generateBreadcrumbSchema,
   generateFAQSchema,
+  generateHowToSchema,
 } from "@/lib/structured-data";
 import { getDictionary } from "@/i18n/config";
+import remarkGfm from "remark-gfm";
 import styles from "./blog-detail.module.css";
 
 function toISODate(date: string | undefined): string | undefined {
   if (!date) return undefined;
-  const parsed = new Date(date);
+  const parsed = new Date(date + " UTC");
   return isNaN(parsed.getTime()) ? date : parsed.toISOString();
 }
 
@@ -114,6 +116,9 @@ export default async function BlogDetailPage({
     frontmatter.faq && frontmatter.faq.length > 0
       ? generateFAQSchema(frontmatter.faq)
       : null;
+  const howtoSchema = frontmatter.howto
+    ? generateHowToSchema(frontmatter.howto)
+    : null;
 
   return (
     <article className={styles.article}>
@@ -134,6 +139,14 @@ export default async function BlogDetailPage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(faqSchema),
+          }}
+        />
+      )}
+      {howtoSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(howtoSchema),
           }}
         />
       )}
@@ -187,6 +200,7 @@ export default async function BlogDetailPage({
       <div className={styles.prose}>
         <MDXRemote
           source={content}
+          options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
           components={{
             img: (props) => (
               // eslint-disable-next-line @next/next/no-img-element
