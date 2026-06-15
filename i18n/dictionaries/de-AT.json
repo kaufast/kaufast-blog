@@ -47,6 +47,19 @@
     "breadcrumbHome": "Startseite",
     "breadcrumbInsights": "Beiträge",
     "moreTopics": "Weitere Themen entdecken",
-    "allArticles": "Alle Artikel"
+    "allArticles": "Alle Artikel",
+    "relatedArticles": "Ähnliche Artikel"
+  },
+  "footer": {
+    "services": "Leistungen",
+    "works": "Projekte",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "insights": "Beiträge",
+    "seo": "SEO & KI",
+    "privacy": "Datenschutz",
+    "copyright": "KAUFAST. Alle Rechte vorbehalten."
   }
 }

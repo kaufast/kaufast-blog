@@ -47,6 +47,19 @@
     "breadcrumbHome": "Почетна",
     "breadcrumbInsights": "Чланци",
     "moreTopics": "Истражите још тема",
-    "allArticles": "Сви чланци"
+    "allArticles": "Сви чланци",
+    "relatedArticles": "Повезани чланци"
+  },
+  "footer": {
+    "services": "Услуге",
+    "works": "Пројекти",
+    "about": "О нама",
+    "contact": "Контакт",
+    "pricing": "Цене",
+    "faq": "FAQ",
+    "insights": "Чланци",
+    "seo": "СЕО и АИ",
+    "privacy": "Политика приватности",
+    "copyright": "KAUFAST. Сва права задржана."
   }
 }

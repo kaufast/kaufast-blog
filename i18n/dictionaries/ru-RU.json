@@ -47,6 +47,19 @@
     "breadcrumbHome": "Главная",
     "breadcrumbInsights": "Статьи",
     "moreTopics": "Другие темы",
-    "allArticles": "Все статьи"
+    "allArticles": "Все статьи",
+    "relatedArticles": "Похожие статьи"
+  },
+  "footer": {
+    "services": "Услуги",
+    "works": "Проекты",
+    "about": "О нас",
+    "contact": "Контакт",
+    "pricing": "Цены",
+    "faq": "FAQ",
+    "insights": "Статьи",
+    "seo": "SEO и ИИ",
+    "privacy": "Конфиденциальность",
+    "copyright": "KAUFAST. Все права защищены."
   }
 }

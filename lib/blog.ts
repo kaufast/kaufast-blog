@@ -201,6 +201,35 @@ export function estimateReadingTime(content: string): number {
   return Math.max(1, Math.ceil(words / 230));
 }
 
+/** Maps a category value to the matching section slug for internal links. */
+export function categoryToSection(category: string): SectionSlug {
+  if (category === "Performance") return "performance";
+  if (category === "Data Privacy & Compliance") return "data-privacy";
+  return "seo";
+}
+
+/**
+ * Returns up to `limit` related posts in the same locale:
+ * - First: same category, excluding current slug.
+ * - Fill-up: most recent native posts from any category if fewer than `limit`.
+ */
+export function getRelatedPosts(
+  locale: string,
+  currentSlug: string,
+  category: string,
+  limit = 3
+): PostSummary[] {
+  const all = getAllPosts(locale).filter(
+    (p) => p.isNativeContent && p.slug !== currentSlug
+  );
+
+  const sameCategory = all.filter((p) => p.frontmatter.category === category);
+  const others = all.filter((p) => p.frontmatter.category !== category);
+
+  const result = [...sameCategory, ...others].slice(0, limit);
+  return result;
+}
+
 // ─── Section config ────────────────────────────────────────────────────────
 
 export type SectionSlug = "seo" | "performance" | "data-privacy";

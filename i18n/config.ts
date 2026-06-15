@@ -72,6 +72,19 @@ export type Dictionary = {
     breadcrumbInsights: string;
     moreTopics: string;
     allArticles: string;
+    relatedArticles: string;
+  };
+  footer: {
+    services: string;
+    works: string;
+    about: string;
+    contact: string;
+    pricing: string;
+    faq: string;
+    insights: string;
+    seo: string;
+    privacy: string;
+    copyright: string;
   };
 };
 

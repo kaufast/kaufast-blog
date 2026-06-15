@@ -7,6 +7,8 @@ import {
   getPostBySlug,
   getAllPosts,
   getAdjacentPosts,
+  getRelatedPosts,
+  categoryToSection,
   estimateReadingTime,
   getSlugAlternates,
   getAvailableLocalesForArticle,
@@ -110,6 +112,8 @@ export default async function BlogDetailPage({
   const { frontmatter, content } = post;
   const readingTime = estimateReadingTime(content);
   const { prev, next } = getAdjacentPosts(locale, slug);
+  const related = getRelatedPosts(locale, slug, frontmatter.category);
+  const tagSectionHref = `/${locale}/insights/${categoryToSection(frontmatter.category)}`;
 
   const articleSchema = generateArticleSchema(locale, {
     ...frontmatter,
@@ -262,9 +266,9 @@ export default async function BlogDetailPage({
       {frontmatter.tags && frontmatter.tags.length > 0 && (
         <div className={styles.tags}>
           {frontmatter.tags.map((tag) => (
-            <span key={tag} className={styles.tag}>
+            <Link key={tag} href={tagSectionHref} className={styles.tag}>
               {tag}
-            </span>
+            </Link>
           ))}
         </div>
       )}
@@ -314,6 +318,26 @@ export default async function BlogDetailPage({
           </>
         )}
       </div>
+
+      {/* Related Articles */}
+      {related.length > 0 && (
+        <section className={styles.relatedArticles}>
+          <h2 className={styles.relatedTitle}>{dict.blog.relatedArticles}</h2>
+          <div className={styles.relatedGrid}>
+            {related.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/${locale}/insights/${p.slug}`}
+                className={styles.relatedCard}
+              >
+                <span className={styles.relatedCategory}>{p.frontmatter.category}</span>
+                <h3 className={styles.relatedCardTitle}>{p.frontmatter.title}</h3>
+                <p className={styles.relatedExcerpt}>{p.frontmatter.headline}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Adjacent Posts */}
       {(prev || next) && (

@@ -47,6 +47,19 @@
     "breadcrumbHome": "Inici",
     "breadcrumbInsights": "Articles",
     "moreTopics": "Explorar més temes",
-    "allArticles": "Tots els articles"
+    "allArticles": "Tots els articles",
+    "relatedArticles": "Articles relacionats"
+  },
+  "footer": {
+    "services": "Serveis",
+    "works": "Projectes",
+    "about": "Sobre nosaltres",
+    "contact": "Contacte",
+    "pricing": "Preus",
+    "faq": "FAQ",
+    "insights": "Articles",
+    "seo": "SEO i IA",
+    "privacy": "Política de privacitat",
+    "copyright": "KAUFAST. Tots els drets reservats."
   }
 }

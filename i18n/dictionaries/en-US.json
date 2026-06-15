@@ -47,6 +47,19 @@
     "breadcrumbHome": "Home",
     "breadcrumbInsights": "Insights",
     "moreTopics": "Explore more topics",
-    "allArticles": "All articles"
+    "allArticles": "All articles",
+    "relatedArticles": "Related Articles"
+  },
+  "footer": {
+    "services": "Services",
+    "works": "Works",
+    "about": "About",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "insights": "Insights",
+    "seo": "SEO & AI",
+    "privacy": "Privacy Policy",
+    "copyright": "KAUFAST. All rights reserved."
   }
 }

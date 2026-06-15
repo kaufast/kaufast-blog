@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:seo": "node scripts/lint-seo.mjs",
+    "lint:seo:staged": "node scripts/lint-seo.mjs --staged",
     "migrate": "node scripts/migrate-blog.mjs"
   },
   "dependencies": {
