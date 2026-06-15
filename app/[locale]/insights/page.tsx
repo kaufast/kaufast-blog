@@ -87,15 +87,16 @@ export default async function InsightsPage({
           {SECTIONS.map((section) => {
             const count = getPostsBySection(locale, section.slug).filter((p) => p.isNativeContent).length;
             return (
-              <Link
+              <div
                 key={section.slug}
-                href={`/${locale}/insights/${section.slug}`}
                 className={styles.sectionCard}
               >
-                <span className={styles.sectionCardTitle}>{sectionTitles[section.slug]?.title ?? section.title}</span>
+                <Link href={`/${locale}/insights/${section.slug}`} className={`${styles.sectionCardTitle} ${styles.stretchedLink}`}>
+                  {sectionTitles[section.slug]?.title ?? section.title}
+                </Link>
                 <span className={styles.sectionCardDesc}>{sectionTitles[section.slug]?.desc ?? section.description}</span>
                 <span className={styles.sectionCardCount}>{count} {dict.blog.articlesLabel} →</span>
-              </Link>
+              </div>
             );
           })}
         </div>

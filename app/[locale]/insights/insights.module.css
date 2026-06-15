@@ -120,6 +120,7 @@
 
 /* ===== Card ===== */
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   background: var(--color-surface);
@@ -438,6 +439,7 @@
 }
 
 .sectionCard {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
@@ -445,7 +447,6 @@
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  text-decoration: none;
   transition: border-color 0.2s;
 }
 
@@ -494,6 +495,19 @@
 
 .sectionBreadcrumbSep {
   color: var(--color-text-muted);
+}
+
+/* ===== Stretched Link (anchor text only on title) ===== */
+.stretchedLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.stretchedLink::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  z-index: 1;
 }
 
 /* ===== Responsive ===== */

@@ -90,14 +90,15 @@ export default async function InsightsSectionPage({ locale, section }: Props) {
             const otherTitle = sectionTitles[s.slug]?.title ?? s.title;
             const otherDesc = sectionTitles[s.slug]?.desc ?? s.description;
             return (
-              <Link
+              <div
                 key={s.slug}
-                href={`/${locale}/insights/${s.slug}`}
                 className={styles.sectionCard}
               >
-                <span className={styles.sectionCardTitle}>{otherTitle}</span>
+                <Link href={`/${locale}/insights/${s.slug}`} className={`${styles.sectionCardTitle} ${styles.stretchedLink}`}>
+                  {otherTitle}
+                </Link>
                 <span className={styles.sectionCardDesc}>{otherDesc}</span>
-              </Link>
+              </div>
             );
           })}
         </div>

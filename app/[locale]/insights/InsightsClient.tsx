@@ -196,9 +196,8 @@ export default function InsightsClient({ posts, locale, labels }: Props) {
       ) : (
         <div className={styles.postsGrid}>
           {filtered.map((post) => (
-            <Link
+            <div
               key={post.slug}
-              href={`/${locale}/insights/${post.slug}`}
               className={styles.card}
             >
               {post.frontmatter.image && (
@@ -213,7 +212,11 @@ export default function InsightsClient({ posts, locale, labels }: Props) {
                 <div className={styles.cardCategory}>
                   {post.frontmatter.category}
                 </div>
-                <h2 className={styles.cardTitle}>{post.frontmatter.title}</h2>
+                <h2 className={styles.cardTitle}>
+                  <Link href={`/${locale}/insights/${post.slug}`} className={styles.stretchedLink}>
+                    {post.frontmatter.title}
+                  </Link>
+                </h2>
                 <p className={styles.cardExcerpt}>{truncateExcerpt(post.frontmatter.headline)}</p>
                 {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
                   <div className={styles.cardTags}>
@@ -234,7 +237,7 @@ export default function InsightsClient({ posts, locale, labels }: Props) {
                   <span>{labels.readMore}</span>
                 </div>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
       )}
