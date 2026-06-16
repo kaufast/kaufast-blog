@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { locales, getDictionary } from "@/i18n/config";
 import { getAlternatesForLocale } from "@/lib/seo";
+import { getPostsBySection } from "@/lib/blog";
 import InsightsSectionPage from "../InsightsSectionPage";
 
 type Params = { locale: string };
@@ -16,10 +17,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  const nativePosts = getPostsBySection(locale, "data-privacy").filter((p) => p.isNativeContent);
   return {
     title: dict.meta.dataPrivacySectionTitle,
     description: dict.meta.dataPrivacySectionDescription,
     alternates: getAlternatesForLocale(locale, "/insights/data-privacy"),
+    ...(nativePosts.length === 0 && { robots: { index: false, follow: true } }),
   };
 }
 
