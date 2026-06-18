@@ -214,7 +214,7 @@ export default function InsightsClient({ posts, locale, labels }: Props) {
                 </div>
                 <h2 className={styles.cardTitle}>
                   <Link href={`/${locale}/insights/${post.slug}`} className={styles.stretchedLink}>
-                    {post.frontmatter.title}
+                    {truncateExcerpt(post.frontmatter.title, 120)}
                   </Link>
                 </h2>
                 <p className={styles.cardExcerpt}>{truncateExcerpt(post.frontmatter.headline)}</p>
