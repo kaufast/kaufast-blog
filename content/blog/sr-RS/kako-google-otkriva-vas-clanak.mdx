@@ -1,0 +1,157 @@
+---
+title: "Kako Google Otkriva Tvoj Članak"
+headline: "Pisanje je samo polovina. Bez ovoga, tvoj članak je nevidljiv za Google — čak i ako je odličko."
+date: "13. januar 2025"
+lastmod: "14 May 2026"
+author: "Kenneth Melchor"
+category: "SEO & AI Visibility"
+tags:
+  - "SEO"
+  - "Content"
+  - "Google"
+  - "Indexation"
+image: "/images/blog/google-crawl-indexing-discovery.webp"
+featured: false
+faq:
+  - question: "Kada Google nalazi sveži članak?"
+    answer: "To zavisi. Ako imas visoku autoriteta sajta, Google može pronaći članak u roku od sati. Ako imas novi ili mali sajt, može biti nedelja. U proseku, male sajte trebaju 1-3 nedelje."
+  - question: "Kako da brza Google pronalazim moj članak?"
+    answer: "Tri stvari: (1) Pošalji XML sitemap u Google Search Console; (2) Kreiraj internu veze od starije članaka do novih; (3) Ako je kritični članak, koristi 'Request Indexing' funkcija u Search Console."
+  - question: "Zašto je moj članak ne pojavljuje se u Google?"
+    answer: "Google pronalazi članke ali trebali odlučiti da indeksira. To može biti: (1) Tvoj sajt je novi — Google čeka dok ne vidi šta radiš; (2) Članak nema internu veze — Google ne zna o njemu; (3) Tekst je preslabim — Google oceni je kao 'nedovoljno vrednosti'; (4) robots.txt blokira — tvoj sajt bloki Search Console pristupa."
+---
+
+Voleo bi da te mogu reći: piši odličko članak i Google će ga pronačiti sutra. Ali to nije kako to funkcioniše.
+
+Google pronalazi članke kroz tri koraka:
+1. **Pronalaženje** — pretraživač pronalazi URL
+2. **Crawlovanje** — pretraživač čita tekst, veze, slike
+3. Indeksiranje — pretraživač odlučuje da li je vredan prikazati se ljudima
+
+Većina članak je pronađen ali ne indeksiran. To znači Google je vidiš ali nije čini vidljivo ljudima. Evo kako izbegnu.
+
+## Faza 1: Pronalaženje (Crawling)
+
+Google pronalazi nove članake pomoći:
+
+### 1. Sitemap XML
+Ovo je databaza do svih stranica na tvoj sajtu. Google proverava sitemap, vidiš "novo članak," i dodaj it pre istraživanja liste.
+
+Trebali da radiš: Kreiraj XML sitemap (većina CMS sistema to čini automatski) i pošalji do Google Search Console.
+
+### 2. Interna Veza
+Ako napraviš novi članak, teško trebali povezati od starijeg članka. Google prati veze — kada vidiš novu vezu, prati je i pronalazi novu stranicu.
+
+Trebali da radiš: Na kraju starije relevantnog članka, dodaj: "Pogledaj i [Naslov Novog Članka](URL)."
+
+### 3. Search Console — Request Indexing
+Ako je članak kritična (novost, vremenski čuvana, ili novi sajt), pusti Google znati direktno.
+
+Trebali da radiš: Open Search Console → Pages → URL inspector → "Request Indexing." To govori Google-u "evo novog članka, molim te pronađi it."
+
+## Faza 2: Crawlovanje
+
+Čim Google pronalazi URL, šalje bot da čita stranicu:
+
+- Čita tekst
+- Čita naslove (h1, h2, h3)
+- Čita veze (unutrašnje i spoljašnje)
+- Čita metadata (naslov, opis, OG tagove)
+- Čita slike (alt tekst)
+- Čita strukturirane podatke (schema markup)
+
+Zašto to važno:
+Ako tvoj članak je napisano za ljude ali ne za Google (bez jasnog naslov, bez strukturiranog podataka, bez interna veza), Google može biti zbunjen.
+
+## Faza 3: Indeksiranje (Odluka)
+
+Evo najjedostavnije dela. Google izgleda tvoj članak i odlučava: "je li to vredan pokazati?"
+
+Google broji:
+
+- Je li to originalno? — Ako je kopirani od drugog sajta, neće biti indeksiran
+- Je li to korisno? — Ako je samo dve-reči sa nikakvim informacije, neće biti indeksiran
+- Je li to brzo? — Ako tvoj sajt učitava u 8 sekundi, može biti diskoncenčan
+- **Je li it sekirno?** — Ako nemoj HTTPS, može biti manje prioritet
+- Je li it mobilno? — Ako ne radi na mobilnom, može biti manje prioritet
+
+Ako prođe sve ove provere, to se indeksira. Ako ne, to ostane "pronađeno" ali "ne indeksiran" u Search Console.
+
+## Sedam Razloga Tvoj Članak Nije Indeksiran (i Kako Ispraviti)
+
+### 1. Previsoko od Google-a Crawl Budget
+Google ne crawluje svaku stranicu svaki dan. Noviji sajtovi imaju manji crawl budžet — manji broj stranica po danu.
+
+Kako Ispraviti: Ispravi struktura sajta. Ako imas 5.000 stranica bez sadržaja, obriši njih. To čini tvoj crawl budžet efikasniji.
+
+### 2. Nema Interna Veza
+Ako nijedna druga stranica veze do tvoj novog članka, Google može da ga pronađe iz sitemap ali može ne prioritet indeksiranje.
+
+Kako Ispraviti: Vezi od starijeg članka do novog.
+
+### 3. robots.txt Blokira
+Ako tvoj robots.txt kaže "disallow: /blog/*," Google ne može crawl tvoj blog članak.
+
+Kako Ispraviti: Open robots.txt, pronađi "disallow" veze, i obriši ako je nenamerno.
+
+### 4. Meta Noindex
+Ako tvoj članak imaj `<meta name="robots" content="noindex">`, Google će pronačiti ali ne indeksira.
+
+Kako Ispraviti: Open HTML, broji `noindex` meta tag, obriši to.
+
+### 5. Duplicate Sadržaj
+Ako isti tekst pojavljuje na više URL-ova, Google može biti zbunjena koji verzija trebala indeksira.
+
+Kako Ispraviti: Koristi `canonical` tag: `<link rel="canonical" href="https://tvoj-pravi-url.com">` koji govori Google koja verzija je originalna.
+
+### 6. Premala Kvaliteta Sadržaja
+Ako tvoj članak ima 100 reči, nijedan pravilan naslov, i nijedan struktura, Google može oceni kao "nedovoljna vrednost."
+
+Kako Ispraviti: Prepiši članak biti bolji. Trebali minimum 500 reči, jasne naslove, i relevantne informacije.
+
+### 7. Novi Sajt — Google Čeka
+Ako si novi sajt, Google ne indeksira svaki članak trenutno. Čeka da vidiš šta radiš za nekoliko nedelja.
+
+Kako Ispraviti: Stani i nastavi sa kvalitetnim članaka. Google će početi indeksirati kada vidiš da ste legitimni.
+
+## Kako Biti Indeksiran Brže: Akciona Plan
+
+1. Kreiraj XML Sitemap
+   - Koristi tool kao Screaming Frog ili XML Sitemap Generator
+   - Upload do Google Search Console
+
+2. Vezi Novi Članak od Stari Članak
+   - Pronađi relevantno stariju stranicu
+   - Dodaj konekcija ulaznom novom članka sa kotvom tekst koja sadrži ključne reči
+
+3. Proveri Robots.txt i Meta Tags
+   - Otvori Google Search Console
+   - Povezi "Pages" i sortiraj po "Discovered – currently not indexed"
+   - Proveri ako je noindex meta tag prisutan — obriši ako je
+
+4. Zahtevaj Indeksiranje za Kritični Članaka
+   - U Search Console, ispravi URL
+   - Klikni "Request Indexing"
+   - Čekaj 24-48 sati
+
+5. Čekaj Prirodno Indeksiranje
+   - Za nove sajte, čekaj 2-4 nedelje
+   - Za etablirane sajte, čekaj nekoliko dana do nedelje
+
+## Šta Indeksiranje Isn't
+
+Indeksiranje nije rangiranje.
+- Indeksiran = Google ima članak u svojoj bazi
+- Rangiran = Google pokazuje članak ljudima koji pretražuju
+
+Članak može biti indeksiran ali rangira na stranici 10. Članak može biti rangiran bez eksplicitnog indeksiranje (Google ponekad pokazuje članaka bez indeksiranja, retko).
+
+Ali bez indeksiranja, nikad neće biti rangiran. Indeksiranje je prva korak.
+
+## Poslednja Stvar
+
+Ako je tvoj članak nikad ne pojavljuje u Google, nije da je loš članak. Često je što Google nema znao da postoji.
+
+Proveri Search Console svakodnevni. Ako vidiš nove članaka listane kao "Discovered – currently not indexed," znate šta trebate ispraviti.
+
+Indeksiranje je mehanika. To je ispravljivo.

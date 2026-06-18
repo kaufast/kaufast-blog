@@ -52,13 +52,13 @@ The term "AI agent" gets used loosely. A lot of things claim to be agents that a
 
 An AI agent has four components:
 
-**1. Perception** — It reads inputs: emails, messages, form submissions, database records, web pages, documents, sensor data, API responses.
+1. Perception — It reads inputs: emails, messages, form submissions, database records, web pages, documents, sensor data, API responses.
 
-**2. Reasoning** — It uses a large language model (LLM) to understand what those inputs mean, what the goal is, and what steps are needed to achieve it.
+2. Reasoning — It uses a large language model (LLM) to understand what those inputs mean, what the goal is, and what steps are needed to achieve it.
 
-**3. Action** — It uses tools to act: send an email, query a database, call an API, fill a form, create a file, trigger another process.
+3. Action — It uses tools to act: send an email, query a database, call an API, fill a form, create a file, trigger another process.
 
-**4. Memory** — It retains context across steps in a task, and optionally across sessions, so it doesn't lose track of what it's doing or what it's already done.
+4. Memory — It retains context across steps in a task, and optionally across sessions, so it doesn't lose track of what it's doing or what it's already done.
 
 The combination of these four things — perceiving, reasoning, acting, and remembering — is what separates an AI agent from a simple chatbot or a rule-based automation.
 
@@ -68,11 +68,11 @@ A chatbot reads a message and replies. An agent reads a message, decides what to
 
 These three terms get conflated constantly. They describe different things.
 
-**Chatbots** are script-following tools. They match inputs to templates and return pre-written responses. They're useful for simple FAQs where the answer is always the same. They break immediately when the conversation goes off-script.
+Chatbots are script-following tools. They match inputs to templates and return pre-written responses. They're useful for simple FAQs where the answer is always the same. They break immediately when the conversation goes off-script.
 
-**Rule-based automation** (Zapier, Make, n8n) executes predefined sequences when triggers fire: "when form is submitted, add to CRM, send email." They're fast and reliable but rigid. Change the form fields and the automation breaks. Add a conditional — "only send email if the customer is from Texas" — and you're writing increasingly complex rule trees.
+Rule-based automation (Zapier, Make, n8n) executes predefined sequences when triggers fire: "when form is submitted, add to CRM, send email." They're fast and reliable but rigid. Change the form fields and the automation breaks. Add a conditional — "only send email if the customer is from Texas" — and you're writing increasingly complex rule trees.
 
-**AI agents** can handle complexity and ambiguity. They can receive a goal in plain language, figure out the steps, use tools to execute them, and adapt when something unexpected happens. Where rule-based automation requires a complete specification of every possible path, an AI agent can reason about paths that weren't anticipated.
+AI agents can handle complexity and ambiguity. They can receive a goal in plain language, figure out the steps, use tools to execute them, and adapt when something unexpected happens. Where rule-based automation requires a complete specification of every possible path, an AI agent can reason about paths that weren't anticipated.
 
 That said, AI agents are not always the right tool. For simple, stable workflows with no ambiguity, rule-based automation is faster, cheaper, and more reliable. AI agents add value where the task requires judgment, context, or handling of varied inputs.
 
@@ -146,21 +146,21 @@ Model choice affects capability, speed, cost, and data privacy. For tasks where 
 ### 2. Tools (the hands)
 
 An LLM alone can reason but cannot act. Tools extend the agent's capabilities into the real world. Common tools include:
-- **Web search**: retrieving current information
+- Web search: retrieving current information
 - **Database queries**: reading from or writing to your data systems
-- **API calls**: interacting with external services (Stripe, Calendly, Salesforce, etc.)
-- **Email/messaging**: sending and receiving communications
+- API calls: interacting with external services (Stripe, Calendly, Salesforce, etc.)
+- Email/messaging: sending and receiving communications
 - **File operations**: reading, writing, and processing documents
-- **Code execution**: running calculations or data transformations
+- Code execution: running calculations or data transformations
 
 The tools available to an agent define what it can do. Designing the right tool set for a given task is a significant part of the engineering work.
 
 ### 3. Memory
 
 Memory allows an agent to maintain context. There are several types:
-- **In-context memory**: the conversation history the LLM holds during a session
-- **External memory**: a database the agent can query and update, giving it persistent knowledge across sessions
-- **Semantic memory**: a vector store of embeddings that allows the agent to find relevant information even when an exact match doesn't exist
+- In-context memory: the conversation history the LLM holds during a session
+- External memory: a database the agent can query and update, giving it persistent knowledge across sessions
+- Semantic memory: a vector store of embeddings that allows the agent to find relevant information even when an exact match doesn't exist
 
 Without memory, an agent starts from scratch every time. With external memory, it can remember previous interactions, preferences, and state — which is what makes agents feel like a consistent presence rather than a series of disconnected responses.
 
@@ -173,9 +173,9 @@ A sales pipeline agent might orchestrate three sub-agents: one that enriches pro
 ### 5. Infrastructure and Deployment
 
 AI agents need to run somewhere. Common deployment patterns:
-- **Cloud functions**: serverless execution on AWS Lambda, Google Cloud Functions, or Azure Functions — good for event-triggered agents
-- **Containerized services**: Docker containers on Kubernetes — better for agents that run continuously or have complex dependencies
-- **Embedded in existing systems**: some agents are deployed as extensions of existing platforms (CRM plugins, Slack apps, browser extensions)
+- Cloud functions: serverless execution on AWS Lambda, Google Cloud Functions, or Azure Functions — good for event-triggered agents
+- Containerized services: Docker containers on Kubernetes — better for agents that run continuously or have complex dependencies
+- Embedded in existing systems: some agents are deployed as extensions of existing platforms (CRM plugins, Slack apps, browser extensions)
 
 Reliability, security, logging, and cost management are real engineering concerns here — not afterthoughts. An agent that's unreliable or that leaks data is worse than no agent.
 
@@ -183,29 +183,29 @@ Reliability, security, logging, and cost management are real engineering concern
 
 The gap between "AI agent idea" and "AI agent running in production" is wider than most people expect. Here is an honest description of what the deployment process involves.
 
-**Discovery and scope definition.** What is the exact task? What are the inputs? What are the acceptable outputs? What happens when the agent fails or encounters something unexpected? Vague requirements produce unreliable agents.
+Discovery and scope definition. What is the exact task? What are the inputs? What are the acceptable outputs? What happens when the agent fails or encounters something unexpected? Vague requirements produce unreliable agents.
 
-**Tool and integration design.** Which tools does the agent need? What APIs does it need to call? What data does it need access to? Who owns access to those systems? This phase often surfaces blockers that weren't anticipated.
+Tool and integration design. Which tools does the agent need? What APIs does it need to call? What data does it need access to? Who owns access to those systems? This phase often surfaces blockers that weren't anticipated.
 
-**Prompt and reasoning design.** The instructions given to the LLM — how the task is framed, what constraints apply, what format outputs should take — dramatically affect reliability. This is a significant engineering discipline in itself.
+Prompt and reasoning design. The instructions given to the LLM — how the task is framed, what constraints apply, what format outputs should take — dramatically affect reliability. This is a significant engineering discipline in itself.
 
-**Testing with edge cases.** The easy cases are easy. The failure modes are what matters. A well-tested agent has been deliberately broken dozens of times before going live.
+Testing with edge cases. The easy cases are easy. The failure modes are what matters. A well-tested agent has been deliberately broken dozens of times before going live.
 
-**Monitoring and observability.** Once deployed, you need visibility into what the agent is doing, what decisions it's making, where it's failing, and what it's costing. Audit trails matter for compliance. Cost dashboards matter for budgeting.
+Monitoring and observability. Once deployed, you need visibility into what the agent is doing, what decisions it's making, where it's failing, and what it's costing. Audit trails matter for compliance. Cost dashboards matter for budgeting.
 
-**Human-in-the-loop design.** For most business-critical workflows, some decisions should require human approval. The escalation logic — when does the agent hand off to a human, and how — is often the most important design decision.
+Human-in-the-loop design. For most business-critical workflows, some decisions should require human approval. The escalation logic — when does the agent hand off to a human, and how — is often the most important design decision.
 
 ## The Business Case: Time, Cost, and ROI
 
 AI agents are an investment. The ROI comes from three sources.
 
-**Time saved.** The most direct calculation: how many hours per week does this task currently take, multiplied by the cost of that time. A customer service operation that handles 500 inquiries per day at 4 minutes each is 33 hours of staff time daily. An agent handling 80% of those inquiries saves 26 hours per day.
+Time saved. The most direct calculation: how many hours per week does this task currently take, multiplied by the cost of that time. A customer service operation that handles 500 inquiries per day at 4 minutes each is 33 hours of staff time daily. An agent handling 80% of those inquiries saves 26 hours per day.
 
-**Error reduction.** Manual data entry and processing introduces errors. An agent extracting data from documents and updating a CRM is more consistent than a human doing the same task at 5pm on a Friday.
+Error reduction. Manual data entry and processing introduces errors. An agent extracting data from documents and updating a CRM is more consistent than a human doing the same task at 5pm on a Friday.
 
-**Availability.** Humans work 8 hours a day. Agents work 24 hours a day. For customer-facing tasks, 24/7 availability is a meaningful competitive advantage.
+Availability. Humans work 8 hours a day. Agents work 24 hours a day. For customer-facing tasks, 24/7 availability is a meaningful competitive advantage.
 
-**Scale without headcount.** The cost of handling 1,000 customer inquiries per day is not dramatically higher than handling 100, for an AI agent. For a human team, it is.
+Scale without headcount. The cost of handling 1,000 customer inquiries per day is not dramatically higher than handling 100, for an AI agent. For a human team, it is.
 
 A simple lead qualification agent that books 10 extra qualified discovery calls per month — converting 2 of them at an average deal size of $5,000 — generates $120,000 in incremental annual revenue. Against a one-time build cost of $4,000 and monthly running costs of $200, the ROI calculation is straightforward.
 
@@ -213,27 +213,27 @@ A simple lead qualification agent that books 10 extra qualified discovery calls 
 
 Having built AI agents for clients across industries, these are the patterns that lead to failed deployments.
 
-**Automating a broken process.** If the underlying workflow is disorganized, an AI agent will make the disorganization faster and harder to spot. Fix the process before you automate it.
+Automating a broken process. If the underlying workflow is disorganized, an AI agent will make the disorganization faster and harder to spot. Fix the process before you automate it.
 
-**No escalation design.** An agent that tries to handle everything will make confident mistakes on things it shouldn't touch. Define the boundaries clearly. Design the handoff to a human before you deploy.
+No escalation design. An agent that tries to handle everything will make confident mistakes on things it shouldn't touch. Define the boundaries clearly. Design the handoff to a human before you deploy.
 
-**Skipping testing.** AI agents are non-deterministic. The same input can produce different outputs. Testing edge cases and failure modes is not optional.
+Skipping testing. AI agents are non-deterministic. The same input can produce different outputs. Testing edge cases and failure modes is not optional.
 
-**Ignoring data quality.** An agent that reads from a database full of inconsistent, incomplete data will produce inconsistent, unreliable outputs. Data hygiene is a prerequisite.
+Ignoring data quality. An agent that reads from a database full of inconsistent, incomplete data will produce inconsistent, unreliable outputs. Data hygiene is a prerequisite.
 
-**Building too much at once.** The agents with the best outcomes start narrow: one task, one integration, well-tested. Then they expand. Trying to automate 10 workflows at once produces a complex system that nobody understands when something goes wrong.
+Building too much at once. The agents with the best outcomes start narrow: one task, one integration, well-tested. Then they expand. Trying to automate 10 workflows at once produces a complex system that nobody understands when something goes wrong.
 
 ## Getting Started
 
 If you're evaluating whether AI agents are right for your business, start with three questions:
 
-**1. What task does your team do repeatedly** that follows a predictable pattern?
+1. What task does your team do repeatedly that follows a predictable pattern?
 That's your first candidate. Not the most complex process. The one that's done the most often.
 
-**2. What are the inputs and outputs?**
+2. What are the inputs and outputs?
 An agent needs clear inputs (emails, form submissions, database records) and clear outputs (a reply, a database update, a notification). If you can't describe both clearly, the task isn't ready for automation.
 
-**3. What happens when it goes wrong?**
+3. What happens when it goes wrong?
 Define the failure mode before you start. What's the fallback? What triggers a human review? Answering this shapes the entire system design.
 
 If you have a clear answer to all three, you're ready to scope an agent. If you want to understand what a specific workflow might look like as an agent, a discovery conversation with a team that has built them is faster than any amount of desk research.
@@ -242,7 +242,7 @@ We've built [AI agents and automation systems](/en-GB/services) for businesses a
 
 ---
 
-**Related reading:**
+Related reading:
 - [WhatsApp bots for business: a complete guide](/en-GB/insights/whatsapp-bot-for-business-complete-guide)
 - [5 business processes every SMB should automate](/en-GB/insights/5-business-processes-every-smb-should-automate)
 - [Why your business needs to be AI-ready](/en-GB/insights/why-your-business-needs-to-be-ai-ready)

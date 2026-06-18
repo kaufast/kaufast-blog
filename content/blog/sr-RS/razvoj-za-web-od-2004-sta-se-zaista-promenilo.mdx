@@ -1,0 +1,118 @@
+---
+title: "Razvoj za Web od 2004: Šta se Zaista Promenilo"
+headline: "22 godine izgrađivanja za web. Evo šta se zaista promenilo — i šta je ostalo isto."
+date: "13. januar 2025"
+lastmod: "26 March 2026"
+author: "Kenneth Melchor"
+category: "Performance"
+tags:
+  - "Web Development"
+  - "History"
+  - "Technology"
+  - "Evolution"
+image: "/images/blog/web-development-history-evolution.webp"
+featured: false
+faq:
+  - question: "Kako se web razvoj promenio od 2004?"
+    answer: "Najveće promene su bili pomeranje od desktop-first ka mobilno-first dizajnu, uspon JavaScript frejmvorks kao React i Vue, i prosleda fokusa sa server-side na client-side renovanja. Infrastruktura se sada ocenjuje na Edge Networks umesto centralnih servera, i sigurnost je sada obavezna od početka, ne dodato kasnije."
+  - question: "Da li je web razvoj postao lakši ili teži?"
+    answer: "Alati su postali moćniji ali kompleksniji. Jedna osoba može sada izgraditi šta je trebala celu tim da napravi 2004. Ali kompleksnost je pomerena sa infrastrukture na arhitekturu — trebate razumevati scalability, caching, security, i API dizajn od početka, nisu dodaci."
+  - question: "Koja su naj važna učenja iz 22 godine web razvoja?"
+    answer: "Brza performansa nikada nije bila nego važna. Mobilna nije opsiona — to je primarna. Bezbednost nije 'dovršena' — to je kontinuan proces. I arhitektura jednostavnosti troši više vremena za izgrađivanje ali spasava tone vremena održavanja. Šta god da pokušavate, fokusirajte se na brzinu i sigurnost prvi."
+---
+
+U 2004. godini, izgradio sam svoj prvi veb sajt — HTML u Notepad, FTP upload na shared hosting, i HTML email forma koja je poslata na Gmail račun. Trebalo je manje od tri sata od početka do produkcije. Nije bio mobilnim pristupačan jer telefoni nisu bili mobilni sa web pregledačima. Nije bio optimizovan jer "optimizacija" nije bila reč. Radio je, i to je bilo dovoljno.
+
+Sada, 22 godine kasnije, vreme od početka do produkcije za moderan veb sajt je tipično 6-16 nedelja — čak i za "jednostavnu" stranicu. Kompleksnost se ogleda u tooling-u, slaganju zavisnosti, i arhitekturi. Ali evo šta je zaista zanimljivo: dok alati i teške stvari su postali drastično lakši, teško arhitektonsko pitanja su postali kompleksnija.
+
+## Šta se Zaista Promenilo
+
+### 1. Mobilna nije dodatna — to je primarna
+
+U 2004. godini, web bilo je za računare. Mobilna je bila futurističko razmišljanje. U 2010. godini, mobilna je bila "budućnost." U 2026. godini, mobilna je je 60-70% vešeg web prometa, i ako nedostaje od mobilnog, nedostaje od vašeg poslovanja.
+
+Šta se promenilo: Dizajn, performanse, i sigurnost sve počinjati sa mobilnim — ne sa desktop-om. CSS media queries nisu hack — oni su fundamentalni. JavaScript mora biti mali i brz jer mobilni prozori su mali i spor. Sve što radiš, prvo za mobilnom.
+
+### 2. Infrastruktura sada je nije problema
+
+U 2004. godini, čak i male stranice su trebale vlastitim serverima ili skupim hosting, i upravljanje infrastrukturom je bio posao zaprepaštavajuće količinom vremena.
+
+Šta se promenilo: Cloud infrastruktura (AWS, Azure, Vercel, Netlify) je sada tri stotine puta jeftinija i tisućero puta lakša upravljanja. Vercel ili Netlify mogu izgradi i rasporediti kompletan veb sajt sa nula do izgrađen zavisnosti sa nula rada. Serverless je postalo default. Briga o bazama podataka, backupima, ili DDoS zaštitom je sada ponuda od platforme, ne nešto što trebate kupiti i upravljati posebno.
+
+Rezultat: malim timovima mogu sada graditi i pokrenuti šta bih trebao velikog tima i infrastrukture šef da upravljate u 2004. Međutim, nove komplikacije su stupanj u: skalabilnost, caching strategije, i geografska distribucija sada su probleme koje manjim timovima trebali razumevati.
+
+### 3. JavaScript sada je primarni jezik
+
+U 2004. godini, JavaScript je bio jezičak koji radiš neke okidaču na dugme. Serverske opravke su bile PHP, Java, ili ASP. Moderna JavaScript (sa Node.js i build tooling) je sada universal — možeš raditi backend, frontend, baze podataka upiti, i čak infrastrukture šifra sve u istom jeziku.
+
+Šta se promenilo: Poblem je sada ne šta tehnologiju trebalo — to je dostojno jednostavno — već kako organizovati kompleksne sisteme kada je sve u istom jeziku. TypeScript je obezbedila sigurnost tipova. React/Vue/Svelte su reorganizovale kako mislimo o komponenti arhitekturi. Ali sa većim fleksibilnošću dolazi veća odgovornost da izbegneš opalne na grešaka.
+
+### 4. Performanse su sada keying metric
+
+U 2004. godini, "brz" znači pod-a sekundi za stranicu. Sada, "brz" znači LCP (Largest Contentful Paint) ispod 2,5 sekundi, CLS (Cumulative Layout Shift) ispod 0,1, i INP (Interaction to Next Paint) ispod 200ms. Pravi broj nisu memorisati — poenta je:
+
+- Google sada rangira brzinu kao top factor
+- **Svaki milisekunda pažnje**: 0,1 sekunde kašnjenja = 1% manje konverzije na e-trade
+- Brza stranica su sada kompetitivni zahtev, ne nice-to-have
+
+Tehnike su se promenile sa toga: u 2004., to je bilo minify JavaScript. Sada to je image rendering, font-loading strategije, hydration, i edge caching. Alati kao Lighthouse i WebPageTest su sada deo svake pipeline.
+
+### 5. Bezbednost nije dodana kasnije — to je fundamentalna
+
+U 2004. godini, bezbednost je bila često "ažuriraj softver povremeno" misli. Sada to je:
+
+- HTTPS svuda — nije opciona za bilo koji sajt ozbiljne
+- **CSP (Content Security Policy)** — ako ne maš, dobar si za XSS napad
+- **CORS (Cross-Origin Resource Sharing)** — nijedna drugostrana zahteve bez dozvola
+- **SQL injection, CSRF, i DDoS** — nije od-once problem, kontinuan monitoring
+- **Zero-day patch cycle** — ako ne ažurirate zavisnosti često, dobijate zahtevani
+
+Šta se promenilo: Bezbednost je sada ne deo softvera — to je infrastruktura, zavisnosti, i monitoring. Ako koristiš biblioteke, trebale si znati gde su sigurnosne rupe su i koliko brzo će se ažurirati. Ako hostuje na cloud, trebale si znati njihove bezbednosnu model.
+
+### 6. Različiti tipovi web aplikacija sada su moguća
+
+U 2004. godini, web bilo je za "veb stranice" — dokumenti sa HTML, CSS, i malo JavaScript za "dinamiku." Aplikativnost je bila PHP ili .NET.
+
+Šta se promenilo: Sada gradimo:
+- **Real-time aplikacije** — WebSocket omogućava instant apdejte bez polling
+- **Offline-first aplikacije** — Service Workers omogućava rad bez interneta
+- Native-like performanse — CSS i JavaScript su toliko brzi da ne možeš razlikovati web aplikaciju od native aplikacije na mobilnom
+- Progressive Web Apps — mogu biti instalovana sa početna stranica kao native aplikacije
+
+Rezultat: granica između "web aplikacije" i "aplikacije" je sada nejasna. Tehnički, nije razlike.
+
+### 7. Sada je potrebna sveobuhvatna arhitektura razmišljanja
+
+U 2004. godini, arhitektura je bila "baza podataka, web server, web pregledač." Kraj.
+
+Sada to je:
+
+- **Frontend arhitektura** — komponenti sistemi,状态 upravljanja, renderovanje strategije
+- **Backend arhitektura** — API dizajn, baze podataka normalizacija, keširanje, async obrada
+- **Infrastruktura arhitektura** — Geo-redundansi, auto-scaling, baze podataka replikacije
+- **Bezbednost arhitektura** — autentikacija, autorizacija, enkriptovani, compliance
+- Podataka arhitektura — šta je vlasnik šta, kako fluiši kroz sistem, kako se prati
+
+Svaki od ovih je samostalna disciplina sa vlastitim kompleksnosti. Malim timovima trebali razumevanje sve od njih.
+
+## Šta Je Ostalo Isto
+
+### 1. User experience je još uvek sve
+
+U 2004. godini, veb stranu sa dobra UX bio je istaknuta zato što je bilo retko. Sada, loš UX je hvatanje, jer dobra UX je postala očekivana.
+
+### 2. Performanse je još uvek dominira se od mere
+
+U 2004. godini, "brz" je bila zamena za "kvalitan," jer nije bilo alati za merenje. Sada ima alati — i bezbednost je još uvek dominira se od meru.
+
+### 3. Standardizacija je još uvek pokušaj nedostižna
+
+U 2004. godini, nije bilo Web Komponenti, nije bilo CSS Grid, nije bilo Fetch API. Bile su razne način da se prave stvari. Sada, ima Standardizacija — ali ima i 47 JavaScript frejmvrks.
+
+## Glavna Lekcija
+
+Kompleksnost nije otišla — to je samo preselila. U 2004. godini, to je bilo infrastruktura. Sada to je arhitektura. Ali pošto arhitektura je misliti a ne opremanje, to je postalo dostupnije manjim timovima — ako znaju kojih pitanja trebalo postaviti.
+
+Šta nisu se promenilo: brzina, sigurnost, i jednostavnost je još uvek sve što je važno. Tehnologije da bi se dostigne su to malo jednostavniji ili malo drugi, ali ciljevi su isti.
+
+Ako počinješ veb projekt sada, fokus na: (1) mobilno prvo, (2) brz učitavanje, (3) bezbednost od početka, (4) arhitektura skromnosti, i (5) pregovarati. Sve je zapravo.

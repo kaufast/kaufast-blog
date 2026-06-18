@@ -1,0 +1,191 @@
+---
+title: "Zašto Brzina Sajta Utiče Na SEO"
+headline: "Svaki sekund učitavanja stranice je ranking faktor. Ako je tvoj sajt loš, rang će biti loš."
+date: "13. januar 2025"
+lastmod: "19 April 2026"
+author: "Kenneth Melchor"
+category: "SEO & AI Visibility"
+tags:
+  - "Page Speed"
+  - "Core Web Vitals"
+  - "SEO"
+  - "Performance"
+image: "/images/blog/page-speed-seo-ranking.webp"
+featured: false
+faq:
+  - question: "Koliko je važna brzina za SEO?"
+    answer: "Veoma. Google je rekao je ranking faktor. Svaki sekund učitavanja stranice = 7% manja konverzija i viši bounce rate. Brzina nije opciono — to je konkurentivna neophodnost."
+  - question: "Šta je Core Web Vitals?"
+    answer: "Tri metrike koju Google koristi za ranking: LCP (Largest Contentful Paint — koliko dugo prvo vidljivo sadržaj ), INP (Interaction to Next Paint — klik-odgovora vreme), CLS (Cumulative Layout Shift — šta skakanje sa sadržaja). Sve tri trebalo biti zeleni."
+  - question: "Kako mogu ažurirati brzinu bez da izobličim sajt?"
+    answer: "Komprimuj slike (80% vremena je slike), lazzi-loader što je moguće, minifiziraj CSS/JS, koristi CDN za statički fajlove, i cache sa Edge. Nije treba da prekriviš dizajn — trebalo biti malo biti pametnije."
+---
+
+Google je jasna: Brzina je ranking faktor.
+
+Ne kao "malo važan." Kao "VAŽAN."
+
+Evo zašto — i šta trebam da uradiš o tome.
+
+## Tri Razloga Brzina Utice Na SEO
+
+### 1. Google Direktno Rangira Na Brzinu
+
+Ako je tvoj sajt je 4 sekunde i konkurenta je 2 sekunde, sa svim drugačitim stvarima jednakim, konkurenca će biti rang viša.
+
+Google je nije ambiguo:
+- LCP (Largest Contentful Paint): trebalo biti ispod 2.5 sekundi
+- INP (Interaction to Next Paint): trebalo biti ispod 200ms
+- CLS (Cumulative Layout Shift): trebalo biti ispod 0.1
+
+Ako su "Red" u PageSpeed, tvoj ranking je penalisizirani.
+
+### 2. Brzina = Bounce Rate = Ranking Signal
+
+Osoba ponašanja je ranking signal. Čim je osoba lands na tvoj sajt i napušta bez čitanja, to je negativan signal.
+
+Primeri:
+- 4-sekundni sajt: 45% od osoba nema napusta nakon 10 sekundi
+- 1-sekundni sajt: 12% osoba napuštaju
+
+Rezultat: Bolje ponašanja = bolji ranking.
+
+### 3. Mobilna Brzina = Mobilna Pretraga (60% Of All)
+
+60% od pretrage je mobilna. Mobilna je sporija nego desktop.
+
+Ako je tvoj sajt je optimizirovana samo za desktop i mobilna je loša, izgubili ste 60% publike.
+
+## Tri Metriki Google Koristi Za Ranking (Core Web Vitals)
+
+### 1. LCP (Largest Contentful Paint)
+
+Šta to znači: Koliko dugo do glavnog sadržaja vidiš (slike, tekst)?
+
+**Dobar:** ispod 2.5 sekunde
+**Loš:** preko 4 sekunde
+
+Šta Deluje Na LCP:
+- Slike (80% vremena je slike)
+- JavaScript koji se izvršava brzo
+- Server odgovora vreme (ako server je spora, sve je spora)
+
+Kako Opzimizovati:
+```
+1. Komprimuj slike sa 8MB na 500KB (WebP format, Cloudinary, Imgix)
+2. Minifiziraj CSS i JavaScript
+3. Koristi CDN (CloudFlare, Akamai) — server vreme pada sa 500ms na 50ms
+4. Lazy-load slike: slike koje nisu na stranici bez učitavanja
+```
+
+### 2. INP (Interaction to Next Paint)
+
+Šta to znači: Koliko dugo korisnik čeka da se promeni što-je odgovorio na klik?
+
+**Dobar:** ispod 200ms
+**Loš:** preko 500ms
+
+Šta Deluje Na INP:
+- Teško JavaScript — ako piškiš 5MB od JS, browser-u trebalo 2-3 sekunde da parsira
+- Loš event handling — ako klik okreće 1000 DOM čvorove, sporosno
+- Rendering bottleneck — CSS je kompleksan
+
+Kako Optimizovati:
+```
+1. Code splitting: Učitaj samo što je potrebno
+2. Lazy-load JavaScript: Nema potrebe za analytics JS pre nego što korisnik klika
+3. Reduce main thread work: Minimizuj JavaScript izvršavanje
+```
+
+### 3. CLS (Cumulative Layout Shift)
+
+Šta to znači: Šta skakanje sadržaj (tekst ide gore, gumb je odjednom tamo)?
+
+**Dobar:** ispod 0.1
+**Loš:** preko 0.25
+
+Primeri Lošeg CLS:
+- Slika učitava nakon što je tekst prikazan, svi tekst skakanja gore
+- Adujs učitava, sadržaj je izbačena nadole
+- Font je učitava, tekst se premešta
+
+Kako Optimizovati:
+```
+1. Rezerviraj prostor za slike: CSS aspect-ratio: 16/9 je govori browser koliko mesta trebalo
+2. Avoid above-fold ads: Adujs treba biti ispod primarnog sadržaja
+3. Web fonts: Koristi font-display: swap — prikaži tekst dok je custom font učitava
+```
+
+## Primer: Kako Spora Strannica Radi Lošu
+
+Sajt A: Lošo Optimizovana
+- LCP: 4.2 sekunde
+- INP: 450ms
+- CLS: 0.18
+- Bounce rate: 48%
+- Ranking: Stranica 3
+
+Sajt B: Dobro Optimizovana (Ista Sadržaj)
+- LCP: 1.5 sekunde
+- INP: 120ms
+- CLS: 0.05
+- Bounce rate: 18%
+- Ranking: Stranica 1
+
+Jedina razlika: Brzina.
+
+## Pet Koraka Da Biste Optimizovali Brzinu
+
+### 1. Merita Baseline (Google PageSpeed Insights)
+- Ideš na pagespeed.web.dev
+- Unesite URL
+- Vidjeti LCP, INP, CLS
+- Screenshot za Later
+
+### 2. Identifikuj Najveći Problem
+- Slike? JavaScript? Server? Redirekcija?
+- PageSpeed će ti reći
+
+### 3. Komprimuj Slike (80% vremena)
+```
+Koristi alat: Cloudinary, Imgix, SharpJS
+Fajl: 8MB → 500KB (5% originalne veličine)
+Rezultat: LCP pada sa 4s na 2s
+```
+
+### 4. Minifiziraj CSS/JS
+```
+Koristi build tool: Webpack, Vite, Parcel
+Rezultat: Smanjiti veličina od JS/CSS sa 40% − 60%
+```
+
+### 5. Koristi CDN
+```
+Koristi: CloudFlare, AWS CloudFront, BunnyCDN
+Server vreme: 500ms → 50ms
+Rezultat: 10x brži sa geografski distributed.
+```
+
+## Best Practices
+
+1. Mobilna Prvo — Optimizovati za mobilnu, desktop će biti brži
+2. Real-World Testing — PageSpeed je simulacija. Testiranja sa stvarnim korisnicima (WebPageTest sa throttling)
+3. Meriti Svaki Nedelju — Kad ažuriranja sajt, brzinam pada. Monitor
+4. **Caching Agresivno** — Korisnika drugi poseta trebalo biti instant
+
+## Koliko Vremena Brzina Optimizacija Trebalo?
+
+- Slike kompresija: 4-8 sati
+- CSS/JS minifikacija: 2-4 sati
+- CDN postavka: 1-2 sati
+- Optimization totala: 1-2 nedelje za početak
+
+Rezultat: 50% poboljšanja brzine, +30% ranking poboljšanja.
+
+## Poslednja Reč
+
+Brzina nije vaniity. Brzina je konkurencija.
+
+Ako je konkurenta ima 2-sekundni sajt i ti imaš 4-sekundu, konkurencija će biti rank viša, imaj bolji konverzije, i ozbiljniju poslovanja.
+
+Počni sa PageSpeed Insights sada. Vidiš šta je problem. Riješiš to. Profit dolazi kasnije.

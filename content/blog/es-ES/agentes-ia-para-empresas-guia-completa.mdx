@@ -52,13 +52,13 @@ El término "agente de IA" se usa con mucha libertad. Muchas cosas se anuncian c
 
 Un agente de IA tiene cuatro componentes:
 
-**1. Percepción** — Lee entradas: correos, mensajes, formularios, registros de bases de datos, páginas web, documentos, datos de sensores, respuestas de APIs.
+1. Percepción — Lee entradas: correos, mensajes, formularios, registros de bases de datos, páginas web, documentos, datos de sensores, respuestas de APIs.
 
-**2. Razonamiento** — Usa un modelo de lenguaje (LLM) para entender qué significan esas entradas, cuál es el objetivo y qué pasos son necesarios para alcanzarlo.
+2. Razonamiento — Usa un modelo de lenguaje (LLM) para entender qué significan esas entradas, cuál es el objetivo y qué pasos son necesarios para alcanzarlo.
 
-**3. Acción** — Usa herramientas para actuar: enviar un correo, consultar una base de datos, llamar a una API, rellenar un formulario, crear un archivo, activar otro proceso.
+3. Acción — Usa herramientas para actuar: enviar un correo, consultar una base de datos, llamar a una API, rellenar un formulario, crear un archivo, activar otro proceso.
 
-**4. Memoria** — Retiene contexto a lo largo de los pasos de una tarea y, opcionalmente, entre sesiones, para no perder el hilo de lo que está haciendo o lo que ya ha hecho.
+4. Memoria — Retiene contexto a lo largo de los pasos de una tarea y, opcionalmente, entre sesiones, para no perder el hilo de lo que está haciendo o lo que ya ha hecho.
 
 La combinación de estos cuatro elementos —percibir, razonar, actuar y recordar— es lo que distingue a un agente de IA de un chatbot simple o de una automatización basada en reglas.
 
@@ -68,11 +68,11 @@ Un chatbot lee un mensaje y responde. Un agente lee un mensaje, decide qué hace
 
 Estos tres términos se confunden constantemente. Describen cosas diferentes.
 
-**Los chatbots** siguen guiones. Comparan entradas con plantillas y devuelven respuestas predefinidas. Son útiles para FAQs simples donde la respuesta siempre es la misma. Se rompen en cuanto la conversación se sale del guion.
+Los chatbots siguen guiones. Comparan entradas con plantillas y devuelven respuestas predefinidas. Son útiles para FAQs simples donde la respuesta siempre es la misma. Se rompen en cuanto la conversación se sale del guion.
 
-**La automatización basada en reglas** (Zapier, Make, n8n) ejecuta secuencias predefinidas cuando se activan desencadenadores: "cuando se envía el formulario, añadir al CRM, enviar correo". Son rápidas y fiables, pero rígidas. Cambia los campos del formulario y la automatización se rompe.
+La automatización basada en reglas (Zapier, Make, n8n) ejecuta secuencias predefinidas cuando se activan desencadenadores: "cuando se envía el formulario, añadir al CRM, enviar correo". Son rápidas y fiables, pero rígidas. Cambia los campos del formulario y la automatización se rompe.
 
-**Los agentes de IA** pueden manejar la complejidad y la ambigüedad. Pueden recibir un objetivo en lenguaje natural, determinar los pasos, usar herramientas para ejecutarlos y adaptarse cuando ocurre algo inesperado. Donde la automatización basada en reglas requiere una especificación completa de todos los caminos posibles, un agente de IA puede razonar sobre caminos que no fueron anticipados.
+Los agentes de IA pueden manejar la complejidad y la ambigüedad. Pueden recibir un objetivo en lenguaje natural, determinar los pasos, usar herramientas para ejecutarlos y adaptarse cuando ocurre algo inesperado. Donde la automatización basada en reglas requiere una especificación completa de todos los caminos posibles, un agente de IA puede razonar sobre caminos que no fueron anticipados.
 
 Dicho esto, los agentes de IA no siempre son la herramienta adecuada. Para flujos de trabajo simples y estables sin ambigüedad, la automatización basada en reglas es más rápida, económica y fiable.
 
@@ -146,17 +146,17 @@ Los agentes de IA necesitan ejecutarse en algún lugar: funciones cloud (AWS Lam
 
 ## El Proceso de Despliegue
 
-**Definición del alcance.** ¿Cuál es la tarea exacta? ¿Cuáles son las entradas y salidas aceptables? ¿Qué ocurre cuando el agente falla?
+Definición del alcance. ¿Cuál es la tarea exacta? ¿Cuáles son las entradas y salidas aceptables? ¿Qué ocurre cuando el agente falla?
 
-**Diseño de herramientas e integraciones.** ¿Qué herramientas necesita el agente? ¿A qué APIs debe llamar? ¿A qué datos necesita acceder?
+Diseño de herramientas e integraciones. ¿Qué herramientas necesita el agente? ¿A qué APIs debe llamar? ¿A qué datos necesita acceder?
 
-**Diseño de prompts y razonamiento.** Las instrucciones dadas al LLM afectan drásticamente a la fiabilidad.
+Diseño de prompts y razonamiento. Las instrucciones dadas al LLM afectan drásticamente a la fiabilidad.
 
-**Pruebas con casos límite.** Los agentes de IA son no deterministas. Probar los casos extremos y los modos de fallo no es opcional.
+Pruebas con casos límite. Los agentes de IA son no deterministas. Probar los casos extremos y los modos de fallo no es opcional.
 
-**Monitorización y observabilidad.** Una vez desplegado, necesitas visibilidad sobre qué hace el agente, qué decisiones toma y cuánto cuesta.
+Monitorización y observabilidad. Una vez desplegado, necesitas visibilidad sobre qué hace el agente, qué decisiones toma y cuánto cuesta.
 
-**Diseño del escalado humano.** Para la mayoría de los flujos críticos, algunas decisiones deben requerir aprobación humana.
+Diseño del escalado humano. Para la mayoría de los flujos críticos, algunas decisiones deben requerir aprobación humana.
 
 ## El Caso de Negocio: Tiempo, Coste y ROI
 
@@ -166,30 +166,30 @@ Un agente simple de cualificación de leads que reserve 10 llamadas de descubrim
 
 ## Errores Comunes al Implementar Agentes de IA
 
-- **Automatizar un proceso roto.** Arregla el proceso antes de automatizarlo.
-- **Sin diseño de escalado.** Define los límites claramente y diseña el traspaso a un humano antes de desplegar.
-- **Saltarse las pruebas.** Los agentes de IA son no deterministas. Las pruebas no son opcionales.
-- **Ignorar la calidad de los datos.** Un agente que lee de una base de datos inconsistente producirá resultados inconsistentes.
-- **Construir demasiado a la vez.** Los mejores resultados vienen de empezar estrecho: una tarea, una integración, bien probada.
+- Automatizar un proceso roto. Arregla el proceso antes de automatizarlo.
+- Sin diseño de escalado. Define los límites claramente y diseña el traspaso a un humano antes de desplegar.
+- Saltarse las pruebas. Los agentes de IA son no deterministas. Las pruebas no son opcionales.
+- Ignorar la calidad de los datos. Un agente que lee de una base de datos inconsistente producirá resultados inconsistentes.
+- Construir demasiado a la vez. Los mejores resultados vienen de empezar estrecho: una tarea, una integración, bien probada.
 
 ## Por Dónde Empezar
 
 Empieza con tres preguntas:
 
-**1. ¿Qué tarea hace tu equipo repetidamente con un patrón predecible?**
+1. ¿Qué tarea hace tu equipo repetidamente con un patrón predecible?
 Ese es tu primer candidato.
 
 **2. ¿Cuáles son las entradas y salidas?**
 Un agente necesita entradas claras y salidas claras.
 
-**3. ¿Qué ocurre cuando falla?**
+3. ¿Qué ocurre cuando falla?
 Define el modo de fallo antes de empezar.
 
 Hemos construido [agentes de IA y sistemas de automatización](/en-GB/services) para empresas de retail, inmobiliaria, sanidad y servicios profesionales. Los patrones se repiten, pero los detalles siempre importan. Empieza con la tarea que más tiempo le cuesta a tu equipo. Construye un agente bien. Mide el resultado. Luego expande.
 
 ---
 
-**Lectura relacionada:**
+Lectura relacionada:
 - [Bots de WhatsApp para empresas: guía completa](/en-GB/insights/whatsapp-bot-for-business-complete-guide)
 - [5 procesos de negocio que toda pyme debería automatizar](/en-GB/insights/5-business-processes-every-smb-should-automate)
 - [Por qué tu empresa necesita estar preparada para la IA](/en-GB/insights/why-your-business-needs-to-be-ai-ready)

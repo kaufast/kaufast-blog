@@ -1,130 +1,63 @@
 {
-  "how-google-discovers-your-article": {
-    "en-GB": "how-google-discovers-your-article",
-    "es-ES": "como-google-descubre-tu-articulo"
-  },
-  "how-ai-is-changing-how-people-find-businesses": {
-    "en-GB": "how-ai-is-changing-how-people-find-businesses",
-    "es-ES": "como-la-ia-esta-cambiando-como-las-personas-encuentran-negocios"
+  "5-business-processes-every-smb-should-automate": {
+    "en-GB": "5-business-processes-every-smb-should-automate",
+    "en-US": "5-business-processes-every-smb-should-automate",
+    "es-ES": "5-procesos-de-negocio-que-toda-pyme-deberia-automatizar",
+    "es-MX": "5-procesos-de-negocio-que-toda-pyme-deberia-automatizar",
+    "ca-ES": "5-processos-que-tota-pime-hauria-automatitzar",
+    "de-DE": "5-geschaeftsprozesse-die-jedes-kmu-automatisieren-sollte",
+    "de-AT": "5-geschaeftsprozesse-die-jedes-kmu-automatisieren-sollte",
+    "fr-FR": "5-processus-que-chaque-pme-devrait-automatiser",
+    "it-IT": "5-processi-aziendali-che-ogni-pmi-dovrebbe-automatizzare",
+    "pt-PT": "5-processos-que-toda-pme-deveria-automatizar",
+    "pt-BR": "5-processos-empresariais-que-toda-pme-deveria-automatizar",
+    "ru-RU": "5-sistem-avtomatizatsii-dlya-malogo-biznesa",
+    "sr-RS": "5-poslovnih-procesa-koje-svako-msp-treba-automatizovati"
   },
   "5-easy-ways-to-make-your-business-more-visible-online": {
     "en-GB": "5-easy-ways-to-make-your-business-more-visible-online",
+    "en-US": "5-easy-ways-to-make-your-business-more-visible-online",
     "es-ES": "5-formas-faciles-de-hacer-tu-negocio-mas-visible-online",
+    "es-MX": "5-formas-faciles-de-hacer-tu-negocio-mas-visible-online",
+    "ca-ES": "5-maneres-facils-fer-negoci-mes-visible-online",
+    "de-DE": "5-einfache-wege-ihr-unternehmen-online-sichtbarer-zu-machen",
+    "de-AT": "5-einfache-wege-ihr-unternehmen-online-sichtbarer-zu-machen",
+    "fr-FR": "5-facons-faciles-rendre-entreprise-plus-visible-en-ligne",
+    "it-IT": "5-modi-facili-rendere-azienda-piu-visibile-online",
+    "pt-PT": "5-formas-faceis-de-tornar-seu-negocio-mais-visivel-online",
     "pt-BR": "5-formas-faceis-de-tornar-seu-negocio-mais-visivel-online",
-    "pt-PT": "5-formas-faceis-de-tornar-seu-negocio-mais-visivel-online"
+    "ru-RU": "5-prostyh-sposobov-sdelat-biznes-zametnym-online",
+    "sr-RS": "5-lakih-nacina-da-vase-poslovanje-bude-vidljivije-online"
   },
-  "why-your-business-needs-to-be-ai-ready": {
-    "en-GB": "why-your-business-needs-to-be-ai-ready",
-    "es-ES": "por-que-tu-negocio-necesita-estar-listo-para-la-ia"
-  },
-  "5-business-processes-every-smb-should-automate": {
-    "en-GB": "5-business-processes-every-smb-should-automate",
-    "es-ES": "5-procesos-de-negocio-que-toda-pyme-deberia-automatizar"
+  "ai-agents-for-business-complete-guide": {
+    "en-GB": "ai-agents-for-business-complete-guide",
+    "en-US": "ai-agents-for-business-complete-guide",
+    "es-ES": "agentes-ia-para-empresas-guia-completa",
+    "es-MX": "agentes-ia-para-empresas-guia-completa",
+    "ca-ES": "agents-ia-per-empreses-guia-completa",
+    "de-DE": "ki-agenten-fuer-unternehmen-kompletter-leitfaden",
+    "de-AT": "ki-agenten-fuer-unternehmen-kompletter-leitfaden",
+    "fr-FR": "agents-ia-pour-entreprises-guide-complet",
+    "it-IT": "agenti-ia-per-aziende-guida-completa",
+    "pt-PT": "agentes-ia-para-negocios-guia-completo",
+    "pt-BR": "agentes-ia-para-negocios-guia-completo",
+    "ru-RU": "ai-agenty-dlya-biznesa-polnoe-rukovodstvo",
+    "sr-RS": "ai-agenti-za-poslovanje-kompletan-vodic"
   },
   "ai-receptionist-for-clinics-appointments-patients-no-shows": {
     "en-GB": "ai-receptionist-for-clinics-appointments-patients-no-shows",
-    "es-ES": "recepcionista-ia-clinicas-citas-pacientes-ausencias"
-  },
-  "building-for-the-web-since-2004-what-actually-changed": {
-    "en-GB": "building-for-the-web-since-2004-what-actually-changed",
-    "es-ES": "construyendo-para-la-web-desde-2004-que-cambio-realmente"
-  },
-  "is-your-business-visible-to-chatgpt-how-to-check": {
-    "en-GB": "is-your-business-visible-to-chatgpt-how-to-check",
-    "es-ES": "tu-negocio-es-visible-para-chatgpt-como-comprobarlo"
-  },
-  "whatsapp-bot-for-business-complete-guide": {
-    "en-GB": "whatsapp-bot-for-business-complete-guide",
-    "es-ES": "bot-whatsapp-para-empresas-guia-completa",
-    "pt-BR": "bot-whatsapp-para-empresas-guia-completo",
-    "pt-PT": "bot-whatsapp-para-empresas-guia-completo"
-  },
-  "whatsapp-bot-for-restaurants-reservations-orders": {
-    "en-GB": "whatsapp-bot-for-restaurants-reservations-orders",
-    "es-ES": "bot-whatsapp-para-restaurantes-reservas-pedidos"
-  },
-  "whatsapp-bot-real-estate-qualify-buyers-leads": {
-    "en-GB": "whatsapp-bot-real-estate-qualify-buyers-leads",
-    "es-ES": "bot-whatsapp-inmobiliaria-cualificar-compradores-leads"
-  },
-  "seo-strategies-that-actually-work": {
-    "en-GB": "seo-strategies-that-actually-work",
-    "es-ES": "estrategias-seo-que-realmente-funcionan",
-    "pt-BR": "estrategias-seo-que-realmente-funcionam",
-    "pt-PT": "estrategias-seo-que-realmente-funcionam"
-  },
-  "programmatic-seo-guide": {
-    "en-GB": "programmatic-seo-guide",
-    "es-ES": "guia-seo-programatico"
-  },
-  "optimise-for-bing-duckduckgo-perplexity-claude": {
-    "en-GB": "optimise-for-bing-duckduckgo-perplexity-claude",
-    "es-ES": "optimizar-para-bing-duckduckgo-perplexity-claude"
-  },
-  "seo-isnt-dead-ai-brain-hybrid-visibility-guide-2026": {
-    "en-GB": "seo-isnt-dead-ai-brain-hybrid-visibility-guide-2026",
-    "es-ES": "seo-no-murio-cerebro-ia-guia-visibilidad-hibrida-2026"
-  },
-  "convert-more-visitors-into-customers-with-these-seo-strategies": {
-    "en-GB": "convert-more-visitors-into-customers-with-these-seo-strategies",
-    "es-ES": "convierte-mas-visitas-en-clientes-con-estas-estrategias-de-seo"
-  },
-  "how-to-attract-local-customers-with-seo": {
-    "en-GB": "how-to-attract-local-customers-with-seo",
-    "es-ES": "como-atraer-clientes-locales-con-seo"
-  },
-  "how-to-measure-the-success-of-your-seo-strategy": {
-    "en-GB": "how-to-measure-the-success-of-your-seo-strategy",
-    "es-ES": "como-medir-el-exito-de-tu-estrategia-de-seo"
-  },
-  "seo-vs-paid-ads-which-strategy-is-better-for-you": {
-    "en-GB": "seo-vs-paid-ads-which-strategy-is-better-for-you",
-    "es-ES": "seo-vs-anuncios-pagados-cual-estrategia-te-conviene-mas"
-  },
-  "why-site-speed-affects-seo": {
-    "en-GB": "why-site-speed-affects-seo",
-    "es-ES": "por-que-la-velocidad-del-sitio-afecta-al-seo"
-  },
-  "bad-seo-is-worse-than-no-seo": {
-    "en-GB": "bad-seo-is-worse-than-no-seo",
-    "es-ES": "el-seo-mal-hecho-es-peor-que-no-tener-seo"
-  },
-  "gdpr-fines-invented-rules-compliance-guide": {
-    "en-GB": "gdpr-fines-invented-rules-compliance-guide",
-    "es-ES": "multas-rgpd-reglas-inventadas-guia-cumplimiento"
-  },
-  "web-performance-revenue-case-studies": {
-    "en-GB": "web-performance-revenue-case-studies",
-    "es-ES": "rendimiento-web-estudios-de-caso-ingresos"
-  },
-  "first-phase-of-marketing-is-learning": {
-    "en-GB": "first-phase-of-marketing-is-learning",
-    "es-ES": "la-primera-fase-del-marketing-es-aprender"
-  },
-  "linkedin-seo-how-social-content-drives-growth": {
-    "en-GB": "linkedin-seo-how-social-content-drives-growth",
-    "es-ES": "linkedin-seo-como-el-contenido-social-impulsa-el-crecimiento"
-  },
-  "why-seo-is-never-done": {
-    "en-GB": "why-seo-is-never-done",
-    "es-ES": "por-que-el-seo-nunca-se-termina"
-  },
-  "echoflicks-ai-writes-about-us-7-days": {
-    "en-GB": "echoflicks-ai-writes-about-us-7-days",
-    "en-US": "echoflicks-ai-writes-about-us-7-days",
-    "es-ES": "echoflicks-la-ia-nos-cita-7-dias-despues-del-lanzamiento",
-    "es-MX": "echoflicks-la-ia-nos-cita-7-dias-despues-del-lanzamiento",
-    "de-DE": "echoflicks-ki-zitiert-uns-7-tage-nach-launch",
-    "de-AT": "echoflicks-ki-zitiert-uns-7-tage-nach-launch",
-    "sr-RS": "echoflicks-ai-nas-citira-7-dana-posle-pokretanja"
-  },
-  "women-safety-uk-audra-launch": {
-    "en-GB": "women-safety-uk-audra-launch",
-    "es-ES": "seguridad-mujeres-espana-audra",
-    "es-MX": "seguridad-mujeres-mexico-audra",
-    "de-DE": "sicherheit-frauen-deutschland-audra",
-    "de-AT": "sicherheit-frauen-oesterreich-audra",
-    "sr-RS": "bezbednost-zena-srbija-audra"
+    "en-US": "ai-receptionist-for-clinics-appointments-patients-no-shows",
+    "es-ES": "recepcionista-ia-clinicas-citas-pacientes-ausencias",
+    "es-MX": "recepcionista-ia-clinicas-citas-pacientes-ausencias",
+    "ca-ES": "recepcionista-ia-cliniques-cites-pacients",
+    "de-DE": "ki-rezeptionist-fuer-kliniken-termine-patienten-ausfaelle",
+    "de-AT": "ki-rezeptionist-fuer-kliniken-termine-patienten-ausfaelle",
+    "fr-FR": "receptionniste-ia-cliniques-rendez-vous-patients",
+    "it-IT": "receptionist-ia-cliniche-appuntamenti-pazienti",
+    "pt-PT": "recepcionista-ia-clinicas-consultas-pacientes",
+    "pt-BR": "recepcionista-ia-clinicas-consultas-pacientes",
+    "ru-RU": "ai-retseptsionist-dlya-klinik-zapisi-patsienty",
+    "sr-RS": "ai-recepcioner-za-klinike-smanjenje-izostanaka"
   },
   "automate-restaurant-reservations-complete-guide": {
     "en-GB": "automate-restaurant-reservations-complete-guide",
@@ -136,56 +69,100 @@
     "de-AT": "reservierungen-restaurant-automatisieren-kompletter-leitfaden",
     "fr-FR": "automatiser-reservations-restaurant-guide-complet",
     "it-IT": "automatizzare-prenotazioni-ristorante-guida-completa",
-    "pt-BR": "automatizar-reservas-restaurante-guia-completo",
     "pt-PT": "automatizar-reservas-restaurante-guia-completo",
-    "sr-RS": "automatizacija-rezervacija-restorana-kompletan-vodic",
-    "ru-RU": "avtomatizatsiya-bronej-restorana-polnoe-rukovodstvo"
+    "pt-BR": "automatizar-reservas-restaurante-guia-completo",
+    "ru-RU": "avtomatizatsiya-bronej-restorana-polnoe-rukovodstvo",
+    "sr-RS": "automatizacija-rezervacija-restorana-kompletan-vodic"
   },
-  "ai-agents-for-business-complete-guide": {
-    "en-GB": "ai-agents-for-business-complete-guide",
-    "en-US": "ai-agents-for-business-complete-guide",
-    "es-ES": "agentes-ia-para-empresas-guia-completa",
-    "es-MX": "agentes-ia-para-empresas-guia-completa",
-    "de-DE": "ki-agenten-fuer-unternehmen-kompletter-leitfaden",
-    "de-AT": "ki-agenten-fuer-unternehmen-kompletter-leitfaden",
-    "sr-RS": "ai-agenti-za-poslovanje-kompletan-vodic",
-    "pt-BR": "agentes-ia-para-negocios-guia-completo",
-    "pt-PT": "agentes-ia-para-negocios-guia-completo"
+  "bad-seo-is-worse-than-no-seo": {
+    "en-GB": "bad-seo-is-worse-than-no-seo",
+    "en-US": "bad-seo-is-worse-than-no-seo",
+    "es-ES": "el-seo-mal-hecho-es-peor-que-no-tener-seo",
+    "es-MX": "el-seo-mal-hecho-es-peor-que-no-tener-seo",
+    "ca-ES": "seo-mal-fet-es-pitjor-que-no-tenir-seo",
+    "de-DE": "schlechtes-seo-ist-schlimmer-als-kein-seo",
+    "de-AT": "schlechtes-seo-ist-schlimmer-als-kein-seo",
+    "fr-FR": "mauvais-seo-pire-que-pas-de-seo",
+    "it-IT": "seo-fatto-male-peggio-che-nessun-seo",
+    "pt-PT": "seo-mau-e-pior-que-nenhum-seo",
+    "pt-BR": "seo-ruim-e-pior-que-nenhum-seo",
+    "ru-RU": "plohoe-seo-huzhe-chem-nikakoe",
+    "sr-RS": "los-seo-je-gori-nego-nikakav-seo"
+  },
+  "building-for-the-web-since-2004-what-actually-changed": {
+    "en-GB": "building-for-the-web-since-2004-what-actually-changed",
+    "en-US": "building-for-the-web-since-2004-what-actually-changed",
+    "es-ES": "construyendo-para-la-web-desde-2004-que-cambio-realmente",
+    "es-MX": "construyendo-para-la-web-desde-2004-que-cambio-realmente",
+    "ca-ES": "desenvolupant-per-web-des-de-2004-que-ha-canviat",
+    "de-DE": "webentwicklung-seit-2004-was-sich-wirklich-veraendert-hat",
+    "de-AT": "webentwicklung-seit-2004-was-sich-wirklich-veraendert-hat",
+    "fr-FR": "developper-pour-le-web-depuis-2004-ce-qui-a-change",
+    "it-IT": "sviluppare-per-il-web-dal-2004-cosa-e-cambiato",
+    "pt-PT": "desenvolver-para-web-desde-2004-o-que-mudou",
+    "pt-BR": "desenvolvendo-para-web-desde-2004-o-que-mudou",
+    "ru-RU": "razrabotka-dlya-veba-s-2004-chto-izmenilos",
+    "sr-RS": "razvoj-za-web-od-2004-sta-se-zaista-promenilo"
   },
   "business-automation-complete-guide": {
     "en-GB": "business-automation-complete-guide",
     "en-US": "business-automation-complete-guide",
     "es-ES": "automatizacion-empresarial-guia-completa",
     "es-MX": "automatizacion-empresarial-guia-completa",
+    "ca-ES": "automatitzacio-empresarial-guia-completa",
     "de-DE": "unternehmensautomatisierung-kompletter-leitfaden",
     "de-AT": "unternehmensautomatisierung-kompletter-leitfaden",
-    "sr-RS": "automatizacija-poslovanja-kompletan-vodic",
+    "fr-FR": "automatisation-entreprise-guide-complet",
+    "it-IT": "automazione-aziendale-guida-completa",
+    "pt-PT": "automacao-empresarial-guia-completo",
     "pt-BR": "automacao-empresarial-guia-completo",
-    "pt-PT": "automacao-empresarial-guia-completo"
+    "ru-RU": "avtomatizatsiya-biznesa-polnoe-rukovodstvo",
+    "sr-RS": "automatizacija-poslovanja-kompletan-vodic"
   },
-  "how-to-choose-it-consulting-partner": {
-    "en-GB": "how-to-choose-it-consulting-partner",
-    "en-US": "how-to-choose-it-consulting-partner",
-    "es-ES": "como-elegir-socio-consultoria-it",
-    "es-MX": "como-elegir-socio-consultoria-it",
-    "de-DE": "it-beratungspartner-auswaehlen-leitfaden",
-    "de-AT": "it-beratungspartner-auswaehlen-leitfaden",
-    "sr-RS": "kako-izabrati-it-konsultanta-vodic"
+  "convert-more-visitors-into-customers-with-these-seo-strategies": {
+    "en-GB": "convert-more-visitors-into-customers-with-these-seo-strategies",
+    "en-US": "convert-more-visitors-into-customers-with-these-seo-strategies",
+    "es-ES": "convierte-mas-visitas-en-clientes-con-estas-estrategias-de-seo",
+    "es-MX": "convierte-mas-visitas-en-clientes-con-estas-estrategias-de-seo",
+    "ca-ES": "converteix-mes-visites-en-clients-estrategies-seo",
+    "de-DE": "mehr-besucher-in-kunden-verwandeln-mit-diesen-seo-strategien",
+    "de-AT": "mehr-besucher-in-kunden-verwandeln-mit-diesen-seo-strategien",
+    "fr-FR": "convertir-visiteurs-en-clients-strategies-seo",
+    "it-IT": "convertire-visitatori-in-clienti-strategie-seo",
+    "pt-PT": "converter-visitantes-em-clientes-estrategias-seo",
+    "pt-BR": "converter-visitantes-em-clientes-estrategias-seo",
+    "ru-RU": "pretvori-tranzit-v-prodaju",
+    "sr-RS": "pretvorite-posetioce-u-kupce-seo-strategije"
   },
-  "seo-agency-barcelona-guide": {
-    "en-GB": "seo-agency-barcelona-guide",
-    "en-US": "seo-agency-barcelona-guide",
-    "es-ES": "agencia-seo-barcelona-guia",
-    "es-MX": "agencia-seo-barcelona-guia",
-    "ca-ES": "agencia-seo-barcelona-guia",
-    "de-DE": "seo-agentur-barcelona-leitfaden",
-    "de-AT": "seo-agentur-barcelona-leitfaden",
-    "fr-FR": "agence-seo-barcelone-guide",
-    "it-IT": "agenzia-seo-barcellona-guida",
-    "pt-BR": "agencia-seo-barcelona-guia",
-    "pt-PT": "agencia-seo-barcelona-guia",
-    "sr-RS": "seo-agencija-barselona-vodic",
-    "ru-RU": "seo-agentstvo-barselona-rukovodstvo"
+  "echoflicks-ai-writes-about-us-7-days": {
+    "en-GB": "echoflicks-ai-writes-about-us-7-days",
+    "en-US": "echoflicks-ai-writes-about-us-7-days",
+    "es-ES": "echoflicks-la-ia-nos-cita-7-dias-despues-del-lanzamiento",
+    "es-MX": "echoflicks-la-ia-nos-cita-7-dias-despues-del-lanzamiento",
+    "ca-ES": "echoflicks-ia-ens-cita-7-dies-despres-llancament",
+    "de-DE": "echoflicks-ki-zitiert-uns-7-tage-nach-launch",
+    "de-AT": "echoflicks-ki-zitiert-uns-7-tage-nach-launch",
+    "fr-FR": "echoflicks-ia-nous-cite-7-jours-apres-lancement",
+    "it-IT": "echoflicks-ia-ci-cita-7-giorni-dopo-lancio",
+    "pt-PT": "echoflicks-ia-cita-nos-7-dias-apos-lancamento",
+    "pt-BR": "echoflicks-ia-nos-cita-7-dias-apos-lancamento",
+    "ru-RU": "ai-cityet-nas-cherez-7-dnej-posle-zapuska",
+    "sr-RS": "echoflicks-ai-nas-citira-7-dana-posle-pokretanja"
+  },
+  "first-phase-of-marketing-is-learning": {
+    "en-GB": "first-phase-of-marketing-is-learning",
+    "en-US": "first-phase-of-marketing-is-learning",
+    "es-ES": "la-primera-fase-del-marketing-es-aprender",
+    "es-MX": "la-primera-fase-del-marketing-es-aprender",
+    "ca-ES": "primera-fase-del-marketing-es-aprendre",
+    "de-DE": "die-erste-phase-des-marketings-ist-lernen",
+    "de-AT": "die-erste-phase-des-marketings-ist-lernen",
+    "fr-FR": "premiere-phase-marketing-est-apprentissage",
+    "it-IT": "prima-fase-del-marketing-e-imparare",
+    "pt-PT": "primeira-fase-do-marketing-e-aprender",
+    "pt-BR": "primeira-fase-do-marketing-e-aprender",
+    "ru-RU": "pervaya-faza-marketinga-eto-obuchenie",
+    "sr-RS": "prva-faza-marketinga-je-ucenje"
   },
   "from-seo-to-seo-geo-what-changed-in-2026": {
     "en-GB": "from-seo-to-seo-geo-what-changed-in-2026",
@@ -197,9 +174,339 @@
     "de-AT": "von-seo-zu-seo-geo-was-sich-2026-geaendert-hat",
     "fr-FR": "de-seo-a-seo-geo-ce-qui-a-change-en-2026",
     "it-IT": "da-seo-a-seo-geo-cosa-e-cambiato-nel-2026",
-    "pt-BR": "de-seo-para-seo-geo-o-que-mudou-em-2026",
     "pt-PT": "de-seo-para-seo-geo-o-que-mudou-em-2026",
-    "sr-RS": "sa-seo-na-seo-geo-sta-se-promenilo-u-2026",
-    "ru-RU": "ot-seo-k-seo-geo-chto-izmenilos-v-2026"
+    "pt-BR": "de-seo-para-seo-geo-o-que-mudou-em-2026",
+    "ru-RU": "ot-seo-k-seo-geo-chto-izmenilos-v-2026",
+    "sr-RS": "sa-seo-na-seo-geo-sta-se-promenilo-u-2026"
+  },
+  "gdpr-fines-invented-rules-compliance-guide": {
+    "en-GB": "gdpr-fines-invented-rules-compliance-guide",
+    "en-US": "gdpr-fines-invented-rules-compliance-guide",
+    "es-ES": "multas-rgpd-reglas-inventadas-guia-cumplimiento",
+    "es-MX": "multas-rgpd-reglas-inventadas-guia-cumplimiento",
+    "ca-ES": "multes-rgpd-regles-inventades-guia-compliment",
+    "de-DE": "dsgvo-bussgelder-erfundene-regeln-compliance-leitfaden",
+    "de-AT": "dsgvo-bussgelder-erfundene-regeln-compliance-leitfaden",
+    "fr-FR": "amendes-rgpd-regles-inventees-guide-conformite",
+    "it-IT": "multe-gdpr-regole-inventate-guida-conformita",
+    "pt-PT": "multas-rgpd-regras-inventadas-guia-conformidade",
+    "pt-BR": "multas-lgpd-regras-inventadas-guia-conformidade",
+    "ru-RU": "gdpr-vnutrennie-pravila-privodiat-k-shtrafam",
+    "sr-RS": "gdpr-kazne-izmisljena-pravila-vodic-uskladjenosti"
+  },
+  "how-ai-is-changing-how-people-find-businesses": {
+    "en-GB": "how-ai-is-changing-how-people-find-businesses",
+    "en-US": "how-ai-is-changing-how-people-find-businesses",
+    "es-ES": "como-la-ia-esta-cambiando-como-las-personas-encuentran-negocios",
+    "es-MX": "como-la-ia-esta-cambiando-como-las-personas-encuentran-negocios",
+    "ca-ES": "com-ia-canvia-manera-trobar-empreses",
+    "de-DE": "wie-ki-die-suche-nach-unternehmen-veraendert",
+    "de-AT": "wie-ki-die-suche-nach-unternehmen-veraendert",
+    "fr-FR": "comment-ia-change-facon-trouver-entreprises",
+    "it-IT": "come-ia-cambia-modo-trovare-aziende",
+    "pt-PT": "como-ia-esta-mudar-forma-encontrar-empresas",
+    "pt-BR": "como-ia-esta-mudando-forma-encontrar-empresas",
+    "ru-RU": "kak-ai-menyaet-kak-liudi-nakhodyat-biznesy",
+    "sr-RS": "kako-ai-menja-nacin-nalazenja-firmi"
+  },
+  "how-google-discovers-your-article": {
+    "en-GB": "how-google-discovers-your-article",
+    "en-US": "how-google-discovers-your-article",
+    "es-ES": "como-google-descubre-tu-articulo",
+    "es-MX": "como-google-descubre-tu-articulo",
+    "ca-ES": "com-google-descobreix-el-teu-article",
+    "de-DE": "wie-google-ihren-artikel-entdeckt",
+    "de-AT": "wie-google-ihren-artikel-entdeckt",
+    "fr-FR": "comment-google-decouvre-votre-article",
+    "it-IT": "come-google-scopre-il-tuo-articolo",
+    "pt-PT": "como-google-descobre-o-seu-artigo",
+    "pt-BR": "como-google-descobre-seu-artigo",
+    "ru-RU": "kak-google-obnaruzhivaet-vashuu-statuu",
+    "sr-RS": "kako-google-otkriva-vas-clanak"
+  },
+  "how-to-attract-local-customers-with-seo": {
+    "en-GB": "how-to-attract-local-customers-with-seo",
+    "en-US": "how-to-attract-local-customers-with-seo",
+    "es-ES": "como-atraer-clientes-locales-con-seo",
+    "es-MX": "como-atraer-clientes-locales-con-seo",
+    "ca-ES": "com-atreure-clients-locals-amb-seo",
+    "de-DE": "lokale-kunden-gewinnen-mit-seo",
+    "de-AT": "lokale-kunden-gewinnen-mit-seo",
+    "fr-FR": "comment-attirer-clients-locaux-avec-seo",
+    "it-IT": "come-attirare-clienti-locali-con-seo",
+    "pt-PT": "como-atrair-clientes-locais-com-seo",
+    "pt-BR": "como-atrair-clientes-locais-com-seo",
+    "ru-RU": "kak-privlech-lokalnih-kllientov-s-seo",
+    "sr-RS": "kako-privuci-lokalne-kupce-pomocu-seo"
+  },
+  "how-to-choose-it-consulting-partner": {
+    "en-GB": "how-to-choose-it-consulting-partner",
+    "en-US": "how-to-choose-it-consulting-partner",
+    "es-ES": "como-elegir-socio-consultoria-it",
+    "es-MX": "como-elegir-socio-consultoria-it",
+    "ca-ES": "com-triar-soci-consultoria-it",
+    "de-DE": "it-beratungspartner-auswaehlen-leitfaden",
+    "de-AT": "it-beratungspartner-auswaehlen-leitfaden",
+    "fr-FR": "comment-choisir-partenaire-conseil-it",
+    "it-IT": "come-scegliere-partner-consulenza-it",
+    "pt-PT": "como-escolher-parceiro-consultoria-ti",
+    "pt-BR": "como-escolher-parceiro-consultoria-ti",
+    "ru-RU": "kak-vybrat-partnera-po-it-konsalting",
+    "sr-RS": "kako-izabrati-it-konsultanta-vodic"
+  },
+  "how-to-measure-the-success-of-your-seo-strategy": {
+    "en-GB": "how-to-measure-the-success-of-your-seo-strategy",
+    "en-US": "how-to-measure-the-success-of-your-seo-strategy",
+    "es-ES": "como-medir-el-exito-de-tu-estrategia-de-seo",
+    "es-MX": "como-medir-el-exito-de-tu-estrategia-de-seo",
+    "ca-ES": "com-mesurar-exit-estrategia-seo",
+    "de-DE": "erfolg-ihrer-seo-strategie-messen",
+    "de-AT": "erfolg-ihrer-seo-strategie-messen",
+    "fr-FR": "comment-mesurer-succes-strategie-seo",
+    "it-IT": "come-misurare-successo-strategia-seo",
+    "pt-PT": "como-medir-sucesso-estrategia-seo",
+    "pt-BR": "como-medir-sucesso-estrategia-seo",
+    "ru-RU": "kak-izmirit-uspehi-vashei-seo-strategii",
+    "sr-RS": "kako-meriti-uspeh-seo-strategije"
+  },
+  "is-your-business-visible-to-chatgpt-how-to-check": {
+    "en-GB": "is-your-business-visible-to-chatgpt-how-to-check",
+    "en-US": "is-your-business-visible-to-chatgpt-how-to-check",
+    "es-ES": "tu-negocio-es-visible-para-chatgpt-como-comprobarlo",
+    "es-MX": "tu-negocio-es-visible-para-chatgpt-como-comprobarlo",
+    "ca-ES": "el-teu-negoci-es-visible-per-chatgpt-com-comprovar-ho",
+    "de-DE": "ist-ihr-unternehmen-fuer-chatgpt-sichtbar-so-pruefen-sie-es",
+    "de-AT": "ist-ihr-unternehmen-fuer-chatgpt-sichtbar-so-pruefen-sie-es",
+    "fr-FR": "votre-entreprise-est-elle-visible-pour-chatgpt-comment-verifier",
+    "it-IT": "la-tua-azienda-visibile-chatgpt-come-verificare",
+    "pt-PT": "a-sua-empresa-esta-visivel-para-chatgpt-como-verificar",
+    "pt-BR": "sua-empresa-visivel-chatgpt-como-verificar",
+    "ru-RU": "vidim-li-vashi-biznes-chatgpt",
+    "sr-RS": "da-li-je-vase-poslovanje-vidljivo-za-chatgpt"
+  },
+  "linkedin-seo-how-social-content-drives-growth": {
+    "en-GB": "linkedin-seo-how-social-content-drives-growth",
+    "en-US": "linkedin-seo-how-social-content-drives-growth",
+    "es-ES": "linkedin-seo-como-el-contenido-social-impulsa-el-crecimiento",
+    "es-MX": "linkedin-seo-como-el-contenido-social-impulsa-el-crecimiento",
+    "ca-ES": "linkedin-seo-com-contingut-social-impulsa-creixement",
+    "de-DE": "linkedin-seo-wie-social-content-wachstum-foerdert",
+    "de-AT": "linkedin-seo-wie-social-content-wachstum-foerdert",
+    "fr-FR": "linkedin-seo-comment-contenu-social-stimule-croissance",
+    "it-IT": "linkedin-seo-come-contenuti-social-stimolano-crescita",
+    "pt-PT": "linkedin-seo-como-conteudo-social-impulsiona-crescimento",
+    "pt-BR": "linkedin-seo-como-conteudo-social-dirige-crescimento",
+    "ru-RU": "linkedin-seo-kak-sotsialnui-kontent-drives-rost",
+    "sr-RS": "linkedin-seo-kako-drustveni-sadrzaj-pokece-rast"
+  },
+  "optimise-for-bing-duckduckgo-perplexity-claude": {
+    "en-GB": "optimise-for-bing-duckduckgo-perplexity-claude",
+    "en-US": "optimise-for-bing-duckduckgo-perplexity-claude",
+    "es-ES": "optimizar-para-bing-duckduckgo-perplexity-claude",
+    "es-MX": "optimizar-para-bing-duckduckgo-perplexity-claude",
+    "ca-ES": "optimitzar-per-bing-duckduckgo-perplexity-claude",
+    "de-DE": "optimierung-fuer-bing-duckduckgo-perplexity-claude",
+    "de-AT": "optimierung-fuer-bing-duckduckgo-perplexity-claude",
+    "fr-FR": "optimiser-pour-bing-duckduckgo-perplexity-claude",
+    "it-IT": "ottimizzare-per-bing-duckduckgo-perplexity-claude",
+    "pt-PT": "otimizar-para-bing-duckduckgo-perplexity-claude",
+    "pt-BR": "otimizar-alem-google-bing-perplexity-claude",
+    "ru-RU": "optimiziruite-dlya-bing-duckduckgo-perplexity-claude",
+    "sr-RS": "optimizacija-za-bing-duckduckgo-perplexity-claude"
+  },
+  "programmatic-seo-guide": {
+    "en-GB": "programmatic-seo-guide",
+    "en-US": "programmatic-seo-guide",
+    "es-ES": "guia-seo-programatico",
+    "es-MX": "guia-seo-programatico",
+    "ca-ES": "guia-seo-programatic",
+    "de-DE": "programmatisches-seo-leitfaden",
+    "de-AT": "programmatisches-seo-leitfaden",
+    "fr-FR": "guide-seo-programmatique",
+    "it-IT": "guida-seo-programmatico",
+    "pt-PT": "guia-seo-programatico",
+    "pt-BR": "guia-seo-programatico",
+    "ru-RU": "programmatyy-seo-rukovodstvo",
+    "sr-RS": "vodic-za-programatski-seo"
+  },
+  "seo-agency-barcelona-guide": {
+    "en-GB": "seo-agency-barcelona-guide",
+    "en-US": "seo-agency-barcelona-guide",
+    "es-ES": "agencia-seo-barcelona-guia",
+    "es-MX": "agencia-seo-barcelona-guia",
+    "ca-ES": "agencia-seo-barcelona-guia",
+    "de-DE": "seo-agentur-barcelona-leitfaden",
+    "de-AT": "seo-agentur-barcelona-leitfaden",
+    "fr-FR": "agence-seo-barcelone-guide",
+    "it-IT": "agenzia-seo-barcellona-guida",
+    "pt-PT": "agencia-seo-barcelona-guia",
+    "pt-BR": "agencia-seo-barcelona-guia",
+    "ru-RU": "seo-agentstvo-barselona-rukovodstvo",
+    "sr-RS": "seo-agencija-barselona-vodic"
+  },
+  "seo-isnt-dead-ai-brain-hybrid-visibility-guide-2026": {
+    "en-GB": "seo-isnt-dead-ai-brain-hybrid-visibility-guide-2026",
+    "en-US": "seo-isnt-dead-ai-brain-hybrid-visibility-guide-2026",
+    "es-ES": "seo-no-murio-cerebro-ia-guia-visibilidad-hibrida-2026",
+    "es-MX": "seo-no-murio-cerebro-ia-guia-visibilidad-hibrida-2026",
+    "ca-ES": "seo-no-ha-mort-cervell-ia-guia-visibilitat-hibrida-2026",
+    "de-DE": "seo-ist-nicht-tot-ki-brain-hybride-sichtbarkeit-leitfaden-2026",
+    "de-AT": "seo-ist-nicht-tot-ki-brain-hybride-sichtbarkeit-leitfaden-2026",
+    "fr-FR": "seo-nest-pas-mort-cerveau-ia-guide-visibilite-hybride-2026",
+    "it-IT": "seo-non-e-morto-cervello-ia-guida-visibilita-ibrida-2026",
+    "pt-PT": "seo-nao-morreu-cerebro-ia-guia-visibilidade-hibrida-2026",
+    "pt-BR": "seo-nao-morreu-cerebro-ia-guia-visibilidade-hibrida-2026",
+    "ru-RU": "seo-ai-2026-guide-gibridnaya-vidimость",
+    "sr-RS": "seo-nije-mrtav-ai-mozak-hibridni-vodic-vidljivosti-2026"
+  },
+  "seo-strategies-that-actually-work": {
+    "en-GB": "seo-strategies-that-actually-work",
+    "en-US": "seo-strategies-that-actually-work",
+    "es-ES": "estrategias-seo-que-realmente-funcionan",
+    "es-MX": "estrategias-seo-que-realmente-funcionan",
+    "ca-ES": "estrategies-seo-que-realment-funcionen",
+    "de-DE": "seo-strategien-die-wirklich-funktionieren",
+    "de-AT": "seo-strategien-die-wirklich-funktionieren",
+    "fr-FR": "strategies-seo-qui-fonctionnent-vraiment",
+    "it-IT": "strategie-seo-che-funzionano-davvero",
+    "pt-PT": "estrategias-seo-que-realmente-funcionam",
+    "pt-BR": "estrategias-seo-que-realmente-funcionam",
+    "ru-RU": "seo-strategii-kotorye-deystvitelno-rabotayut",
+    "sr-RS": "seo-strategije-koje-zaista-funkcionisu"
+  },
+  "seo-vs-paid-ads-which-strategy-is-better-for-you": {
+    "en-GB": "seo-vs-paid-ads-which-strategy-is-better-for-you",
+    "en-US": "seo-vs-paid-ads-which-strategy-is-better-for-you",
+    "es-ES": "seo-vs-anuncios-pagados-cual-estrategia-te-conviene-mas",
+    "es-MX": "seo-vs-anuncios-pagados-cual-estrategia-te-conviene-mas",
+    "ca-ES": "seo-vs-anuncis-de-pagament-quina-estrategia-es-millor",
+    "de-DE": "seo-vs-bezahlte-werbung-welche-strategie-ist-besser",
+    "de-AT": "seo-vs-bezahlte-werbung-welche-strategie-ist-besser",
+    "fr-FR": "seo-vs-publicite-payante-quelle-strategie-choisir",
+    "it-IT": "seo-vs-annunci-a-pagamento-quale-strategia-migliore",
+    "pt-PT": "seo-vs-anuncios-pagos-qual-estrategia-melhor",
+    "pt-BR": "seo-versus-anuncios-pagos-qual-estrategia-melhor",
+    "ru-RU": "seo-vs-platnye-objavleniya-sravn",
+    "sr-RS": "seo-vs-placeni-oglasi-koja-strategija-je-bolja"
+  },
+  "web-performance-revenue-case-studies": {
+    "en-GB": "web-performance-revenue-case-studies",
+    "en-US": "web-performance-revenue-case-studies",
+    "es-ES": "rendimiento-web-estudios-de-caso-ingresos",
+    "es-MX": "rendimiento-web-estudios-de-caso-ingresos",
+    "ca-ES": "rendiment-web-estudis-de-cas-ingressos",
+    "de-DE": "web-performance-umsatz-fallstudien",
+    "de-AT": "web-performance-umsatz-fallstudien",
+    "fr-FR": "performance-web-etudes-de-cas-revenus",
+    "it-IT": "performance-web-casi-studio-ricavi",
+    "pt-PT": "performance-web-estudos-de-caso-receita",
+    "pt-BR": "desempenho-web-receita-estudos-caso",
+    "ru-RU": "web-production-dokhod-case-studies",
+    "sr-RS": "web-performanse-studije-slucaja-prihodi"
+  },
+  "whatsapp-bot-for-business-complete-guide": {
+    "en-GB": "whatsapp-bot-for-business-complete-guide",
+    "en-US": "whatsapp-bot-for-business-complete-guide",
+    "es-ES": "bot-whatsapp-para-empresas-guia-completa",
+    "es-MX": "bot-whatsapp-para-empresas-guia-completa",
+    "ca-ES": "bot-whatsapp-per-empreses-guia-completa",
+    "de-DE": "whatsapp-bot-fuer-unternehmen-kompletter-leitfaden",
+    "de-AT": "whatsapp-bot-fuer-unternehmen-kompletter-leitfaden",
+    "fr-FR": "bot-whatsapp-pour-entreprises-guide-complet",
+    "it-IT": "bot-whatsapp-per-aziende-guida-completa",
+    "pt-PT": "bot-whatsapp-para-empresas-guia-completo",
+    "pt-BR": "bot-whatsapp-para-empresas-guia-completo",
+    "ru-RU": "whatsapp-bot-dlya-biznesa-polnoe-rukovodstvo",
+    "sr-RS": "whatsapp-bot-za-poslovanje-kompletan-vodic"
+  },
+  "whatsapp-bot-for-restaurants-reservations-orders": {
+    "en-GB": "whatsapp-bot-for-restaurants-reservations-orders",
+    "en-US": "whatsapp-bot-for-restaurants-reservations-orders",
+    "es-ES": "bot-whatsapp-para-restaurantes-reservas-pedidos",
+    "es-MX": "bot-whatsapp-para-restaurantes-reservas-pedidos",
+    "ca-ES": "bot-whatsapp-per-restaurants-reserves-comandes",
+    "de-DE": "whatsapp-bot-fuer-restaurants-reservierungen-bestellungen",
+    "de-AT": "whatsapp-bot-fuer-restaurants-reservierungen-bestellungen",
+    "fr-FR": "bot-whatsapp-pour-restaurants-reservations-commandes",
+    "it-IT": "bot-whatsapp-ristoranti-prenotazioni-ordini",
+    "pt-PT": "bot-whatsapp-restaurantes-reservas-pedidos",
+    "pt-BR": "bot-whatsapp-restaurantes-reservas-pedidos",
+    "ru-RU": "whatsapp-bot-dlya-restoranov-bronirovaniya-zakazy",
+    "sr-RS": "whatsapp-bot-za-restorane-rezervacije-narudzbine"
+  },
+  "whatsapp-bot-real-estate-qualify-buyers-leads": {
+    "en-GB": "whatsapp-bot-real-estate-qualify-buyers-leads",
+    "en-US": "whatsapp-bot-real-estate-qualify-buyers-leads",
+    "es-ES": "bot-whatsapp-inmobiliaria-cualificar-compradores-leads",
+    "es-MX": "bot-whatsapp-inmobiliaria-cualificar-compradores-leads",
+    "ca-ES": "bot-whatsapp-immobiliaria-qualificar-compradors-leads",
+    "de-DE": "whatsapp-bot-immobilien-kaeufer-qualifizieren-leads",
+    "de-AT": "whatsapp-bot-immobilien-kaeufer-qualifizieren-leads",
+    "fr-FR": "bot-whatsapp-immobilier-qualifier-acheteurs-leads",
+    "it-IT": "bot-whatsapp-immobiliare-qualificare-acquirenti-leads",
+    "pt-PT": "bot-whatsapp-imobiliario-qualificar-compradores-leads",
+    "pt-BR": "bot-whatsapp-imobiliario-qualifica-compradores",
+    "ru-RU": "whatsapp-bot-nedvizhimost-kvalifikatsiya-lidov",
+    "sr-RS": "whatsapp-bot-nekretnine-kvalifikacija-kupaca"
+  },
+  "why-seo-is-never-done": {
+    "en-GB": "why-seo-is-never-done",
+    "en-US": "why-seo-is-never-done",
+    "es-ES": "por-que-el-seo-nunca-se-termina",
+    "es-MX": "por-que-el-seo-nunca-se-termina",
+    "ca-ES": "per-que-el-seo-mai-sacaba",
+    "de-DE": "warum-seo-nie-fertig-ist",
+    "de-AT": "warum-seo-nie-fertig-ist",
+    "fr-FR": "pourquoi-le-seo-nest-jamais-termine",
+    "it-IT": "perche-il-seo-non-finisce-mai",
+    "pt-PT": "por-que-seo-nunca-termina",
+    "pt-BR": "por-que-seo-nunca-termina",
+    "ru-RU": "pochemu-seo-nikogda-ne-zavershautsa",
+    "sr-RS": "zasto-seo-nikad-nije-zavrsen"
+  },
+  "why-site-speed-affects-seo": {
+    "en-GB": "why-site-speed-affects-seo",
+    "en-US": "why-site-speed-affects-seo",
+    "es-ES": "por-que-la-velocidad-del-sitio-afecta-al-seo",
+    "es-MX": "por-que-la-velocidad-del-sitio-afecta-al-seo",
+    "ca-ES": "per-que-velocitat-web-afecta-seo",
+    "de-DE": "warum-website-geschwindigkeit-seo-beeinflusst",
+    "de-AT": "warum-website-geschwindigkeit-seo-beeinflusst",
+    "fr-FR": "pourquoi-vitesse-site-affecte-seo",
+    "it-IT": "perche-velocita-sito-influenza-seo",
+    "pt-PT": "por-que-velocidade-site-afeta-seo",
+    "pt-BR": "por-que-velocidade-site-afeta-seo",
+    "ru-RU": "pochemu-skorost-sayta-ubivayut-seo",
+    "sr-RS": "zasto-brzina-sajta-utice-na-seo"
+  },
+  "why-your-business-needs-to-be-ai-ready": {
+    "en-GB": "why-your-business-needs-to-be-ai-ready",
+    "en-US": "why-your-business-needs-to-be-ai-ready",
+    "es-ES": "por-que-tu-negocio-necesita-estar-listo-para-la-ia",
+    "es-MX": "por-que-tu-negocio-necesita-estar-listo-para-la-ia",
+    "ca-ES": "per-que-el-teu-negoci-ha-destar-preparat-per-ia",
+    "de-DE": "warum-ihr-unternehmen-ki-bereit-sein-muss",
+    "de-AT": "warum-ihr-unternehmen-ki-bereit-sein-muss",
+    "fr-FR": "pourquoi-votre-entreprise-doit-etre-prete-pour-ia",
+    "it-IT": "perche-la-tua-azienda-deve-essere-pronta-per-ia",
+    "pt-PT": "por-que-a-sua-empresa-precisa-estar-pronta-para-ia",
+    "pt-BR": "por-que-sua-empresa-precisa-estar-pronta-para-ia",
+    "ru-RU": "pochemu-vash-biznes-dolzhen-byt-gotov-k-ai",
+    "sr-RS": "zasto-vase-poslovanje-mora-biti-spremno-za-ai"
+  },
+  "women-safety-uk-audra-launch": {
+    "en-GB": "women-safety-uk-audra-launch",
+    "en-US": "women-safety-uk-audra-launch",
+    "es-ES": "seguridad-mujeres-espana-audra",
+    "es-MX": "seguridad-mujeres-mexico-audra",
+    "ca-ES": "seguretat-dones-catalunya-audra",
+    "de-DE": "sicherheit-frauen-deutschland-audra",
+    "de-AT": "sicherheit-frauen-oesterreich-audra",
+    "fr-FR": "securite-femmes-france-audra",
+    "it-IT": "sicurezza-donne-italia-audra",
+    "pt-PT": "seguranca-mulheres-portugal-audra",
+    "pt-BR": "seguranca-mulheres-brasil-audra",
+    "ru-RU": "bezopasnost-zhenschin-rossiya-audra",
+    "sr-RS": "bezbednost-zena-srbija-audra"
   }
 }

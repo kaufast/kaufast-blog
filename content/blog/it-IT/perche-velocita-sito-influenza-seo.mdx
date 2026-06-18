@@ -1,0 +1,115 @@
+---
+title: "Perché la Velocità del Sito Uccide il Tuo SEO"
+headline: "Un ritardo di 1 secondo nel caricamento della pagina ti costa il 7% delle conversioni. Ecco come diagnosticare e correggere i problemi di velocità"
+date: "13 gennaio 2025"
+lastmod: "13 gennaio 2025"
+author: "Kenneth Melchor"
+category: "Performance"
+tags:
+  - "Site Speed"
+  - "Core Web Vitals"
+  - "SEO"
+  - "Performance"
+image: "/images/blog/site-speed-core-web-vitals-metrics.webp"
+featured: false
+faq:
+  - question: "Come la velocità della pagina influenza il ranking SEO?"
+    answer: "La velocità della pagina è un fattore di ranking diretto di Google attraverso Core Web Vitals. I siti che soddisfano la soglia 'buona' per LCP (sotto 2,5s), INP (sotto 200ms), e CLS (sotto 0,1) si posizionano misurabilmente più in alto. Oltre ai ranking, un ritardo di 1 secondo nel tempo di caricamento riduce le conversioni del 7% e aumenta il tasso di rimbalzo dell'11%."
+  - question: "Cosa sono Core Web Vitals e perché sono importanti?"
+    answer: "Core Web Vitals sono tre metriche che Google usa per misurare l'esperienza dell'utente: LCP (Largest Contentful Paint) misura la velocità di caricamento, INP (Interaction to Next Paint) misura la reattività, e CLS (Cumulative Layout Shift) misura la stabilità visiva. Influenzano direttamente il ranking di ricerca e i tassi di conversione degli utenti."
+  - question: "Qual è il modo più veloce per migliorare la velocità di caricamento del mio sito web?"
+    answer: "Inizia con l'ottimizzazione delle immagini — convertendo in formato WebP, ridimensionando alle dimensioni di visualizzazione effettive, e abilitando il lazy loading. Questo da solo può ridurre i tempi di caricamento del 40-60%. Quindi riduci la dimensione del bundle JavaScript, abilita il caching del browser, e usa una CDN. Test prima e dopo con Google PageSpeed Insights."
+---
+
+Iniziamo con tre numeri. Il 53% degli utenti mobile abbandona un sito web che impiega più di 3 secondi per caricarsi. Un ritardo di 1 secondo nel tempo di caricamento della pagina causa una riduzione del 7% nelle conversioni. E Amazon una volta ha stimato che ogni secondo aggiuntivo di tempo di caricamento costerebbe loro 1,6 miliardi di dollari all'anno in vendite perse.
+
+Il tuo sito web non è Amazon. Ma la matematica si ridimensiona proporzionalmente. Se il tuo sito guadagna € 9.000/mese e si carica in 5 secondi invece di 2, stai lasciando approssimativamente € 630-1.260/mese sul tavolo. Non perché il tuo prodotto sia male. Non perché il tuo marketing sia sbagliato. Perché le persone hanno cliccato il pulsante indietro prima che la tua pagina finisse di caricarsi.
+
+La velocità non è una cosa da avere opzionalmente. Dal 2021, Google ha reso Core Web Vitals un fattore di ranking. I siti lenti si posizionano più in basso. E dal 2023, il divario si è allargato — la ricerca di Google mostra che quando il tempo di caricamento della pagina va da 1 secondo a 3 secondi, la probabilità di rimbalzo aumenta del 32%.** Quando va a 5 secondi, quella probabilità salta al **90%.
+
+## Core Web Vitals: Le Tre Metriche Che Google Effettivamente Misura
+
+Google non misura solo "velocità" come un singolo numero. Traccia tre metriche specifiche, e ognuna racconta una storia diversa sull'esperienza del tuo utente.
+
+LCP (Largest Contentful Paint) — Quanto tempo fino a quando il contenuto principale è visibile. Obiettivo: sotto 2,5 secondi. Questo misura quando l'elemento più grande sulla pagina (di solito un'immagine hero o blocco di titolo) finisce di renderizzarsi. Se la tua immagine hero è un JPEG non compresso di 3MB, il tuo LCP sarà terribile.
+
+INP (Interaction to Next Paint) — Quanto velocemente la tua pagina risponde ai clic, tocchi, e input da tastiera. Obiettivo: sotto 200 millisecondi. Questo ha sostituito FID (First Input Delay) a marzo 2024. Misura il ritardo completo tra un'azione dell'utente e la risposta visiva. I framework JavaScript pesanti e gli script di terze parti sono i soliti colpevoli.
+
+CLS (Cumulative Layout Shift) — Quanto la pagina si muove mentre carica. Obiettivo: sotto 0,1. Conosci l'esperienza: stai per toccare un link e un annuncio si carica sopra, spingendo tutto giù. Questo è layout shift. È frustrante, e Google lo penalizza.
+
+![Tre indicatori di gauge circolari che mostrano le prestazioni di Core Web Vitals: LCP a 2,1 secondi, INP a 180 millisecondi, e CLS a 0,05](/images/blog/site-speed-core-web-vitals-metrics.webp)
+
+## Come Controllare la Tua Velocità Attuale
+
+Prima di correggere qualsiasi cosa, misura. Ci sono due strumenti gratuiti che dovresti usare:
+
+Google PageSpeed Insights (pagespeed.web.dev) — Inserisci il tuo URL e ottieni punteggi sia per mobile che desktop, più raccomandazioni specifiche. Presta attenzione alla sezione "Opportunità" — ti dice esattamente cosa ti sta rallentando e stima i risparmi di tempo.
+
+Google Search Console — Sotto "Core Web Vitals" nel menu sinistro, vedrai quante delle tue pagine superano o non superano le soglie di Google. Questo usa i dati utenti reali dai browser Chrome, quindi riflette l'esperienza dei visitatori effettivi, non un test di laboratorio.
+
+Un punteggio di 90+ su PageSpeed Insights è buono. 50-89 ha bisogno di lavoro. Sotto 50 significa che stai attivamente perdendo clienti e posizioni di ranking.
+
+![Finestra del browser di Google PageSpeed Insights che mostra un punteggio di prestazioni di 94 con schede di opportunità di ottimizzazione elencate sotto](/images/blog/site-speed-pagespeed-insights-score.webp)
+
+## Le Correzioni Che Fanno la Maggior Differenza
+
+Ecco le ottimizzazioni classificate per impatto. Inizia dall'alto.
+
+## 1. Ottimizza le tue immagini (la vittoria più grande per la maggior parte dei siti)
+
+Le immagini sono tipicamente il 50-70% del peso totale di una pagina. La soluzione è semplice:
+- Converti le immagini in formato WebP o AVIF. WebP è dal 25-35% più piccolo di JPEG alla stessa qualità. AVIF è il 50% più piccolo.
+- Ridimensiona le immagini alle dimensioni effettivamente visualizzate. Se la tua immagine si visualizza a 700px di larghezza, non caricare l'originale di 4000px. Ridimensionalo a 1400px (per retina) e lascia che il browser gestisca il resto.
+- Usa lazy loading per immagini sotto il fold. Aggiungi `loading="lazy"` a qualsiasi immagine non visibile sullo schermo iniziale. Questo significa che il browser scarica solo l'immagine quando l'utente scorre vicino ad essa.
+- Usa immagini responsive con l'attributo `srcset` in modo che gli utenti mobile scarichino file più piccoli rispetto ai desktop.
+
+Per la maggior parte dei siti web, l'ottimizzazione delle immagini da sola migliora LCP di 1-3 secondi.
+
+## 2. Riduci JavaScript
+
+Ogni file JavaScript deve essere scaricato, analizzato, compilato ed eseguito. Ogni passo richiede tempo. E la maggior parte dei siti web carica molto più JavaScript di quanto ne abbiano bisogno.
+
+- Rimuovi gli script che non usi. Quel widget di condivisione social che nessuno clicca? Lo strumento di analitiche che hai impostato e dimenticato? Il widget di chat che carica 400KB di codice? Controlla gli script e rimuovi tutto ciò che non è essenziale.
+- Diferi gli script non critici. Aggiungi `defer` o `async` ai tag script che non sono necessari per il rendering iniziale della pagina. Analitiche, widget di chat, e script social possono tutti caricare dopo che la pagina è visibile.
+- Usa un framework moderno saggiamente. React, Next.js, e framework simili possono essere veloci — ma solo se usi server-side rendering e code splitting. Un'app React mal configurata può inviare 500KB+ di JavaScript al browser prima che qualsiasi cosa si renderizzi.
+
+## 3. Usa una CDN (Content Delivery Network)
+
+Una CDN memorizza copie del tuo sito web su server in tutto il mondo. Quando un utente a Tokyo visita il tuo sito ospitato a Barcellona, la CDN serve la pagina da un server a Tokyo — tagliando il tempo di caricamento del 50-70%.
+
+Opzioni CDN popolari: Cloudflare (il tier gratuito è eccellente), AWS CloudFront, Bunny.net. La configurazione richiede 15-30 minuti per la maggior parte dei siti web.
+
+## 4. Abilita il caching del browser
+
+Quando qualcuno visita il tuo sito per la prima volta, il suo browser scarica tutto: HTML, CSS, JavaScript, immagini. Il caching dice al browser di salvare quei file localmente in modo che le visite ripetute si carichino quasi istantaneamente.
+
+Imposta le intestazioni cache per memorizzare le risorse statiche (immagini, CSS, font) per almeno 30 giorni. Il contenuto dinamico (HTML) dovrebbe avere tempi di cache più brevi — poche ore o un giorno.
+
+## 5. Minimizza CSS e HTML
+
+Rimuovi le regole CSS non utilizzate (la maggior parte dei siti ha CSS inutilizzato del 30-50%), minifica i tuoi fogli di stile, e inline il CSS critico in modo che il browser possa renderizzare la struttura della pagina immediatamente.
+
+Strumenti come PurgeCSS o la scheda Coverage in Chrome DevTools ti mostreranno esattamente quali regole CSS sono inutilizzate su ogni pagina.
+
+## 6. Correggi il layout shift (CLS)
+
+Il layout shift di solito viene da tre fonti:
+- Immagini senza attributi width/height. Imposta sempre dimensioni esplicite in modo che il browser riservi spazio prima che l'immagine si carichi.
+- Font che caricano tardi. Usa `font-display: swap` nel tuo CSS e precarica il file del font primario.
+- Contenuto dinamico iniettato sopra il fold. Annunci, banner, e avvisi sui cookie che spingono il contenuto giù. Riserva spazio per questi elementi nel tuo CSS.
+
+![Confronto affiancato di monitor desktop che mostra 1,5 secondi di tempo di caricamento rispetto a smartphone che mostra 6,2 secondi di tempo di caricamento con etichetta del 60 percento di traffico](/images/blog/site-speed-mobile-vs-desktop-comparison.webp)
+
+## Il Divario di Velocità Mobile
+
+La maggior parte delle persone controlla la velocità del loro sito web su un computer da ufficio con una connessione Internet veloce. Ma il 60% del traffico web è mobile, e le velocità mobile sono drammaticamente più lente.
+
+Il test di velocità di Google usa una connessione mobile simulata limitata a velocità approssimativamente 4G. Ciò che si carica in 1,5 secondi sul tuo desktop potrebbe richiedere 6 secondi su un telefono. E ricorda — il 53% dei visitatori mobile se ne va se impiega più di 3 secondi.
+
+Testa sempre la velocità mobile specificamente. Il tuo punteggio mobile su PageSpeed Insights è quello che importa di più per il SEO.
+
+## Velocità e Ricerca IA
+
+Ecco qualcosa che la maggior parte delle persone non ha considerato: la velocità della pagina indirettamente influenza anche la tua visibilità nella ricerca IA. Perplexity, Google's AI Overviews, e Bing's Copilot favoriscono tutti le fonti che si caricano velocemente e hanno HTML pulito. Quando un crawler IA colpisce il tuo sito e impiega 8 secondi per renderizzarsi a causa di rendering pesante da JavaScript, il crawler potrebbe non aspettare — e non verrai citato.
+
+HTML pulito, veloce, renderizzato lato server è più facile da analizzare sia per i crawler dei motori di ricerca che per i sistemi IA. I miglioramenti di velocità aiutano ovunque.

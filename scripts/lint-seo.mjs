@@ -128,6 +128,7 @@ function checkTitleRepetition(fm, errors) {
   const words = full.toLowerCase().match(/[a-záàâãäéèêëíìîïóòôõöúùûüñçšžćčðæøþ]+/g) || [];
   const counts = {};
   for (const w of words) {
+    if (w.length <= 2) continue; // skip articles/prepositions (a, as, de, o, e, etc.)
     counts[w] = (counts[w] || 0) + 1;
     if (counts[w] > 2) {
       errors.push(`TITLE word repeated >2×: "${w}" appears ${counts[w]}× in "${full}"`);

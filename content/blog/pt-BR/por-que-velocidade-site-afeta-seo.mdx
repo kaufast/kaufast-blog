@@ -1,0 +1,118 @@
+---
+title: "Por Que Velocidade de Site Mata Seu SEO"
+h1: "Por Que Velocidade de Site Mata Seu SEO — E Suas Vendas"
+headline: "Um atraso de 1-segundo em carregamento de página custa 7% de conversões. Aqui está como diagnosticar e consertar issues de velocidade"
+date: "2 April 2024"
+lastmod: "2 April 2024"
+author: "Kenneth Melchor"
+category: "Performance"
+tags:
+  - "Site Speed"
+  - "Core Web Vitals"
+  - "SEO"
+  - "Performance"
+image: "/images/blog/site-speed-core-web-vitals-metrics.webp"
+featured: false
+faq:
+  - question: "Como velocidade de página afeta rankings de SEO?"
+    answer: "Velocidade de página é fator direto de ranking do Google através de Core Web Vitals. Sites que encontram threshold 'bom' para LCP (abaixo 2.5s), INP (abaixo 200ms) e CLS (abaixo 0.1) classificam mensuravelmente mais alto. Além de rankings um atraso de 1-segundo em tempo de carregamento reduz conversões por 7% e aumenta bounce rate por 11%."
+  - question: "O que são Core Web Vitals e por que importam?"
+    answer: "Core Web Vitals são três métricas que Google usa para medir experiência de usuário: LCP (Largest Contentful Paint) mede velocidade de carregamento, INP (Interaction to Next Paint) mede responsividade e CLS (Cumulative Layout Shift) mede estabilidade visual. Diretamente influenciam rankings de busca e taxas de conversão de usuário."
+  - question: "Qual é a forma mais rápida de melhorar velocidade de carregamento do meu website?"
+    answer: "Comece com otimização de imagem — convertendo para formato WebP, redimensionando para dimensões de display reais e habilitando lazy loading. Isso sozinho consegue cortar tempos de carregamento em 40-60%. Então reduza tamanho de bundle JavaScript, habilite caching de browser e use CDN. Teste antes e depois com Google PageSpeed Insights."
+---
+
+Vamos começar com três números. 53% de usuários móveis abandonam um website que leva mais de 3 segundos para carregar. Um atraso de 1-segundo em tempo de carregamento de página causa uma redução de 7% em conversões. E Amazon uma vez estimou que cada segundo adicional de tempo de carregamento custaria R$12.8 bilhões por ano em vendas perdidas.
+
+Seu website não é Amazon. Mas a matemática escala proporcionalmente. Se seu site ganha R$50.000/mês e carrega em 5 segundos em vez de 2 você está deixando aproximadamente R$3.500-R$7.000/mês na mesa. Não porque seu produto é ruim. Não porque seu marketing é errado. Porque pessoas clicaram o botão voltar antes de sua página terminar carregando.
+
+Velocidade não é nice-to-have. Desde 2021 Google fez Core Web Vitals um fator de ranking. Sites lentos classificam mais baixo. E desde 2023 o gap se alargou — pesquisa própria do Google mostra que quando tempo de carregamento de página vai de 1 segundo para 3 segundos a probabilidade de bounce aumenta por 32%.** Quando vai para 5 segundos aquela probabilidade pula para **90%.
+
+## Core Web Vitals: As Três Métricas Que Google Realmente Mede
+
+Google não apenas mede "velocidade" como um número singular. Rastreiam três métricas específicas e cada uma conta uma história diferente sobre a experiência de seu usuário.
+
+LCP (Largest Contentful Paint) — Quanto tempo até o conteúdo principal ser visível. Alvo: abaixo 2.5 segundos. Isso mede quando o maior elemento na página (usualmente uma imagem hero ou bloco de headline) termina renderizar. Se sua imagem hero é uma JPEG não comprimida de 3MB seu LCP será terrível.
+
+INP (Interaction to Next Paint) — Com que rapidez sua página responde a cliques, taps e input de teclado. Alvo: abaixo 200 milissegundos. Isso substituiu FID (First Input Delay) em março 2024. Mede o atraso completo entre uma ação de usuário e a resposta visual. Frameworks JavaScript pesados e scripts de terceiros são os culpados usuais.
+
+CLS (Cumulative Layout Shift) — Quanto a página pula enquanto carrega. Alvo: abaixo 0.1. Você sabe a experiência: você está prestes a clicar um link e um anúncio carrega acima dele empurrando tudo para baixo. Isso é layout shift. É infuriante e Google penaliza.
+
+## As Fixes Que Fazem a Maior Diferença
+
+Aqui estão as otimizações ranqueadas por impacto. Comece no top.
+
+## 1. Otimize suas imagens (maior win para maioria dos sites)
+
+Imagens são tipicamente 50-70% do peso total de uma página. O fix é direto:
+- Converta imagens para formato WebP ou AVIF. WebP é 25-35% menor que JPEG na mesma qualidade. AVIF é 50% menor.
+- Redimensione imagens para dimensões realmente exibidas. Se sua imagem exibe em 700px de largura não carregue uma original de 4000px. Redimensione para 1400px (para retina) e deixe browser lidar com o resto.
+- Use lazy loading para imagens abaixo da dobra. Adicione `loading="lazy"` para qualquer imagem não visível na tela inicial. Isso significa browser apenas download a imagem quando usuário scrollar perto dela.
+- Use imagens responsivas com atributo `srcset` para que usuários móveis façam download de arquivos menores que usuários desktop.
+
+Para maioria dos websites otimização de imagem sozinha melhora LCP por 1-3 segundos.
+
+## 2. Reduza JavaScript
+
+Todo arquivo JavaScript precisa ser baixado, parseado, compilado e executado. Cada passo leva tempo. E maioria dos websites carrega muito mais JavaScript que precisam.
+
+- Remova scripts que não usa. Aquele widget de compartilhamento social que ninguém clica? A ferramenta de analytics que setup e esqueceu? O widget de chat que carrega 400KB de código? Faça auditoria seus scripts e remova qualquer coisa não essencial.
+- Difira scripts não-críticos. Adicione `defer` ou `async` para tags de script que não são necessárias para renderização inicial de página. Analytics, widgets de chat e scripts sociais todos conseguem carregar após página estar visível.
+- Use framework moderno sensatamente. React Next.js e frameworks similares conseguem ser rápidos — mas apenas se usa renderização lado-servidor e code splitting. Uma React app mal configurada consegue enviar 500KB+ de JavaScript para browser antes de nada renderizar.
+
+## 3. Use CDN (Content Delivery Network)
+
+CDN armazena cópias de seu website em servidores ao redor do mundo. Quando usuário em Tóquio visita seu site hospedado em Barcelona CDN serve a página de servidor em Tóquio — cortando tempo de carregamento por 50-70%.
+
+Opções de CDN populares: Cloudflare (free tier é excelente), AWS CloudFront, Bunny.net. Setup leva 15-30 minutos para maioria dos websites.
+
+## 4. Habilite caching de browser
+
+Quando alguém visita seu site pela primeira vez seu browser baixa tudo: HTML, CSS, JavaScript, imagens. Caching diz ao browser salvar aqueles arquivos localmente para que visitas repetidas carreguem quase instantaneamente.
+
+Configure cache headers para armazenar assets estáticos (imagens, CSS, fontes) por pelo menos 30 dias. Conteúdo dinâmico (HTML) deveria ter tempos de cache mais curtos — poucas horas ou um dia.
+
+## 5. Minimize CSS e HTML
+
+Remova regras CSS não usadas (maioria dos sites tem 30-50% CSS não usado) minifique seus stylesheets e inline critical CSS para que browser consiga renderizar estrutura de página imediatamente.
+
+Ferramentas como PurgeCSS ou aba Coverage em Chrome DevTools dirá você exatamente quais regras CSS não são usadas em cada página.
+
+## 6. Corrija layout shift (CLS)
+
+Layout shift usualmente vem de três fontes:
+- Imagens sem atributos width/height. Sempre configure dimensões explícitas para que browser reserve espaço antes imagem carregar.
+- Fonts carregando tarde. Use `font-display: swap` em seu CSS e preload seu arquivo de fonte primário.
+- Conteúdo dinâmico injetado acima da dobra. Anúncios, banners e cookie notices que empurram conteúdo para baixo. Reserve espaço para esses elementos em seu CSS.
+
+## O Gap de Velocidade Móvel
+
+Maioria das pessoas verifica velocidade de seu website em seu computador de escritório com conexão rápida de internet. Mas 60% de tráfego web é móvel e velocidades móveis são dramaticamente mais lentas.
+
+Teste de velocidade do Google usa conexão móvel simulada acelerada para aproximadamente velocidades 4G. O que carrega em 1.5 segundos em seu desktop pode levar 6 segundos em um telefone. E lembre-se — 53% de visitantes móveis saem se leva mais de 3 segundos.
+
+Sempre teste velocidade móvel especificamente. Seu score móvel em PageSpeed Insights é o que mais importa para SEO.
+
+## Velocidade e Busca de IA
+
+Aqui está algo a maioria não considerou: velocidade de página indiretamente afeta sua visibilidade em busca de IA também. Perplexity Google's AI Overviews e Copilot de Bing todos favorecem fontes que carregam rapidamente e têm HTML limpo. Quando crawler de IA acerta seu site e leva 8 segundos para renderizar por causa de renderização pesada em JavaScript o crawler pode não esperar — e você não será citado.
+
+HTML limpo, rápido renderizado lado-servidor é mais fácil para ambos crawlers de motor de busca e sistemas de IA fazer parse. Melhorias de velocidade ajudam em todos os lugares.
+
+## Um Plano Realista de Melhoria de Velocidade
+
+Você não precisa fazer tudo de uma vez. Aqui está plano de 4-semanas:
+
+Semana 1: Execute PageSpeed Insights em suas 5 páginas mais importantes. Converta todas imagens para WebP e adicione lazy loading para imagens abaixo-da-dobra.
+
+Semana 2: Faça auditoria de seu JavaScript. Remova scripts não usados difira aqueles não-críticos. Configure CDN Cloudflare gratuito.
+
+Semana 3: Adicione width/height explícito para todas imagens. Corrija carregamento de font. Reserve espaço para elementos dinâmicos.
+
+Semana 4: Habilite caching de browser. Minifique CSS. Re-teste todas 5 páginas e compare ao seu baseline de Semana 1.
+
+Maioria dos negócios que seguem esse plano veem uma melhoria de 40-60% em tempo de carregamento dentro de um mês. Isso tipicamente significa 1-2 segundos mais rápido que se traduz diretamente em mais visitantes ficando, mais páginas vistas e mais conversões. Para dados difíceis atrás dessas afirmações — incluindo estudos de caso verificados de Vodafone, Google, Pinterest e Walmart — veja [Velocidade de Site & Receita: Dados De 6 Empresas](/pt-BR/insights/desempenho-web-receita-estudos-caso).
+
+O site mais rápido nem sempre vence. Mas o site mais lento sempre perde. Se seus competidores carregam em 2 segundos e você carrega em 5 você está começando cada corrida três segundos atrás.
+
+Precisa de ajuda diagnosticando issues de velocidade? Auditamos websites para gargalos de performance e implementamos fixes — de otimização de imagem a melhorias arquiteturais completas.

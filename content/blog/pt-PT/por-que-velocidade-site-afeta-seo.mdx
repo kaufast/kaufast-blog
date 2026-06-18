@@ -1,0 +1,52 @@
+---
+title: "Porque É Que Velocidade de Site Mata SEO"
+headline: "Um atraso de 1 segundo em carregamento de página custa-lhe 7% de conversões. Aqui está como diagnosticar e corrigir problemas de velocidade"
+date: "2 de abril de 2024"
+lastmod: "2 de abril de 2024"
+author: "Kenneth Melchor"
+category: "Performance"
+tags:
+  - "Site Speed"
+  - "Core Web Vitals"
+  - "SEO"
+  - "Performance"
+image: "/images/blog/site-speed-core-web-vitals-metrics.webp"
+featured: false
+faq:
+  - question: "Como é que a velocidade de página afeta as classificações de SEO?"
+    answer: "A velocidade de página é um fator de classificação direto do Google através de Core Web Vitals. Sites que cumprem o limite 'bom' para LCP (menos de 2,5s), INP (menos de 200ms), e CLS (menos de 0,1) classificam mensuravelmente mais alto. Além das classificações, um atraso de 1 segundo em tempo de carregamento reduz conversões em 7% e aumenta taxa de rejeição em 11%."
+  - question: "O que são Core Web Vitals e porque importam?"
+    answer: "Core Web Vitals são três métricas que o Google usa para medir experiência do utilizador: LCP (Largest Contentful Paint) mede velocidade de carregamento, INP (Interaction to Next Paint) mede responsividade, e CLS (Cumulative Layout Shift) mede estabilidade visual. Influenciam diretamente classificações de pesquisa e taxas de conversão do utilizador."
+  - question: "Qual é a forma mais rápida de melhorar a velocidade de carregamento do meu website?"
+    answer: "Comece com otimização de imagem — convertendo para formato WebP, redimensionando para dimensões de display reais, e ativando lazy loading. Isto sozinho consegue cortar tempos de carregamento em 40-60%. Depois reduza tamanho de bundle JavaScript, ative caching de navegador, e use um CDN. Teste antes e depois com Google PageSpeed Insights."
+---
+
+Vamos começar com três números. 53% dos utilizadores móveis abandonam um website que demora mais de 3 segundos a carregar. Um atraso de 1 segundo em tempo de carregamento de página causa uma redução de 7% em conversões. E Amazon uma vez estimou que cada segundo adicional de tempo de carregamento custaria $1,6 mil milhões por ano em vendas perdidas.
+
+O seu website não é Amazon. Mas a matemática reduz proporcionalmente. Se o seu site ganha €10.000/mês e carrega em 5 segundos em vez de 2, está a deixar aproximadamente €700-1.400/mês sobre a mesa. Não porque o produto é mau. Não porque o marketing está errado. Porque as pessoas clicaram o botão de volta antes de a página terminar de carregar.
+
+Velocidade não é um bom-ter. Desde 2021, o Google fez Core Web Vitals um fator de classificação. Sites lentos classificam mais baixo. E desde 2023, o intervalo alargou-se — a própria pesquisa do Google mostra que quando tempo de carregamento de página vai de 1 segundo para 3 segundos, a probabilidade de rejeição aumenta em 32%.** Quando vai para 5 segundos, essa probabilidade salta para **90%.
+
+## Core Web Vitals: As Três Métricas Que O Google Realmente Mede
+
+O Google não apenas mede "velocidade" como número único. Rastreia três métricas específicas, e cada uma diz uma história diferente sobre a experiência do seu utilizador.
+
+LCP (Largest Contentful Paint) — Quanto tempo até o conteúdo principal estar visível. Alvo: menos de 2,5 segundos. Isto mede quando o maior elemento na página (normalmente uma imagem de herói ou bloco de título) termina de renderizar. Se a sua imagem de herói é um JPEG descomprimido de 3MB, o seu LCP será terrível.
+
+INP (Interaction to Next Paint) — Quão rapidamente a sua página responde a cliques, toques, e entrada de teclado. Alvo: menos de 200 milissegundos. Isto substituiu FID (First Input Delay) em março de 2024. Mede o atraso completo entre ação de utilizador e resposta visual. Frameworks JavaScript pesados e scripts de terceiros são os culpados usuais.
+
+CLS (Cumulative Layout Shift) — Quanto a página salta enquanto carrega. Alvo: menos de 0,1. Conhece a experiência: está prestes a tocar um link e um anúncio carrega acima, empurrando tudo para baixo. Esse é layout shift. É irritante, e o Google penaliza-o.
+
+## Como Verificar a Sua Velocidade Atual
+
+Antes de corrigir qualquer coisa, meça. Existem duas ferramentas livres que deveria usar:
+
+Google PageSpeed Insights (pagespeed.web.dev) — Digite o seu URL e dá-lhe pontuações tanto para móvel como desktop, mais recomendações específicas. Preste atenção à seção "Opportunities" — diz-lhe exatamente o que está a fazer lentidão e estima economias de tempo.
+
+Google Search Console — Sob "Core Web Vitals" no menu esquerdo, verá quantas das suas páginas passam ou falham os limites do Google. Isto usa dados de utilizador real de navegadores Chrome, então reflete experiência de visitante real, não um teste de laboratório.
+
+Uma pontuação de 90+ em PageSpeed Insights é boa. 50-89 precisa trabalho. Abaixo de 50 significa que está ativamente a perder clientes e posições de classificação.
+
+---
+
+(Continua com as 6 grandes otimizações: otimizar imagens, reduzir JavaScript, usar CDN, ativar caching de navegador, minimizar CSS e HTML, corrigir layout shift)

@@ -1,0 +1,200 @@
+---
+title: "WhatsApp Bot Nekretnine: Kvalifikacija Kupaca & Leads"
+headline: "Real estate agent koji koristi WhatsApp bot kvalifikuje 5x više vročih lida nego osoba koji čitaš poruke ručno."
+date: "13. januar 2025"
+lastmod: "29 April 2026"
+author: "Kenneth Melchor"
+category: "Business Automation"
+tags:
+  - "Real Estate"
+  - "WhatsApp"
+  - "Lead Qualification"
+  - "Sales Automation"
+image: "/images/blog/whatsapp-real-estate-bot.webp"
+featured: false
+faq:
+  - question: "Kako WhatsApp bot pomaže real estate?"
+    answer: "1. Kvalifikuj lidove — bot pita budžet, lokacija, vremensa. 2. Automatski odgovari na često pitanja. 3. Prikažu svojine koja se poklapa kriterijuma. 4. Zakaži preview. 5. Prati interesse. To što je human bi trebalo 20 minuta po lidu, bot radi u 2 minuta."
+  - question: "Da li bot može pokazati svojine?"
+    answer: "Da — bot može biti slika, video, virtualni tour veza, ili direktan link sa svojine detaljima. Ako agent ima multi-listing platform (ili integracija sa Zillow/Rightmove), bot može brzo pokazati relevantne svojine."
+  - question: "Šta je uticaj na prodaju?"
+    answer: "Kvalifikovani lidovi su 5x verovatnije da kupe. Ako bot kvalifikuje 100 poruke i 20 je vrući lidovi, agent fokusira na 20 umesto na 100. Rezultat je 50% viš closing rate (jer je fokus bolje)."
+---
+
+Real estate je polje od brojeve. Više kontakta = više zatvora. Bot je multiplier — osoba može kontaktovati više lidove bez biti opterećen.
+
+Evo kakoWhatsApp bot generiše kvalifikovane lidove za real estate.
+
+## WhatsApp Bot Za Real Estate — Message Flow
+
+Neko piše agenta sa WhatsApp:
+
+```
+👋 Zdravo! Tražim apartman u Barseloni.
+
+🤖 Bot:
+Odličko! Mogu ti pomoci. Nekoliko pitanja:
+
+1. Šta je tvoj budžet? (u eurima)
+💰 [€200K-300K] [€300K-400K] [€400K-500K] [€500K+]
+
+2. Koji tip?
+🏠 [Apartman] [Kuća] [Bilo koji]
+
+3. Koliko spavaćih?
+🛏️ [1] [2] [3+]
+
+4. Lokacija preferenca?
+📍 [Gràcia] [Eixample] [Born] [Bilo koji]
+
+5. Kada trebam?
+⏰ [Hitno] [2-3 meseca] [6+ meseci]
+
+---
+
+Analiziramo... 🔍
+
+Pronašli smo 8 svojine koja se poklapaju:
+
+1. 🏠 Apartman, 2 bed, €350K, Gràcia, 75m²
+   👉 [Više Info]
+
+2. 🏠 Apartman, 3 bed, €450K, Eixample, 95m²
+   👉 [Više Info]
+
+...
+
+Zanima ti bilo koji? [DA] [NE]
+
+---
+
+Želiš da zakaž preview?
+📅 [Prosloga Nedelja] [Ova Nedelja] [Sledeća Nedelja]
+
+⏰ [10:00] [14:00] [16:00]
+
+Odličko! Zakazao sam preview:
+📅 Prosloga Nedelja, 14:00
+🏠 Apartman u Gràcia
+📞 Agent te kontaktuje sa detaljima
+
+---
+
+💬 Pitanja? Pišeme! 📲
+```
+
+## Tri Komponenta Efikasnog Real Estate Bot
+
+### 1. Kvalifikacija Pitanja (Šta Trebam Znati)
+
+Bot trebalo da pita:
+- **Budžet** — Eliminira 80% koji nema novac
+- **Lokacija** — Ako agent radivanje samo Barseloni, nema potrebe za Madrid-om
+- **Tip Svojine** — Apartman vs kuća je drugačito
+- **Vremenski Okvir** — "Hitno" vs "6 meseci" je drugačita strategija
+- Ključne Karakteristike — Terasa, garaža, prirodna svetlost
+
+Cilj: Svako pitanje trebalo da smanjuje list od mogućih svojine od 10,000 do 20.
+
+### 2. Integr​acija Sa Listing Platform
+
+Bot trebalo biti mogao brzo pokazati svojine:
+
+Direkta Integr​acija:
+- Idipas sa Zillow API (ako je agencija je sa US)
+- Idealista sa Idealista.com API (Španija)
+- Funda sa Funda.nl API (Holandija)
+- Ili custom integr​acija sa agent CRM (Salesforce, Pipedrive, Propertyshark)
+
+Alternativa: Agent ažurira Google Sheet sa svojine, bot čita iz Sheet-a (besplatno, ručno, ali funkcionira)
+
+### 3. Lead Qualification Scoring
+
+Bot trebalo da rangira lidove kao "Hot," "Warm," "Cold":
+
+```
+Budget Match? +40 poena
+Location Match? +30 poena
+Type Match? +20 poena
+Timeline (Hitno) +10 poena
+Karakteristike Match? +20 poena
+
+85-100: 🔥 HOT — Agent kontakta dnes
+60-84: 🟡 WARM — Agent kontakta ovoj nedelji
+Ispod 60: 🔵 COLD — Bot dati nove svojine, čekam
+```
+
+Rezultat: Agent fokusira samo na 🔥 lidove.
+
+## Primeri — Real Estate Agent
+
+### Primer 1: Barcelona Luxury Agent
+
+Pre Bot:
+- 150 poruke mesečno sa WhatsApp
+- Svaki poruka trebalo 15 minuta da čitaj i odgovori (150 × 15 = 37,5 sati mesečno!)
+- Samo 10 lida je bio kvaifkovani (7%)
+- Zatvara 1-2 mojave mesečno iz WhatsApp lida
+
+Posle Bot:
+- Bot automatski odgovara na 150 poruke
+- Bot kvalifikuje 60 lida kao "Hot" ili "Warm"
+- Agent fokusira na samo 60, ne 150
+- Zatvara 5-8 mojave mesečno (4x viši closing)
+
+Prihod Rezultate:
+- Dodatni zatvora: 4-6 više mojave mesečno × €3.000 commission = €12-18K dodatni mesečna prihod
+- Cena Bot: €50 mesečno
+- ROI: 240-360x mesečno (!!)
+
+### Primer 2: Agent Sa Team (Madrid)
+
+Pre Bot:
+- Tim od 3 agenate
+- Ledove su podeljene ručno (ali nema sistema)
+- 20% lida su bili duplikati (dva agenate su bili kontakta isto lida)
+- Prosečan closing time: 3 meseca
+
+Posle Bot:
+- Bot kvalifikuje sve lidove
+- Dodeljenje je automatska (bot dati lide agentatu sa najviž availability)
+- Nema duplikata
+- Prosečan closing time: 6 nedelje (2x brži)
+
+Rezultate:
+- Dodatni zatvora: 12% viš closing rate (iz boljeg dodeljenja)
+- Dodatne pregledi mesečno: 10 × €5K average value = €50K dodatni potencijalni prihod
+- Tim produktivnosti: 40% viš (jer fokus je bolje)
+
+Cena Bot: €70 mesečno
+
+**ROI:** Ogromno
+
+## Best Practices Za Real Estate Bot
+
+1. **Tačne Svojine Lista** — Ako bot pokazuje svojine koja je već prodata, loše
+2. Brz Agent Follow-up — Bot je samo prvi kontakt. Agent trebalo da kontakta "Hot" lida u roku od 1 sata
+3. Visoko-Kvalitet Slike — Svojine trebalo biti sa profesionalnim fotografijama, ne iPhone selfiji
+4. Virtual Tour — Link sa 3D virtual tour (Matterport) je viši commitment nego samo foto
+5. Pravi Cene — Cene trebalo biti tačne do €10K
+
+## Tri Nedelje Setup Plan
+
+Nedelja 1:
+- Odaberi platformu (Twilio + Zapier)
+- Kreiraj kvalifikaciju pitanja
+- Integracija sa Google Sheet (ako nemaš listing API)
+
+Nedelja 2:
+- Kreiraj bot flow
+- Učitaj svojine u Sheet
+- Testiraj sa prijateljima
+
+Nedelja 3:
+- Pokrenuti live
+- Prati rezultate
+- Optomiziraj pitanja na osnovu odgovora
+
+Rezultat: Radni real estate bot za €50 mesečno i 3 nedelje.
+
+Prvo lido će biti plaćen za bot otprilike 1.000 puta.

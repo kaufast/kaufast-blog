@@ -1,0 +1,133 @@
+---
+title: "Warum Website-Geschwindigkeit Ihre SEO ruiniert"
+headline: "Eine Sekunde Ladezeit-Verzögerung kostet Sie 7 % Ihrer Conversions. Hier erfahren Sie, wie Sie Geschwindigkeitsprobleme diagnostizieren und."
+date: "2. April 2024"
+lastmod: "2. April 2024"
+author: "Kenneth Melchor"
+category: "Performance"
+tags:
+  - "Site Speed"
+  - "Core Web Vitals"
+  - "SEO"
+  - "Performance"
+image: "/images/blog/site-speed-core-web-vitals-metrics.webp"
+featured: false
+faq:
+  - question: "Wie beeinflusst die Seitengeschwindigkeit die SEO-Rankings?"
+    answer: "Die Seitengeschwindigkeit ist ein direkter Google-Ranking-Faktor durch Core Web Vitals. Websites, die die 'Gut'-Schwelle für LCP (unter 2,5 s), INP (unter 200 ms) und CLS (unter 0,1) erfüllen, ranken messbar höher. Über Rankings hinaus reduziert eine 1-Sekunden-Verzögerung der Ladezeit Conversions um 7 % und erhöht die Absprungrate um 11 %."
+  - question: "Was sind Core Web Vitals und warum sind sie wichtig?"
+    answer: "Core Web Vitals sind drei Kennzahlen, mit denen Google die User Experience misst: LCP (Largest Contentful Paint) misst die Ladegeschwindigkeit, INP (Interaction to Next Paint) misst die Reaktionsfähigkeit und CLS (Cumulative Layout Shift) misst die visuelle Stabilität. Sie beeinflussen direkt die Suchrankings und die Conversion-Raten der Nutzer."
+  - question: "Was ist der schnellste Weg, die Ladegeschwindigkeit meiner Website zu verbessern?"
+    answer: "Beginnen Sie mit der Bildoptimierung – Konvertierung in das WebP-Format, Größenanpassung auf die tatsächlichen Anzeigedimensionen und Aktivierung von Lazy Loading. Das allein kann die Ladezeiten um 40–60 % verkürzen. Reduzieren Sie dann die JavaScript-Bundle-Größe, aktivieren Sie Browser-Caching und nutzen Sie ein CDN. Testen Sie vor und nach der Optimierung mit Google PageSpeed Insights."
+---
+
+Beginnen wir mit drei Zahlen. 53 % der mobilen Nutzer verlassen eine Website, die länger als 3 Sekunden zum Laden braucht. Eine Sekunde Verzögerung bei der Ladezeit verursacht eine Reduktion der Conversions um 7 %. Und Amazon schätzte einmal, dass jede zusätzliche Sekunde Ladezeit das Unternehmen 1,6 Milliarden Dollar pro Jahr an entgangenen Verkäufen kosten würde.
+
+Ihre Website ist nicht Amazon. Aber die Mathematik skaliert proportional nach unten. Wenn Ihre Website 10.000 €/Monat generiert und 5 Sekunden statt 2 Sekunden lädt, lassen Sie ungefähr 700–1.400 €/Monat auf dem Tisch liegen. Nicht weil Ihr Produkt schlecht ist. Nicht weil Ihr Marketing falsch ist. Weil Menschen auf die Zurück-Schaltfläche geklickt haben, bevor Ihre Seite fertig geladen war.
+
+Geschwindigkeit ist kein Nice-to-have. Seit 2021 hat Google Core Web Vitals zu einem Ranking-Faktor gemacht. Langsame Websites ranken niedriger. Und seit 2023 hat sich die Lücke vergrößert – Googles eigene Forschung zeigt, dass wenn die Ladezeit von 1 Sekunde auf 3 Sekunden steigt, die Wahrscheinlichkeit eines Absprungs um 32 %** zunimmt. Bei 5 Sekunden springt diese Wahrscheinlichkeit auf **90 %.
+
+## Core Web Vitals: Die drei Kennzahlen, die Google wirklich misst
+
+Google misst „Geschwindigkeit" nicht als einzelne Zahl. Es werden drei spezifische Kennzahlen verfolgt, und jede erzählt eine andere Geschichte über die Erfahrung des Nutzers.
+
+LCP (Largest Contentful Paint) – Wie lange bis der Hauptinhalt sichtbar ist. Ziel: unter 2,5 Sekunden. Dies misst, wann das größte Element auf der Seite (normalerweise ein Hero-Bild oder Headline-Block) fertig gerendert ist. Wenn Ihr Hero-Bild ein 3-MB-unkomprimiertes JPEG ist, wird Ihr LCP schlecht sein.
+
+INP (Interaction to Next Paint) – Wie schnell Ihre Seite auf Klicks, Tippen und Tastatureingaben reagiert. Ziel: unter 200 Millisekunden. Dies ersetzte FID (First Input Delay) im März 2024. Es misst die vollständige Verzögerung zwischen einer Nutzeraktion und der visuellen Reaktion. Schwere JavaScript-Frameworks und Drittanbieter-Skripte sind die üblichen Verdächtigen.
+
+CLS (Cumulative Layout Shift) – Wie sehr die Seite während des Ladens herumspringt. Ziel: unter 0,1. Sie kennen das Erlebnis: Sie sind kurz davor, auf einen Link zu tippen, und eine Anzeige lädt über ihm, schiebt alles nach unten. Das ist Layout Shift. Es ist frustrierend, und Google bestraft es.
+
+![Drei kreisförmige Messanzeigen mit Core Web Vitals-Leistung: LCP bei 2,1 Sekunden, INP bei 180 Millisekunden und CLS bei 0,05](/images/blog/site-speed-core-web-vitals-metrics.webp)
+
+## So prüfen Sie Ihre aktuelle Geschwindigkeit
+
+Bevor Sie etwas beheben, messen Sie. Es gibt zwei kostenlose Tools, die Sie verwenden sollten:
+
+Google PageSpeed Insights (pagespeed.web.dev) – Geben Sie Ihre URL ein und Sie erhalten Scores sowohl für mobile als auch für Desktop-Versionen sowie spezifische Empfehlungen. Achten Sie auf den Abschnitt „Verbesserungsmöglichkeiten" – er sagt Ihnen genau, was Sie verlangsamt, und schätzt die Zeiteinsparungen.
+
+Google Search Console – Unter „Core Web Vitals" im linken Menü sehen Sie, wie viele Ihrer Seiten Googles Schwellenwerte bestehen oder nicht bestehen. Hier werden echte Nutzerdaten aus Chrome-Browsern verwendet, sodass dies die tatsächliche Besuchererfahrung widerspiegelt, kein Labortest.
+
+Ein Score von 90+ bei PageSpeed Insights ist gut. 50–89 braucht Arbeit. Unter 50 bedeutet, dass Sie aktiv Kunden und Ranking-Positionen verlieren.
+
+![Google PageSpeed Insights Browserfenster mit einem Performance-Score von 94 und darunter aufgeführten Optimierungsvorschlägen](/images/blog/site-speed-pagespeed-insights-score.webp)
+
+## Die Fixes, die den größten Unterschied machen
+
+Hier sind die Optimierungen nach Wirkung gerankt. Beginnen Sie oben.
+
+## 1. Bilder optimieren (größter Gewinn für die meisten Websites)
+
+Bilder machen typischerweise 50–70 % des Gesamtgewichts einer Seite aus. Die Lösung ist unkompliziert:
+- Konvertieren Sie Bilder in das WebP- oder AVIF-Format. WebP ist 25–35 % kleiner als JPEG bei gleicher Qualität. AVIF ist 50 % kleiner.
+- Passen Sie Bilder auf die tatsächlich angezeigten Dimensionen an. Wenn Ihr Bild 700 Pixel breit angezeigt wird, laden Sie kein 4000 Pixel-Original hoch. Skalieren Sie es auf 1400 Pixel (für Retina) und lassen Sie den Browser den Rest handhaben.
+- Verwenden Sie Lazy Loading für Bilder unterhalb des sichtbaren Bereichs. Fügen Sie `loading="lazy"` zu jedem Bild hinzu, das nicht auf dem Anfangsbildschirm sichtbar ist. Das bedeutet, der Browser lädt das Bild nur herunter, wenn der Nutzer in seine Nähe scrollt.
+- Verwenden Sie responsive Bilder mit dem `srcset`-Attribut, damit mobile Nutzer kleinere Dateien herunterladen als Desktop-Nutzer.
+
+Für die meisten Websites verbessert allein die Bildoptimierung den LCP um 1–3 Sekunden.
+
+## 2. JavaScript reduzieren
+
+Jede JavaScript-Datei muss heruntergeladen, geparst, kompiliert und ausgeführt werden. Jeder Schritt braucht Zeit. Und die meisten Websites laden weit mehr JavaScript als nötig.
+
+- Entfernen Sie Skripte, die Sie nicht verwenden. Das Social-Sharing-Widget, auf das niemand klickt? Das Analytics-Tool, das Sie eingerichtet und vergessen haben? Das Chat-Widget, das 400 KB Code lädt? Prüfen Sie Ihre Skripte und entfernen Sie alles Nicht-Wesentliche.
+- Verschieben Sie nicht-kritische Skripte. Fügen Sie `defer` oder `async` zu Script-Tags hinzu, die für das erste Seitenrendering nicht benötigt werden. Analytics, Chat-Widgets und Social-Skripte können alle laden, nachdem die Seite sichtbar ist.
+- Verwenden Sie moderne Frameworks weise. React, Next.js und ähnliche Frameworks können schnell sein – aber nur, wenn Sie Server-Side Rendering und Code-Splitting verwenden. Eine schlecht konfigurierte React-App kann 500 KB+ JavaScript an den Browser senden, bevor irgendetwas gerendert wird.
+
+## 3. Ein CDN (Content Delivery Network) verwenden
+
+Ein CDN speichert Kopien Ihrer Website auf Servern auf der ganzen Welt. Wenn ein Nutzer in Tokio Ihre in Barcelona gehostete Website besucht, stellt das CDN die Seite von einem Server in Tokio bereit – was die Ladezeit um 50–70 % verkürzt.
+
+Beliebte CDN-Optionen: Cloudflare (kostenloses Tier ist ausgezeichnet), AWS CloudFront, Bunny.net. Die Einrichtung dauert für die meisten Websites 15–30 Minuten.
+
+## 4. Browser-Caching aktivieren
+
+Wenn jemand Ihre Website zum ersten Mal besucht, lädt sein Browser alles herunter: HTML, CSS, JavaScript, Bilder. Caching weist den Browser an, diese Dateien lokal zu speichern, sodass Wiederholungsbesuche fast sofort laden.
+
+Setzen Sie Cache-Header, um statische Assets (Bilder, CSS, Schriften) für mindestens 30 Tage zu speichern. Dynamische Inhalte (HTML) sollten kürzere Cache-Zeiten haben – ein paar Stunden oder einen Tag.
+
+## 5. CSS und HTML minimieren
+
+Entfernen Sie nicht verwendete CSS-Regeln (die meisten Websites haben 30–50 % nicht verwendetes CSS), minimieren Sie Ihre Stylesheets und binden Sie kritisches CSS inline ein, damit der Browser die Seitenstruktur sofort rendern kann.
+
+Tools wie PurgeCSS oder der Coverage-Tab in Chrome DevTools zeigen Ihnen genau, welche CSS-Regeln auf jeder Seite nicht verwendet werden.
+
+## 6. Layout-Verschiebungen beheben (CLS)
+
+Layout-Verschiebungen entstehen normalerweise aus drei Quellen:
+- Bilder ohne Breiten-/Höhenattribute. Setzen Sie immer explizite Dimensionen, damit der Browser Platz reserviert, bevor das Bild lädt.
+- Schriften, die spät laden. Verwenden Sie `font-display: swap` in Ihrem CSS und laden Sie Ihre primäre Schriftdatei vor.
+- Dynamische Inhalte, die über dem sichtbaren Bereich eingefügt werden. Anzeigen, Banner und Cookie-Hinweise, die Inhalte nach unten schieben. Reservieren Sie in Ihrem CSS Platz für diese Elemente.
+
+![Vergleich nebeneinander: Desktop-Monitor mit 1,5 Sekunden Ladezeit versus Smartphone mit 6,2 Sekunden und 60 % Traffic-Label](/images/blog/site-speed-mobile-vs-desktop-comparison.webp)
+
+## Die mobile Geschwindigkeitslücke
+
+Die meisten Menschen prüfen ihre Website-Geschwindigkeit auf ihrem Bürocomputer mit einer schnellen Internetverbindung. Aber 60 % des Web-Traffics ist mobil, und mobile Geschwindigkeiten sind dramatisch langsamer.
+
+Googles Geschwindigkeitstest verwendet eine simulierte mobile Verbindung, die auf ungefähr 4G-Geschwindigkeiten gedrosselt ist. Was auf Ihrem Desktop in 1,5 Sekunden lädt, kann auf einem Telefon 6 Sekunden dauern. Und denken Sie daran – 53 % der mobilen Besucher verlassen die Website, wenn sie länger als 3 Sekunden braucht.
+
+Testen Sie immer speziell die mobile Geschwindigkeit. Ihr mobiler Score bei PageSpeed Insights ist derjenige, der für SEO am meisten zählt.
+
+## Geschwindigkeit und KI-Suche
+
+Hier ist etwas, das die meisten Menschen noch nicht bedacht haben: Seitengeschwindigkeit beeinflusst indirekt auch Ihre Sichtbarkeit in der KI-Suche. Perplexity, Googles AI Overviews und Bings Copilot bevorzugen alle Quellen, die schnell laden und sauberes HTML haben. Wenn ein KI-Crawler auf Ihre Website trifft und es 8 Sekunden dauert, sie aufgrund von JavaScript-lastigem Rendering zu rendern, wartet der Crawler möglicherweise nicht – und Sie werden nicht zitiert.
+
+Sauberes, schnelles, server-gerendertes HTML ist leichter für Suchmaschinen-Crawler und KI-Systeme zu verarbeiten. Geschwindigkeitsverbesserungen helfen überall.
+
+## Ein realistischer Geschwindigkeitsverbesserungsplan
+
+Sie müssen nicht alles auf einmal tun. Hier ist ein 4-Wochen-Plan:
+
+Woche 1: Führen Sie PageSpeed Insights auf Ihren 5 wichtigsten Seiten aus. Konvertieren Sie alle Bilder in WebP und fügen Sie Lazy Loading zu Bildern unterhalb des sichtbaren Bereichs hinzu.
+
+Woche 2: Prüfen Sie Ihr JavaScript. Entfernen Sie nicht verwendete Skripte, verschieben Sie nicht-kritische. Richten Sie ein kostenloses Cloudflare-CDN ein.
+
+Woche 3: Fügen Sie allen Bildern explizite Breite/Höhe hinzu. Korrigieren Sie das Schrift-Loading. Reservieren Sie Platz für dynamische Elemente.
+
+Woche 4: Aktivieren Sie Browser-Caching. Minimieren Sie CSS. Testen Sie alle 5 Seiten erneut und vergleichen Sie mit Ihrer Ausgangsbasis aus Woche 1.
+
+Die meisten Unternehmen, die diesem Plan folgen, sehen innerhalb eines Monats eine Verbesserung der Ladezeit um 40–60 %. Das bedeutet typischerweise 1–2 Sekunden schneller, was sich direkt in mehr verbleibenden Besuchern, mehr angesehenen Seiten und mehr Conversions niederschlägt. Für die harten Daten hinter diesen Behauptungen – einschließlich verifizierter Fallstudien von Vodafone, Google, Pinterest und Walmart – lesen Sie [Website-Geschwindigkeit & Umsatz: Daten von 6 Unternehmen](/de-AT/insights/web-performance-umsatz-fallstudien).
+
+Die schnellste Website gewinnt nicht immer. Aber die langsamste verliert immer. Wenn Ihre Mitbewerber in 2 Sekunden laden und Sie in 5, starten Sie jedes Rennen drei Sekunden im Rückstand.
+
+Benötigen Sie Hilfe bei der Diagnose von Geschwindigkeitsproblemen? Wir prüfen Websites auf Performance-Engpässe und implementieren Fixes – von der Bildoptimierung bis hin zu vollständigen Architekturverbesserungen.

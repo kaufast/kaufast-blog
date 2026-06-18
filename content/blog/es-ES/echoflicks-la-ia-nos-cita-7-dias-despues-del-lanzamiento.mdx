@@ -87,13 +87,13 @@ Lee eso otra vez. Una IA — sin que se lo pidiéramos, sin recibir una nota de 
 
 ## Cómo el lenguaje llano mejora la visibilidad en búsqueda con IA
 
-Nuestro sitio web dice lo que hacemos en una frase: "Envía 20 fotos a Felix por WhatsApp. **Recibe una película cinematográfica en minutos.**"
+Nuestro sitio web dice lo que hacemos en una frase: "Envía 20 fotos a Felix por WhatsApp. Recibe una película cinematográfica en minutos."
 
 No es un eslogan que trabajamos durante seis semanas. Es una descripción literal del producto. Y resulta que es exactamente lo que los sistemas de recuperación de IA — ya usen pipelines RAG, la Search Generative Experience de Google o conocimiento directo del modelo — necesitan para citarte.
 
 La IA no premia el copywriting ingenioso. Premia la claridad. Cuando un modelo está generando una respuesta y busca una fuente a la que hacer referencia, necesita contenido que pueda extraer y parafrasear con precisión. Compara estos dos enfoques:
 
-**No hagas esto:** *"Desbloquea el poder de tus recuerdos visuales con nuestra plataforma de transformación de contenido impulsada por IA."*
+No hagas esto: *"Desbloquea el poder de tus recuerdos visuales con nuestra plataforma de transformación de contenido impulsada por IA."*
 
 **Haz esto:** *"Envía tus fotos a Felix por WhatsApp. Él escribe un guion, compone música original, hace la corrección de color de tus tomas y te devuelve una película cinematográfica de 60 segundos."*
 
@@ -103,20 +103,20 @@ Cada sección de nuestro sitio sigue este principio. La sección "Cómo funciona
 
 ## Por qué las secciones de preguntas frecuentes son fundamentales para la visibilidad en búsqueda con IA
 
-Las preguntas frecuentes no son lo único que importa — pero son una de las acciones con mayor impacto que puedes hacer. Una sección de preguntas frecuentes bien estructurada es **una de las herramientas más efectivas** para la [optimización para motores generativos](/es-ES/insights/seo-no-murio-cerebro-ia-guia-visibilidad-hibrida-2026), y aquí explicamos por qué.
+Las preguntas frecuentes no son lo único que importa — pero son una de las acciones con mayor impacto que puedes hacer. Una sección de preguntas frecuentes bien estructurada es una de las herramientas más efectivas para la [optimización para motores generativos](/es-ES/insights/seo-no-murio-cerebro-ia-guia-visibilidad-hibrida-2026), y aquí explicamos por qué.
 
 Los modelos de lenguaje grandes se entrenan con — y recuperan activamente — pares de pregunta-respuesta. Es un formato que manejan excepcionalmente bien. Cuando alguien le hace una pregunta a una IA, esta busca contenido que ya esté estructurado como una pregunta con una respuesta clara. Tu sección de preguntas frecuentes no solo alimenta información al modelo — le da un patrón del que puede sintetizar, ponderar con peso alto y parafrasear con confianza.
 
 Nuestras ocho preguntas frecuentes cubren:
 
-- **¿Necesito una app?** No, es por WhatsApp
+- ¿Necesito una app? No, es por WhatsApp
 - **¿Cuánto tarda?** 20 minutos
 - **¿Cuánto cuesta?** Gratis, después 9 EUR/mes
-- **¿Qué tipo de películas?** Cortometrajes cinematográficos de 60 segundos con narración y música original
-- **¿Y la privacidad?** Servidores en la UE, nunca se usan para entrenar modelos
+- ¿Qué tipo de películas? Cortometrajes cinematográficos de 60 segundos con narración y música original
+- ¿Y la privacidad? Servidores en la UE, nunca se usan para entrenar modelos
 - **¿Puedo usarlo como regalo?** Sí
 - **¿Qué fotos sirven?** Cualquiera de tu carrete, de 15 a 25
-- **¿Genera imágenes falsas?** No, solo tus fotos reales
+- ¿Genera imágenes falsas? No, solo tus fotos reales
 
 Cada una de ellas apareció — parafraseada, sintetizada o referenciada directamente — en la descripción que ChatGPT hizo de nosotros. La estructura de pregunta-respuesta le dio al modelo material fuente de alta confianza con el que trabajar.
 
@@ -130,19 +130,19 @@ Aquí es donde importa el trabajo entre bastidores. El contenido visible es lo q
 
 Fuimos rigurosos con los [fundamentos del SEO técnico](/es-ES/insights/estrategias-seo-que-realmente-funcionan) — la infraestructura que hace que el contenido sea descubrible por cualquier máquina, ya sea un rastreador tradicional o un sistema de recuperación de un LLM.
 
-**Renderizado del lado del servidor.** Cuando el rastreador de Google accedió a nuestro sitio, obtuvo un documento HTML completo en la primera solicitud. No un `<div id="root">` vacío esperando a que JavaScript lo hidrate. El rastreador lo lee, lo indexa y pasa al siguiente. Esto importa igual para los sistemas RAG que extraen de índices web — si tu contenido no está en el HTML, no existe.
+Renderizado del lado del servidor. Cuando el rastreador de Google accedió a nuestro sitio, obtuvo un documento HTML completo en la primera solicitud. No un `<div id="root">` vacío esperando a que JavaScript lo hidrate. El rastreador lo lee, lo indexa y pasa al siguiente. Esto importa igual para los sistemas RAG que extraen de índices web — si tu contenido no está en el HTML, no existe.
 
-**Dos URLs reales por idioma.** Soportamos inglés y español. Cada idioma es una página real renderizada en servidor con su propia URL. Google ve dos páginas, cada una con sus propias etiquetas hreflang apuntando a la otra. Sin ambigüedad.
+Dos URLs reales por idioma. Soportamos inglés y español. Cada idioma es una página real renderizada en servidor con su propia URL. Google ve dos páginas, cada una con sus propias etiquetas hreflang apuntando a la otra. Sin ambigüedad.
 
-**HTML semántico.** Jerarquía de encabezados correcta. Texto alternativo en cada imagen. El marcado se lee como un documento porque lo es. Esto da tanto a los rastreadores como a los LLM un árbol de contenido limpio para analizar.
+HTML semántico. Jerarquía de encabezados correcta. Texto alternativo en cada imagen. El marcado se lee como un documento porque lo es. Esto da tanto a los rastreadores como a los LLM un árbol de contenido limpio para analizar.
 
-**Marcado de esquema y datos estructurados.** Implementamos esquema JSON-LD — Organization, WebSite e información estructurada del producto — para que los motores de búsqueda y los sistemas de IA no tengan que adivinar de qué trata la página. El marcado de esquema es la diferencia entre que un rastreador lea tu contenido y que un rastreador *entienda* tu contenido. Le dice a Google y a los sistemas de recuperación de IA exactamente qué entidades existen en la página, cómo se relacionan y para qué sirve la página.
+Marcado de esquema y datos estructurados. Implementamos esquema JSON-LD — Organization, WebSite e información estructurada del producto — para que los motores de búsqueda y los sistemas de IA no tengan que adivinar de qué trata la página. El marcado de esquema es la diferencia entre que un rastreador lea tu contenido y que un rastreador *entienda* tu contenido. Le dice a Google y a los sistemas de recuperación de IA exactamente qué entidades existen en la página, cómo se relacionan y para qué sirve la página.
 
-**Rendimiento en GCP.** El sitio está alojado en Google Cloud Platform, optimizado para tiempos de carga inferiores a un segundo en móvil. 95+ en Rendimiento de Lighthouse, 100 en Accesibilidad, 100 en Buenas Prácticas, 100 en SEO. Google [asigna presupuesto de rastreo en función de la velocidad](/es-ES/insights/por-que-la-velocidad-del-sitio-afecta-al-seo). Los sitios rápidos se indexan más rápido — y cuando eres un dominio nuevo compitiendo desde cero, cada hora de velocidad de indexación cuenta.
+Rendimiento en GCP. El sitio está alojado en Google Cloud Platform, optimizado para tiempos de carga inferiores a un segundo en móvil. 95+ en Rendimiento de Lighthouse, 100 en Accesibilidad, 100 en Buenas Prácticas, 100 en SEO. Google [asigna presupuesto de rastreo en función de la velocidad](/es-ES/insights/por-que-la-velocidad-del-sitio-afecta-al-seo). Los sitios rápidos se indexan más rápido — y cuando eres un dominio nuevo compitiendo desde cero, cada hora de velocidad de indexación cuenta.
 
-**Google Search Console desde el primer día.** Enviamos el sitemap, solicitamos indexación para cada URL a través de la herramienta de inspección de URLs y monitorizamos la actividad de rastreo en tiempo real. No esperamos a que Google nos descubriera. Le dijimos a Google dónde mirar y verificamos que estuviera mirando.
+Google Search Console desde el primer día. Enviamos el sitemap, solicitamos indexación para cada URL a través de la herramienta de inspección de URLs y monitorizamos la actividad de rastreo en tiempo real. No esperamos a que Google nos descubriera. Le dijimos a Google dónde mirar y verificamos que estuviera mirando.
 
-**La pila completa importa.** Nada de esto funciona de forma aislada. Las FAQ sin esquema son menos efectivas. El esquema sin renderizado rápido tarda más en indexarse. El renderizado rápido sin contenido en lenguaje llano no le da a la IA nada que citar. La razón por la que *[Echoflicks](https://echoflicks.com)* fue citado en siete días es que cada capa de la pila — contenido, estructura, marcado, rendimiento e infraestructura — se construyó para funcionar en conjunto.
+La pila completa importa. Nada de esto funciona de forma aislada. Las FAQ sin esquema son menos efectivas. El esquema sin renderizado rápido tarda más en indexarse. El renderizado rápido sin contenido en lenguaje llano no le da a la IA nada que citar. La razón por la que *[Echoflicks](https://echoflicks.com)* fue citado en siete días es que cada capa de la pila — contenido, estructura, marcado, rendimiento e infraestructura — se construyó para funcionar en conjunto.
 
 ## El resultado emocional es la palabra clave
 
@@ -164,15 +164,15 @@ No necesitas una autoridad de dominio de 80. No necesitas backlinks de TechCrunc
 
 Necesitas cinco cosas funcionando juntas:
 
-**1. Sé específico.** Haz una cosa que nadie más haga exactamente como tú la haces. La IA no puede citarte si suenas como todos los demás.
+1. Sé específico. Haz una cosa que nadie más haga exactamente como tú la haces. La IA no puede citarte si suenas como todos los demás.
 
-**2. Dilo con claridad.** Escribe tu sitio como si le estuvieras explicando tu producto a un amigo inteligente. Sin jerga. Sin abstracciones. Frases declarativas que un sistema de recuperación pueda extraer y un LLM pueda parafrasear con confianza.
+2. Dilo con claridad. Escribe tu sitio como si le estuvieras explicando tu producto a un amigo inteligente. Sin jerga. Sin abstracciones. Frases declarativas que un sistema de recuperación pueda extraer y un LLM pueda parafrasear con confianza.
 
-**3. Estructúralo para preguntas.** Añade una sección de preguntas frecuentes. Haz que las respuestas sean directas. Una pregunta, una respuesta, sin rodeos. Las secciones de FAQ son una de las acciones con mayor impacto para la visibilidad con IA — pero no son lo único.
+3. Estructúralo para preguntas. Añade una sección de preguntas frecuentes. Haz que las respuestas sean directas. Una pregunta, una respuesta, sin rodeos. Las secciones de FAQ son una de las acciones con mayor impacto para la visibilidad con IA — pero no son lo único.
 
-**4. Construye la pila técnica.** Marcado de esquema, renderizado del lado del servidor, tiempos de carga inferiores a un segundo, HTML semántico, datos estructurados. El trabajo entre bastidores es lo que hace que todo lo demás sea descubrible. El contenido sin infraestructura es invisible.
+4. Construye la pila técnica. Marcado de esquema, renderizado del lado del servidor, tiempos de carga inferiores a un segundo, HTML semántico, datos estructurados. El trabajo entre bastidores es lo que hace que todo lo demás sea descubrible. El contenido sin infraestructura es invisible.
 
-**5. Hazlo un trabajo de equipo.** Esto no sucedió porque una persona hizo una cosa bien. Jason y Jonny trajeron la visión de *[Echoflicks](https://echoflicks.com)* y conocían su producto a fondo. Su equipo construyó la experiencia. Nosotros aportamos el SEO técnico, la arquitectura de esquemas, la ingeniería de rendimiento y la estrategia de búsqueda con IA. Los mejores resultados ocurren cuando las personas que conocen el producto trabajan junto a las personas que conocen las máquinas. Siempre.
+5. Hazlo un trabajo de equipo. Esto no sucedió porque una persona hizo una cosa bien. Jason y Jonny trajeron la visión de *[Echoflicks](https://echoflicks.com)* y conocían su producto a fondo. Su equipo construyó la experiencia. Nosotros aportamos el SEO técnico, la arquitectura de esquemas, la ingeniería de rendimiento y la estrategia de búsqueda con IA. Los mejores resultados ocurren cuando las personas que conocen el producto trabajan junto a las personas que conocen las máquinas. Siempre.
 
 Lanzamos una landing page en Barcelona hace siete días. No tenemos equipo de relaciones públicas, ni backlinks, ni inversión en publicidad. Y cuando le preguntas a la IA más usada del mundo qué es *[Echoflicks](https://echoflicks.com)*, escribe una descripción de nuestro producto mejor de lo que podríamos nosotros. Cuando Google genera un AI Overview, nos cita con cuatro fuentes.
 

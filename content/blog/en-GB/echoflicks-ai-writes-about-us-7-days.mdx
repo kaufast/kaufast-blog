@@ -87,13 +87,13 @@ How?
 
 ## How Plain Language Improves AI Search Visibility
 
-Our website says what we do in one sentence: "Send 20 photos to Felix in WhatsApp. **Get a cinematic movie back in minutes.**"
+Our website says what we do in one sentence: "Send 20 photos to Felix in WhatsApp. Get a cinematic movie back in minutes."
 
 That's not a tagline we workshopped for six weeks. It's a literal description of the product. And it turns out that's exactly what AI retrieval systems — whether they use RAG pipelines, Google's Search Generative Experience, or direct model knowledge — need to cite you.
 
 AI doesn't reward clever copy. It rewards clarity. When a model is generating a response and looking for a source to reference, it needs content it can extract and paraphrase accurately. Compare these two approaches:
 
-**Don't:** *"Unlock the power of your visual memories with our AI-driven content transformation platform."*
+Don't: *"Unlock the power of your visual memories with our AI-driven content transformation platform."*
 
 **Do:** *"Send your photos to Felix on WhatsApp. He writes a script, scores original music, colour grades your shots, and sends back a 60-second cinematic movie."*
 
@@ -103,20 +103,20 @@ Every section of our site follows this principle. The "How It Works" section is 
 
 ## Why FAQ Sections Are Critical for AI Search Visibility
 
-FAQ is not the only thing that matters — but it's one of the highest-leverage things you can do. A well-structured FAQ section is **one of the most effective tools** for [generative engine optimisation](/en-GB/insights/seo-isnt-dead-ai-brain-hybrid-visibility-guide-2026), and here's why.
+FAQ is not the only thing that matters — but it's one of the highest-leverage things you can do. A well-structured FAQ section is one of the most effective tools for [generative engine optimisation](/en-GB/insights/seo-isnt-dead-ai-brain-hybrid-visibility-guide-2026), and here's why.
 
 Large language models are trained on — and actively retrieve — question-answer pairs. That's a format they handle exceptionally well. When someone asks an AI a question, it looks for content that's already structured as a question with a clear answer. Your FAQ doesn't just feed information to the model — it gives the model a pattern it can synthesise from, weigh heavily, and paraphrase with confidence.
 
 Our eight FAQs cover:
 
-- **Do I need an app?** No, it's WhatsApp
+- Do I need an app? No, it's WhatsApp
 - **How long?** 20 minutes
 - **How much?** Free, then €9/month
 - **What kind of films?** 60-second cinematic movies with narration and original music
 - **What about privacy?** EU servers, never used for training
 - **Can I use it as a gift?** Yes
 - **What photos work?** Anything from your camera roll, 15–25
-- **Does it generate fake images?** No, only your real photos
+- Does it generate fake images? No, only your real photos
 
 Every single one of those showed up — paraphrased, synthesised, or directly referenced — in ChatGPT's description of us. The Q&A structure gave the model high-confidence source material to work with.
 
@@ -130,19 +130,19 @@ This is where the behind-the-curtain work matters. The visible content is what A
 
 We were rigorous about [technical SEO fundamentals](/en-GB/insights/seo-strategies-that-actually-work) — the infrastructure that makes content discoverable by any machine, whether it's a traditional crawler or an LLM retrieval system.
 
-**Server-side rendering.** When Google's crawler hit our site, it got a complete HTML document on the first request. Not a blank `<div id="root">` that waits for JavaScript to hydrate. The crawler reads it, indexes it, and moves on. This matters equally for RAG systems that pull from web indexes — if your content isn't in the HTML, it doesn't exist.
+Server-side rendering. When Google's crawler hit our site, it got a complete HTML document on the first request. Not a blank `<div id="root">` that waits for JavaScript to hydrate. The crawler reads it, indexes it, and moves on. This matters equally for RAG systems that pull from web indexes — if your content isn't in the HTML, it doesn't exist.
 
-**Two real URLs per language.** We support English and Spanish. Each language is a real, server-rendered page with its own URL. Google sees two pages, each with its own proper hreflang links pointing to the other. No ambiguity.
+Two real URLs per language. We support English and Spanish. Each language is a real, server-rendered page with its own URL. Google sees two pages, each with its own proper hreflang links pointing to the other. No ambiguity.
 
-**Semantic HTML.** Proper heading hierarchy. Alt text on every image. The markup reads like a document because it is one. This gives both crawlers and LLMs a clean content tree to parse.
+Semantic HTML. Proper heading hierarchy. Alt text on every image. The markup reads like a document because it is one. This gives both crawlers and LLMs a clean content tree to parse.
 
-**Schema markup and structured data.** We implemented JSON-LD schema — Organization, WebSite, and structured product information — so search engines and AI systems don't have to guess what the page is about. Schema markup is the difference between a crawler reading your content and a crawler *understanding* your content. It tells Google and AI retrieval systems exactly what entities exist on the page, how they relate, and what the page is for.
+Schema markup and structured data. We implemented JSON-LD schema — Organization, WebSite, and structured product information — so search engines and AI systems don't have to guess what the page is about. Schema markup is the difference between a crawler reading your content and a crawler *understanding* your content. It tells Google and AI retrieval systems exactly what entities exist on the page, how they relate, and what the page is for.
 
-**Performance on GCP.** The site is [hosted on Google Cloud Platform](/en-GB/services), optimised for sub-second load times on mobile. 95+ Lighthouse Performance, 100 Accessibility, 100 Best Practices, 100 SEO. Google [allocates crawl budget based on speed](/en-GB/insights/why-site-speed-affects-seo). Fast sites get indexed faster — and when you're a new domain competing against zero, every hour of indexing speed matters.
+Performance on GCP. The site is [hosted on Google Cloud Platform](/en-GB/services), optimised for sub-second load times on mobile. 95+ Lighthouse Performance, 100 Accessibility, 100 Best Practices, 100 SEO. Google [allocates crawl budget based on speed](/en-GB/insights/why-site-speed-affects-seo). Fast sites get indexed faster — and when you're a new domain competing against zero, every hour of indexing speed matters.
 
-**Google Search Console from day one.** We submitted the sitemap, requested indexing for every URL through the URL Inspection tool, and monitored crawl activity in real time. We didn't wait for Google to discover us. We told Google where to look and verified it was looking.
+Google Search Console from day one. We submitted the sitemap, requested indexing for every URL through the URL Inspection tool, and monitored crawl activity in real time. We didn't wait for Google to discover us. We told Google where to look and verified it was looking.
 
-**The full stack matters.** None of these things work in isolation. FAQ without schema is less effective. Schema without fast rendering is slower to index. Fast rendering without plain-language content gives AI nothing to cite. The reason *[Echoflicks](https://echoflicks.com)* got cited in seven days is that every layer of the stack — content, structure, markup, performance, and infrastructure — was built to work together.
+The full stack matters. None of these things work in isolation. FAQ without schema is less effective. Schema without fast rendering is slower to index. Fast rendering without plain-language content gives AI nothing to cite. The reason *[Echoflicks](https://echoflicks.com)* got cited in seven days is that every layer of the stack — content, structure, markup, performance, and infrastructure — was built to work together.
 
 ## The Emotional Outcome Is the Keyword
 
@@ -164,15 +164,15 @@ You don't need a domain authority of 80. You don't need backlinks from TechCrunc
 
 You need five things working together:
 
-**1. Be specific.** Do one thing that nobody else does in exactly the way you do it. AI can't cite you if you sound like everyone else.
+1. Be specific. Do one thing that nobody else does in exactly the way you do it. AI can't cite you if you sound like everyone else.
 
-**2. Say it plainly.** Write your site like you're explaining your product to a smart friend. No jargon. No abstractions. Declarative sentences that a retrieval system can extract and an LLM can paraphrase with confidence.
+2. Say it plainly. Write your site like you're explaining your product to a smart friend. No jargon. No abstractions. Declarative sentences that a retrieval system can extract and an LLM can paraphrase with confidence.
 
-**3. Structure it for questions.** Add an FAQ. Make the answers direct. One question, one answer, no hedging. FAQ sections are one of the highest-leverage things you can do for AI visibility — but they're not the only thing.
+3. Structure it for questions. Add an FAQ. Make the answers direct. One question, one answer, no hedging. FAQ sections are one of the highest-leverage things you can do for AI visibility — but they're not the only thing.
 
-**4. Build the technical stack.** Schema markup, server-side rendering, sub-second load times, semantic HTML, structured data. The behind-the-curtain work is what makes everything else discoverable. Content without infrastructure is invisible.
+4. Build the technical stack. Schema markup, server-side rendering, sub-second load times, semantic HTML, structured data. The behind-the-curtain work is what makes everything else discoverable. Content without infrastructure is invisible.
 
-**5. Make it a team effort.** This didn't happen because one person did one thing well. Jason and Jonny brought the vision for *[Echoflicks](https://echoflicks.com)* and knew their product inside out. Their team built the experience. We brought the technical SEO, the schema architecture, the performance engineering, and [the AI search strategy](/en-GB/services). The best results happen when the people who know the product work alongside the people who know the machines. Always.
+5. Make it a team effort. This didn't happen because one person did one thing well. Jason and Jonny brought the vision for *[Echoflicks](https://echoflicks.com)* and knew their product inside out. Their team built the experience. We brought the technical SEO, the schema architecture, the performance engineering, and [the AI search strategy](/en-GB/services). The best results happen when the people who know the product work alongside the people who know the machines. Always.
 
 We launched a landing page in Barcelona seven days ago. We have no PR team, no backlinks, no ad spend. And when you ask the world's most-used AI what *[Echoflicks](https://echoflicks.com)* is, it writes a better description of our product than we could. When Google generates an AI Overview, it cites us from four sources.
 

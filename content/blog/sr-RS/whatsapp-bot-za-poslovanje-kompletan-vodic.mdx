@@ -1,0 +1,197 @@
+---
+title: "WhatsApp Bot Za Poslovanje: Kompletan Vodič"
+headline: "WhatsApp ima 2 milijarde korisnika. Tvoj bot može biti tamo 24/7, odgovarajući pitanja bez tebe."
+date: "13. januar 2025"
+lastmod: "30 April 2026"
+author: "Kenneth Melchor"
+category: "Business Automation"
+tags:
+  - "WhatsApp"
+  - "Chatbots"
+  - "Automation"
+  - "Customer Service"
+image: "/images/blog/whatsapp-bot-business-automation.webp"
+featured: false
+faq:
+  - question: "Šta je WhatsApp bot?"
+    answer: "Program koji generiše odgovore na WhatsApp poruke bez čoveka. Osoba šalje 'Hi,' bot odgovara sa 'Welcome to [business]. Šta trebam da znate?' Može biti jednostavna (templatizirani odgovori) ili AI (razumevanje nameri i odgovora)."
+  - question: "Koliko troša?"
+    answer: "Besplatno do 1.000 mesečnih poruka (većina API provajdera ima slobodno nivo). Zatim €0.01-€0.05 po poruci za bolji slučajeve. Za 5K mesečnih poruka, obično je €20-€50 mesečno."
+  - question: "Koja je većina česte upotreba?"
+    answer: "1. Appointment scheduling (zubari, saloni); 2. Order status (e-commerce); 3. FAQ odgovori (podrška); 4. Lead qualification (B2B); 5. Booking confirmations (hoteli, resurani). Bilo šta repetitivno može biti bot-automated."
+---
+
+WhatsApp je novi mesto gde osoba očekuju brz odgovore od poslovanja. Ako nemaš bot na WhatsApp-u, osoba koriste konkurenta koji imaju.
+
+Evo kako da gradiš WhatsApp bot koji generiše rezultate.
+
+## Tri Nivoa WhatsApp Bot-ova
+
+### Nivo 1: Automatski Odgovori (Besplatno)
+
+WhatsApp Business App imaj built-in "Automatski Odgovor" funkcija.
+
+**Šta to radi:**
+- Neko šalje poruku
+- WhatsApp automatski odgovara sa tvojTemplate
+
+Primeri Odgovora:
+"Hvala što kontaktirate [Business]. Sada smo zatvoreni. Odgovoriće mi jutro."
+
+Limit:
+- Samo 1-2 poruke
+- Nema logike (ako osoba kaže "cene," ne mogu odgovoriti sa cene specijalno)
+- Nema integracije
+
+Upotreba: Osnovne validacije samo.
+
+### Nivo 2: Template Bot (€20-€50 Mesečno)
+
+Koristi API kao Twilio, TalkPython, ili Intercom.
+
+Šta to radi:
+1. Osoba šalje poruku
+2. API prijemi poruku
+3. Tvoj backend ispravi šta osoba pitati (ključne reči)
+4. Backend generiše odgovore iz template-a
+5. Odgovora je poslata nazad preko API
+
+Primeri:
+- "Koliko je cena?" → Bot odgovara sa tvoj popis cena
+- "Žela da zakažem" → Bot dati link rezervacije
+- "Šta su tvoji sati?" → Bot dati sate otvorenja
+
+Integracije:
+- Google Sheets za cene i informacije (bot čitaj iz Sheet-a, bez potrebe za kodiranje)
+- Google Calendar za booking
+- Spreadsheet sa FAQ-ovima
+
+Cena: €20-€50 mesečno + tvoja vreme za setu
+
+### Nivo 3: AI Bot (€100-€500+ Mesečno ili Custom Dev)
+
+Koristi LLM kao GPT-4 preko API kao OpenAI.
+
+Šta to radi:
+1. Osoba piše bilo šta (ne samo ključne reči)
+2. AI razumeva nameru
+3. AI generiše personalizirane odgovore sa tvoj kontekstu
+4. Odgovora je prirodan, ne template
+
+Primeri:
+- "Koja je cena za 2 osobe za 8 PM Friday?" → AI: "Za 2 osobe, preporučujem [Table 5]. Cena je €45. Mogu li da vam rezerviram?"
+- "Imam problem sa mojim narudžbinom" → AI: "Šaka je tvoj narudžbina? Mogu da te pomognem."
+- "Koja je preporuka?" → AI: "Šta voliš — fish ili meso? [Preporuka basada na preference]"
+
+Cena: OpenAI API je €0.01-€0.05 po upitu + hosting
+
+## Kako Graditi Nivo 2 Bot (Dovoljan Za Većina)
+
+### Korak 1: Odaberi Platformu
+
+Opcije:
+- **Twilio** — Dobra dokumentacija, moderatna cena (€0.0075 po poruci)
+- **MessageBird** — Slično Twilio-u
+- **Intercom** — Više poliran UI, ali skupo
+- Custom API — Ako znate programirati, koristite OpenAI + Zapier
+
+### Korak 2: Kreiraj Message Flow
+
+Napravite dijagram šta osoba može pitati i šta trebate odgovore:
+
+```
+Osoba: "Zdravo"
+Bot: "Zdravo! Šta trebam da znate?
+  1. Cena
+  2. Sate
+  3. Rezervacija
+  4. Kontakt"
+
+Osoba: "1"
+Bot: "Naše cene su...
+  [Popis cena]"
+```
+
+### Korak 3: Integracija Sa Podacima
+
+Koristi Zapier ili Integromat da povežete WhatsApp sa:
+- Google Sheets (cene, FAQ)
+- Google Calendar (sati, dostupnost)
+- Stripe (plaćanje)
+- CRM (za lead tracking)
+
+### Korak 4: Testiranja
+
+Pošalji poruku sa tvoj broj — vidim da bot odgovara kako je trebao.
+
+## Best Practices
+
+1. Brz Odgovori — Osoba očekuje odgovore u sekundi, ne minuta
+2. Human Fallback — Ako bot ne zna, route to human ("Želim da razgovaram sa neko"). Nema čime čekanja 1 sat.
+3. Personalizacija — "Zdravo [Ime]" je bolje nego "Zdravo"
+4. Clear Buttons — Umesto pisanja, odgovora trebalo biti clickable dugmara kada je moguće
+5. Limit Depth — Nemoj robot trebalo 10 pitanja pre nego što da odgovori. Maksimum tri klika.
+
+## Primeri Korišćenja Po Industriji
+
+### Dentist
+- Booking appointment
+- Reminder dan pre nego što appointment
+- Preoperativna instrukcije
+- Post-operstivna pitanja
+
+### Restoran
+- Rezervacija
+- Specijalne ponude
+- Menu pregled
+- Delivery status
+
+### E-commerce
+- Order tracking
+- Vraćanja procesa
+- Size/Fit pitanja
+- Promocijski kode
+
+### B2B Konsultacija
+- Inicijalni FAQ
+- Demo booking
+- Proposal status
+- Contract eSign
+
+## Šta Ne Trebam Biti (Česte Greške)
+
+- Spam Bot — Osoba očekuju odgovore na njihova pitanja, ne marketing poruke bez zahtev
+- Complex Bot — Ako trebaju 5+ koraka, osoba će prekinuti. Čini jednostavno.
+- No Escape — Uvek dati opcija da razgovaraju sa čovekim. Ako bot ne zna, rute to human.
+- Slow Bot — Ako bot vrati odgovora nakon 10 sekund, osoba je već otišao.
+
+## ROI: Šta Trebam da Očekujem?
+
+Primeri:
+- Dentist sa 20 appointment mesečno: Bot mogao automatizovati zakazivanja + reminder = 5+ sati mesečno spašena
+- Restoran sa 50 rezervacija mesečno: Bot mogao biti 80% samo, čovek za ostatak = 10 sati spašena
+- E-commerce sa 200 poruke mesečno: Bot mogao biti 70%, čovek eskalacija = 20 sati spašena
+
+Finansijski:
+- Cena: €30 mesečno
+- Vreme Spašena: 10 sati
+- Vrednost Vremena: 10 sati × €25/sat = €250
+- ROI: 8x mesečna investicija
+
+## Početak: Tri Dana Plan
+
+Dan 1:
+- Odaberi platformu (Twilio ili Intercom)
+- Pretvori se na API
+
+**Dan 2:**
+- Kreiraj message flow (diagram)
+- Integracija sa Google Sheet-om
+
+**Dan 3:**
+- Testiranja sa prijateljima
+- Pokrenuti live
+
+Rezultat: Radni WhatsApp bot za €30 mesečno i 3 dana.
+
+To je sve. Počni sa Nivo 2. Ako raste, pokrenuti Nivo 3 kasnije.
