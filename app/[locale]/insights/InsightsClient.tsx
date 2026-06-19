@@ -212,11 +212,11 @@ export default function InsightsClient({ posts, locale, labels }: Props) {
                 <div className={styles.cardCategory}>
                   {post.frontmatter.category}
                 </div>
-                <h2 className={styles.cardTitle}>
+                <p className={styles.cardTitle}>
                   <Link href={`/${locale}/insights/${post.slug}`} className={styles.stretchedLink}>
-                    {truncateExcerpt(post.frontmatter.title, 120)}
+                    {truncateExcerpt(post.frontmatter.title, 80)}
                   </Link>
-                </h2>
+                </p>
                 <p className={styles.cardExcerpt}>{truncateExcerpt(post.frontmatter.headline)}</p>
                 {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
                   <div className={styles.cardTags}>

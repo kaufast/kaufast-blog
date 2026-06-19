@@ -331,7 +331,7 @@ export default async function BlogDetailPage({
                 className={styles.relatedCard}
               >
                 <span className={styles.relatedCategory}>{p.frontmatter.category}</span>
-                <h3 className={styles.relatedCardTitle}>{p.frontmatter.title}</h3>
+                <p className={styles.relatedCardTitle}>{p.frontmatter.title.length > 80 ? p.frontmatter.title.slice(0, 77) + '…' : p.frontmatter.title}</p>
                 <p className={styles.relatedExcerpt}>{p.frontmatter.headline}</p>
               </Link>
             ))}

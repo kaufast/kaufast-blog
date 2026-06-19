@@ -64,3 +64,43 @@ These recur across Gemini translations — always check for them:
 - **Italian (it-IT)**: Image path typos (double letters like `barcellona` in filenames), truncated output
 - **Russian (ru-RU)**: Translated author name, translated category name, bold blocks too long (Cyrillic is verbose)
 - **All locales**: Headlines >155 chars (translations expand ~20-40% from English), truncated articles (Gemini cuts off long outputs)
+- **es-ES/es-MX**: Missing accents (rapido→rápido, minimo→mínimo, linea→línea, continuan→continúan, ahi→ahí, alla→allá, dias→días, dia→día, via→vía)
+- **pt-PT/pt-BR**: Missing accents (nivel→nível, periodos→períodos, construida→construída, industrias→indústrias, tecnica→técnica, logica→lógica, comecar→começar)
+- **de-DE/de-AT**: fuer→für, grosse→große — ALWAYS use proper German characters
+- **fr-FR**: acces→accès, roles→rôles, resultats→résultats, categories→catégories
+
+### 11. Title pixel-width limits (Seobility 580px max)
+The browser renders titles as: `{title} | KAUFAST`. Pixel width varies by character set.
+- EN: title max **50 chars**
+- ES/CA/FR/IT/PT: title max **45 chars** (longer words = more pixels)
+- DE (de-DE/de-AT): title max **42 chars** (umlauts and compound words are wide)
+- SR (sr-RS): title max **43 chars**
+- RU (ru-RU): title max **35 chars** (Cyrillic is ~20% wider per char)
+- Check: count `len(title) + len(" | KAUFAST")` — must be under the per-locale char limit
+
+### 12. Meta description pixel-width limits (Seobility 1000px max)
+The `headline` field is used as the meta description. Pixel-safe limits:
+- EN: **155 chars** max
+- ES/CA/FR/IT/PT: **145 chars** max
+- DE (de-DE/de-AT): **140 chars** max
+- SR (sr-RS): **140 chars** max
+- RU (ru-RU): **82 chars** max (Cyrillic chars are ~12px wide)
+
+### 13. Keyword competition — never write articles competing with service pages
+- Do NOT write data-privacy insights articles — `/privacy-policy` page owns that keyword
+- WhatsApp bot articles MUST target long-tail terms (restaurant, retail, clinic), NOT the root "WhatsApp bots" keyword
+- Before writing about any service topic, check if a service page already targets that root keyword
+
+### 14. Article must have enough internal links (≥3 per article)
+- Each article must link to at least 3 other internal pages (`/insights/...` or `/services/...`)
+- Use descriptive anchor text max 80 chars — never use full article title as anchor text
+- Check cross-locale links: only link to slugs that exist in THIS locale's directory
+
+### Updated pre-commit checklist (add to rule 9)
+```
+- [ ] title + " | KAUFAST" within per-locale char limit (rule 11)
+- [ ] headline within per-locale char limit (rule 12)
+- [ ] No missing accents for locale (rule 10 extended)
+- [ ] No cross-service-page keyword competition (rule 13)
+- [ ] At least 3 internal links with short anchor text (rule 14)
+```
