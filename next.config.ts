@@ -7,23 +7,16 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        // Security headers applied to all routes
         source: "/(.*)",
         headers: [
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "X-Frame-Options", value: "DENY" },
           { key: "X-XSS-Protection", value: "1; mode=block" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-        ],
-      },
-      {
-        // Block direct indexing of the blog subdomain — content is canonical on kaufast.com.
-        // Scoped to kaufast-blog.vercel.app host so this header is NOT forwarded when
-        // Next.js proxies the content through kaufast.com/*/insights.
-        source: "/(.*)",
-        has: [{ type: "host", value: "kaufast-blog.vercel.app" }],
-        headers: [
-          { key: "X-Robots-Tag", value: "noindex, nofollow" },
+          // No X-Robots-Tag here. All blog pages carry canonical tags pointing to
+          // kaufast.com/*/insights/* — Google respects canonical and will not index
+          // kaufast-blog.vercel.app. Adding noindex was wrong: Next.js forwards
+          // response headers through the proxy rewrite, so it blocked kaufast.com too.
         ],
       },
     ];
